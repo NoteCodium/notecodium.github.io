@@ -23,22 +23,13 @@
   {% endunless %}
 {% endfor %}
 </ul></li>
-</ul> -->
-
----
-layout: blank
-title: Notecodium
----
-
-{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
-{% assign current_folder = "" %}
-
+</ul>
+ -->
 <ul>
 {% for p in pages %}
   {% unless p.url == "/" %}
     {% assign parts = p.path | split: "/" %}
     {% assign folder = parts | slice: 0, parts.size | join: "/" | remove: parts.last %}
-    {% assign filename = parts.last | remove: ".md" | replace: "_", " " | replace: "-", " " %}
 
     {% if folder != current_folder %}
       {% if current_folder != "" %}
@@ -50,11 +41,9 @@ title: Notecodium
     {% endif %}
 
     <li>
-      <a href="{{ p.url }}">
-        {{ p.title | default: filename }}
-      </a>
+      {% comment %} This line now forces the filename (parts.last) instead of p.title {% endcomment %}
+      <a href="{{ p.url }}">{{ parts.last | replace: ".md", "" | replace: "_", " " }}</a>
     </li>
   {% endunless %}
 {% endfor %}
-</ul></li>
 </ul>
