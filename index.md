@@ -1,16 +1,4 @@
----
-layout: home
-title: Notecodium
----
-
-# 📚 Notecodium — Knowledge Base
-
-All notes, organized automatically by folder.
-
----
-
-{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" %}
-{% assign pages = pages | sort: "path" %}
+{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
 
 {% assign current_folder = "" %}
 
