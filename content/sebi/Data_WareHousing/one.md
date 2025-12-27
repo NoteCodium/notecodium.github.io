@@ -1,15 +1,14 @@
-Tarun
-
-Mali
+# Hello world
 
 ```cpp
 #include <iostream>
 using namespace std;
-int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
+
+int main(){
+		cout<<"Hello Notecodium";
+		return 0;		
 }
 ```
 
-![image.png](/images/image-1.png)
+
 
