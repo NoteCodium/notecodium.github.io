@@ -31,7 +31,6 @@ title: Notecodium
 ---
 
 {% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
-
 {% assign current_folder = "" %}
 
 <ul>
@@ -39,7 +38,7 @@ title: Notecodium
   {% unless p.url == "/" %}
     {% assign parts = p.path | split: "/" %}
     {% assign folder = parts | slice: 0, parts.size | join: "/" | remove: parts.last %}
-    {% assign filename = parts.last | remove: ".md" | replace: "_", " " | replace: "-", " " | remove_regex: "^[0-9]+" | capitalize %}
+    {% assign filename = parts.last | remove: ".md" | replace: "_", " " | replace: "-", " " %}
 
     {% if folder != current_folder %}
       {% if current_folder != "" %}
