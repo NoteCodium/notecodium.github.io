@@ -1,10 +1,6 @@
-![image.png](/images2/image-1.png)
-
 Tarun
 
 Mali
-
-![image.png](/images2/image-2.png)
 
 ```cpp
 #include <iostream>
@@ -15,4 +11,5 @@ int main() {
 }
 ```
 
-![alt text](image.png)
+![image.png](/images/image-1.png)
+
