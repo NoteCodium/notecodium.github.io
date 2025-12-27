@@ -1,4 +1,4 @@
-<!-- {% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
+{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
 
 {% assign current_folder = "" %}
 
@@ -24,7 +24,7 @@
 {% endfor %}
 </ul></li>
 </ul>
- -->
+
 <!-- <ul>
 {% for p in pages %}
   {% unless p.url == "/" %}
@@ -47,7 +47,7 @@
   {% endunless %}
 {% endfor %}
 </ul> -->
-<ul>
+<!-- <ul>
 {% for p in pages %}
   {% unless p.url == "/" %}
     {% assign parts = p.path | split: "/" %}
@@ -68,4 +68,4 @@
     </li>
   {% endunless %}
 {% endfor %}
-</ul>
+</ul> -->
