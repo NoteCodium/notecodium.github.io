@@ -1,4 +1,4 @@
-{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
+<!-- {% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
 
 {% assign current_folder = "" %}
 
@@ -19,6 +19,41 @@
 
     <li>
       <a href="{{ p.url }}">{{ p.title | default: parts.last }}</a>
+    </li>
+  {% endunless %}
+{% endfor %}
+</ul></li>
+</ul> -->
+
+---
+layout: blank
+title: Notecodium
+---
+
+{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
+
+{% assign current_folder = "" %}
+
+<ul>
+{% for p in pages %}
+  {% unless p.url == "/" %}
+    {% assign parts = p.path | split: "/" %}
+    {% assign folder = parts | slice: 0, parts.size | join: "/" | remove: parts.last %}
+    {% assign filename = parts.last | remove: ".md" | replace: "_", " " | replace: "-", " " | remove_regex: "^[0-9]+" | capitalize %}
+
+    {% if folder != current_folder %}
+      {% if current_folder != "" %}
+        </ul></li>
+      {% endif %}
+      <li>📂 <strong>{{ folder | default: "root" }}</strong>
+        <ul>
+      {% assign current_folder = folder %}
+    {% endif %}
+
+    <li>
+      <a href="{{ p.url }}">
+        {{ p.title | default: filename }}
+      </a>
     </li>
   {% endunless %}
 {% endfor %}
