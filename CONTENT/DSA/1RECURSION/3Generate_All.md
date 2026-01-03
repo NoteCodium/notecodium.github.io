@@ -6,8 +6,11 @@ https://leetcode.com/problems/sudoku-solver/description/
 5. The min. no. of clues needed to force a unique solution is 17
 
 ```cpp
+int getMatNum(int r, int c){
+  return 3*(r/3)+c/3;
+}
 
-void populateTrackers(vector<vector<int>> &rf, vector<vector<int>> &cf, vector<vector<int>> &mf){
+void populateTrackers(ector<vector<char>> &ma,vector<vector<int>> &rf, vector<vector<int>> &cf, vector<vector<int>> &mf){
   for(int r=0;r<9;r++){
     for(int c=0;c<9;c++){
        if(ma[r][c]!='.'){
@@ -19,11 +22,11 @@ void populateTrackers(vector<vector<int>> &rf, vector<vector<int>> &cf, vector<v
   }
 }
 
-void solveSudoko(vector<vector<chat>> &ma){
+void solveSudoko(vector<vector<char>> &ma){
   bool ansFound=0;
   vector<vector<int>> rf(9,vector<int>(9,0)), cf(9,vector<int>(9,0)),mf(9,vector<int>(9,0));
-  populateTrackers(rf,cf,mf);
-
+  populateTrackers(ma,rf,cf,mf);
+  sudokoSolver((ma,rf,cf,mf,ansFound,0,0);
 }
 
 
