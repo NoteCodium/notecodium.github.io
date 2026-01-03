@@ -10,7 +10,7 @@ int getMatNum(int r, int c){
   return 3*(r/3)+c/3;
 }
 
-void populateTrackers(ector<vector<char>> &ma,vector<vector<int>> &rf, vector<vector<int>> &cf, vector<vector<int>> &mf){
+void populateTrackers(vector<vector<char>> &ma,vector<vector<int>> &rf, vector<vector<int>> &cf, vector<vector<int>> &mf){
   for(int r=0;r<9;r++){
     for(int c=0;c<9;c++){
        if(ma[r][c]!='.'){
@@ -20,6 +20,14 @@ void populateTrackers(ector<vector<char>> &ma,vector<vector<int>> &rf, vector<ve
       }   
     }
   }
+}
+
+void sudokoSolver(vector<vector<char>> &ma,vector<vector<int>> &rf, vector<vector<int>> &cf, vector<vector<int>> &mf, bool &ansFound, int r, int c){
+  if(ansFound){
+    return;
+  }
+  
+  
 }
 
 void solveSudoko(vector<vector<char>> &ma){
