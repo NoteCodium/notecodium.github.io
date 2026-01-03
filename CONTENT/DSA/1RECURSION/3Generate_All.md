@@ -102,5 +102,40 @@ bool isValidSudoko(vector<vector<char>> &ma){
 
 https://leetcode.com/problems/n-queens/description/
 1. Placing n queens on a n*n chessboard such that no two queens attack each other
+2. vector<string> is one such configuration, given an input, you have to return all the possible configurations
+
+```cpp
+
+vector<vector<string>> solveNQueens(int n){
+  vector<vector<string>> ans;
+  
+
+  return ans;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
