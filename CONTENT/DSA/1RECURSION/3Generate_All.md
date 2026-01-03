@@ -26,7 +26,21 @@ void sudokoSolver(vector<vector<char>> &ma,vector<vector<int>> &rf, vector<vecto
   if(ansFound){
     return;
   }
-  
+  if(r==9){
+    ansFound=1;
+    return;
+  }
+  if(ma{r][c]!='.'){
+  //the block is already filled with a number, so move to the next block accordingly
+    if(c<8){
+      sudokoSolver((ma,rf,cf,mf,ansFound,r,c+1);
+    }
+    else{
+      sudokoSolver((ma,rf,cf,mf,ansFound,r+1,0);
+    }
+  }  
+}
+else{
   
 }
 
