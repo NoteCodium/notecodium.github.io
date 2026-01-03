@@ -10,7 +10,11 @@ https://leetcode.com/problems/sudoku-solver/description/
 void populateTrackers(vector<vector<int>> &rf, vector<vector<int>> &cf, vector<vector<int>> &mf){
   for(int r=0;r<9;r++){
     for(int c=0;c<9;c++){
-       if()   
+       if(ma[r][c]!='.'){
+         rf[r][ma[r][c]-'1']++;
+         cf[c][ma[r][c]-'1']++;
+         mf[getMatNum(r,c)][ma[r][c]-'1']++;  
+      }   
     }
   }
 }
@@ -18,7 +22,7 @@ void populateTrackers(vector<vector<int>> &rf, vector<vector<int>> &cf, vector<v
 void solveSudoko(vector<vector<chat>> &ma){
   bool ansFound=0;
   vector<vector<int>> rf(9,vector<int>(9,0)), cf(9,vector<int>(9,0)),mf(9,vector<int>(9,0));
-
+  populateTrackers(rf,cf,mf);
 
 }
 
