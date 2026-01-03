@@ -160,29 +160,22 @@ vector<vector<string>> solveNQueens(int n){
   return ans;
 }
 
+```
 
+https://leetcode.com/problems/generate-parentheses/description/
+1. Given n pairs of valid brackets
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```cpp
+vector<string> generateParenthesis(int n){
+  vector<string> ans;
+  string tmp;
+  f(ans,tmp,0,n,0,0);
+  return ans;
+}
 
 ```
+
+
+
+
+
