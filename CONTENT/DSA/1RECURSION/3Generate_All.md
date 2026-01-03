@@ -46,8 +46,17 @@ else{
     if(!rf[r][num] and !cf[c][num] and !mf[matNum][num]){
       ma[r][c]='1'+num;
       rf[r][num]=cf[c][num]=mf[matnum][num]=1;
-      if
-
+      if(c<8){
+        sudokoSolver((ma,rf,cf,mf,ansFound,r,c+1);
+      }
+      else{
+        sudokoSolver((ma,rf,cf,mf,ansFound,r+1,0);
+      }
+      if(ansFound){
+        return;
+      }
+      ma[r][c]='.';
+      rf[r][num]=cf[c][num]=mf[matnum][num]=0;
     }
   }
 }
