@@ -41,7 +41,11 @@ void sudokoSolver(vector<vector<char>> &ma,vector<vector<int>> &rf, vector<vecto
   }  
 }
 else{
-  
+  int matNum=getMatNum(r,c);
+  for(int num=0;num<9;num++){
+    if(!rf[r][num] and !cf[c][num] and !mf[matNum][num]){
+    }
+  }
 }
 
 void solveSudoko(vector<vector<char>> &ma){
