@@ -105,6 +105,36 @@ https://leetcode.com/problems/n-queens/description/
 2. vector<string> is one such configuration, given an input, you have to return all the possible configurations
 
 ```cpp
+
+bool isSafe(int r, int c, int n, vector<string> &tmp){
+  int x=r-1,y;
+  while(x>=0){
+    if(tmp[x][c]=='Q'){
+      return 0;
+    }
+    x--;
+  }
+  x=r-1,y=c-1;
+  while(x>=0 and y>=0){
+    if(tmp[x][c]=='Q'){
+      return 0;
+    }
+    x--;
+    y--;
+  }
+  x=r-1,y=c+1;
+  while(x>=0 and y<n){
+    if(tmp[x][c]=='Q'){
+      return 0;
+    }
+    x--;
+    y++;
+  }
+  return 1;
+}
+
+
+
 void f(vector<vector<string>> &ans, vector<string> &tmp, int r, int n){
   if(r==n){
     ans.push_back(tmp);
@@ -112,7 +142,13 @@ void f(vector<vector<string>> &ans, vector<string> &tmp, int r, int n){
   }
 
   for(int c=0;c<n;c++){
-    
+    if(!isSafe(r,c,n,tmp)){
+      continue;
+    }
+    tmp[r][c]='Q';
+    //if there is a queen in a row, there will not be any queen in that row
+    f(ans,tmp,r+1,n);
+    tmp[r][c]='.';
   }
 
 }
