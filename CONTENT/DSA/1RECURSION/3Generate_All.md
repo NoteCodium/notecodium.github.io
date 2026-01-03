@@ -70,3 +70,36 @@ void solveSudoko(vector<vector<char>> &ma){
 
 
 ```
+
+
+
+https://leetcode.com/problems/valid-sudoku/description/
+1. only the filled cells needs to be validated
+
+```cpp
+int getMatNum(int r, int c){
+  return 3*(r/3)+c/3;
+}
+
+bool isValidSudoko(vector<vector<char>> &ma){
+  vector<vector<int>> rf(9,vector<int>(9,0)), cf(9,vector<int>(9,0)),mf(9,vector<int>(9,0));
+  for(int r=0;r<9;r++){
+    for(int c=0;c<9;c++){
+       if(ma[r][c]!='.'){
+        if(++rf[r][ma[r][c]-'1']>1 or ++cf[c][ma[r][c]-'1']>1 or ++mf[getMatNum(r,c)][ma[r][c]-'1']>1){
+              return 0;
+            }
+      }   
+    }
+  }
+  return 1;
+}
+
+
+
+
+```
+
+
+
+
