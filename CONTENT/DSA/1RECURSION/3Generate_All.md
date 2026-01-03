@@ -6,5 +6,16 @@ https://leetcode.com/problems/sudoku-solver/description/
 5. The min. no. of clues needed to force a unique solution is 17
 
 ```cpp
+void solveSudoko(vector<vector<chat>> &ma){
+  bool ansFound=0;
+  vector<vector<int>> rf(9,vector<int>(9,0)), cf(9,vector<int>(9,0)),mf(9,vector<int>(9,0));
+  for(int r=0;r<9;r++){
+    for(int c=0;c<9;c++){
+        
+    }
+  }
+
+}
+
 
 ```
