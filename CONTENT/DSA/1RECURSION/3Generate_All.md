@@ -44,6 +44,10 @@ else{
   int matNum=getMatNum(r,c);
   for(int num=0;num<9;num++){
     if(!rf[r][num] and !cf[c][num] and !mf[matNum][num]){
+      ma[r][c]='1'+num;
+      rf[r][num]=cf[c][num]=mf[matnum][num]=1;
+      if
+
     }
   }
 }
