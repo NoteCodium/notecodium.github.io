@@ -100,6 +100,7 @@ bool isValidSudoko(vector<vector<char>> &ma){
 
 ```
 
-
+https://leetcode.com/problems/n-queens/description/
+1. Placing n queens on a n*n chessboard such that no two queens attack each other
 
 
