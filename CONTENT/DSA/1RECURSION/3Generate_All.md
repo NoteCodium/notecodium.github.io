@@ -166,6 +166,16 @@ https://leetcode.com/problems/generate-parentheses/description/
 1. Given n pairs of valid brackets
 
 ```cpp
+
+void f(vector<string> &ans, string &tmp, int idx, int n, int l, int r){
+  if(idx==2*n){
+    ans.push_back(tmp);
+    return;
+  }
+
+
+}
+
 vector<string> generateParenthesis(int n){
   vector<string> ans;
   string tmp;
