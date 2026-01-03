@@ -3,3 +3,8 @@ https://leetcode.com/problems/sudoku-solver/description/
 2. the input is vector<vector<int>>
 3. Unique solution is given in the question
 4. A sudoko have multiple solutions when its invalid
+5. The min. no. of clues needed to force a unique solution is 17
+
+```cpp
+
+```
