@@ -105,11 +105,22 @@ https://leetcode.com/problems/n-queens/description/
 2. vector<string> is one such configuration, given an input, you have to return all the possible configurations
 
 ```cpp
+void f(vector<vector<string>> &ans, vector<string> &tmp, int r, int n){
+  if(r==n){
+    ans.push_back(tmp);
+    return;
+  }
+
+  for(int c=0;c<n;c++){
+    
+  }
+
+}
 
 vector<vector<string>> solveNQueens(int n){
   vector<vector<string>> ans;
-  
-
+  vector<string> tmp(n,string(n,'.'));
+  f(ans,tmp,0,n);
   return ans;
 }
 
