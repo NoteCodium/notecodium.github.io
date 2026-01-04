@@ -25,15 +25,7 @@ dis: Block access increase
 
 default organization
 
-
-
 ![image.png](/images/image-9.png)
 
-
-
-
-
-
-
-
+unordered file -> heap file
 
