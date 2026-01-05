@@ -218,11 +218,37 @@ void f(int s1, int e1, int s2, int e2, string s, stack<char> &st, vector<string>
     return;
   }
 
+  if(s1){
+    s.push_back('(')'
+    st.push('(');
+    f(s1-1,e1,s2,e2,s,st,ans);
+    s.pop_back();
+    st.pop();
+  }
+
+  if(s2){
+    s.push_back('{')'
+    st.push('{');
+    f(s1,e1,s2-1,e2,s,st,ans);
+    s.pop_back();
+    st.pop();
+  }
   
-
-
-
-
+  if(e1 and !st.empty() and !st.top=='('){
+    s.push_back(')');
+    st.pop();
+    fs1,e1-1,s2,e2,s,st,ans);
+    s.pop_back();
+    st.push('(');
+  }
+  
+  if(e2 and !st.empty() and !st.top=='{'){
+    s.push_back('}');
+    st.pop();
+    f(s1-1,e1,s2,e2-1,s,st,ans);
+    s.pop_back();
+    st.push('{');
+  }
 
 }
 
