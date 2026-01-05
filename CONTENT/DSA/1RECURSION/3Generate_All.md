@@ -210,6 +210,10 @@ vector<string> generateParenthesis(int n){
 
 
 ```cpp
+void f(int s1, int e1, int s2, int e2, string s, stack<char> &st, vector<string> &ans){
+
+}
+
 
 
 int main(){
