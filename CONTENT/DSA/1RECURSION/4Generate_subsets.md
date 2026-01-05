@@ -81,4 +81,12 @@ f(k-1,n-1,ans,tmp,v);
 
 
 ```
+https://leetcode.com/problems/subsets-ii/
+1. Now the array have repetitions
+
+### Approaches
+
+Remove all duplicates
+1. Writing production level cp code
+
 
