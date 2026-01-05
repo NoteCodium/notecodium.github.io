@@ -173,6 +173,29 @@ void f(vector<string> &ans, string &tmp, int idx, int n, int l, int r){
     return;
   }
 
+  if(l==r){
+    tmp.push_back('(');
+    f(ans,tmp,idx+1,n,l+1,r);
+    tmp.pop_back();
+  }
+  else{
+  //l>r
+    if(l==n){
+      tmp.push_back(')');
+      f(ans,tmp,idx+1,n,l,r+1);
+      tmp.pop_back();
+    }
+    else{
+      tmp.push_back('(');
+      f(ans,tmp,idx+1,n,l+1,r);
+      tmp.pop_back();
+  
+      tmp.push_back('(');
+      f(ans,tmp,idx+1,n,l+1,r);
+      tmp.pop_back();
+    }
+  
+  }
 
 }
 
