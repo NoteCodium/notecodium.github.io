@@ -209,6 +209,19 @@ vector<string> generateParenthesis(int n){
 ```
 
 
+```cpp
+
+
+int main(){
+string s;
+stack<char> st;
+vector<string> ans;
+rfs(n,n,m,m,s,st,ans);
+
+}
+
+```
+
 
 
 
