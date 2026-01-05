@@ -47,3 +47,7 @@ loosey
 ![image.png](/images/image-29.png)
 
 ![image.png](/images/image-30.png)
+
+![image.png](/images/image-32.png)
+
+![image.png](/images/image-33.png)
