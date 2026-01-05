@@ -211,6 +211,18 @@ vector<string> generateParenthesis(int n){
 
 ```cpp
 void f(int s1, int e1, int s2, int e2, string s, stack<char> &st, vector<string> &ans){
+  if(s1+e1+s2+e2==0){
+    if(st.empty()){
+      ans.push_back(s);
+    }
+    return;
+  }
+
+  
+
+
+
+
 
 }
 
