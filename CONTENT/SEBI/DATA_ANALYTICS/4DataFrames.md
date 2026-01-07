@@ -21,3 +21,22 @@
 # describe method
 
 ![image.png](/images/image-46.png)
+
+
+
+![image.png](/images/image-47.png)
+
+![image.png](/images/image-48.png)
+
+![image.png](/images/image-49.png)
+
+Double [[]]   
+
+
+
+# .between()
+
+Note that the starting range and the end range are inclusive for this function
+
+
+
