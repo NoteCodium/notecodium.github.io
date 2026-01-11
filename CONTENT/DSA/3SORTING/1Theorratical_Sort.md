@@ -82,5 +82,24 @@ public:
 
 This is the algorithm which sorts the the array with the min. no. of swaps
 
-![image.png](/images/image-68.png)
+```
+class Solution {
+public:
+    vector<int> sortArray(vector<int>& v) {
+        //Selection sort
+        int n=v.size();
+        for(int idx=0;idx<=n-2;idx++){
+            int i=idx;
+            for(int j=idx;j<n;j++){
+                if(v[j]<v[i]){
+                    i=j;
+                }
+            }
+            swap(v[idx],v[i]);
+        }
+
+        return v;
+    }
+};
+```
 
