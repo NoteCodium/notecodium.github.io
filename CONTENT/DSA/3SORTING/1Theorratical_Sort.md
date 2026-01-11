@@ -12,8 +12,6 @@
 
 ![](../../../images/20260111_045842_image.png)
 
-
-
 ```cpp
 class Solution {
 public:
@@ -37,3 +35,52 @@ public:
     }
 };
 ```
+
+# Insertion sort
+
+![](../../../images/20260111_052954_image.png)
+
+1. First Pass
+
+![](../../../images/20260111_053634_image.png)
+
+2. Intermediate results will not give any useful results
+
+```
+class Solution {
+public:
+    vector<int> sortArray(vector<int>& v) {
+        //Insertion sort
+        int n=v.size();
+        for(int idx=1;idx<n;idx++){
+            int i=idx-1;
+            int curr=v[idx];
+            while(i>=0 and v[i]>curr){
+                v[i+1]=v[i];
+                i--;
+            }
+            i++;
+            v[i]=curr;
+        }
+
+        return v;
+    }
+};
+```
+
+# Selection sort
+
+![image.png](/images/image-64.png)
+
+1. n-1 passes
+2. i is standing on the current element
+3. k is standing on the current smallest elemenet 
+4. j is search for an element smaller then k
+5. We get useful results
+
+![image.png](/images/image-67.png)
+
+This is the algorithm which sorts the the array with the min. no. of swaps
+
+![image.png](/images/image-68.png)
+
