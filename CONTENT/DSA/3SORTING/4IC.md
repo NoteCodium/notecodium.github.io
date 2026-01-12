@@ -43,6 +43,43 @@ void mergeSort(long long int v[], int l, int r, long long int &cnt){
 ```
 
 
+https://leetcode.com/problems/reverse-pairs/description/
+```cpp
+void merge(long long int v[], int l, int m, int r, long long int &cnt){
+     int p1=l,p2=m+1;
 
+
+     p1=l,p2=m+1;
+     vector<int> temp;
+     while(p1<=m and p2<=r){
+         if(v[p1]<=v[p2]) temp.push_back(v[p1++]);
+         else{
+            temp.push_back(v[p2++]);
+            cnt+=(m-p1+1); 
+         } 
+     }
+     while(p1<=m) temp.push_back(v[p1++]);
+     while(p2<=r) temp.push_back(v[p2++]);
+     for(int i=l;i<=r;i++){
+         v[i]=temp[i-l];
+     }
+}
+
+
+void mergeSort(vector<int> &v, int l, int r, long long int &cnt){
+    if(l==r) return;
+    int m=(l+r)/2;
+    mergeSort(v,l,m,cnt);
+    mergeSort(v,m+1,r,cnt);
+    merge(v,l,m,r,cnt);
+}
+    
+    
+ int reversePairs(vector<int> &v){
+    int cnt=0,n=v.size();
+    mergeSort(v,0,n-1,cnt);
+    return cnt;
+}
+```
 
 
