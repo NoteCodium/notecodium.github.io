@@ -17,3 +17,19 @@ Method-level annotation
 ![image.png](/images/image-100.png)
 
 ![image.png](/images/image-105.png)
+
+# Bean Lifecycle Hooks
+
+![image.png](/images/image-144.png)
+
+![image.png](/images/image-145.png)
+
+
+
+
+
+![image.png](/images/image-147.png)
+
+
+
+# Scope of the bean is by deault singleton
