@@ -34,11 +34,34 @@ public class MyController {
 
 
 
-
+![image.png](/images/image-150.png)
 
 # RestController
 
+1. building RESTful web services.
+2. It’s designed for APIs that return JSON, XML, or other content types, and does not attempt to resolve views.
+
+
+
+![image.png](/images/image-152.png)
 
 
 
 
+
+![image.png](/images/image-151.png)
+
+![image.png](/images/image-153.png)
+
+![image.png](/images/image-154.png)
+
+![image.png](/images/image-155.png)
+
+By default we are sending json, to send XML
+
+```
+<dependency>
+    <groupId> com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+</dependency>
+```
