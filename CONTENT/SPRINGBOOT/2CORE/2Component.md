@@ -21,7 +21,17 @@ public class OneApplication {
 
 work as usual
 
-- Trying to make the code cleaner
+
+
+Tight coupling 
+
+Suppose We want to write Unit test for OneAppplication class main method but we can not easily mock Apple object (eatApple method)
+
+Suppose in future we have different type of Apples? we cannot change the Apple type dynamically
+
+
+
+-  Trying to make the code cleaner
 
 ```
 @SpringBootApplication
@@ -134,8 +144,6 @@ By default the Bean name is same as class name
 Making a bean having name different from the class name
 
 @Component("name")
-
-
 
 # When a class have two implementations
 
