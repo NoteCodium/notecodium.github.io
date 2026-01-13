@@ -62,8 +62,6 @@ public class OneApplication implements CommandLineRunner {
 
 for arguments?
 
-
-
 # Autowired
 
 for @Autowired to work, you have to make Apple a component
@@ -118,4 +116,28 @@ public class OneApplication implements CommandLineRunner {
 	}
 }
 ```
+
+@Component follows convention over configuration
+
+![image.png](/images/image-90.png)
+
+![image.png](/images/image-91.png)
+
+![image.png](/images/image-92.png)
+
+SpringBoot will use the default constructor
+
+
+
+![image.png](/images/image-95.png)
+
+By default the Bean name is same as class name
+
+Making a bean having name different from the class name
+
+@Component("name")
+
+
+
+
 

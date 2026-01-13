@@ -1,0 +1,1 @@
+In Spring, both @Bean and @Component are used to define and register objects (called "beans") in the Spring IoC (Inversion of Control) container.
