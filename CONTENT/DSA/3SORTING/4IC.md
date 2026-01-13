@@ -3,10 +3,6 @@
 
 ![image.png](/images/image-86.png)
 
-
-
-
-
 ```cpp
 void merge(long long int v[], int l, int m, int r, long long int &cnt){
      int p1=l,p2=m+1;
@@ -42,21 +38,28 @@ void mergeSort(long long int v[], int l, int r, long long int &cnt){
 }
 ```
 
-
 https://leetcode.com/problems/reverse-pairs/description/
-```cpp
-void merge(long long int v[], int l, int m, int r, long long int &cnt){
-     int p1=l,p2=m+1;
 
+0 <= i < j < nums.length and
+
+nums[i] > 2 * nums[j]
+
+```cpp
+void merge(vector<int> &v, int l, int m, int r, int &cnt){
+	    int p1=l,p2=m+1;
+	    while(p2<=r){
+	        while(p1<=m and v[p1]*0.5<=v[p2]*1.0) p1++;
+	        ans+=(m-p1+1);
+	        p2++;
+	    }
 
      p1=l,p2=m+1;
      vector<int> temp;
      while(p1<=m and p2<=r){
-         if(v[p1]<=v[p2]) temp.push_back(v[p1++]);
-         else{
-            temp.push_back(v[p2++]);
-            cnt+=(m-p1+1); 
-         } 
+        	if(v[p1]<=v[p2]) tmp.push_back(v[p1++]);
+        	else tmp.push_back(v[p2++]);
+
+
      }
      while(p1<=m) temp.push_back(v[p1++]);
      while(p2<=r) temp.push_back(v[p2++]);
@@ -81,5 +84,3 @@ void mergeSort(vector<int> &v, int l, int r, long long int &cnt){
     return cnt;
 }
 ```
-
-
