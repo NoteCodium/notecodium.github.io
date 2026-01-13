@@ -1,7 +1,5 @@
 ![image.png](/images/image-89.png)
 
-
-
 # Count sort
 
 ```
@@ -14,6 +12,9 @@ vector<int> sortArray(vector<int>& v) {
     for(int x: v){
         freq[x-minn]++;
     }
+
+		//understood clearly till here
+
     for(int i=1;i<range;i++){
         freq[i]+=freq[i-1];
     }
@@ -31,5 +32,8 @@ vector<int> sortArray(vector<int>& v) {
 
 
 
-# Radix sort
 
+
+
+
+# Radix sort

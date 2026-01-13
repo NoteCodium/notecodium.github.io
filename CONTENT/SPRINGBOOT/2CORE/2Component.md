@@ -127,8 +127,6 @@ public class OneApplication implements CommandLineRunner {
 
 SpringBoot will use the default constructor
 
-
-
 ![image.png](/images/image-95.png)
 
 By default the Bean name is same as class name
@@ -139,5 +137,16 @@ Making a bean having name different from the class name
 
 
 
+# When a class have two implementations
 
+![image.png](/images/image-102.png)
 
+1. You want to use by interface name
+
+![image.png](/images/image-103.png)
+
+2. You want to use by class name
+
+```
+DevDB devDB
+```

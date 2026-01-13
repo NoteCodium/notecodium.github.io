@@ -3,3 +3,4 @@
 - @Service
 - @Repository
 - @Controller
+- @Configuration 
