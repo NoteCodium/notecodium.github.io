@@ -11,8 +11,6 @@ By default, methods in a @Controller return views (e.g., HTML, JSP pages)
 
 If a method in a @Controller is intended to return a JSON or XML response, you need to use the @ResponseBody annotation on the method, which tells Spring to write the return value directly to the HTTP response body instead of resolving a view.
 
-
-
 ```
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -33,3 +31,14 @@ public class MyController {
 ```
 
 ![image.png](/images/image-107.png)
+
+
+
+
+
+# RestController
+
+
+
+
+
