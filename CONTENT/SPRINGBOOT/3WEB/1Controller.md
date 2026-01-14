@@ -32,8 +32,6 @@ public class MyController {
 
 ![image.png](/images/image-107.png)
 
-
-
 ![image.png](/images/image-150.png)
 
 # RestController
@@ -41,13 +39,7 @@ public class MyController {
 1. building RESTful web services.
 2. It’s designed for APIs that return JSON, XML, or other content types, and does not attempt to resolve views.
 
-
-
 ![image.png](/images/image-152.png)
-
-
-
-
 
 ![image.png](/images/image-151.png)
 
@@ -56,6 +48,44 @@ public class MyController {
 ![image.png](/images/image-154.png)
 
 ![image.png](/images/image-155.png)
+
+
+
+```
+public class ExamResult {
+    private int phy;
+    private int chem;
+    private int math;
+
+    public int getChem() {
+        return chem;
+    }
+
+    public int getMath() {
+        return math;
+    }
+
+
+    public int getPhy() {
+        return phy;
+    }
+    public ExamResult(int phy, int chem, int math) {
+        this.phy = phy;
+        this.chem = chem;
+        this.math = math;
+    }
+}
+```
+
+![image.png](/images/image-179.png)
+
+![image.png](/images/image-180.png)
+
+![image.png](/images/image-181.png)
+
+
+
+
 
 By default we are sending json, to send XML
 
