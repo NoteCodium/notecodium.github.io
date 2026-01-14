@@ -77,20 +77,33 @@ The first occurence of 2 will be place at last
 
 
 
-
-
-
-
-
-
 It is linear only if the difference between elements is small
 
 
 
-
-
-
-
-
-
 # Radix sort
+
+https://practice.geeksforgeeks.org/problems/radix-sort/1
+
+```cpp
+void radixSort(int v[], int n) { 
+    for(int t=0;t<3;t++){
+        vector<int> cnt(10,0),aux(n);
+        for(int i=0;i<n;i++){
+            cnt[(v[i]/int(pow(10,t)))%10]++;
+        }
+        for(int i=1;i<10;i++){
+            cnt[i]+=cnt[i-1];
+        }
+        for(int i=n-1;i>=0;i--){
+            aux[cnt[(v[i]/int(pow(10,t)))%10]-1]=v[i];
+            cnt[(v[i]/int(pow(10,t)))%10]--;
+        }
+        
+        for(int i=0;i<n;i++){
+            v[i]=aux[i];
+        }
+    }
+} 
+```
+
