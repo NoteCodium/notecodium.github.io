@@ -45,11 +45,53 @@ public class MyController {
 
 ![image.png](/images/image-153.png)
 
+
+
+---
+
+# (RequestParam/QueryParam) vs (PathVariable/RequestPath)
+
+Param is optional
+
+Path is non optional and more readable urls make sense
+
+# vs RequestBody
+
+RequestParam/QueryParam
+
+For optional fields (like amazon filters)
+
+1. sort
+
+### But actually, 
+
+![image.png](/images/image-197.png)
+
+![image.png](/images/image-199.png)
+
+![image.png](/images/image-198.png)
+
+whitespace are +?
+
+See google search uth
+
+This part I am week in 
+
+
+
+# (PathVariable/RequestPath)
+
+![image.png](/images/image-200.png)
+
+# RequestBody
+
+
+
+---
+
 ![image.png](/images/image-154.png)
 
 ![image.png](/images/image-155.png)
-
-
 
 ```
 public class ExamResult {
@@ -83,11 +125,15 @@ public class ExamResult {
 
 ![image.png](/images/image-181.png)
 
-
-
-
-
 By default we are sending json, to send XML
+
+
+
+![image.png](/images/image-201.png)
+
+
+
+
 
 ```
 <dependency>
@@ -95,3 +141,4 @@ By default we are sending json, to send XML
     <artifactId>jackson-dataformat-xml</artifactId>
 </dependency>
 ```
+
