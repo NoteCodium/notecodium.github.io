@@ -41,7 +41,21 @@ public class MyController {
 
 ![image.png](/images/image-152.png)
 
+![image.png](/images/image-226.png)
+
 ![image.png](/images/image-151.png)
+
+![image.png](/images/image-227.png)
+
+![image.png](/images/image-228.png)
+
+GetMappig is also a RequestMapping 
+
+
+
+
+
+
 
 ![image.png](/images/image-153.png)
 
@@ -74,6 +88,18 @@ whitespace are +?
 See google search uth
 
 This part I am week in 
+
+
+
+### Typecasting custom object type like date 
+
+1. using a registerd PropertyEditor
+
+
+
+
+
+
 
 # (PathVariable/RequestPath)
 
@@ -130,11 +156,57 @@ By default we are sending json, to send XML
 </dependency>
 ```
 
+# Update (I already knew this so easy). Patch difficult as I get to know about later
+
+Update
+
+whole data
+
+> See how ModelMapper works, see old codebases in github
+
+```
+    public EmployeeDto updateEmployee(Long employeeID, EmployeeDto employeeDto) {
+        EmployeeEntity toUpdateEntity=modelMapper.map(employeeDto, EmployeeEntity.class);
+        toUpdateEntity.setId(employeeID);//doubt
+        EmployeeEntity updatedEntity=employeeRepository.save(toUpdateEntity);
+        //Automagically find the employee by id and update it
+        return modelMapper.map(updatedEntity, EmployeeDto.class);
+    }
+
+    @PutMapping("/{employeeID}")
+    public EmployeeDto updateEmployee(@PathVariable Long employeeID ,@RequestBody EmployeeDto employeeDto){
+        return employeeService.updateEmployee(employeeID,employeeDto);
+    }
+```
+
+Patch
+
+This is why patch implementation is difficult
+
+![image.png](/images/image-224.png)
+
+```
+    public EmployeeDto updatePartialEmployee(Long employeeID, Map<String, Object> updates) {
+        boolean exists=isExistByEmployeeId(employeeID);
+        if (!exists) {
+            return null;
+        }
+        EmployeeEntity employeeEntity=employeeRepository.findById(employeeID).orElse(null);
+//        EmployeeEntity employeeEntity=employeeRepository.findById(employeeID).get(); doubt
+        updates.forEach((field, value)->{
+                    Field fieldToBeUpdated = ReflectionUtils.findRequiredField(EmployeeEntity.class, field);
+                    fieldToBeUpdated.setAccessible(true);
+                    ReflectionUtils.setField(fieldToBeUpdated, employeeEntity, value);
+                }
+        );
+        EmployeeEntity updatedEntity=employeeRepository.save(employeeEntity);
+        return modelMapper.map(updatedEntity, EmployeeDto.class);
+    }
+}
 
 
-
-
-
-
-
-
+    @PatchMapping("/{employeeID}")
+    public EmployeeDto updatePartialEmployee(@PathVariable Long employeeID , @RequestBody Map<String,Object> updates){
+        return employeeService.updatePartialEmployee(employeeID,updates);
+    }
+```
