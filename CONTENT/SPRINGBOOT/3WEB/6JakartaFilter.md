@@ -1,5 +1,13 @@
 Jakarta filter is very powerful, can see raw request raw request and part of Tomcat
 
+3. can see raw request and modify it
+    1. Prevent
+        1. abusive
+        2. malicious
+        3. misses some security token
+4. Caching
+5. 
+
 ```
 @Component
 @Order(1)
@@ -32,4 +40,8 @@ public class MC1 implements HandlerInterceptor {
 ```
 
 ServletRequest is an interface, HttpServletRequest is a child of it
+
+
+
+
 

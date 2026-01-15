@@ -45,8 +45,6 @@ public class MyController {
 
 ![image.png](/images/image-153.png)
 
-
-
 ---
 
 # (RequestParam/QueryParam) vs (PathVariable/RequestPath)
@@ -77,15 +75,11 @@ See google search uth
 
 This part I am week in 
 
-
-
 # (PathVariable/RequestPath)
 
 ![image.png](/images/image-200.png)
 
 # RequestBody
-
-
 
 ---
 
@@ -127,13 +121,7 @@ public class ExamResult {
 
 By default we are sending json, to send XML
 
-
-
 ![image.png](/images/image-201.png)
-
-
-
-
 
 ```
 <dependency>
@@ -141,4 +129,12 @@ By default we are sending json, to send XML
     <artifactId>jackson-dataformat-xml</artifactId>
 </dependency>
 ```
+
+
+
+
+
+
+
+
 
