@@ -1,3 +1,5 @@
+Jakarta filter is very powerful, can see raw request raw request and part of Tomcat
+
 ```
 @Component
 @Order(1)
@@ -30,3 +32,4 @@ public class MC1 implements HandlerInterceptor {
 ```
 
 ServletRequest is an interface, HttpServletRequest is a child of it
+
