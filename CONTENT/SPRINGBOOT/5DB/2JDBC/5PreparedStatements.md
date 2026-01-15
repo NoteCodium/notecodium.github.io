@@ -1,0 +1,1 @@
+How JDBC helps us fight difference in dialect
