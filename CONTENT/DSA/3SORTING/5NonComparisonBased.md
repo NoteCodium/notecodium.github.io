@@ -92,3 +92,4 @@ void radixSort(int v[], int n) {
 1. we are moving from one line to another in linear time
 2. Improvement over count sort
 3. Every iteration is a count sort sort on digit number
+4. TC: 
