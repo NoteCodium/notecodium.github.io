@@ -92,4 +92,9 @@ void radixSort(int v[], int n) {
 1. we are moving from one line to another in linear time
 2. Improvement over count sort
 3. Every iteration is a count sort sort on digit number
-4. TC: 
+4. TC: Building CF array 10
+5. n
+6. (10+n)*d
+7. If there are negative numbers, separate them in a separate array ans sort them separately
+8. 
+

@@ -51,12 +51,6 @@ public class MyController {
 
 GetMappig is also a RequestMapping 
 
-
-
-
-
-
-
 ![image.png](/images/image-153.png)
 
 ---
@@ -89,17 +83,66 @@ See google search uth
 
 This part I am week in 
 
-
-
 ### Typecasting custom object type like date 
 
 1. using a registerd PropertyEditor
 
+```
+package com.example.one.controllers;
+
+import org.springframework.validation.DataBinder;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+public class MyController {
+
+    @InitBinder
+    protected void initBinder(DataBinder binder) {
+        binder.registerCustomEditor(String.class, "firstName", new FirstNamePropertyEditor());
+    }
 
 
+    @GetMapping("/hello")
+    @ResponseBody
+    public String hello(@RequestParam(name="firstName") String firstName) {
+        return firstName;
+    }
+}
 
+class FirstNamePropertyEditor extends java.beans.PropertyEditorSupport {
+    @Override
+    public void setAsText(String text) throws IllegalArgumentException {
+        setValue(text.trim().toLowerCase());
+    }
+}
+```
 
+https://gemini.google.com/share/e741fcb9d60a
 
+1. You can register that PropertyEditor globally (using a @ControllerAdvice), and every single endpoint in your entire application will automatically trim and lowercase the input before your controller method ever runs.
+2. Separation of ConcernsYour controller's job should be to control the flow of traffic (receive request $\rightarrow$ call service $\rightarrow$ return response). It should not be cluttered with low-level data sanitation logic.
+3. ![image.png](/images/image-266.png)
+4. In the "Long Way," the modification happens during the Binding Phase, which is before Validation.
+
+   If you have a validation annotation like @Size(min=5), and the user types " abc " (spaces included):
+
+   Short Way: The input passes validation (length is 7), enters your method, you trim it, and now you have "abc" (length 3), which violates your rule—but it's too late!
+
+   Long Way: The Binder trims it first. The Validator sees "abc", triggers the @Size error, and rejects the request automatically without your controller code ever running.
+5. A Modern Note: Converter vs PropertyEditor
+
+   Spring now prefers the Converter<S, T> interface over PropertyEditor because PropertyEditors are not thread-safe (hence why they are recreated in methods or @InitBinder).
+
+   The Modern "Best Practice" for Global Logic:
+6. ```
+   @Component
+   public class StringTrimmerConverter implements Converter<String, String> {
+       @Override
+       public String convert(String source) {
+           return source.trim().toLowerCase();
+       }
+   }
+   ```
 
 # (PathVariable/RequestPath)
 
