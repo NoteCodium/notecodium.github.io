@@ -33,21 +33,13 @@ TC and SC as of Now
 
 ![image.png](/images/image-156.png)
 
-
-
 vs
-
-
 
 ```
     for(int x: v){
         freq[x-minn]++;
     }
 ```
-
-
-
-
 
 - More disadvantages
 
@@ -61,25 +53,13 @@ Not itirating or frequency array but on the original array
 
 ![image.png](/images/image-159.png)
 
-
-
-
-
-
-
 ![image.png](/images/image-160.png)
 
 ![image.png](/images/image-161.png)
 
 The first occurence of 2 will be place at last
 
-
-
-
-
 It is linear only if the difference between elements is small
-
-
 
 # Radix sort
 
@@ -107,3 +87,8 @@ void radixSort(int v[], int n) {
 } 
 ```
 
+![image.png](/images/image-245.png)
+
+1. we are moving from one line to another in linear time
+2. Improvement over count sort
+3. Every iteration is a count sort sort on digit number
