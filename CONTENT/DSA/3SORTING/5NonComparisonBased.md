@@ -87,6 +87,25 @@ void radixSort(int v[], int n) {
 } 
 ```
 
+```cpp
+//understanding
+       vector<int> cnt(10,0),aux(n);
+        for(int i=0;i<n;i++){
+            cnt[(v[i]/int(pow(10,t)))%10]++;
+        }
+        for(int i=1;i<10;i++){
+            cnt[i]+=cnt[i-1];
+        }
+        for(int i=n-1;i>=0;i--){
+            aux[cnt[(v[i]/int(pow(10,t)))%10]-1]=v[i];
+            cnt[(v[i]/int(pow(10,t)))%10]--;
+        }
+        
+        for(int i=0;i<n;i++){
+            v[i]=aux[i];
+        }
+```
+
 ![image.png](/images/image-245.png)
 
 1. we are moving from one line to another in linear time
@@ -98,3 +117,4 @@ void radixSort(int v[], int n) {
 7. If there are negative numbers, separate them in a separate array ans sort them separately
 8. 
 
+![image.png](/images/image-267.png)
