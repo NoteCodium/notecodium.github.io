@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
@@ -7,7 +8,8 @@
     /* 1. Global Resets */
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      margin: 0; /* Remove default margin so sidebar touches edge */
+      margin: 0;
+      /* Remove default margin so sidebar touches edge */
       padding: 0;
       background: #fafafa;
     }
@@ -20,45 +22,107 @@
 
     /* 3. The Sidebar (Fixed on Left) */
     .sidebar {
-      width: 280px;             /* Fixed width */
-      background-color: #f0f2f5; /* Slightly darker background */
+      width: 280px;
+      /* Fixed width */
+      background-color: #f0f2f5;
+      /* Slightly darker background */
       border-right: 1px solid #d0d7de;
       padding: 20px;
-      flex-shrink: 0;           /* Prevent shrinking */
-      
+      flex-shrink: 0;
+      /* Prevent shrinking */
+
       /* Sticky behavior */
       position: sticky;
       top: 0;
-      height: 100vh;            /* Full height */
-      overflow-y: auto;         /* Scrollable independently */
-      font-size: 0.9em;         /* Slightly smaller text for tree */
+      height: 100vh;
+      /* Full height */
+      overflow-y: auto;
+      /* Scrollable independently */
+      font-size: 0.9em;
+      /* Slightly smaller text for tree */
     }
 
     /* 4. The Main Content Area */
     .content {
-      flex-grow: 1;             /* Take remaining width */
+      flex-grow: 1;
+      /* Take remaining width */
       padding: 40px;
-      max-width: 900px;         /* Keep your original reading width */
+      max-width: 900px;
+      /* Keep your original reading width */
       /* No margin: auto here because flex handles the layout */
     }
 
     /* 5. Your Existing Styles (Applied globally) */
-    ul { list-style: none; padding-left: 20px; margin: 0; }
-    li { margin: 6px 0; }
-    a { text-decoration: none; color: #0366d6; }
-    a:hover { text-decoration: underline; }
-    
+    ul {
+      list-style: none;
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0366d6;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     /* Optional: Style the Summary (Folder Name) */
-    summary { outline: none; margin-bottom: 5px; color: #333; }
+    summary {
+      outline: none;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    /* 6. Sidebar Toggle & Collapsed State */
+    .sidebar-toggle {
+      position: fixed;
+      left: 20px;
+      top: 15px;
+      z-index: 1000;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: #333;
+      padding: 0 5px;
+    }
+
+    body.sidebar-collapsed .sidebar {
+      display: none;
+    }
+
+    body.sidebar-collapsed .content {
+      padding-left: 60px;
+      /* Space for the toggle button when sidebar is gone */
+    }
+
+    /* Move toggle button when sidebar is visible so it's inside/top of sidebar */
+    body:not(.sidebar-collapsed) .sidebar-toggle {
+      position: absolute;
+      /* relative to page-container or sidebar if sidebar was relative, but here fixed is easier */
+      /* Actually let's keep it fixed but ensure it looks okay */
+      left: 240px;
+      /* Align with right edge of sidebar roughly */
+      top: 15px;
+    }
   </style>
 </head>
+
 <body>
 
+  <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle Sidebar">☰</button>
+
   <div class="page-container">
-    
-    <nav class="sidebar">
-      <div style="margin-bottom: 20px; font-weight: bold;">Documentation</div>
-      
+
+    <nav class="sidebar" id="sidebar">
+      <div style="margin-bottom: 20px; font-weight: bold; margin-right: 30px;">Documentation</div>
+
       {% include sidebar.html %}
     </nav>
 
@@ -69,5 +133,25 @@
 
   </div>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleBtn = document.getElementById("sidebarToggle");
+      const body = document.body;
+      const STORAGE_KEY = "sidebar_collapsed";
+
+      // 1. Restore state
+      if (localStorage.getItem(STORAGE_KEY) === "true") {
+        body.classList.add("sidebar-collapsed");
+      }
+
+      // 2. Toggle on click
+      toggleBtn.addEventListener("click", function () {
+        body.classList.toggle("sidebar-collapsed");
+        localStorage.setItem(STORAGE_KEY, body.classList.contains("sidebar-collapsed"));
+      });
+    });
+  </script>
+
 </body>
+
 </html>
