@@ -43,7 +43,7 @@
 {% capture path_so_far %}{{ path_so_far }}/{{ folder_name }}{% endcapture %}
 {% assign folder_id = path_so_far | replace: "/", "-" | replace: ".", "-" | slugify %}
 <li>
-  <details id="folder{{ folder_id }}">
+  <details id="folder{{ folder_id }}" {% if folder_name=='CONTENT' %}open{% endif %}>
     <summary style="cursor: pointer;">📂 <strong>{{ folder_name }}</strong></summary>
     <ul>
       {% endfor %}
@@ -93,7 +93,7 @@
       // Robust matching for GitHub Pages (subfolders) & Localhost
       // tailored for Jekyll URLs which might end in / or .html
       const currentPath = window.location.pathname.replace(/\/$/, ""); // Remove trailing slash
-      const linkPath = new URL(link.href).pathname.replace(/\/$/, ""); 
+      const linkPath = new URL(link.href).pathname.replace(/\/$/, "");
 
       // Check if the current browser path ends with the link path
       // This handles the user's repository prefix case automatically
