@@ -167,6 +167,21 @@
         body.classList.toggle("sidebar-collapsed");
         localStorage.setItem(STORAGE_KEY, body.classList.contains("sidebar-collapsed"));
       });
+
+      // 3. Persist Sidebar Scroll Position
+      const sidebar = document.getElementById("sidebar");
+      const SCROLL_KEY = "sidebar_scroll_position";
+
+      // Restore scroll position
+      const savedScroll = localStorage.getItem(SCROLL_KEY);
+      if (savedScroll) {
+        sidebar.scrollTop = parseInt(savedScroll, 10);
+      }
+
+      // Save scroll position on scroll
+      sidebar.addEventListener("scroll", function () {
+        localStorage.setItem(SCROLL_KEY, sidebar.scrollTop);
+      });
     });
   </script>
 
