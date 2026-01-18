@@ -157,6 +157,20 @@
     });
   </script>
 
+  <!-- Highlight.js for syntax highlighting -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((el) => {
+        // Force C++ class for all code blocks
+        el.className = 'language-cpp';
+        hljs.highlightElement(el);
+      });
+    });
+  </script>
 </body>
 
 </html>
