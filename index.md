@@ -55,7 +55,7 @@
 {% endfor %}
 </ul> -->
 
-Make the contents of the subfolder hidden by a dropdown arrrow {% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
+<!-- Make the contents of the subfolder hidden by a dropdown arrrow {% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %} -->
 
 {% assign current_folder = "" %}
 
