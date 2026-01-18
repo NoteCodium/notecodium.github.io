@@ -2,43 +2,107 @@
 {% assign empty_array = "" | split: "," %}
 {% assign previous_dir_parts = empty_array %}
 
-<ul>
-{% for p in pages %}
+<ul class="file-tree">
+  {% for p in pages %}
   {% assign parts = p.path | split: "/" %}
   {% assign filename = parts.last %}
 
   {% unless filename contains "index" or filename contains "404" %}
-    {% assign depth = parts.size | minus: 1 %}
-    {% assign common_depth = 0 %}
-    {% for i in (0..depth) %}
-       {% if i == depth or i == previous_dir_parts.size %}{% break %}{% endif %}
-       {% if parts[i] == previous_dir_parts[i] %}
-         {% assign common_depth = common_depth | plus: 1 %}
-       {% else %}
-         {% break %}
-       {% endif %}
-    {% endfor %}
+  {% assign depth = parts.size | minus: 1 %}
+  {% assign common_depth = 0 %}
+  {% for i in (0..depth) %}
+  {% if i == depth or i == previous_dir_parts.size %}{% break %}{% endif %}
+  {% if parts[i] == previous_dir_parts[i] %}
+  {% assign common_depth = common_depth | plus: 1 %}
+  {% else %}
+  {% break %}
+  {% endif %}
+  {% endfor %}
 
-    {% assign previous_depth = previous_dir_parts.size %}
-    {% assign close_count = previous_depth | minus: common_depth %}
-    {% for i in (1..close_count) %}</ul></details></li>{% endfor %}
+  {% assign previous_depth = previous_dir_parts.size %}
+  {% assign close_count = previous_depth | minus: common_depth %}
+  {% for i in (1..close_count) %}</ul>
+</details>
+</li>{% endfor %}
 
-    {% for i in (common_depth..depth) %}
-      {% if i == depth %}{% break %}{% endif %}
-      {% assign folder_name = parts[i] %}
-      <li><details><summary style="cursor: pointer;">📂 <strong>{{ folder_name }}</strong></summary><ul>
-    {% endfor %}
-
-    <li><a href="{{ p.url }}">{{ filename }}</a></li>
-
-    {% assign current_dir_parts_str = "" %}
-    {% for i in (0..depth) %}
-      {% if i == depth %}{% break %}{% endif %}
-      {% capture current_dir_parts_str %}{{ current_dir_parts_str }},{{ parts[i] }}{% endcapture %}
-    {% endfor %}
-    {% assign previous_dir_parts = current_dir_parts_str | remove_first: "," | split: "," %}
-  {% endunless %}
+{% assign current_path_build = "" %}
+{% for i in (0..depth) %}
+{% capture current_path_build %}{{ current_path_build }}/{{ parts[i] }}{% endcapture %}
 {% endfor %}
 
-{% for i in (1..previous_dir_parts.size) %}</ul></details></li>{% endfor %}
+{% comment %} Re-calculate path for ID generation {% endcomment %}
+{% assign path_so_far = "" %}
+{% for i in (0..common_depth) %}
+{% if i == depth %}{% break %}{% endif %}
+{% capture path_so_far %}{{ path_so_far }}/{{ parts[i] }}{% endcapture %}
+{% endfor %}
+
+{% for i in (common_depth..depth) %}
+{% if i == depth %}{% break %}{% endif %}
+{% assign folder_name = parts[i] %}
+{% capture path_so_far %}{{ path_so_far }}/{{ folder_name }}{% endcapture %}
+{% assign folder_id = path_so_far | replace: "/", "-" | replace: ".", "-" | slugify %}
+<li>
+  <details id="folder{{ folder_id }}">
+    <summary style="cursor: pointer;">📂 <strong>{{ folder_name }}</strong></summary>
+    <ul>
+      {% endfor %}
+
+      <li><a href="{{ p.url | relative_url }}" class="file-link">{{ filename }}</a></li>
+
+      {% assign current_dir_parts_str = "" %}
+      {% for i in (0..depth) %}
+      {% if i == depth %}{% break %}{% endif %}
+      {% capture current_dir_parts_str %}{{ current_dir_parts_str }},{{ parts[i] }}{% endcapture %}
+      {% endfor %}
+      {% assign previous_dir_parts = current_dir_parts_str | remove_first: "," | split: "," %}
+      {% endunless %}
+      {% endfor %}
+
+      {% for i in (1..previous_dir_parts.size) %}
+    </ul>
+  </details>
+</li>{% endfor %}
 </ul>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 1. Restore state from localStorage
+    const detailsElements = document.querySelectorAll("details");
+    detailsElements.forEach(details => {
+      const id = details.id;
+      if (id && localStorage.getItem(id) === "open") {
+        details.open = true;
+      }
+
+      // 2. Save state on toggle
+      details.addEventListener("toggle", function () {
+        if (details.open) {
+          localStorage.setItem(id, "open");
+        } else {
+          localStorage.removeItem(id);
+        }
+      });
+    });
+
+    // 3. Highlight active link and expand parents
+    const currentUrl = window.location.pathname;
+    const links = document.querySelectorAll(".file-link");
+
+    links.forEach(link => {
+      // Normalize paths comparison
+      if (link.href.includes(currentUrl)) {
+        link.style.fontWeight = "bold";
+        link.style.color = "#d03939"; // Highlight color
+
+        // Expand all parent details
+        let parent = link.closest("details");
+        while (parent) {
+          parent.open = true;
+          localStorage.setItem(parent.id, "open"); // Also save this state
+          parent = parent.parentElement.closest("details");
+        }
+      }
+    });
+  });
+</script>
