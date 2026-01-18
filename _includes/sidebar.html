@@ -90,8 +90,14 @@
     const links = document.querySelectorAll(".file-link");
 
     links.forEach(link => {
-      // Normalize paths comparison
-      if (link.href.includes(currentUrl)) {
+      // Robust matching for GitHub Pages (subfolders) & Localhost
+      // tailored for Jekyll URLs which might end in / or .html
+      const currentPath = window.location.pathname.replace(/\/$/, ""); // Remove trailing slash
+      const linkPath = new URL(link.href).pathname.replace(/\/$/, ""); 
+
+      // Check if the current browser path ends with the link path
+      // This handles the user's repository prefix case automatically
+      if (currentPath === linkPath || currentPath.endsWith(linkPath)) {
         link.style.fontWeight = "bold";
         link.style.color = "#d03939"; // Highlight color
 
