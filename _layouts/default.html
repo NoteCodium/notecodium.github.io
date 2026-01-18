@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <style>
+    /* 1. Global Resets */
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0; /* Remove default margin so sidebar touches edge */
+      padding: 0;
+      background: #fafafa;
+    }
+
+    /* 2. The Layout Container (Flexbox) */
+    .page-container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* 3. The Sidebar (Fixed on Left) */
+    .sidebar {
+      width: 280px;             /* Fixed width */
+      background-color: #f0f2f5; /* Slightly darker background */
+      border-right: 1px solid #d0d7de;
+      padding: 20px;
+      flex-shrink: 0;           /* Prevent shrinking */
+      
+      /* Sticky behavior */
+      position: sticky;
+      top: 0;
+      height: 100vh;            /* Full height */
+      overflow-y: auto;         /* Scrollable independently */
+      font-size: 0.9em;         /* Slightly smaller text for tree */
+    }
+
+    /* 4. The Main Content Area */
+    .content {
+      flex-grow: 1;             /* Take remaining width */
+      padding: 40px;
+      max-width: 900px;         /* Keep your original reading width */
+      /* No margin: auto here because flex handles the layout */
+    }
+
+    /* 5. Your Existing Styles (Applied globally) */
+    ul { list-style: none; padding-left: 20px; margin: 0; }
+    li { margin: 6px 0; }
+    a { text-decoration: none; color: #0366d6; }
+    a:hover { text-decoration: underline; }
+    
+    /* Optional: Style the Summary (Folder Name) */
+    summary { outline: none; margin-bottom: 5px; color: #333; }
+  </style>
+</head>
+<body>
+
+  <div class="page-container">
+    
+    <nav class="sidebar">
+      <div style="margin-bottom: 20px; font-weight: bold;">Documentation</div>
+      
+      {% include sidebar.html %}
+    </nav>
+
+    <main class="content">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </main>
+
+  </div>
+
+</body>
+</html>

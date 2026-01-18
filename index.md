@@ -19,7 +19,7 @@
 </li>
 {% endunless %} {% endfor %} -->
 
-
+<!-- 
 {% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
 {% assign empty_array = "" | split: "," %}
 {% assign previous_dir_parts = empty_array %}
@@ -110,4 +110,5 @@
   </li>
 {% endfor %}
 
-</ul>
+</ul> -->
+

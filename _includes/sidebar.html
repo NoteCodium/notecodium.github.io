@@ -1,0 +1,44 @@
+{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
+{% assign empty_array = "" | split: "," %}
+{% assign previous_dir_parts = empty_array %}
+
+<ul>
+{% for p in pages %}
+  {% assign parts = p.path | split: "/" %}
+  {% assign filename = parts.last %}
+
+  {% unless filename contains "index" or filename contains "404" %}
+    {% assign depth = parts.size | minus: 1 %}
+    {% assign common_depth = 0 %}
+    {% for i in (0..depth) %}
+       {% if i == depth or i == previous_dir_parts.size %}{% break %}{% endif %}
+       {% if parts[i] == previous_dir_parts[i] %}
+         {% assign common_depth = common_depth | plus: 1 %}
+       {% else %}
+         {% break %}
+       {% endif %}
+    {% endfor %}
+
+    {% assign previous_depth = previous_dir_parts.size %}
+    {% assign close_count = previous_depth | minus: common_depth %}
+    {% for i in (1..close_count) %}</ul></details></li>{% endfor %}
+
+    {% for i in (common_depth..depth) %}
+      {% if i == depth %}{% break %}{% endif %}
+      {% assign folder_name = parts[i] %}
+      <li><details><summary style="cursor: pointer;">📂 <strong>{{ folder_name }}</strong></summary><ul>
+    {% endfor %}
+
+    <li><a href="{{ p.url }}">{{ filename }}</a></li>
+
+    {% assign current_dir_parts_str = "" %}
+    {% for i in (0..depth) %}
+      {% if i == depth %}{% break %}{% endif %}
+      {% capture current_dir_parts_str %}{{ current_dir_parts_str }},{{ parts[i] }}{% endcapture %}
+    {% endfor %}
+    {% assign previous_dir_parts = current_dir_parts_str | remove_first: "," | split: "," %}
+  {% endunless %}
+{% endfor %}
+
+{% for i in (1..previous_dir_parts.size) %}</ul></details></li>{% endfor %}
+</ul>
