@@ -1,0 +1,26 @@
+# --- Jekyll ---
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# --- Ruby / Bundler ---
+.bundle/
+vendor/
+# Note: Keep Gemfile.lock in git so GitHub Pages uses your exact versions.
+# Do not ignore Gemfile.lock
+
+# --- macOS System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
