@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+  <!-- Highlight.js for syntax highlighting -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+
   <style>
     /* 1. Global Resets */
     body {
@@ -55,6 +59,14 @@
     .content img {
       max-width: 100%;
       height: auto;
+    }
+
+    /* Custom Code Block Styles */
+    pre code.hljs {
+      background-color: #e1e4e8 !important;
+      /* Darker gray for prominence */
+      border-radius: 6px;
+      padding: 1rem;
     }
 
     /* 5. Your Existing Styles (Applied globally) */
@@ -157,9 +169,7 @@
     });
   </script>
 
-  <!-- Highlight.js for syntax highlighting -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
   <script>
