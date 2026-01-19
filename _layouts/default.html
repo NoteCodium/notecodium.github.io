@@ -31,9 +31,8 @@
       background-color: #f0f2f5;
       /* Slightly darker background */
       border-right: 1px solid #d0d7de;
-      padding: 20px;
-      padding-bottom: 60px;
-      /* Ensure bottom items are reachable */
+      padding: 0;
+      /* Remove padding from parent, moved to content */
       flex-shrink: 0;
       /* Prevent shrinking */
 
@@ -42,10 +41,44 @@
       top: 0;
       height: 100vh;
       /* Full height */
-      overflow-y: auto;
-      /* Scrollable independently */
+      display: flex;
+      flex-direction: row;
+      overflow: hidden;
+      /* No scroll on parent */
       font-size: 0.9em;
-      /* Slightly smaller text for tree */
+    }
+
+    .sidebar-content {
+      flex-grow: 1;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 20px;
+      padding-bottom: 60px;
+      height: 100%;
+    }
+
+    .sidebar-resizer {
+      width: 10px;
+      cursor: col-resize;
+      background-color: transparent;
+      flex-shrink: 0;
+      height: 100%;
+      position: absolute;
+      /* Ensure correct positioning */
+      right: 0;
+      top: 0;
+      z-index: 100;
+      transition: background-color 0.2s;
+    }
+
+    .sidebar-resizer:hover,
+    .sidebar-resizer.resizing {
+      background-color: #0366d6;
+    }
+
+    .sidebar-resizer:hover,
+    .sidebar-resizer.resizing {
+      background-color: rgba(3, 102, 214, 0.5);
     }
 
     /* 4. The Main Content Area */
@@ -56,6 +89,8 @@
       max-width: 900px;
       /* Keep your original reading width */
       /* No margin: auto here because flex handles the layout */
+      min-width: 0;
+      /* Important for flex truncation */
     }
 
     .content img {
@@ -110,6 +145,7 @@
       cursor: pointer;
       color: #333;
       padding: 0 5px;
+      transition: left 0.1s;
     }
 
     body.sidebar-collapsed .sidebar {
@@ -121,13 +157,11 @@
       /* Space for the toggle button when sidebar is gone */
     }
 
-    /* Move toggle button when sidebar is visible so it's inside/top of sidebar */
+    /* Move toggle button when sidebar is visible */
     body:not(.sidebar-collapsed) .sidebar-toggle {
-      position: absolute;
-      /* relative to page-container or sidebar if sidebar was relative, but here fixed is easier */
-      /* Actually let's keep it fixed but ensure it looks okay */
+      position: fixed;
       left: 240px;
-      /* Align with right edge of sidebar roughly */
+      /* Will be updated by JS */
       top: 15px;
     }
   </style>
@@ -140,9 +174,11 @@
   <div class="page-container">
 
     <nav class="sidebar" id="sidebar">
-      <div style="margin-bottom: 20px; font-weight: bold; margin-right: 30px;">Documentation</div>
-
-      {% include sidebar.html %}
+      <div class="sidebar-content">
+        <div style="margin-bottom: 20px; font-weight: bold; margin-right: 30px;">Documentation</div>
+        {% include sidebar.html %}
+      </div>
+      <div class="sidebar-resizer" id="sidebarResizer"></div>
     </nav>
 
     <main class="content">
@@ -155,35 +191,109 @@
     document.addEventListener("DOMContentLoaded", function () {
       const toggleBtn = document.getElementById("sidebarToggle");
       const body = document.body;
+      const sidebar = document.getElementById("sidebar");
+      const sidebarContent = sidebar.querySelector('.sidebar-content');
+      const resizer = document.getElementById("sidebarResizer");
       const STORAGE_KEY = "sidebar_collapsed";
+      const WIDTH_KEY = "sidebar_width";
+      const SCROLL_KEY = "sidebar_scroll_position";
+      const DEFAULT_WIDTH = 280;
 
-      // 1. Restore state
+      // --- Helper Functions ---
+      function updateTogglePosition(width) {
+        if (!body.classList.contains("sidebar-collapsed")) {
+          // Position near right edge: width - approx 40px
+          toggleBtn.style.left = (width - 40) + "px";
+        } else {
+          toggleBtn.style.left = "20px";
+        }
+      }
+
+      function setSidebarWidth(width) {
+        sidebar.style.width = width + "px";
+        updateTogglePosition(width);
+      }
+
+      // --- 1. Restore State ---
+      // Width
+      let savedWidth = parseInt(localStorage.getItem(WIDTH_KEY));
+      if (!savedWidth || isNaN(savedWidth)) savedWidth = DEFAULT_WIDTH;
+      setSidebarWidth(savedWidth);
+
+      // Collapsed
       if (localStorage.getItem(STORAGE_KEY) === "true") {
         body.classList.add("sidebar-collapsed");
+        updateTogglePosition(savedWidth); // Resets to 20px
+      } else {
+        updateTogglePosition(savedWidth);
       }
 
-      // 2. Toggle on click
-      toggleBtn.addEventListener("click", function () {
-        body.classList.toggle("sidebar-collapsed");
-        localStorage.setItem(STORAGE_KEY, body.classList.contains("sidebar-collapsed"));
-      });
-
-      // 3. Persist Sidebar Scroll Position
-      const sidebar = document.getElementById("sidebar");
-      const SCROLL_KEY = "sidebar_scroll_position";
-
-      // Restore scroll position
+      // Scroll Position (Applied to sidebar-content now)
       const savedScroll = localStorage.getItem(SCROLL_KEY);
       if (savedScroll) {
-        sidebar.scrollTop = parseInt(savedScroll, 10);
+        sidebarContent.scrollTop = parseInt(savedScroll, 10);
       }
 
-      // Save scroll position on scroll
-      sidebar.addEventListener("scroll", function () {
-        localStorage.setItem(SCROLL_KEY, sidebar.scrollTop);
+      // --- 2. Event Listeners ---
+
+      // Toggle
+      toggleBtn.addEventListener("click", function () {
+        body.classList.toggle("sidebar-collapsed");
+        const isCollapsed = body.classList.contains("sidebar-collapsed");
+        localStorage.setItem(STORAGE_KEY, isCollapsed);
+
+        // Update position immediately
+        const currentWidth = parseInt(sidebar.style.width, 10) || DEFAULT_WIDTH;
+        updateTogglePosition(currentWidth);
+      });
+
+      // Scroll Persistence
+      sidebarContent.addEventListener("scroll", function () {
+        localStorage.setItem(SCROLL_KEY, sidebarContent.scrollTop);
+      });
+
+      // --- 3. Drag Logic ---
+      let isResizing = false;
+
+      resizer.addEventListener('mousedown', (e) => {
+        console.log("Resizer mousedown triggered");
+        isResizing = true;
+        resizer.classList.add('resizing');
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none'; // Prevent text selection
+        e.preventDefault(); // Stop default behavior
+      });
+
+      document.addEventListener('mousemove', (e) => {
+        if (!isResizing) return;
+
+        // Calculate new width
+        let newWidth = e.clientX;
+        console.log("Resizing to:", newWidth);
+
+        // Constraints
+        if (newWidth < 150) newWidth = 150;
+        if (newWidth > window.innerWidth - 100) newWidth = window.innerWidth - 100;
+
+        setSidebarWidth(newWidth);
+      });
+
+      document.addEventListener('mouseup', () => {
+        if (isResizing) {
+          console.log("Resizer mouseup triggered");
+          isResizing = false;
+          resizer.classList.remove('resizing');
+          document.body.style.cursor = '';
+          document.body.style.userSelect = '';
+
+          // Save
+          const currentWidth = parseInt(sidebar.style.width, 10);
+          localStorage.setItem(WIDTH_KEY, currentWidth);
+        }
       });
     });
   </script>
+
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
