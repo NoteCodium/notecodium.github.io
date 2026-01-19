@@ -1,0 +1,39 @@
+![image.png](3InequalitySum_images/image.png)
+
+
+```python
+int l=0, h=n-1;
+int ans=0;
+while(l<r){
+    int sum=v[l]+v[h];
+    if(sum>k){
+        ans+=(h-l);//all the pairs except v[l] alone
+        h--;
+    }
+    else{
+      l++;              
+    }
+}
+```
+
+You are given an array of integers nums and an integer target. Return the number of non-empty subsequences of nums such that the sum of the minimum and maximum element on it is less or equal to target. Since the answer may be too large, return it modulo 109 + 7.
+
+
+![image.png](3InequalitySum_images/image.png)
+
+
+```python
+int l=0,h=n-1;
+while(l<=h){
+    int sum=v[l]+v[h];
+    if(sum<=k){
+        int len=h-l+1;
+        ans=moda(ans,mpow(2,len-1));
+        l++;
+    }
+    else h--;
+}
+```
+
+![image.png](3InequalitySum_images/image.png)
+
