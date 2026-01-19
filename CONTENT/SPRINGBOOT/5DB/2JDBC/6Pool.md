@@ -10,8 +10,6 @@
 
 TODO: Secure them in a file
 
-
-
 ```
 package com.example.one;
 
@@ -82,8 +80,6 @@ db.url=jdbc:postgresql://localhost:5432/one_database
 db.username=tarunmac
 db.password=password
 ```
-
-
 
 # Creating a connection pool
 

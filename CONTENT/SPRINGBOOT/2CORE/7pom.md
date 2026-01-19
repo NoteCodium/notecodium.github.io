@@ -52,6 +52,8 @@ Result: If your artifactId is my-app and your version is 1.0.0, Maven will gener
 
 ## name 
 
+Name of folder is the name of the project
+
 2. name (The Display Label)
 
 The name is purely descriptive. It is the "pretty" name of the project used in documentation, IDEs, and build logs.
@@ -67,8 +69,6 @@ Optional: If you omit the <name> tag, Maven will simply default to using the art
 ```
 groupId.artifactId
 ```
-
-
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

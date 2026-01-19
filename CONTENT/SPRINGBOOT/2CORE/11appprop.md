@@ -43,10 +43,6 @@ public class EV implements ApplicationRunner {
 
 ![image.png](/images/image-167.png)
 
-
-
-
-
 - ![image.png](/images/image-168.png)
 
 ![image.png](/images/image-169.png)
@@ -55,5 +51,7 @@ public class EV implements ApplicationRunner {
 
 
 
+# Cons
 
+reduce readability
 
