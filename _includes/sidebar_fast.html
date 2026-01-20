@@ -100,7 +100,8 @@
 
     // Render tree as HTML
     function renderTree(tree, level = 0) {
-        let html = '<ul class="file-tree">';
+        const ulClass = level === 0 ? 'class="file-tree"' : '';
+        let html = `<ul ${ulClass}>`;
 
         Object.keys(tree).sort().forEach(key => {
             if (key === 'root') return;
