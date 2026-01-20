@@ -34,3 +34,14 @@ int evalRPN(vector<string> &vos){
 
 ```
 
+
+# Expression Tree
+as we can easily make, postfix-> expression tree, then do inorder or preorder traversal     
+
+infix <- postfix    
+
+prefix <- postfix     
+
+
+
+
