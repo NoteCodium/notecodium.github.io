@@ -170,18 +170,20 @@
       top: 15px;
     }
 
-    /* Collapse buttons */
+    /* Collapse button - sticky */
     .sidebar-actions {
-      display: flex;
-      gap: 5px;
+      position: sticky;
+      top: 0;
+      background-color: var(--sidebar-bg);
+      z-index: 10;
       padding: 10px 20px;
       border-bottom: 1px solid var(--sidebar-border);
     }
 
     .collapse-btn {
-      flex: 1;
-      padding: 6px 10px;
-      font-size: 0.75rem;
+      width: 100%;
+      padding: 8px 12px;
+      font-size: 0.8rem;
       background-color: var(--bg-color);
       border: 1px solid var(--sidebar-border);
       border-radius: 4px;
@@ -207,7 +209,6 @@
         <div style="margin-bottom: 20px; font-weight: bold; margin-right: 30px;">Documentation</div>
         <div class="sidebar-actions">
           <button class="collapse-btn" id="collapseAllBtn">Collapse All Folders</button>
-          <button class="collapse-btn" id="collapseAllHideBtn">Collapse & Hide</button>
         </div>
         {% include sidebar.html %}
       </div>
@@ -228,7 +229,6 @@
       const sidebarContent = sidebar.querySelector('.sidebar-content');
       const resizer = document.getElementById("sidebarResizer");
       const collapseAllBtn = document.getElementById("collapseAllBtn");
-      const collapseAllHideBtn = document.getElementById("collapseAllHideBtn");
       const STORAGE_KEY = "sidebar_collapsed";
       const WIDTH_KEY = "sidebar_width";
       const SCROLL_KEY = "sidebar_scroll_position";
@@ -282,19 +282,16 @@
         updateTogglePosition(currentWidth);
       });
 
-      // Collapse All Folders
+      // Collapse All Folders (except root level)
       collapseAllBtn.addEventListener("click", function () {
         const allDetails = sidebarContent.querySelectorAll('details');
-        allDetails.forEach(detail => detail.removeAttribute('open'));
-      });
-
-      // Collapse All & Hide
-      collapseAllHideBtn.addEventListener("click", function () {
-        const allDetails = sidebarContent.querySelectorAll('details');
-        allDetails.forEach(detail => detail.removeAttribute('open'));
-        body.classList.add("sidebar-collapsed");
-        localStorage.setItem(STORAGE_KEY, true);
-        updateTogglePosition(parseInt(sidebar.style.width, 10) || DEFAULT_WIDTH);
+        allDetails.forEach(detail => {
+          // Skip root-level folders (direct children of .file-tree)
+          const isRoot = detail.parentElement.parentElement.classList.contains('file-tree');
+          if (!isRoot) {
+            detail.removeAttribute('open');
+          }
+        });
       });
 
       // --- Debounce Helper ---
