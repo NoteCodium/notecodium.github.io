@@ -1,5 +1,10 @@
 [
   {
+    "name": "tarunmali.md",
+    "path": "/ADCLCHJC/tarunmali.html",
+    "dir": "ADCLCHJC"
+  },
+  {
     "name": "0StringInput.md",
     "path": "/ADCLCHJC/-1RevisionDSA/0StringInput.html",
     "dir": "ADCLCHJC/-1RevisionDSA"
@@ -3655,13 +3660,18 @@
     "dir": "CONTENT/DS/5HEAP"
   },
   {
+    "name": "2Heapyifying.md",
+    "path": "/CONTENT/DS/5HEAP/2Heapyifying.html",
+    "dir": "CONTENT/DS/5HEAP"
+  },
+  {
     "name": "1.md",
     "path": "/CONTENT/DS/6TREE/1.html",
     "dir": "CONTENT/DS/6TREE"
   },
   {
-    "name": "1Notations.md",
-    "path": "/CONTENT/DSA/1Notations.html",
+    "name": "1pq.md",
+    "path": "/CONTENT/DSA/1pq.html",
     "dir": "CONTENT/DSA"
   },
   {
@@ -3758,6 +3768,11 @@
     "name": "1.md",
     "path": "/CONTENT/DSA/7MONOTONICQUEUE/1.html",
     "dir": "CONTENT/DSA/7MONOTONICQUEUE"
+  },
+  {
+    "name": "1Notations.md",
+    "path": "/CONTENT/DSA/8STACKONLY/1Notations.html",
+    "dir": "CONTENT/DSA/8STACKONLY"
   },
   {
     "name": "1.md",

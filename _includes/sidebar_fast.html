@@ -110,7 +110,7 @@
             const folderId = key.replace(/[^a-zA-Z0-9]/g, '-');
 
             html += '<li>';
-            html += `<details id="folder-${folderId}" ${level < 2 ? 'open' : ''}>`;
+            html += `<details id="folder-${folderId}" ${level < 1 ? 'open' : ''}>`;
             html += `<summary style="cursor: pointer;">📂 <strong>${key}</strong></summary>`;
 
             if (Object.keys(node._folders).length > 0) {
@@ -227,11 +227,13 @@
                 searchStats.textContent = `Found ${scored.length} match${scored.length !== 1 ? 'es' : ''} out of ${files.length} files`;
             });
 
-            // Highlight current page
-            const currentPath = window.location.pathname.replace(/\/$/, "");
+            // Normalize path helper (remove trailing slash and extension)
+            const normalize = (p) => decodeURIComponent(p).replace(/\/$/, "").replace(/\.(html|md)$/, "");
+            const currentPath = normalize(window.location.pathname);
+
             links.forEach(link => {
-                const linkPath = new URL(link.href).pathname.replace(/\/$/, "");
-                if (currentPath === linkPath || currentPath.endsWith(linkPath)) {
+                const linkPath = normalize(new URL(link.href).pathname);
+                if (currentPath === linkPath) {
                     link.style.fontWeight = "bold";
                     link.style.color = "#d03939";
 
