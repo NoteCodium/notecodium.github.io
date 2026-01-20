@@ -58,24 +58,25 @@
     }
 
     .sidebar-content {
-      flex-grow: 1;
+      flex: 1;
+      height: 100%;
+      box-sizing: border-box;
       overflow-y: auto;
       overflow-x: hidden;
       padding: 20px;
-      padding-bottom: 60px;
-      height: 100%;
+      padding-bottom: 150px;
     }
 
     .sidebar-resizer {
-      width: 10px;
+      width: 5px;
+      /* Reduce dead zone for scrolling */
       cursor: col-resize;
       background-color: transparent;
       flex-shrink: 0;
-      height: 100%;
-      position: absolute;
-      /* Ensure correct positioning */
-      right: 0;
-      top: 0;
+      /* height: 100%; REMOVED, flex handles height */
+      /* position: absolute; REMOVED to prevent overlap with scrollbar */
+      /* right: 0; */
+      /* top: 0; */
       z-index: 100;
       transition: background-color 0.2s;
     }
@@ -251,10 +252,20 @@
         updateTogglePosition(currentWidth);
       });
 
-      // Scroll Persistence
-      sidebarContent.addEventListener("scroll", function () {
+      // --- Debounce Helper ---
+      function debounce(func, wait) {
+        let timeout;
+        return function (...args) {
+          const context = this;
+          clearTimeout(timeout);
+          timeout = setTimeout(() => func.apply(context, args), wait);
+        };
+      }
+
+      // Scroll Persistence (Debounced)
+      sidebarContent.addEventListener("scroll", debounce(function () {
         localStorage.setItem(SCROLL_KEY, sidebarContent.scrollTop);
-      });
+      }, 200));
 
       // --- 3. Drag Logic ---
       let isResizing = false;
