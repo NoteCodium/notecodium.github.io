@@ -160,6 +160,15 @@
             const tree = buildFileTree(files);
             container.innerHTML = renderTree(tree);
 
+            // Restore scroll position after Async Render
+            const sidebarContent = document.querySelector('.sidebar-content');
+            if (sidebarContent) {
+                const savedScroll = localStorage.getItem("sidebar_scroll_position");
+                if (savedScroll) {
+                    sidebarContent.scrollTop = parseInt(savedScroll, 10);
+                }
+            }
+
             // Cache links after render (used by search + active highlighting)
             const links = Array.from(document.querySelectorAll('.file-link'));
 
