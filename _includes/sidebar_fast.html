@@ -1,0 +1,229 @@
+<!-- Fuzzy Search Input -->
+<div
+    style="padding: 10px; position: sticky; top: 0; background: white; z-index: 100; border-bottom: 2px solid #e0e0e0;">
+    <input type="text" id="fuzzy-search-input" placeholder="🔍 Fuzzy search files..."
+        style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px;" />
+    <div id="search-stats" style="font-size: 11px; color: #666; margin-top: 5px; min-height: 16px;"></div>
+</div>
+
+<div id="file-tree-container">
+    <div style="padding: 20px; text-align: center; color: #666;">
+        Loading files...
+    </div>
+</div>
+
+<script>
+    // Levenshtein distance for fuzzy matching
+    function levenshteinDistance(str1, str2) {
+        const len1 = str1.length;
+        const len2 = str2.length;
+        const matrix = Array(len1 + 1).fill(null).map(() => Array(len2 + 1).fill(0));
+
+        for (let i = 0; i <= len1; i++) matrix[i][0] = i;
+        for (let j = 0; j <= len2; j++) matrix[0][j] = j;
+
+        for (let i = 1; i <= len1; i++) {
+            for (let j = 1; j <= len2; j++) {
+                const cost = str1[i - 1].toLowerCase() === str2[j - 1].toLowerCase() ? 0 : 1;
+                matrix[i][j] = Math.min(
+                    matrix[i - 1][j] + 1,
+                    matrix[i][j - 1] + 1,
+                    matrix[i - 1][j - 1] + cost
+                );
+            }
+        }
+        return matrix[len1][len2];
+    }
+
+    // Calculate fuzzy match score
+    function fuzzyScore(searchTerm, target) {
+        if (!searchTerm) return 100;
+        if (!target) return 0;
+
+        const search = searchTerm.toLowerCase();
+        const targetLower = target.toLowerCase();
+
+        if (targetLower === search) return 100;
+        if (targetLower.includes(search)) return 90;
+
+        const distance = levenshteinDistance(search, targetLower);
+        const maxLen = Math.max(search.length, targetLower.length);
+        const similarity = 1 - (distance / maxLen);
+
+        return Math.round(similarity * 80);
+    }
+
+    // Highlight matching characters
+    function highlightMatch(text, searchTerm) {
+        if (!searchTerm) return text;
+        const regex = new RegExp(`(${searchTerm.split('').join('.*?')})`, 'gi');
+        return text.replace(regex, '<mark style="background: yellow; font-weight: bold;">$1</mark>');
+    }
+
+    // Build file tree from flat list
+    function buildFileTree(files) {
+        const tree = {};
+
+        files.forEach(file => {
+            const parts = file.dir.split('/').filter(p => p);
+            let current = tree;
+
+            parts.forEach(part => {
+                if (!current[part]) {
+                    current[part] = { _files: [], _folders: {} };
+                }
+                current = current[part]._folders;
+            });
+
+            // Add file to the current folder
+            const parentParts = parts.length > 0 ? parts : ['root'];
+            let parent = tree;
+            for (let i = 0; i < parts.length - 1; i++) {
+                parent = parent[parts[i]]._folders;
+            }
+            if (parts.length > 0) {
+                const lastPart = parts[parts.length - 1];
+                if (!parent[lastPart]) {
+                    parent[lastPart] = { _files: [], _folders: {} };
+                }
+                parent[lastPart]._files.push(file);
+            } else {
+                if (!tree['root']) {
+                    tree['root'] = { _files: [], _folders: {} };
+                }
+                tree['root']._files.push(file);
+            }
+        });
+
+        return tree;
+    }
+
+    // Render tree as HTML
+    function renderTree(tree, level = 0) {
+        let html = '<ul class="file-tree">';
+
+        Object.keys(tree).sort().forEach(key => {
+            if (key === 'root') return;
+
+            const node = tree[key];
+            const folderId = key.replace(/[^a-zA-Z0-9]/g, '-');
+
+            html += '<li>';
+            html += `<details id="folder-${folderId}" ${level < 2 ? 'open' : ''}>`;
+            html += `<summary style="cursor: pointer;">📂 <strong>${key}</strong></summary>`;
+
+            if (Object.keys(node._folders).length > 0) {
+                html += renderTree(node._folders, level + 1);
+            }
+
+            if (node._files && node._files.length > 0) {
+                html += '<ul>';
+                node._files.forEach(file => {
+                    html += `<li><a href="${file.path}" class="file-link">${file.name}</a></li>`;
+                });
+                html += '</ul>';
+            }
+
+            html += '</details>';
+            html += '</li>';
+        });
+
+        // Root level files
+        if (tree['root'] && tree['root']._files) {
+            tree['root']._files.forEach(file => {
+                html += `<li><a href="${file.path}" class="file-link">${file.name}</a></li>`;
+            });
+        }
+
+        html += '</ul>';
+        return html;
+    }
+
+    // Load and render files
+    fetch('{{ "/assets/files.json" | relative_url }}')
+        .then(res => res.json())
+        .then(files => {
+            console.log(`Loaded ${files.length} files`);
+
+            const container = document.getElementById('file-tree-container');
+            const tree = buildFileTree(files);
+            container.innerHTML = renderTree(tree);
+
+            // Set up search
+            const searchInput = document.getElementById('fuzzy-search-input');
+            const searchStats = document.getElementById('search-stats');
+
+            searchInput.addEventListener('input', function (e) {
+                const searchTerm = e.target.value.trim();
+
+                if (!searchTerm) {
+                    // Reset
+                    document.querySelectorAll('.file-link').forEach(link => {
+                        link.parentElement.style.display = '';
+                        link.innerHTML = link.textContent;
+                    });
+                    document.querySelectorAll('details').forEach(d => d.style.display = '');
+                    searchStats.textContent = '';
+                    return;
+                }
+
+                // Score and filter
+                const links = Array.from(document.querySelectorAll('.file-link'));
+                const scored = links.map(link => ({
+                    element: link,
+                    filename: link.textContent,
+                    score: fuzzyScore(searchTerm, link.textContent)
+                }))
+                    .filter(item => item.score > 30)
+                    .sort((a, b) => b.score - a.score);
+
+                // Hide all first
+                links.forEach(link => link.parentElement.style.display = 'none');
+
+                // Show matches
+                scored.forEach(item => {
+                    item.element.parentElement.style.display = '';
+                    item.element.innerHTML = highlightMatch(item.filename, searchTerm);
+
+                    // Show parent folders
+                    let parent = item.element.closest('details');
+                    while (parent) {
+                        parent.style.display = '';
+                        parent.open = true;
+                        parent = parent.parentElement.closest('details');
+                    }
+                });
+
+                // Hide empty folders
+                document.querySelectorAll('details').forEach(details => {
+                    const hasVisible = Array.from(details.querySelectorAll('.file-link')).some(
+                        link => link.parentElement.style.display !== 'none'
+                    );
+                    if (!hasVisible) details.style.display = 'none';
+                });
+
+                searchStats.textContent = `Found ${scored.length} match${scored.length !== 1 ? 'es' : ''} out of ${files.length} files`;
+            });
+
+            // Highlight current page
+            const currentPath = window.location.pathname.replace(/\/$/, "");
+            links.forEach(link => {
+                const linkPath = new URL(link.href).pathname.replace(/\/$/, "");
+                if (currentPath === linkPath || currentPath.endsWith(linkPath)) {
+                    link.style.fontWeight = "bold";
+                    link.style.color = "#d03939";
+
+                    let parent = link.closest("details");
+                    while (parent) {
+                        parent.open = true;
+                        parent = parent.parentElement.closest("details");
+                    }
+                }
+            });
+        })
+        .catch(err => {
+            console.error('Failed to load files:', err);
+            document.getElementById('file-tree-container').innerHTML =
+                '<div style="padding: 20px; color: red;">Failed to load files</div>';
+        });
+</script>

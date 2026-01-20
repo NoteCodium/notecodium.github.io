@@ -1,7 +1,21 @@
 ---
 layout: 
 title: Notecodium
+
+# Exclude large folders for faster development builds
+# Comment out or remove these lines for production builds
+exclude:
+  - ADCLCHJC      # 725 files - exclude for dev
+  - CONTENT       # 108 files - exclude for dev
+  # - supernotes  # 939 files - INCLUDE for testing search
+
 defaults:
+  # Exclude JSON files from default layout
+  - scope:
+      path: "*.json"
+    values:
+      layout: null
+  # Apply default layout to markdown files
   - scope:
       path: ""
     values:

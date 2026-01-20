@@ -1,8 +1,16 @@
+<!-- Fuzzy Search Input -->
+<div
+  style="padding: 10px; position: sticky; top: 0; background: white; z-index: 100; border-bottom: 2px solid #e0e0e0;">
+  <input type="text" id="fuzzy-search-input" placeholder="🔍 Fuzzy search files..."
+    style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px;" />
+  <div id="search-stats" style="font-size: 11px; color: #666; margin-top: 5px; min-height: 16px;"></div>
+</div>
+
 {% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
 {% assign empty_array = "" | split: "," %}
 {% assign previous_dir_parts = empty_array %}
 
-<ul class="file-tree">
+<ul class="file-tree" id="file-tree">
   {% for p in pages %}
   {% assign parts = p.path | split: "/" %}
   {% assign filename = parts.last %}
@@ -67,7 +75,143 @@
 </ul>
 
 <script>
+  // Levenshtein distance for fuzzy matching
+  function levenshteinDistance(str1, str2) {
+    const len1 = str1.length;
+    const len2 = str2.length;
+    const matrix = Array(len1 + 1).fill(null).map(() => Array(len2 + 1).fill(0));
+
+    for (let i = 0; i <= len1; i++) matrix[i][0] = i;
+    for (let j = 0; j <= len2; j++) matrix[0][j] = j;
+
+    for (let i = 1; i <= len1; i++) {
+      for (let j = 1; j <= len2; j++) {
+        const cost = str1[i - 1].toLowerCase() === str2[j - 1].toLowerCase() ? 0 : 1;
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j] + 1,      // deletion
+          matrix[i][j - 1] + 1,      // insertion
+          matrix[i - 1][j - 1] + cost // substitution
+        );
+      }
+    }
+    return matrix[len1][len2];
+  }
+
+  // Calculate fuzzy match score (0-100, higher is better)
+  function fuzzyScore(searchTerm, target) {
+    if (!searchTerm) return 100;
+    if (!target) return 0;
+
+    const search = searchTerm.toLowerCase();
+    const targetLower = target.toLowerCase();
+
+    // Exact match bonus
+    if (targetLower === search) return 100;
+
+    // Contains bonus
+    if (targetLower.includes(search)) return 90;
+
+    // Levenshtein distance scoring
+    const distance = levenshteinDistance(search, targetLower);
+    const maxLen = Math.max(search.length, targetLower.length);
+    const similarity = 1 - (distance / maxLen);
+
+    return Math.round(similarity * 80); // Scale to 0-80 range
+  }
+
+  // Highlight matching characters
+  function highlightMatch(text, searchTerm) {
+    if (!searchTerm) return text;
+
+    const regex = new RegExp(`(${searchTerm.split('').join('.*?')})`, 'gi');
+    return text.replace(regex, '<mark style="background: yellow; font-weight: bold;">$1</mark>');
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.getElementById('fuzzy-search-input');
+    const searchStats = document.getElementById('search-stats');
+    const fileTree = document.getElementById('file-tree');
+
+    // Store all file links with metadata
+    const allFiles = [];
+    document.querySelectorAll('.file-link').forEach(link => {
+      const li = link.closest('li');
+      const filename = link.textContent.trim();
+      const path = link.getAttribute('href');
+
+      allFiles.push({
+        element: li,
+        link: link,
+        filename: filename,
+        path: path,
+        originalHTML: link.innerHTML
+      });
+    });
+
+    // Fuzzy search functionality
+    searchInput.addEventListener('input', function (e) {
+      const searchTerm = e.target.value.trim();
+
+      if (!searchTerm) {
+        // Reset view
+        allFiles.forEach(file => {
+          file.element.style.display = '';
+          file.link.innerHTML = file.originalHTML;
+        });
+
+        // Reset all folder visibility
+        document.querySelectorAll('details').forEach(details => {
+          const wasOpen = localStorage.getItem(details.id) === 'open';
+          details.style.display = '';
+          if (wasOpen) details.open = true;
+        });
+
+        searchStats.textContent = '';
+        return;
+      }
+
+      // Score and filter files
+      const scoredFiles = allFiles.map(file => ({
+        ...file,
+        score: fuzzyScore(searchTerm, file.filename)
+      }))
+        .filter(file => file.score > 30) // Threshold for matching
+        .sort((a, b) => b.score - a.score); // Sort by score descending
+
+      // Hide all files first
+      allFiles.forEach(file => {
+        file.element.style.display = 'none';
+        file.link.innerHTML = file.originalHTML;
+      });
+
+      // Show and highlight matched files
+      scoredFiles.forEach(file => {
+        file.element.style.display = '';
+        file.link.innerHTML = highlightMatch(file.filename, searchTerm);
+
+        // Show parent folders
+        let parent = file.element.closest('details');
+        while (parent) {
+          parent.style.display = '';
+          parent.open = true;
+          parent = parent.parentElement.closest('details');
+        }
+      });
+
+      // Hide empty folders
+      document.querySelectorAll('details').forEach(details => {
+        const hasVisibleChildren = Array.from(details.querySelectorAll('li')).some(
+          li => li.style.display !== 'none'
+        );
+        if (!hasVisibleChildren) {
+          details.style.display = 'none';
+        }
+      });
+
+      // Update stats
+      searchStats.textContent = `Found ${scoredFiles.length} match${scoredFiles.length !== 1 ? 'es' : ''} out of ${allFiles.length} files`;
+    });
+
     // 1. Restore state from localStorage
     const detailsElements = document.querySelectorAll("details");
     detailsElements.forEach(details => {
