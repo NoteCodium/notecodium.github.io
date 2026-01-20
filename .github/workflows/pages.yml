@@ -24,8 +24,12 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2"
+          # github-pages (Jekyll 3.x) is happiest on Ruby 3.1.x in Actions
+          ruby-version: "3.1"
           bundler-cache: true
+
+      - name: Install Bundler (matches Gemfile.lock)
+        run: gem install bundler -v 2.5.23
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -36,7 +40,7 @@ jobs:
         run: python3 scripts/generate_files_json.py
 
       - name: Build site with Jekyll
-        run: bundle exec jekyll build
+        run: bundle _2.5.23_ exec jekyll build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
