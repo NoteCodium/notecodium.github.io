@@ -6,6 +6,8 @@ title: Notecodium
 # Comment out or remove these lines for production builds
 exclude:
   - _site
+  - vendor
+  - .bundle
   # - ADCLCHJC      # 725 files - exclude for dev
   # - CONTENT       # 108 files - exclude for dev
   # - supernotes  # 939 files - INCLUDE for testing search
