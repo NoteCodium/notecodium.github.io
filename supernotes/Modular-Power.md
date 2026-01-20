@@ -1,0 +1,1 @@
+[n^p](https://my.supernotes.app/?preview=f9fccdd5-09c8-4bc0-ada7-112bef40fe98)

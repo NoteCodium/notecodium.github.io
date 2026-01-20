@@ -1,0 +1,1 @@
+![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d1ddc52b-ad7d-49f3-9cfb-3f2923a0550c--image.png)

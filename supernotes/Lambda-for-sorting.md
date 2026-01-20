@@ -1,0 +1,5 @@
+```cpp
+sort(ma.begin(),ma.end(),[](vector<int> &a, vector<int> &b){
+    return a[1]<b[1];
+});
+```

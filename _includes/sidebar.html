@@ -42,8 +42,9 @@
 {% assign folder_name = parts[i] %}
 {% capture path_so_far %}{{ path_so_far }}/{{ folder_name }}{% endcapture %}
 {% assign folder_id = path_so_far | replace: "/", "-" | replace: ".", "-" | slugify %}
+{% assign slash_count = path_so_far | split: "/" | size %}
 <li>
-  <details id="folder{{ folder_id }}" {% if i==0 %}open{% endif %}>
+  <details id="folder{{ folder_id }}" {% if slash_count==2 %}open{% endif %}>
     <summary style="cursor: pointer;">📂 <strong>{{ folder_name }}</strong></summary>
     <ul>
       {% endfor %}
