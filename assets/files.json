@@ -1,0 +1,542 @@
+[
+  {
+    "name": "1.md",
+    "path": "/CONTENT/CONCURRENCY/1.html",
+    "dir": "CONTENT/CONCURRENCY"
+  },
+  {
+    "name": "1Doubt.md",
+    "path": "/CONTENT/DS/1INTERCONVERSION/1Doubt.html",
+    "dir": "CONTENT/DS/1INTERCONVERSION"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/DS/1INTERCONVERSION/2.html",
+    "dir": "CONTENT/DS/1INTERCONVERSION"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DS/3STACK/1.html",
+    "dir": "CONTENT/DS/3STACK"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DS/4BST/1.html",
+    "dir": "CONTENT/DS/4BST"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DS/5HEAP/1.html",
+    "dir": "CONTENT/DS/5HEAP"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DS/6TREE/1.html",
+    "dir": "CONTENT/DS/6TREE"
+  },
+  {
+    "name": "1Notations.md",
+    "path": "/CONTENT/DSA/1Notations.html",
+    "dir": "CONTENT/DSA"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/0/1.html",
+    "dir": "CONTENT/DSA/0"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/1RECURSION/1.html",
+    "dir": "CONTENT/DSA/1RECURSION"
+  },
+  {
+    "name": "10.md",
+    "path": "/CONTENT/DSA/1RECURSION/10.html",
+    "dir": "CONTENT/DSA/1RECURSION"
+  },
+  {
+    "name": "11.md",
+    "path": "/CONTENT/DSA/1RECURSION/11.html",
+    "dir": "CONTENT/DSA/1RECURSION"
+  },
+  {
+    "name": "12.md",
+    "path": "/CONTENT/DSA/1RECURSION/12.html",
+    "dir": "CONTENT/DSA/1RECURSION"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/DSA/1RECURSION/2.html",
+    "dir": "CONTENT/DSA/1RECURSION"
+  },
+  {
+    "name": "3Generate_All.md",
+    "path": "/CONTENT/DSA/1RECURSION/3Generate_All.html",
+    "dir": "CONTENT/DSA/1RECURSION"
+  },
+  {
+    "name": "4Generate_subsets.md",
+    "path": "/CONTENT/DSA/1RECURSION/4Generate_subsets.html",
+    "dir": "CONTENT/DSA/1RECURSION"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/1.html",
+    "dir": "CONTENT/DSA/2DP"
+  },
+  {
+    "name": "1Theorratical_Sort.md",
+    "path": "/CONTENT/DSA/3SORTING/1Theorratical_Sort.html",
+    "dir": "CONTENT/DSA/3SORTING"
+  },
+  {
+    "name": "2Pivot.md",
+    "path": "/CONTENT/DSA/3SORTING/2Pivot.html",
+    "dir": "CONTENT/DSA/3SORTING"
+  },
+  {
+    "name": "3Mege_Sort.md",
+    "path": "/CONTENT/DSA/3SORTING/3Mege_Sort.html",
+    "dir": "CONTENT/DSA/3SORTING"
+  },
+  {
+    "name": "4IC.md",
+    "path": "/CONTENT/DSA/3SORTING/4IC.html",
+    "dir": "CONTENT/DSA/3SORTING"
+  },
+  {
+    "name": "5NonComparisonBased.md",
+    "path": "/CONTENT/DSA/3SORTING/5NonComparisonBased.html",
+    "dir": "CONTENT/DSA/3SORTING"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/4GREEDY/1.html",
+    "dir": "CONTENT/DSA/4GREEDY"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/5STRINGALGO/1.html",
+    "dir": "CONTENT/DSA/5STRINGALGO"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/6MONOTONICSTACK/1.html",
+    "dir": "CONTENT/DSA/6MONOTONICSTACK"
+  },
+  {
+    "name": "2DoMoreProblems.md",
+    "path": "/CONTENT/DSA/6MONOTONICSTACK/2DoMoreProblems.html",
+    "dir": "CONTENT/DSA/6MONOTONICSTACK"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/7MONOTONICQUEUE/1.html",
+    "dir": "CONTENT/DSA/7MONOTONICQUEUE"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/FREE/1.html",
+    "dir": "CONTENT/FREE"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/FREE/2.html",
+    "dir": "CONTENT/FREE"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/FREE/Resume/1.html",
+    "dir": "CONTENT/FREE/Resume"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/FRONTEND/STREAM/1.html",
+    "dir": "CONTENT/FRONTEND/STREAM"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/HLD/1.html",
+    "dir": "CONTENT/HLD"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/LANGUAGES/CPP/1.html",
+    "dir": "CONTENT/LANGUAGES/CPP"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/LANGUAGES/JAVA/1/1.html",
+    "dir": "CONTENT/LANGUAGES/JAVA/1"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/LANGUAGES/JAVA/1/2.html",
+    "dir": "CONTENT/LANGUAGES/JAVA/1"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/LANGUAGES/JAVA/2/1.html",
+    "dir": "CONTENT/LANGUAGES/JAVA/2"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/LANGUAGES/JAVASCRIPT/1.html",
+    "dir": "CONTENT/LANGUAGES/JAVASCRIPT"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/LANGUAGES/PYTHON/1.html",
+    "dir": "CONTENT/LANGUAGES/PYTHON"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/LANGUAGES/RUBY/1.html",
+    "dir": "CONTENT/LANGUAGES/RUBY"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/LLD/1.html",
+    "dir": "CONTENT/LLD"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/ML/1.html",
+    "dir": "CONTENT/ML"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SEBIP1/1.html",
+    "dir": "CONTENT/SEBIP1"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/1.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "10Data_Chart_Graphs.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/10Data_Chart_Graphs.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "11Numpy.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/11Numpy.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "2Regex.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/2Regex.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "3.Data_Reshaping.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/3.Data_Reshaping.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "4DataFrames.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/4DataFrames.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "5R.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/5R.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "6File_Management.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/6File_Management.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "7FIle_Mining.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/7FIle_Mining.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "8Data_Mining.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/8Data_Mining.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "9Importing_Exporting.md",
+    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/9Importing_Exporting.html",
+    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
+  },
+  {
+    "name": "1File_Organization.md",
+    "path": "/CONTENT/SEBIP1/DB/1File_Organization.html",
+    "dir": "CONTENT/SEBIP1/DB"
+  },
+  {
+    "name": "2Relational_Algebra.md",
+    "path": "/CONTENT/SEBIP1/DB/2Relational_Algebra.html",
+    "dir": "CONTENT/SEBIP1/DB"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SEBIP1/Data_WareHousing/1.html",
+    "dir": "CONTENT/SEBIP1/Data_WareHousing"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/SEBIP1/Data_WareHousing/2.html",
+    "dir": "CONTENT/SEBIP1/Data_WareHousing"
+  },
+  {
+    "name": "3Data_Transformation.md",
+    "path": "/CONTENT/SEBIP1/Data_WareHousing/3Data_Transformation.html",
+    "dir": "CONTENT/SEBIP1/Data_WareHousing"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SEBIP1/SHELL_PROGRAMMING/1.html",
+    "dir": "CONTENT/SEBIP1/SHELL_PROGRAMMING"
+  },
+  {
+    "name": "0.md",
+    "path": "/CONTENT/SEBIP2/0.html",
+    "dir": "CONTENT/SEBIP2"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/1.html",
+    "dir": "CONTENT/SPRINGBOOT"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/0JAVASPRINGBOOT/1.html",
+    "dir": "CONTENT/SPRINGBOOT/0JAVASPRINGBOOT"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/1History/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/1History/2Spring/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/2Spring"
+  },
+  {
+    "name": "2IOC.md",
+    "path": "/CONTENT/SPRINGBOOT/1History/2Spring/2IOC.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/2Spring"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/1History/3SpringMVC/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/3SpringMVC"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/1History/4SpringBoot/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/4SpringBoot"
+  },
+  {
+    "name": "0Lombak.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/0Lombak.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "10SpringBootApplication.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/10SpringBootApplication.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "11appprop.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/11appprop.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "12TypesOfDI.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/12TypesOfDI.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "1Flow.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/1Flow.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "2Component.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/2Component.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "3Bean.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/3Bean.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "4Stereotype.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/4Stereotype.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "5Controller.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/5Controller.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "6Configuration.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/6Configuration.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "7pom.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/7pom.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "8EnableAutoConfiguration.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/8EnableAutoConfiguration.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "9ComponentScan.md",
+    "path": "/CONTENT/SPRINGBOOT/2CORE/9ComponentScan.html",
+    "dir": "CONTENT/SPRINGBOOT/2CORE"
+  },
+  {
+    "name": "0Flow.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/0Flow.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "10MVC.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/10MVC.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "11ResponseEntity.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/11ResponseEntity.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "1Controller.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/1Controller.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "2LayeredArchitecture.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/2LayeredArchitecture.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "3pom.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/3pom.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "4ContextPath.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/4ContextPath.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "5Interceptor.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/5Interceptor.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "6JakartaFilter.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/6JakartaFilter.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "7ResponseCode.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/7ResponseCode.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "8Server.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/8Server.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "9DispatcherServlet.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/9DispatcherServlet.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
+    "name": "1JarWar.md",
+    "path": "/CONTENT/SPRINGBOOT/4MAVEN/1JarWar.html",
+    "dir": "CONTENT/SPRINGBOOT/4MAVEN"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/1JPA/1.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/1JPA"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/1.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/2.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "3Cursor.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/3Cursor.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "4Pagination.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/4Pagination.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "5PreparedStatements.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/5PreparedStatements.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "6Pool.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/6Pool.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "7Network.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/7Network.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "8PreparedStatements.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/8PreparedStatements.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/6DEVDB/1Postgres/1.html",
+    "dir": "CONTENT/SPRINGBOOT/6DEVDB/1Postgres"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/6DEVDB/2MongoDB/1.html",
+    "dir": "CONTENT/SPRINGBOOT/6DEVDB/2MongoDB"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/6DEVDB/3MySQl/1.html",
+    "dir": "CONTENT/SPRINGBOOT/6DEVDB/3MySQl"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/7CN/1.html",
+    "dir": "CONTENT/SPRINGBOOT/7CN"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/8AOP/1.html",
+    "dir": "CONTENT/SPRINGBOOT/8AOP"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/9TASKSCHEDULING/1.html",
+    "dir": "CONTENT/SPRINGBOOT/9TASKSCHEDULING"
+  }
+]

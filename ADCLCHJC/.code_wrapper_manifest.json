@@ -1,0 +1,1034 @@
+{
+  "-1RevisionDSA/999Something/0HelperFunctions.cpp": {
+    "sha1": "0efbcd55b42952388060d97375253288a56135ee",
+    "wrapper": "-1RevisionDSA/999Something/code_0HelperFunctions.cpp.md"
+  },
+  "-1RevisionDSA/lcTemplate/1.c++": {
+    "sha1": "811192db94afc07324fcbc765374e56bcdb29585",
+    "wrapper": "-1RevisionDSA/lcTemplate/code_1.c++.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/builder/Main.java": {
+    "sha1": "da2f75e5f69baf851b1641b489702ecdda552c24",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/builder/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/builder/User.java": {
+    "sha1": "6378f4c22337031b3490705e088f8c4ce486557e",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/builder/code_User.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/decorator/Main.java": {
+    "sha1": "69ba6b95d5fb796791cb818ecc55db3cb48a8f7f",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/decorator/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/factory/Board.java": {
+    "sha1": "25d0becd3ddaad37666002df451a4a5f335be7ef",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/factory/code_Board.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/factory/Chess.java": {
+    "sha1": "019ec2356d2a15fcd534fd2547720ec8f73dda70",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/factory/code_Chess.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/factory/Main.java": {
+    "sha1": "8e8f3d8ca77fb67cc0ce227fbc1d8d3925aba11c",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/factory/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/factory/old/factory/OrderManager.java": {
+    "sha1": "30365700a23f636b36d24eacfd523ca416b7b6e5",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/factory/old/factory/code_OrderManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/factory/old/factory/PaymentManagerFactory.java": {
+    "sha1": "266076e700f32cd8afa494d90777fbc0c88ebae7",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/factory/old/factory/code_PaymentManagerFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/factory/old/factory/PermFactory.java": {
+    "sha1": "96108c6818965199fd99c0e6b3f0e920bc230c72",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/factory/old/factory/code_PermFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/designpatterns/singleton/SingletonClass.java": {
+    "sha1": "79712735ec6b314f05a9ff0934b989eaaec5eeca",
+    "wrapper": "4LLD/code/src/main/java/lld/designpatterns/singleton/code_SingletonClass.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pizzamaking/Mushroom.java": {
+    "sha1": "4de081077c4f9d129492bf10189f7ce8d5d18910",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pizzamaking/code_Mushroom.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pizzamaking/Pizza.java": {
+    "sha1": "201f52985ed5f30d569e4cba69bae1e80853a0e9",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pizzamaking/code_Pizza.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pizzamaking/ThinCrust.java": {
+    "sha1": "4c4f4b667efd1014c941d1ae9fa6064a7dd3878b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pizzamaking/code_ThinCrust.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/Main.java": {
+    "sha1": "b637b48d659d6a9894b1b4aa3b1e6bb5c4f4a424",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/Mushroom.java": {
+    "sha1": "f333eaeee35441efe56ab7e590e000835830796e",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/code_Mushroom.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/Pizza.java": {
+    "sha1": "2ae863e5fbcee6b9788bc1cba8e68bb54462d6b1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/code_Pizza.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/Topping.java": {
+    "sha1": "c4da12142f1fc13d80b2bb3310f3802cb64e019a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/code_Topping.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/WheatBase.java": {
+    "sha1": "a03091d8cd572e4e79b8aa571f446d5873118258",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/pizzamaking/pm2/code_WheatBase.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/ConsoleWriter.java": {
+    "sha1": "be54b4a1648ee7a794a31517ebaa84f3ef18c90a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/code_ConsoleWriter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/FileWriter.java": {
+    "sha1": "3740c09bceab473086093b335e6032066ebeea65",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/code_FileWriter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/UpperCaseDecorator.java": {
+    "sha1": "5237909462bcd8258e7a0d1d1de395c1dde8d7b7",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/code_UpperCaseDecorator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/WriteDecorator.java": {
+    "sha1": "3b6969ca66669a34eaeaf9f30a522de3a4d2e877",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/code_WriteDecorator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/Writer.java": {
+    "sha1": "0bd368281a28fbe79f4d3149caae05da0f28351b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/decoratorRefractor/textwriter/code_Writer.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/CricGameHelper.java": {
+    "sha1": "4186a13b08f0f7a7ea797965f02d9844667df5b2",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/code_CricGameHelper.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/CricGameSimulator.java": {
+    "sha1": "0877b163eebe0fba3469187d10526f9871d28045",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/code_CricGameSimulator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/Test.java": {
+    "sha1": "1791bfa1762f861bf7c3ea90ff637c4d8560dfe1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/code_Test.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/Bowler.java": {
+    "sha1": "329584a3c67865a2d3f48d31d0b26de973fe2687",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/code_Bowler.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/Fielder.java": {
+    "sha1": "d6f310142748f65bd0d5bf97f4ea20f8e9fb041f",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/code_Fielder.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/Keeper.java": {
+    "sha1": "734ba7a146facd29671eec455cdaecf0e453aa42",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/code_Keeper.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/Player.java": {
+    "sha1": "0aa1c43528182697c59b61b0b7c0f93b4ca58619",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/code_Player.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/AllRounder.java": {
+    "sha1": "2c70ea3386702e35a4c605faad3e6329d2f99c62",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/code_AllRounder.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/BowlerImpl.java": {
+    "sha1": "4fa335717dd384b74622fadef64139b143773510",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/code_BowlerImpl.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/KeeperImpl.java": {
+    "sha1": "645bd8c046e57a13b588726cb6668624fd465b09",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/code_KeeperImpl.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/PureBatsman.java": {
+    "sha1": "8372f355befadde207894c993dc3c7ea685f294d",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/observerRefractor/cricketrelated/cricketteamRefractor/interfaces/impl/code_PureBatsman.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/AbstractCoffeeFactory.java": {
+    "sha1": "11399c318093e0e9660e6fe3c8dd001e488443c5",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_AbstractCoffeeFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/CoffeeFactory.java": {
+    "sha1": "22a1c164ea4ef520b065b61925232fd1b06bdf0d",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_CoffeeFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/CoffeeServer.java": {
+    "sha1": "cb9d5b28bb0bced98ad0cc7f74d50d9e9b734740",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_CoffeeServer.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/DAmericanBean.java": {
+    "sha1": "5576966bfce15144e0e3419b7bcd954d829cdd66",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_DAmericanBean.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/DAmericano.java": {
+    "sha1": "a6c6bfde2d1bb0e693f03328a81e0afd86fa3118",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_DAmericano.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/DAmericanoIngredientFactory.java": {
+    "sha1": "495bc3664bfc7be1c0d4b261de956c41ad5977c2",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_DAmericanoIngredientFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/DBean.java": {
+    "sha1": "76c744b0cc3ba4099a82c0e7cf46366274f7458b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_DBean.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/DCoffee.java": {
+    "sha1": "94ae655d63d8055457706542e859c15c5087eb72",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_DCoffee.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/DDefaultIngredientFactory.java": {
+    "sha1": "e8b13fc375f0ab0373118fcf1f228f110abe4d7f",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_DDefaultIngredientFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/DIngredientFactory.java": {
+    "sha1": "b5fd4baa0c0a25d8cbbd52f313064bdd49459bbd",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/CLASSIFICATION/statecode/cofeemachine/code_DIngredientFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/Board.java": {
+    "sha1": "41c8b11dd369af3cb4295fbba82cf142db676e84",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/code_Board.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/Game.java": {
+    "sha1": "49e687feff2b0d3758a2836068b50a29c68070ea",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/code_Game.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/Move.java": {
+    "sha1": "fb78b211972aaecfbf80e73ee49fef03ab1da7e9",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/code_Move.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/Pair.java": {
+    "sha1": "fc11aecc9d66302c90d944a707b8bfdc13dd45bb",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/code_Pair.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/Player.java": {
+    "sha1": "b4680f01e3b50229ffd08143d18cb86a0c990295",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/code_Player.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/Tester.java": {
+    "sha1": "089a525efc06d0290b60ad392cb631cb19753ea7",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/allboardgames/code_Tester.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/Board.java": {
+    "sha1": "77716b7f6f95d848e90297bd57db645a5f6fb6a4",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/code_Board.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/Game.java": {
+    "sha1": "8c9d66ba83cff2314b63d9f8d34efc228aac32cb",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/code_Game.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/Move.java": {
+    "sha1": "bd7986af5553345206f01f76595eda3ae976a84b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/code_Move.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/Player.java": {
+    "sha1": "af751bb551e468b61da00a4c5ca09ce188c39eb8",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/code_Player.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/TicBoard.java": {
+    "sha1": "5e2d66a08d3a443d319a9f939df058a16e83d12d",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/code_TicBoard.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/TicMove.java": {
+    "sha1": "0a01c90bf14a4533266fd8bab30b3cc63de5390e",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToe/code_TicMove.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToeBackend/target/classes/TicMove.java": {
+    "sha1": "bfe47bbbd5a8fc838cb8b5ca79d6fc9abdd775c9",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/TicTacToeBackend/target/classes/code_TicMove.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/ChessBoard.java": {
+    "sha1": "981bbd40330d3566224252a52eb487d62195096a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/code_ChessBoard.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/ChessGame.java": {
+    "sha1": "4b6b5711e0f50657932b56c922f35a2c29fe7a1b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/code_ChessGame.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/Bishop.java": {
+    "sha1": "ca55151ef836a2d94cbf4c348f6a7634b5ab3ee7",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_Bishop.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/ChessCell.java": {
+    "sha1": "6eb5cb7abfa956409ca02b81ddac96982f9c3a70",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_ChessCell.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/ChessPiece.java": {
+    "sha1": "fd7045d16cc5a7dbb6e8335e68a39043ec8b4a84",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_ChessPiece.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/Color.java": {
+    "sha1": "4cf7635ed1d7555b321c5d63f17ea034ca134a71",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_Color.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/King.java": {
+    "sha1": "62e4e9b8cbc20650a096140cc20b4caf9ca0c6a1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_King.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/Knight.java": {
+    "sha1": "58f62d5e0e2a1868e1e681c8337e08517c7117ab",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_Knight.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/Pawn.java": {
+    "sha1": "89d8d464e625e877ef607de06a53c8169f8dbeb1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_Pawn.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/PieceName.java": {
+    "sha1": "938bfbfe707b502c9f738e4caa8cad05f25bdad9",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_PieceName.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/Queen.java": {
+    "sha1": "d05e686a6393df23ce6defd81802ae85a9263976",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_Queen.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/Rook.java": {
+    "sha1": "c8054291c398cb846b29ea656bb9d71758972e05",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/chesscellandpieces/code_Rook.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/players/ChessPlayer.java": {
+    "sha1": "373c3f7a814952a7f263e8e366594c7503cf1b4f",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/players/code_ChessPlayer.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/players/ComputerChessPlayer.java": {
+    "sha1": "3716f735591fcd50042c51205eff2379270c5a7f",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/players/code_ComputerChessPlayer.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/players/HumanChessPlayer.java": {
+    "sha1": "bb1dbede36dee0980b70f6b7f7c3ee29f7270213",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/boardgames/gamespecific/chess/players/code_HumanChessPlayer.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/Main.java": {
+    "sha1": "48731709a5a814580437e9f13c4cb758bf536163",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/Add2CartAPI.java": {
+    "sha1": "1896aedfa26b42032999b75452a67dd99a16361e",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/code_Add2CartAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/FoodItemSearcherAPI.java": {
+    "sha1": "439187290cac3dd625cb57c63238791f94ad4889",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/code_FoodItemSearcherAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/GetFoodItemByIdAPI.java": {
+    "sha1": "fbd7ed9f19451fc07d605e0c48dea79921154968",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/code_GetFoodItemByIdAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/GetRestByIdAPI.java": {
+    "sha1": "6e7d8f2df3cde72eaff53dbdddc7ac0ae68a59fd",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/code_GetRestByIdAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/PlaceOrderAPI.java": {
+    "sha1": "88146af7782e7d265670f9210393bc65b4fd01b1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/code_PlaceOrderAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/RestaurantSearcherAPI.java": {
+    "sha1": "9a25813a866c13bc06ddf64981da5b67f6376833",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/code_RestaurantSearcherAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/UpdateOrderAPI.java": {
+    "sha1": "bf5c44fe4f0858539b0c3e8011ba09d2bd304445",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/apis/code_UpdateOrderAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/CardBased.java": {
+    "sha1": "446433a29b664c7c117e22dc9073b2912fe7f96b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/code_CardBased.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/CartManager.java": {
+    "sha1": "7763e3c5b7cf0a5905c27924c642b4879899e335",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/code_CartManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/DeliveryManager.java": {
+    "sha1": "32909e90490eb20a4e1e4dcc7748020b0dbe18c8",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/code_DeliveryManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/NetBanking.java": {
+    "sha1": "5cde74f87d62a5b444f0db191019fe5a7e1e4fd8",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/code_NetBanking.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/OrderManager.java": {
+    "sha1": "b3cb970d5ba3aa5943bfa9d9b6aa0804310134c5",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/code_OrderManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/PaymentManager.java": {
+    "sha1": "2bf5c0173f10e88761fd3cd9bd65c4e9e75716b8",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/code_PaymentManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/UserManager.java": {
+    "sha1": "32e7c8e3a46d583c7eff62e8e7bf0f50c1139c50",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/managers/code_UserManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/searchers/FoodItemSearcher.java": {
+    "sha1": "e818c261ba1f179b53dad7ebadb9aadd82a92359",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/searchers/code_FoodItemSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/searchers/RestSearcher.java": {
+    "sha1": "7cb18b9d33272a4165231f958b1428febfb876f0",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/businesslogic/searchers/code_RestSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/Address.java": {
+    "sha1": "c9cddede6cf18b420caf4af78af3bf4936f46019",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_Address.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/BusinessHours.java": {
+    "sha1": "3d3cdb8b47fb86f5624779e4a88839896fef64ca",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_BusinessHours.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/CartItem.java": {
+    "sha1": "af8fb7094ed5bc20ce05ef7589638daf06728fe2",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_CartItem.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/CuisineType.java": {
+    "sha1": "4dc253b8771ec5c2412962590a689bece6c78250",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_CuisineType.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/FoodItem.java": {
+    "sha1": "dd968fc27261290ab5315ee662663cbbec692850",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_FoodItem.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/MealType.java": {
+    "sha1": "5e4677bc5faf07abe6295853c063a5b0e3731d97",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_MealType.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/Menu.java": {
+    "sha1": "832a27d3c52ff7037373631c9e7e11c4eb45a4b1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_Menu.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/Order.java": {
+    "sha1": "766c7ecceabb541014a92b1e34791c22184af45b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_Order.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/OrderStatus.java": {
+    "sha1": "aa14248686f8504bb6f10cb9f803ae5c976197ea",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_OrderStatus.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/PaymentResponse.java": {
+    "sha1": "815d9c8bd11e46189c6192943edea9cf46fc1ce4",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_PaymentResponse.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/PaymentStatus.java": {
+    "sha1": "3f9e8a5f102fb1ea821f975b42972d09ed83a9c1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_PaymentStatus.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/Restaurant.java": {
+    "sha1": "159c770c8b22bac59c6dfaff01c896a24ac49b1b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_Restaurant.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/StarRating.java": {
+    "sha1": "a9f2518df34c573f93e04b97eae12424ca0d4f90",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_StarRating.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/User.java": {
+    "sha1": "53b5f6d647dd17806c581dfdf07032eb1cb23995",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/data/code_User.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/dataaccessor/DataAccessor.java": {
+    "sha1": "7d0b771ea1bdc5dd8898ce82419a9ee96c3acc24",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/dataaccessor/code_DataAccessor.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/dataaccessor/Result.java": {
+    "sha1": "53cea29dd48a191fdb54bce536bceb19dcfd23f1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/dataaccessor/code_Result.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/dataaccessor/ResultsConverterNew.java": {
+    "sha1": "86c1ff47e59698ed72cfdecba4c761c6fd53be07",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/dataaccessor/code_ResultsConverterNew.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/factory/PaymentManagerFactory.java": {
+    "sha1": "946ace1cf1d6adff10a59540bbabaaf3a0294474",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/factory/code_PaymentManagerFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/factory/PermFactory.java": {
+    "sha1": "72f8a8d0823d150a3aca852f29c49173ae72c557",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/factory/code_PermFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/CuisineTypeFilter.java": {
+    "sha1": "16bc3d46781e3691a81548286b4184d51eb3bf51",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/code_CuisineTypeFilter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/FoodItemFilter.java": {
+    "sha1": "e1e89f4b96a137159af98ed9a08ddc2c4ed90b93",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/code_FoodItemFilter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/MealTypeFilter.java": {
+    "sha1": "7220a1f64f2460c70964ac8fd783745f6e1c3b7d",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/code_MealTypeFilter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/RestFilter.java": {
+    "sha1": "3ffb91af0557809f6afe17edba5027425bad8aff",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/code_RestFilter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/StarRatingFilter.java": {
+    "sha1": "972e9f9f4ce0819d76b8f9a601192398db80978d",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/filters/code_StarRatingFilter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/Add2CartPerm.java": {
+    "sha1": "023af2d5f239d80a0dbb768f30c31c8f51c2340d",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/code_Add2CartPerm.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/CheckoutCartPerm.java": {
+    "sha1": "3f7f27244977c8489e690f52d6d19b561d500f3a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/code_CheckoutCartPerm.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/DeleteFromCartPerm.java": {
+    "sha1": "1f30c710a5ff4cc9e7c961ea3a9b59f09aecb78a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/code_DeleteFromCartPerm.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/Permission.java": {
+    "sha1": "59a72ae7e4e399fbba82e6b0bf6b3849e4ea0817",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/code_Permission.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/PlaceOrderPerm.java": {
+    "sha1": "57197846924645568ed3b1694fad311b8e00d3d5",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/code_PlaceOrderPerm.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/UpdateOrderPerm.java": {
+    "sha1": "a5fa1e8007e976a35774a84738d613684aff243c",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/permission/code_UpdateOrderPerm.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/user/Admin.java": {
+    "sha1": "c8086b8a74a0f63755d19212218676579247054a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/user/code_Admin.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/user/Member.java": {
+    "sha1": "426eca3535a6dc3df4e1f56218d82df2264ea537",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/ekart/foodDeliverySystem/user/code_Member.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/eventmgmt/EventContainer.java": {
+    "sha1": "da86f11827367c430a655aaa8ea627ce1829ba2a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/eventmgmt/code_EventContainer.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/eventmgmt/EventSyllabus.java": {
+    "sha1": "b853fa9bdaa846ad28965a022902db39a33216a5",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/eventmgmt/code_EventSyllabus.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/eventmgmt/EventTitle.java": {
+    "sha1": "9a938813f675eaacbc5f25c7a966a53eb91f2eaa",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/eventmgmt/code_EventTitle.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/eventmgmt/Main.java": {
+    "sha1": "64755a59b9a03bb15a30a98549bf83fd1778d219",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/eventmgmt/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/IllegalArgumentExeption.java": {
+    "sha1": "0377312d387572b9a0a811feeda5bdec62a357a5",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/code_IllegalArgumentExeption.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/Main.java": {
+    "sha1": "a549eea9a6bac2c731a5eb9231ce7359f06e7f35",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/Tester.java": {
+    "sha1": "2fee02d22ca0950b4f66d56d3db8f921bbd0d737",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/code_Tester.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/auth/UserAuthenticator.java": {
+    "sha1": "1c7258c6c2fe9bfc952e3be20abb162f34b2626f",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/auth/code_UserAuthenticator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/book/BookCopy.java": {
+    "sha1": "4c0660e6490fd8493426299625c534534c0b71d5",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/book/code_BookCopy.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/book/BookDetails.java": {
+    "sha1": "c11ccaee51ffa3b163b47cb0b5ec643723c64031",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/book/code_BookDetails.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/dataaccessor/DBAccessor.java": {
+    "sha1": "5507672aa196613174e07f8aa32ed6ba0fa4ae4c",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/dataaccessor/code_DBAccessor.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/dataaccessor/Results.java": {
+    "sha1": "eab5755ffba86034932c7f3e5ba8aa85c5dbee19",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/dataaccessor/code_Results.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/dataaccessor/ResultsConverter.java": {
+    "sha1": "2b3e58bacc90f432f58875527a0c4717f31305fa",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/dataaccessor/code_ResultsConverter.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/id/IDGenerator.java": {
+    "sha1": "fe0ed77e0a044703b7eb2d2e066202c83fa29da5",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/id/code_IDGenerator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/lib/Library.java": {
+    "sha1": "4762eb6a774c6be7ec574b4225ca0b70a3a1a333",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/lib/code_Library.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/AuthorBasedBookSearcher.java": {
+    "sha1": "dd3d814de237ba2796e013eb1dcfbfd411626ca1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/code_AuthorBasedBookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/BookSearcher.java": {
+    "sha1": "8b04b10b79b9f1cec174c21966d0b208c5aaaf17",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/code_BookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/IdBasedBookSearcher.java": {
+    "sha1": "67ddeb13012ff9f6b79494d98db26173ba1ab02b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/code_IdBasedBookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/IdBasedMemberSearcher.java": {
+    "sha1": "30563f96ece0f0253fb124f34faf2d8385ae5144",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/code_IdBasedMemberSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/MemberSearcher.java": {
+    "sha1": "addb36ee6d4ee4439e7c467129a6ab1ddef23a8b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/code_MemberSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/NameBasedBookSearcher.java": {
+    "sha1": "eadf59ba21b144f48e13512d3a7d1288cf8586c3",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/code_NameBasedBookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/NameBasedMemberSearcher.java": {
+    "sha1": "488d397b7dc8ae892da42365e9ed9deeec100148",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/searcher/code_NameBasedMemberSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/user/Admin.java": {
+    "sha1": "8fe18fb1fd496cee651265d7108dfa257638a698",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/user/code_Admin.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/user/Member.java": {
+    "sha1": "29614db13df1adb75b4d48cc1c22ab0c048b5ca7",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/user/code_Member.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/libmgmtDone/user/User.java": {
+    "sha1": "098aa1bc826c5880d23485029326c071bba27786",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/libmgmtDone/user/code_User.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/matchingalgorithm/mockinterviewplatform/InterviewerBucket.java": {
+    "sha1": "c8fcd5e22b82bf2e54108c36849294c1ddd00d5d",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/matchingalgorithm/mockinterviewplatform/code_InterviewerBucket.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/matchingalgorithm/mockinterviewplatform/Main.java": {
+    "sha1": "4df266a51aff3c31c5c89de128fc6fb2cd6352f1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/matchingalgorithm/mockinterviewplatform/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/matchingalgorithm/mockinterviewplatform/Node.java": {
+    "sha1": "392425c07ea3db51a77dc0256211b85b198917f1",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/matchingalgorithm/mockinterviewplatform/code_Node.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/mcdonaldticketing/Main.java": {
+    "sha1": "50b83e863d7d5190aa0d6d67de1ac754afa9cb48",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/mcdonaldticketing/code_Main.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/mcdonaldticketing/TicketingBoard.java": {
+    "sha1": "c6a5a94446548bd0fc2d838fe90f4d562d3a5755",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/mcdonaldticketing/code_TicketingBoard.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/mcdonaldticketing/workers/Customer.java": {
+    "sha1": "ef18268bf19527b1fce635eed848a11136130894",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/mcdonaldticketing/workers/code_Customer.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/FindParkingSpotAPI.java": {
+    "sha1": "f5eb554dab842a76c22b8c58b5fd24d88d1fb365",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/code_FindParkingSpotAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/finder/ParkingSpotFinder.java": {
+    "sha1": "39977f22b0c57c37d892de487eae80b1a82b63e8",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/finder/code_ParkingSpotFinder.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/NearestSelector.java": {
+    "sha1": "f0e34c62c3d362869d1b8b8f8715a3bde608d24e",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/code_NearestSelector.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/ParkingSpotSelector.java": {
+    "sha1": "ff15b644590f96b1aa0b8699e68cc3a029a2cc2c",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/code_ParkingSpotSelector.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/RandomSelector.java": {
+    "sha1": "f6f4435bfa4c3cf58ccf47fdf7247592d547653b",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/code_RandomSelector.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/SpotSelectionFactory.java": {
+    "sha1": "d139c168a28c86678523d30b77d8c76a28e0d622",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/FindParkingSpotAPI/selector/code_SpotSelectionFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/GetParkingFeeAPI.java": {
+    "sha1": "cd6967ef910f48ead5ec1b76c0dbf7747af1f740",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/code_GetParkingFeeAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/apis/GetTicketAPI.java": {
+    "sha1": "cc7124769e243b8eac53d2c92e63d6050e40f43f",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/apis/code_GetTicketAPI.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/data/EntryPoint.java": {
+    "sha1": "a05ae8bce902a5470be23d5a79230879f3c73969",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/data/code_EntryPoint.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/data/ParkingSpot.java": {
+    "sha1": "da2b134ec54539eb2fb920a17a9ff4cdc41c323a",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/data/code_ParkingSpot.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/data/SpotSelection.java": {
+    "sha1": "a7dbe23bec996628da4ad3e6039e5656150a609c",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/data/code_SpotSelection.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/data/Ticket.java": {
+    "sha1": "c41e92930ba09704b8b39eddb3aea6107251e3fe",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/data/code_Ticket.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/data/Vehicle.java": {
+    "sha1": "100530a3a65ee89b89793aa285082a7e05d53502",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/data/code_Vehicle.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/data/VehicleType.java": {
+    "sha1": "3038d166b0c610aafec1dbdbc32c30a7056e8b66",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/data/code_VehicleType.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/manager/TwoWheelerManager.java": {
+    "sha1": "56fda8facff5b6b23bcc56e37a3481cf52cadfcf",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/manager/code_TwoWheelerManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/manager/VehicleTypeManager.java": {
+    "sha1": "a1cd857c2d817ead8cf514e0814ae0d929449165",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/manager/code_VehicleTypeManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/manager/VehicleTypeManagerFactory.java": {
+    "sha1": "e8f93ea96abdc89dfc5d5caf66a29eeb1fc47c4e",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/manager/code_VehicleTypeManagerFactory.java.md"
+  },
+  "4LLD/code/src/main/java/lld/examples/parkinglot/ticket/TicketGenerator.java": {
+    "sha1": "02ad61878a2001a65bc320c664d608a736d16475",
+    "wrapper": "4LLD/code/src/main/java/lld/examples/parkinglot/ticket/code_TicketGenerator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/as_it_is/Player.java": {
+    "sha1": "05fa04000bf9bf819c7db751958ca60e056a02a4",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/as_it_is/code_Player.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/as_it_is/auth/UserAuthenticator.java": {
+    "sha1": "575cf23469771acecb0348729d24cc78e8e085e5",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/as_it_is/auth/code_UserAuthenticator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/as_it_is/id/IDGenerator.java": {
+    "sha1": "34a8ace982d1e968fb72b9297f333fadc4e3996c",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/as_it_is/id/code_IDGenerator.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/as_it_is/random/IdGeneration.java": {
+    "sha1": "2a918d40bcf2e9c5f7350ff6bb914b92f3fde70f",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/as_it_is/random/code_IdGeneration.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/as_it_is/user/Admin.java": {
+    "sha1": "69d1c86e447222896d23ff3e3a58b1063c9776ce",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/as_it_is/user/code_Admin.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/as_it_is/user/Member.java": {
+    "sha1": "2147842536f0e85c91f54fa68dd5739f4e647487",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/as_it_is/user/code_Member.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/as_it_is/user/User.java": {
+    "sha1": "d5fc8c12ed7ba5ea1fceb7daf91bc0a5b3609a43",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/as_it_is/user/code_User.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/CartManager.java": {
+    "sha1": "3659c21ca228099f50b5de2b1129c458ade70c22",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/code_CartManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/DeliveryManager.java": {
+    "sha1": "7c2d26513fabb79841bcabdc034d777847dfd599",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/code_DeliveryManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/NetBanking.java": {
+    "sha1": "d6c704cff0a2ba7ebaf38f66234e151dc23ba57a",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/code_NetBanking.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/OrderManager.java": {
+    "sha1": "878fcea0f9724fb6bf40eb377e5ac81e49be6e71",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/code_OrderManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/PaymentManager.java": {
+    "sha1": "5ef708c5d9712004e80b7f0dbbe39a1b91b30946",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/code_PaymentManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/UserManager.java": {
+    "sha1": "aa9e693e14c88fe06d77bff6023101eb5365714d",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/code_UserManager.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/impl/CardBased.java": {
+    "sha1": "ca97f0e3a695f1b4d52d0f202d0e3f35806041b3",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/paymentmode/managersRef/impl/code_CardBased.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/AuthorBasedBookSearcher.java": {
+    "sha1": "d16d5b31f2b8f78c0883d5261d70b5690f4890de",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/code_AuthorBasedBookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/BookSearcher.java": {
+    "sha1": "9887e5ce59a07f37c5c995f2c754875fbf592d3f",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/code_BookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/IdBasedBookSearcher.java": {
+    "sha1": "12bd97d9225b9ed4e497170ed661996ab937c718",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/code_IdBasedBookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/IdBasedMemberSearcher.java": {
+    "sha1": "cff58ecaa8d03b3d05573f1e9c192cba3b7c06a7",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/code_IdBasedMemberSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/MemberSearcher.java": {
+    "sha1": "9b94b11f6b832c67cd3d1d00368d9d91feda41b2",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/code_MemberSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/NameBasedBookSearcher.java": {
+    "sha1": "a3a75081e1dbde590106028078e25d51004eb513",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/code_NameBasedBookSearcher.java.md"
+  },
+  "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/NameBasedMemberSearcher.java": {
+    "sha1": "73862a3965f537d7d7f82d8308210fbae407a4d7",
+    "wrapper": "4LLD/code/src/main/java/lld/reuse/sameconcept/search/libmgmt/code_NameBasedMemberSearcher.java.md"
+  },
+  "4LLD/solid/d5/Main.java": {
+    "sha1": "9a1a8f94dc1a6258b46aa66da36116df4003fbfc",
+    "wrapper": "4LLD/solid/d5/code_Main.java.md"
+  },
+  "4LLD/solid/d5/NotificationSender/NotificationSender.java": {
+    "sha1": "4da1f988e227743810c5aa85d35ab7fc28db1ed6",
+    "wrapper": "4LLD/solid/d5/NotificationSender/code_NotificationSender.java.md"
+  },
+  "4LLD/solid/d5/NotificationSender/SmsNotificationSender.java": {
+    "sha1": "7b19e4656b89c9524a35eb46c6c9c9e0aa0e1a02",
+    "wrapper": "4LLD/solid/d5/NotificationSender/code_SmsNotificationSender.java.md"
+  },
+  "4LLD/solid/d5/PaymentProcessor/PaymentProcessor.java": {
+    "sha1": "936335ea0b580b6304a9586e07ab6d9911e585c1",
+    "wrapper": "4LLD/solid/d5/PaymentProcessor/code_PaymentProcessor.java.md"
+  },
+  "4LLD/solid/d5/PaymentProcessor/UpiPaymentProcessor.java": {
+    "sha1": "a609c4581502d75597e995984c6ea08a2f515d33",
+    "wrapper": "4LLD/solid/d5/PaymentProcessor/code_UpiPaymentProcessor.java.md"
+  },
+  "4LLD/solid/d5/PurchaseFlowManager.java": {
+    "sha1": "10a4cb3279d969969b1b8d4a554cf2ddb7f1dc23",
+    "wrapper": "4LLD/solid/d5/code_PurchaseFlowManager.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/Main.java": {
+    "sha1": "941eb685679070959502d613229c0fce1fd918bc",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/Task.java": {
+    "sha1": "e9192b282a335f52bcd525fe91734102d69198cf",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/code_Task.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/ThreadPool.java": {
+    "sha1": "392d827ab3ac5de941a16c0795758fe41eb3352b",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/code_ThreadPool.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/Worker.java": {
+    "sha1": "fc22741f2724f87b34218598293d96470623291e",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/BatchProcess/custom/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/Test.java": {
+    "sha1": "aa927b2119ddfbf6a7620373503eb06cfe963f85",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/code_Test.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/ThreadPool.java": {
+    "sha1": "4f190990d758e783f90ad817c2ff87c08c7f4bb0",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/code_ThreadPool.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/Worker.java": {
+    "sha1": "c30f1e66d846f65d9b8b3a0986a7e2bec1711814",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/client/DummyCallable.java": {
+    "sha1": "eed31875513a1475a52da7e9b04f55ffa424d40b",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/client/code_DummyCallable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/client/PairCounterCallable.java": {
+    "sha1": "7b521712b90467805f2a70ad8f8ce1a13a050232",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/client/code_PairCounterCallable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/shutdown/Shutter.java": {
+    "sha1": "b1e21cb2951badfc0d1fa535e729644e20131a23",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/customthreadpool/shutdown/code_Shutter.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/inbuilt/Main.java": {
+    "sha1": "bef39788cbd3038c6ade7cb5db39cfd1de14e2ba",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/inbuilt/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/inbuilt/Worker.java": {
+    "sha1": "08efb98e3dc68e9fb671848d15327b2e83fadb41",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/inbuilt/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/BookkeeperRunnable.java": {
+    "sha1": "3197549913f9bfba00458c7839118acb0f07f3cf",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/code_BookkeeperRunnable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/Test.java": {
+    "sha1": "43b581fefc2d4e7a89b51695792060e954f8b0d2",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/code_Test.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/ThreadPool.java": {
+    "sha1": "a7032c0091d5ebec5abeebccfbbf01e9468da522",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/code_ThreadPool.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/Worker.java": {
+    "sha1": "c96f009906f67ed17a3249907f24845061b018a5",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/clientRefractored/callables/DummyCallable.java": {
+    "sha1": "ac2d3fa0893a2710217d1d14c53457e12e3b4cb6",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/clientRefractored/callables/code_DummyCallable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/clientRefractored/callables/PairCounterCallable.java": {
+    "sha1": "86222ff44b64c9c94d8f3e4aa07f7d882561a479",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/clientRefractored/callables/code_PairCounterCallable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/clientRefractored/runnables/ProblamaticRunnable.java": {
+    "sha1": "a44de284af9ea10c5cf854e1c4f8523790409351",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/clientRefractored/runnables/code_ProblamaticRunnable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/shutdownRefractored/Shutter.java": {
+    "sha1": "ae46044a122feb0a1676acd9e47bac7bb746b041",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/problematiccustomthreadpoolRefractored/shutdownRefractored/code_Shutter.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/Main.java": {
+    "sha1": "ed4328eb6d082a2a93cfcf0d190f3a3685f6bf79",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/MultiThreadedServer.java": {
+    "sha1": "8f7c7a03d53e713d8d21cd8c0eeafdf63ad5587c",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/code_MultiThreadedServer.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/PairCounter.java": {
+    "sha1": "448c662a70674c2fec7d03cefd27be370baf6036",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/code_PairCounter.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/SingleThreadedServer.java": {
+    "sha1": "df006d862030310c9c18118ceb271d303465990a",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/ThreadPool/server/code_SingleThreadedServer.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/future/custom/CustomFutureReturnRunnable.java": {
+    "sha1": "7568b757bfd27a30a1f8815859b70e6ccc1ea69e",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/future/custom/code_CustomFutureReturnRunnable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/future/custom/Main.java": {
+    "sha1": "e1395dacb0689b94ac0718135beccffd0937df8b",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/future/custom/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/future/inbuilt/CustomCallable.java": {
+    "sha1": "257540db4611bcc05498a6f5a82b5314289fc8bc",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/future/inbuilt/code_CustomCallable.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/new/future/inbuilt/Main.java": {
+    "sha1": "85206e053e25ae19b3fb320d8a32d9cb3e9552be",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/new/future/inbuilt/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/Consumer.java": {
+    "sha1": "2a23293f854a89744d6298187886dd3769f572c6",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/code_Consumer.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/MyQueue.java": {
+    "sha1": "bd8fb618bdf355be8bdfc73cd67bd445366858d9",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/code_MyQueue.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/Producer.java": {
+    "sha1": "7100591b8a8c4e43d67f0c514f834e140350d336",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/code_Producer.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/Tester.java": {
+    "sha1": "a266211c262c0138066dd1ee879dea7c6b1a990c",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/producerconsumer/code_Tester.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/Main.java": {
+    "sha1": "532be6309687c5cb4a7fac1da6b51b0f58cf72d3",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/Number.java": {
+    "sha1": "bdc21eaa63fbb30e073d8572e336c1431b97517b",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/code_Number.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/SingletonClass.java": {
+    "sha1": "b37c81718c467195157c1f4c40ab294054002b1c",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/code_SingletonClass.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/Worker.java": {
+    "sha1": "4c166041eb6037379514df5a3fcef826b6fb7a4c",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/EventContainer.java": {
+    "sha1": "93d5702c8aec16c486b9ed5de671b12fffbc091b",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/code_EventContainer.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/EventSyllabus.java": {
+    "sha1": "fe4b0e958e5a1133deaf3cc59de47786c7685eca",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/code_EventSyllabus.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/EventTitle.java": {
+    "sha1": "ed3dab3910b0abcf6fb4066938590271efd4e165",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/code_EventTitle.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/Main.java": {
+    "sha1": "c3a2606e0836d0567d51afedd789354e3e674375",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/eventmgmt/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/keywords/Main.java": {
+    "sha1": "4aabab26eff75201fd406f6cda686508a27a5abc",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/keywords/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/keywords/Notifier.java": {
+    "sha1": "0ca37810f64d735de93bd05c40cb594ebe84983e",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/keywords/code_Notifier.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/keywords/Waiter.java": {
+    "sha1": "193c7af980a7adf74bcc02b578625bfc5afafdbd",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/keywords/code_Waiter.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore1/Main.java": {
+    "sha1": "b529799fa5ea709cbbdba3956dd47085d0e74606",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore1/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore1/NumberStore.java": {
+    "sha1": "0fa480327a1fa58dbc044b601d50cd5ea0f3dcc6",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore1/code_NumberStore.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore1/Worker.java": {
+    "sha1": "54ad09d21af31d9acdda31321b1f8ca8c82276b9",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore1/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore2/Main.java": {
+    "sha1": "c106409d671530db92606f9837d4b2c2b32d41f3",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore2/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore2/NumberStore.java": {
+    "sha1": "734958491b54be9ddde2c73527bf3f4e88cf44ec",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore2/code_NumberStore.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore2/Worker.java": {
+    "sha1": "d09f51e197f152cc1f37e47f3a084134cdceb742",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/numberstore2/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/Main.java": {
+    "sha1": "de8568ffd1336334c7321add5c0d1c0c12fa9357",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/code_Main.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/Worker.java": {
+    "sha1": "eaa44dcad02c0488052a38dff30fef33f2901fb0",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/code_Worker.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/Buzz.java": {
+    "sha1": "e788ee92a39476be63d62726b1573dca1761ace8",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/code_Buzz.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/Fizz.java": {
+    "sha1": "3c4789bb5d46a333d27c9835c93d58431a46cdd3",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/code_Fizz.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/FizzBuzz.java": {
+    "sha1": "9c6ca99f80f8d4e50917452d0cdff4af9d091945",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/code_FizzBuzz.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/Plain.java": {
+    "sha1": "ad4ffabc8c92546be7e360a9659b9da3f7ab1d81",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/code_Plain.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/Tester.java": {
+    "sha1": "59ffd277d7dcea46440c71288422a153d5b2dc90",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/fizzbuzz/code_Tester.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/specialseries/Odd.java": {
+    "sha1": "af3d711961974616e580fb81115b75661cd0a651",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/specialseries/code_Odd.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/specialseries/Tester.java": {
+    "sha1": "bd110407600be955081c4107cfb56c647bf69c27",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/specialseries/code_Tester.java.md"
+  },
+  "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/specialseries/Zero.java": {
+    "sha1": "11f8e9ed2834e7f3993b2a2fa0d49fdfc3c56e68",
+    "wrapper": "5CONCURRENCY/code/src/main/java/concurrency/threads/synchronise/specialseries/code_Zero.java.md"
+  }
+}

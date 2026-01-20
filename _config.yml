@@ -5,9 +5,10 @@ title: Notecodium
 # Exclude large folders for faster development builds
 # Comment out or remove these lines for production builds
 exclude:
+  - _site
   - ADCLCHJC      # 725 files - exclude for dev
-  - CONTENT       # 108 files - exclude for dev
-  # - supernotes  # 939 files - INCLUDE for testing search
+  # - CONTENT       # 108 files - exclude for dev
+  - supernotes  # 939 files - INCLUDE for testing search
 
 defaults:
   # Exclude JSON files from default layout
