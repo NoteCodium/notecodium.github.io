@@ -8,11 +8,18 @@ delete element
 
 generate tree out of array
 
-
-
 # Method
 
 Always track the parent of the node to be deleted
 
 1. Leaf node:, Easiest to delete
-2. 
+2. Single child node
+
+![image.png](/images/image-299.png)
+
+
+
+k=35
+
+
+
