@@ -13,13 +13,33 @@ generate tree out of array
 Always track the parent of the node to be deleted
 
 1. Leaf node:, Easiest to delete
-2. Single child node
+
+
+
+
+
+1. Single child node
 
 ![image.png](/images/image-299.png)
 
-
-
 k=35
+
+
+
+![image.png](/images/image-300.png)
+
+![image.png](/images/image-301.png)
+
+![image.png](/images/image-302.png)
+
+```
+Node* maxNode(Node* root){
+    while(root->right){
+        root=root->right;
+    }
+    return root; 
+}
+```
 
 
 
