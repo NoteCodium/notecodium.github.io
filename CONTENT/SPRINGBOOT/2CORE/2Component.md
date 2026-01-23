@@ -158,3 +158,17 @@ DevDB devDB
 //Name Autowiring
 
 spring is intelligent enough that it will figure it out
+
+
+
+1. When the default constructor is not present, we provided our own constructor
+
+![image.png](/images/image-329.png)
+
+![image.png](/images/image-330.png)
+
+![image.png](/images/image-331.png)
+
+![image.png](/images/image-332.png)
+
+![image.png](/images/image-333.png)
