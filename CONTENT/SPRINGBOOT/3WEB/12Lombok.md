@@ -1,3 +1,9 @@
+# hashCode()
+
+![image.png](/images/image-321.png)
+
+
+
 ```
 		<dependency>
 			<groupId>org.projectlombok</groupId>
@@ -5,7 +11,13 @@
 		</dependency>
 ```
 
+# @EqualsAndHashCode
 
+![image.png](/images/image-322.png)
+
+![image.png](/images/image-324.png)
+
+>  see demo
 
 
 
@@ -20,9 +32,10 @@
 //Generates a constructor for final and @NonNull fields.
 @ToString
 @EqualsAndHashCode
+@Data
 ```
 
-# toString()
+# ToString()
 
 a memory representation (default  output of an array object).
 
@@ -32,3 +45,24 @@ a memory representation (default  output of an array object).
 
 
 
+# @Data
+
+used for dto
+
+generate all except
+
+@AllArgsConstructor
+
+@NoArgsConstructor
+
+![image.png](/images/image-323.png)
+
+
+
+# @RequiredArgsConstructor
+
+
+
+- DO NOT mix @RequiredArgsConstructor with @SuperBuilder unless you understand the constructor generation. Pick one approach.
+
+Discussed in lld
