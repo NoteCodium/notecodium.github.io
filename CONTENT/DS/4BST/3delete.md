@@ -12,8 +12,6 @@ generate tree out of array
 
 ![image.png](/images/image-303.png)
 
-
-
 Always track the parent of the node to be deleted
 
 1. Leaf node 
@@ -35,15 +33,11 @@ Node* deleteLeaf(Node*node, Node*par){
 //what if we dont return the node
 ```
 
-
-
 1. Single child node
 
 ![image.png](/images/image-299.png)
 
 k=35
-
-
 
 ![image.png](/images/image-300.png)
 
@@ -51,13 +45,7 @@ k=35
 
 ![image.png](/images/image-302.png)
 
-
-
-
-
 ![image.png](/images/image-304.png)
-
-
 
 This node will either a single child node or a leaf node
 
@@ -92,11 +80,13 @@ bool hasSingleChild(Node* node){
 ```cpp
 Node* deleteSingleChild(Node*node, Node*par){
     if(node->right){
+				//node->right
         if(par->right==node) par->right=node->right;
         else par->left=node->right;
         node->right=nullptr;
     }
     else{
+				//node->left
         if(par->right==node) par->right=node->left;
         else par->left=node->left;
         node->left=nullptr;
@@ -104,3 +94,17 @@ Node* deleteSingleChild(Node*node, Node*par){
     return node;
 }
 ```
+
+![image.png](/images/image-311.png)
+
+![image.png](/images/image-312.png)
+
+deleteDoubleChildNode()
+
+The figure is already discussed above
+
+![image.png](/images/image-313.png)
+
+![image.png](/images/image-314.png)
+
+![image.png](/images/image-315.png)
