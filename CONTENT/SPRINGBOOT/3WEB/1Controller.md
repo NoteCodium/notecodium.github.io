@@ -150,8 +150,6 @@ https://gemini.google.com/share/e741fcb9d60a
 
 ![image.png](/images/image-317.png)
 
-
-
 # RequestBody
 
 ---
@@ -192,9 +190,13 @@ public class ExamResult {
 
 ![image.png](/images/image-181.png)
 
-By default we are sending json, to send XML
 
-![image.png](/images/image-201.png)
+
+![image.png](/images/image-325.png)
+
+![image.png](/images/image-326.png)
+
+By default we are sending json by GSON or JACKSON, to send XML
 
 ```
 <dependency>
@@ -202,6 +204,10 @@ By default we are sending json, to send XML
     <artifactId>jackson-dataformat-xml</artifactId>
 </dependency>
 ```
+
+
+
+![image.png](/images/image-201.png)
 
 # Update (I already knew this so easy). Patch difficult as I get to know about later
 

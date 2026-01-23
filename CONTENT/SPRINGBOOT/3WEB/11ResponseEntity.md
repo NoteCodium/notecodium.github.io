@@ -1,5 +1,9 @@
 ![image.png](/images/image-220.png)
 
+![image.png](/images/image-327.png)
+
+
+
 ```
 @GetMapping("/{employeeID}")
 public EmployeeDto getEmployee(@PathVariable Long employeeID){
@@ -18,6 +22,10 @@ new ResponseEntity<>(savedEmployeeDto, HttpStatus.CREATED);
 ```
 
 # ResponseEntity<> used at at controller level
+
+![image.png](/images/image-328.png)
+
+
 
 ```
 @GetMapping("/{employeeID}")
@@ -73,8 +81,6 @@ new ResponseEntity<>(updatedEmployeeDto, HttpStatus.OK);
 
 ![image.png](/images/image-223.png)
 
-
-
 # Patch
 
 ```
@@ -88,11 +94,4 @@ new ResponseEntity<>(updatedEmployeeDto, HttpStatus.OK);
     }
 ```
 
-
-
 # Put
-
-
-
-
-
