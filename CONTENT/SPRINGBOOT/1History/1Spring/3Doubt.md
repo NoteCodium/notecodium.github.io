@@ -8,8 +8,3 @@ We have to deploy in it WAR
 
 ![image.png](/images/image-116.png)
 
-![image.png](/images/image-118.png)
-
-![image.png](/images/image-119.png)
-
-![image.png](/images/image-218.png)
