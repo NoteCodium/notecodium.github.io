@@ -379,3 +379,119 @@ public class ConnectDB {
 
 
 
+# Spring Boot comes with HikariCP (a high-performance connection pool) by default
+
+```
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+```
+
+
+
+```
+# Connection pool settings (HikariCP is default)
+spring.datasource.url=jdbc:postgresql://localhost:5432/one_database
+spring.datasource.username=tarunmac
+spring.datasource.password=password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.datasource.hikari.maximum-pool-size=10
+spring.datasource.hikari.minimum-idle=5
+```
+
+```
+package com.example.one;
+
+import lombok.RequiredArgsConstructor;
+import org.apache.tomcat.jdbc.pool.PoolProperties;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+
+@RequiredArgsConstructor
+@Component
+public class ConnectDB {
+
+    private final DataSource dataSource;
+
+    public void inbuiltPool ()throws SQLException{
+        long s = System.currentTimeMillis();
+        for (int i = 0; i < 100; i++) {
+
+        }
+        long e = System.currentTimeMillis();
+        System.out.println("Time taken with Inbuilt Pooling: ");
+        System.out.println((e-s));
+    }
+
+    public void noPool ()throws SQLException{
+        long s = System.currentTimeMillis();
+        for (int i = 0; i < 100; i++) {
+            Connection conn = null;
+            try {
+                conn = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
+                Statement stm = conn.createStatement();
+                stm.close();
+            } finally {
+                if (conn != null)
+                    conn.close();
+            }
+        }
+        long e = System.currentTimeMillis();
+        System.out.println("Time taken without Pooling: ");
+        System.out.println((e-s));
+    }
+
+    void customConnect() throws SQLException {
+//        Connection conn = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
+//        pool();
+//        noPool();
+        inbuiltPool();
+
+
+//        However, manually using DriverManager.getConnection(...) is bad practice in Spring Boot for two reasons:
+//
+//        No Connection Pooling: DriverManager opens a new physical connection every single time the method is called, which is very slow. Spring Boot comes with HikariCP (a high-performance connection pool) by default.
+
+//        conn.setAutoCommit(false);
+
+
+//        Statement stmt=conn.createStatement();
+//        String sql="CREATE TABLE IF NOT EXISTS users (id SERIAL PRIMARY KEY, name VARCHAR(100), email VARCHAR(100))";
+//        stmt.executeUpdate(sql);
+
+//        String sqlInsert="INSERT INTO users (name, email) VALUES \n" +
+//                "('Tarun Mac', 'tarun@example.com'),\n" +
+//                "('Jane Doe', 'jane@test.io'),\n" +
+//                "('John Smith', 'john.smith@gmail.com');";
+//        stmt.executeUpdate(sqlInsert);
+
+//        Statement stmtUpdate = conn.createStatement(
+//                ResultSet.TYPE_SCROLL_INSENSITIVE,
+//                ResultSet.CONCUR_UPDATABLE  // <--- This enables rs.updateRow()
+//        );
+//        ResultSet rs=stmtUpdate.executeQuery("SELECT * FROM users");
+//        while(rs.next()){
+//            if(rs.getString("name").equals("Tarun Mac")){
+//                rs.updateInt("id", 100+rs.getInt("id"));
+//                rs.updateRow();
+//            }
+//        }
+//
+//        conn.commit();
+//
+//        stmt.close();
+//        stmtUpdate.close();
+//        conn.close();
+    }
+}
+
+```
