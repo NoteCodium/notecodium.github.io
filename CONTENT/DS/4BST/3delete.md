@@ -75,7 +75,7 @@ bool hasSingleChild(Node* node){
 }
 ```
 
-![image.png](/images/image-305.png)
+![image.png](/images/image-340.png)
 
 ```cpp
 Node* deleteSingleChild(Node*node, Node*par){
@@ -97,8 +97,6 @@ Node* deleteSingleChild(Node*node, Node*par){
 
 ![image.png](/images/image-311.png)
 
-![image.png](/images/image-312.png)
-
 deleteDoubleChildNode()
 
 The figure is already discussed above
@@ -108,3 +106,24 @@ The figure is already discussed above
 ![image.png](/images/image-314.png)
 
 ![image.png](/images/image-315.png)
+
+```cpp
+Node* deleteDoubleChild(Node*node, Node*par){
+    //dont call it directly for roots
+    pair<Node*, Node*> p=maxNode(node->left,node);
+    Node* maxEl=p.first;
+    Node* maxElPar=p.second;
+    Node* attach=nullptr;
+    if(isLeaf(maxEl)) attach=deleteLeaf(maxEl,maxElPar);
+    else attach=deleteSingleChild(maxEl,maxElPar);
+    //root node deletion will have par equals to null
+    if(par and par->right==node) par->right=attach;
+    else if(par and par->left==node) par->left=attach;
+    attach->left=node->left;
+    attach->right=node->right;
+    node->left=nullptr;
+    node->right=nullptr;
+    return node;
+}
+```
+
