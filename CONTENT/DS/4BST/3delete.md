@@ -107,6 +107,8 @@ The figure is already discussed above
 
 ![image.png](/images/image-315.png)
 
+
+
 ```cpp
 Node* deleteDoubleChild(Node*node, Node*par){
     //dont call it directly for roots
@@ -118,24 +120,25 @@ Node* deleteDoubleChild(Node*node, Node*par){
     else attach=deleteSingleChild(maxEl,maxElPar);
 
     //root node deletion will have par equals to null
-
+		//par will be non null
+		
+		//node will be either left or right of the parent 
     if(par and par->right==node) par->right=attach;
     else if(par and par->left==node) par->left=attach;
 
 
     attach->left=node->left;
     attach->right=node->right;
+
+
     node->left=nullptr;
     node->right=nullptr;
+
+		
     return node;
+
 }
 ```
-
-
-
-
-
-
 
 
 
