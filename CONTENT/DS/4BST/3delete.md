@@ -105,7 +105,11 @@ The figure is already discussed above
 
 ![image.png](/images/image-314.png)
 
-![image.png](/images/image-315.png)
+
+
+
+
+
 
 
 
@@ -146,6 +150,12 @@ Node* deleteDoubleChild(Node*node, Node*par){
 
 deleteRoot()
 
+![image.png](/images/image-345.png)
+
+Bringing the largest node of the lst at the root
+
+
+
 ```cpp
 Node* deleteRoot(Node* root){
     Node* ans=nullptr;
@@ -158,9 +168,19 @@ Node* deleteRoot(Node* root){
         delete(root);
         return ans;
     }
+
+		//deleting a double child node without a parent
+
     pair<Node*, Node*> p=maxNode(root->left,root);
     Node* pred=p.first;
     deleteDoubleChild(root,nullptr);
+
+
+    pair<Node*, Node*> p=maxNode(node->left,node);
+    Node* maxEl=p.first;
+    Node* maxElPar=p.second;
+
+
     return pred;        
 }
 ```
