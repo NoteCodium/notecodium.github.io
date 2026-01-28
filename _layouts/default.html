@@ -364,6 +364,77 @@
       });
     });
   </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Auto-convert text URLs to links in .content
+      const content = document.querySelector('.content');
+      if (!content) return;
+
+      const walker = document.createTreeWalker(
+        content,
+        NodeFilter.SHOW_TEXT,
+        {
+          acceptNode: function (node) {
+            if (['A', 'SCRIPT', 'STYLE', 'PRE', 'CODE', 'TEXTAREA'].includes(node.parentNode.tagName)) {
+              return NodeFilter.FILTER_REJECT;
+            }
+            return NodeFilter.FILTER_ACCEPT;
+          }
+        }
+      );
+
+      const nodes = [];
+      let node;
+      while (node = walker.nextNode()) nodes.push(node);
+
+      // Regex for HTTP/HTTPS URLs
+      const urlRegex = /https?:\/\/[^\s<"']+/g;
+
+      nodes.forEach(node => {
+        const text = node.nodeValue;
+        if (text.indexOf('http') === -1) return;
+
+        const fragment = document.createDocumentFragment();
+        let lastIndex = 0;
+        let match;
+
+        // Reset regex
+        urlRegex.lastIndex = 0;
+
+        while ((match = urlRegex.exec(text)) !== null) {
+          const url = match[0];
+          // Strip trailing punctuation: . , ) ]
+          const cleanUrl = url.replace(/[.,)\]]+$/, '');
+
+          // Add text before
+          fragment.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
+
+          // Add link
+          const a = document.createElement('a');
+          a.href = cleanUrl;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer";
+          a.textContent = cleanUrl;
+          fragment.appendChild(a);
+
+          // Add stripped punctuation
+          const stripped = url.substring(cleanUrl.length);
+          if (stripped) {
+            fragment.appendChild(document.createTextNode(stripped));
+          }
+
+          lastIndex = match.index + url.length;
+        }
+
+        if (lastIndex > 0) {
+          if (lastIndex < text.length) {
+            fragment.appendChild(document.createTextNode(text.substring(lastIndex)));
+          }
+          node.parentNode.replaceChild(fragment, node);
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
