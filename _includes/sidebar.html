@@ -6,7 +6,7 @@
   <div id="search-stats" style="font-size: 11px; color: #666; margin-top: 5px; min-height: 16px;"></div>
 </div>
 
-{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | sort: "path" %}
+{% assign pages = site.pages | where_exp: "p", "p.path contains '.md'" | natural_sort: "path" %}
 {% assign empty_array = "" | split: "," %}
 {% assign previous_dir_parts = empty_array %}
 

@@ -98,12 +98,15 @@
         return tree;
     }
 
+    // Natural Sort Algorithm
+    const naturalSort = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' }).compare;
+
     // Render tree as HTML
     function renderTree(tree, level = 0) {
         const ulClass = level === 0 ? 'class="file-tree"' : '';
         let html = `<ul ${ulClass}>`;
 
-        Object.keys(tree).sort().forEach(key => {
+        Object.keys(tree).sort(naturalSort).forEach(key => {
             if (key === 'root') return;
 
             const node = tree[key];
@@ -118,6 +121,9 @@
             }
 
             if (node._files && node._files.length > 0) {
+                // Sort files naturally by name
+                node._files.sort((a, b) => naturalSort(a.name, b.name));
+
                 html += '<ul>';
                 node._files.forEach(file => {
                     html += `<li><a href="${baseUrl}${file.path}" class="file-link">${file.name}</a></li>`;
@@ -131,6 +137,9 @@
 
         // Root level files
         if (tree['root'] && tree['root']._files) {
+            // Sort root files naturally
+            tree['root']._files.sort((a, b) => naturalSort(a.name, b.name));
+
             tree['root']._files.forEach(file => {
                 html += `<li><a href="${baseUrl}${file.path}" class="file-link">${file.name}</a></li>`;
             });

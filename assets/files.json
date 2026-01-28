@@ -1265,16 +1265,6 @@
     "dir": "ADCLCHJC/2DataStructures/1Trees/pureRandB"
   },
   {
-    "name": "0Basics.md",
-    "path": "/ADCLCHJC/2DataStructures/2BST/0Basics.html",
-    "dir": "ADCLCHJC/2DataStructures/2BST"
-  },
-  {
-    "name": "1EasyProblems.md",
-    "path": "/ADCLCHJC/2DataStructures/2BST/1EasyProblems.html",
-    "dir": "ADCLCHJC/2DataStructures/2BST"
-  },
-  {
     "name": "2NewStuff.md",
     "path": "/ADCLCHJC/2DataStructures/2BST/2NewStuff.html",
     "dir": "ADCLCHJC/2DataStructures/2BST"
@@ -3655,6 +3645,16 @@
     "dir": "CONTENT/DS/4BST"
   },
   {
+    "name": "2.md",
+    "path": "/CONTENT/DS/4BST/2.html",
+    "dir": "CONTENT/DS/4BST"
+  },
+  {
+    "name": "3delete.md",
+    "path": "/CONTENT/DS/4BST/3delete.html",
+    "dir": "CONTENT/DS/4BST"
+  },
+  {
     "name": "1.md",
     "path": "/CONTENT/DS/5HEAP/1.html",
     "dir": "CONTENT/DS/5HEAP"
@@ -3670,14 +3670,19 @@
     "dir": "CONTENT/DS/6TREE"
   },
   {
-    "name": "1pq.md",
-    "path": "/CONTENT/DSA/1pq.html",
-    "dir": "CONTENT/DSA"
-  },
-  {
     "name": "1.md",
     "path": "/CONTENT/DSA/0/1.html",
     "dir": "CONTENT/DSA/0"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/10BST/1.html",
+    "dir": "CONTENT/DSA/10BST"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/DSA/10BST/2.html",
+    "dir": "CONTENT/DSA/10BST"
   },
   {
     "name": "1.md",
@@ -3776,6 +3781,86 @@
   },
   {
     "name": "1.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/0usingpq/1.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/0usingpq"
+  },
+  {
+    "name": "2LongMEETINGS.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/0usingpq/2LongMEETINGS.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/0usingpq"
+  },
+  {
+    "name": "3LongSERVER.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/0usingpq/3LongSERVER.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/0usingpq"
+  },
+  {
+    "name": "4LongCPU.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/0usingpq/4LongCPU.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/0usingpq"
+  },
+  {
+    "name": "1syntax.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/1syntaxrelated/1syntax.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/1syntaxrelated"
+  },
+  {
+    "name": "2CakeWalk.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/1syntaxrelated/2CakeWalk.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/1syntaxrelated"
+  },
+  {
+    "name": "3UsingPQAnywhere.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/1syntaxrelated/3UsingPQAnywhere.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/1syntaxrelated"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/2dplooking/1.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/2dplooking"
+  },
+  {
+    "name": "1sheduletask1.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/3greedypq/1sheduletask1.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/3greedypq"
+  },
+  {
+    "name": "2sheduletask2.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/3greedypq/2sheduletask2.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/3greedypq"
+  },
+  {
+    "name": "3Huffmen.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/3greedypq/3Huffmen.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/3greedypq"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/4pointersmoving/1.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/4pointersmoving"
+  },
+  {
+    "name": "1Median.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/5stream-twoheaps-multiset-pbds/1Median.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/5stream-twoheaps-multiset-pbds"
+  },
+  {
+    "name": "2MedianInWindow.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/5stream-twoheaps-multiset-pbds/2MedianInWindow.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/5stream-twoheaps-multiset-pbds"
+  },
+  {
+    "name": "999PBDS.md",
+    "path": "/CONTENT/DSA/9PRIORITYQUEUE/5stream-twoheaps-multiset-pbds/999PBDS.html",
+    "dir": "CONTENT/DSA/9PRIORITYQUEUE/5stream-twoheaps-multiset-pbds"
+  },
+  {
+    "name": "0.md",
+    "path": "/CONTENT/ERD/0.html",
+    "dir": "CONTENT/ERD"
+  },
+  {
+    "name": "1.md",
     "path": "/CONTENT/FREE/1.html",
     "dir": "CONTENT/FREE"
   },
@@ -3783,6 +3868,11 @@
     "name": "2.md",
     "path": "/CONTENT/FREE/2.html",
     "dir": "CONTENT/FREE"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/FREE/BARC/1.html",
+    "dir": "CONTENT/FREE/BARC"
   },
   {
     "name": "1.md",
@@ -3951,33 +4041,43 @@
   },
   {
     "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/-1faang/1.html",
+    "dir": "CONTENT/SPRINGBOOT/-1faang"
+  },
+  {
+    "name": "1.md",
     "path": "/CONTENT/SPRINGBOOT/0JAVASPRINGBOOT/1.html",
     "dir": "CONTENT/SPRINGBOOT/0JAVASPRINGBOOT"
   },
   {
     "name": "1.md",
-    "path": "/CONTENT/SPRINGBOOT/1History/1.html",
-    "dir": "CONTENT/SPRINGBOOT/1History"
+    "path": "/CONTENT/SPRINGBOOT/1History/0Servlet/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/0Servlet"
   },
   {
     "name": "1.md",
-    "path": "/CONTENT/SPRINGBOOT/1History/2Spring/1.html",
-    "dir": "CONTENT/SPRINGBOOT/1History/2Spring"
+    "path": "/CONTENT/SPRINGBOOT/1History/1Spring/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/1Spring"
   },
   {
     "name": "2IOC.md",
-    "path": "/CONTENT/SPRINGBOOT/1History/2Spring/2IOC.html",
-    "dir": "CONTENT/SPRINGBOOT/1History/2Spring"
+    "path": "/CONTENT/SPRINGBOOT/1History/1Spring/2IOC.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/1Spring"
+  },
+  {
+    "name": "3Doubt.md",
+    "path": "/CONTENT/SPRINGBOOT/1History/1Spring/3Doubt.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/1Spring"
   },
   {
     "name": "1.md",
-    "path": "/CONTENT/SPRINGBOOT/1History/3SpringMVC/1.html",
-    "dir": "CONTENT/SPRINGBOOT/1History/3SpringMVC"
+    "path": "/CONTENT/SPRINGBOOT/1History/2SpringMVC/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/2SpringMVC"
   },
   {
     "name": "1.md",
-    "path": "/CONTENT/SPRINGBOOT/1History/4SpringBoot/1.html",
-    "dir": "CONTENT/SPRINGBOOT/1History/4SpringBoot"
+    "path": "/CONTENT/SPRINGBOOT/1History/3SpringBoot/1.html",
+    "dir": "CONTENT/SPRINGBOOT/1History/3SpringBoot"
   },
   {
     "name": "0Lombak.md",
@@ -4060,6 +4160,11 @@
     "dir": "CONTENT/SPRINGBOOT/3WEB"
   },
   {
+    "name": "12Lombok.md",
+    "path": "/CONTENT/SPRINGBOOT/3WEB/12Lombok.html",
+    "dir": "CONTENT/SPRINGBOOT/3WEB"
+  },
+  {
     "name": "1Controller.md",
     "path": "/CONTENT/SPRINGBOOT/3WEB/1Controller.html",
     "dir": "CONTENT/SPRINGBOOT/3WEB"
@@ -4105,9 +4210,19 @@
     "dir": "CONTENT/SPRINGBOOT/3WEB"
   },
   {
+    "name": "0Resources.md",
+    "path": "/CONTENT/SPRINGBOOT/4MAVEN/0Resources.html",
+    "dir": "CONTENT/SPRINGBOOT/4MAVEN"
+  },
+  {
     "name": "1JarWar.md",
     "path": "/CONTENT/SPRINGBOOT/4MAVEN/1JarWar.html",
     "dir": "CONTENT/SPRINGBOOT/4MAVEN"
+  },
+  {
+    "name": "0Flow.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/0Flow.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB"
   },
   {
     "name": "1.md",
@@ -4153,6 +4268,31 @@
     "name": "8PreparedStatements.md",
     "path": "/CONTENT/SPRINGBOOT/5DB/2JDBC/8PreparedStatements.html",
     "dir": "CONTENT/SPRINGBOOT/5DB/2JDBC"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/3Hibernate/1.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/3Hibernate"
+  },
+  {
+    "name": "2Statges.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/3Hibernate/2Statges.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/3Hibernate"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/4SpringDataJPA/1.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/4SpringDataJPA"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/5Transactions/1.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/5Transactions"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SPRINGBOOT/5DB/6Analytics/1.html",
+    "dir": "CONTENT/SPRINGBOOT/5DB/6Analytics"
   },
   {
     "name": "1.md",
