@@ -1,6 +1,0 @@
-```python
-
-```
-
-![{12698D7F-6233-4D1F-B6C8-AEFDE4AE5021}.png](ImpactPlayer_images/{12698D7F-6233-4D1F-B6C8-AEFDE4AE5021}.png)
-

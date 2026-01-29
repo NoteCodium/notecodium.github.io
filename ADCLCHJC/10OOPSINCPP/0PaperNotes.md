@@ -1,5 +1,0 @@
-paper notes
-
-
-az
-

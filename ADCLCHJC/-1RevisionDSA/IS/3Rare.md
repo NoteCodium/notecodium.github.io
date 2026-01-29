@@ -1,5 +1,0 @@
-Matrix Real representation
-
-
-Strassen 
-
