@@ -2,3 +2,9 @@
 2. Leaves are already heaps
 
 https://www.geeksforgeeks.org/problems/heap-sort/1
+
+
+
+
+
+![image.png](/images/image-366.png)
