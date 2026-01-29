@@ -5,6 +5,11 @@ https://www.geeksforgeeks.org/problems/heap-sort/1
 
 
 
-
+# Bubbling it up
 
 ![image.png](/images/image-366.png)
+
+![image.png](/images/image-367.png)
+
+![image.png](/images/image-368.png)
+
