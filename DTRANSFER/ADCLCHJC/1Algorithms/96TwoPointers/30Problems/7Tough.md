@@ -6,7 +6,7 @@ title: 7Tough
 Given an array, find the length of the smallest subarray in it which when sorted will sort the whole array.
 
 nlogn sol   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_7Tough__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_7Tough__att_0001.png)
 
 ```python
 //n   
@@ -35,7 +35,7 @@ You can increment an element, you can perform the operation k times. Return the 
 => It implies you can increase an element multiple times also, the only thing is the limit
 is k
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_7Tough__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_7Tough__att_0002.png)
 
 ```python
 int maxFrequency(vector<int>& v, int k) {

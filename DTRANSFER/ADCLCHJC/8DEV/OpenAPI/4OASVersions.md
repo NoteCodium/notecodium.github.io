@@ -9,11 +9,11 @@ https://editor.swagger.io/
 
 https://editor-next.swagger.io/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_8DEV_OpenAPI_4OASVersions__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_8DEV_OpenAPI_4OASVersions__att_0001.png)
 
 swaggerhub
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_8DEV_OpenAPI_4OASVersions__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_8DEV_OpenAPI_4OASVersions__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_8DEV_OpenAPI_4OASVersions__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_8DEV_OpenAPI_4OASVersions__att_0003.png)
 {% endraw %}

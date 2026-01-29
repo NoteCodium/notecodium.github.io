@@ -5,7 +5,7 @@ title: 22FirstProblem
 {% raw %}
 https://leetcode.com/problems/find-the-duplicate-number/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_22FirstProblem__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_22FirstProblem__att_0001.png)
 
 ```python
 class Solution {

@@ -43,7 +43,7 @@ public:
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_5LL_3Algorithms_circular_2FindPointWhereCycleStart__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_5LL_3Algorithms_circular_2FindPointWhereCycleStart__att_0001.png)
 
 ```python
 jab tak startingNode waha l1 travel karega, exactlly intersectingNode bhi wahi tak 

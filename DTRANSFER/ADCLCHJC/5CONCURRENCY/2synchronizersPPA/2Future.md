@@ -91,5 +91,5 @@ FutureTask is just like a Worker
 We can get a value from futureTask.get()
 
 UTH
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_2synchronizersPPA_2Future__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_2synchronizersPPA_2Future__att_0001.png)
 {% endraw %}

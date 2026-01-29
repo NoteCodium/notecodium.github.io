@@ -5,19 +5,19 @@ title: 5BSTLCA
 {% raw %}
 https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0001.png)
 
 then r is the lca
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0002.png)
 
 edge case
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0003.png)
 
 if the curr reached any of the node then return that node
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_5BSTLCA__att_0004.png)
 
 # FAANG    
 iterative approach

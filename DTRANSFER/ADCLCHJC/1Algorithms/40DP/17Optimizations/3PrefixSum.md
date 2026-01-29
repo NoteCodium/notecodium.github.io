@@ -5,25 +5,25 @@ title: 3PrefixSum
 {% raw %}
 WAY1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0001.png)
 
 way2 (archieve?)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0004.png)
 
 https://codeforces.com/problemset/problem/1288/C
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0005.png)
 
 all the elements in array b are smaller then min and hence smaller then all the elements in b till minn
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0007.png)
 
 ->      
     |    
@@ -32,7 +32,7 @@ all the elements in array b are smaller then min and hence smaller then all the 
 
 continuously increasing loop
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0008.png)
 
 f[i][j-1]= f[i-1][1]+f[i-1][2]+......+ f[i-1][j-1]
 
@@ -57,13 +57,13 @@ for(ll i=1;i<=limit;i++){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0010.png)
 
 https://atcoder.jp/contests/dp/tasks/dp_m
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0011.png)
 
 ```python
 void solve() {  
@@ -98,9 +98,9 @@ void solve() {
 
 https://atcoder.jp/contests/abc222/tasks/abc222_d
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0012.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_17Optimizations_3PrefixSum__att_0013.png)
 
 matter
 {% endraw %}

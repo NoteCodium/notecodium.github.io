@@ -5,12 +5,12 @@ title: 2CF
 {% raw %}
 https://cses.fi/problemset/task/1676/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0001.png)
 
 no. of components:    
 size of the largest component:
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0002.png)
 
 ```python
 void solve() {
@@ -47,7 +47,7 @@ Friends continue sending the news to their friends, and so on. The process ends 
 you have to determine what is the number of users that will know the news if initially only user 𝑥
  starts distributing it.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0003.png)
 
 sol.
 
@@ -115,7 +115,7 @@ https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/C
 the players fight the monsters and get the experience,     
 . After the destruction of the monster, all the players of the team get the same amount of experience points.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_2CF__att_0004.png)
 
 ```python
 void solve() {

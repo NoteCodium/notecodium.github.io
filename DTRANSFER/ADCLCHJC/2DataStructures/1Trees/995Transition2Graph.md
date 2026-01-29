@@ -19,17 +19,17 @@ https://leetcode.com/problems/validate-binary-tree-nodes/
 4. All nodes are reachable from the root → visited.size() == n 
   (there are no disconnected components)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0006.png)
 
 when we know the root, we can do bfs or dfs to check if all nodes are reachable
 
@@ -104,7 +104,7 @@ class Solution {
 
 https://leetcode.com/problems/create-binary-tree-from-descriptions/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0007.png)
 
 after graph
 
@@ -112,7 +112,7 @@ https://youtu.be/Rt2prDOV2hU?si=IZxyuxXz45BJobX3
 
 https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_995Transition2Graph__att_0008.png)
 
 https://www.youtube.com/watch?v=vrbJ7aDuK-A&list=PLpIkg8OmuX-K23LhcamOcDlTBisiNJy5E&index=48
 {% endraw %}

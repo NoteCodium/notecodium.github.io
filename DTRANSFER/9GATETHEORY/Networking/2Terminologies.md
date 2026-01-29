@@ -11,7 +11,7 @@ encoding digital data onto an analog carrier signal for transmission over a comm
 
 This is done to enable the transmission of digital information over various physical mediums like copper wires, optical fibers, or wireless radio waves, which typically support analog signals.
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0001.png)
 
 Hub
 broadcast the signal, repeater with multiple ports
@@ -67,34 +67,34 @@ Many routers include DHCP servers,
     3.  DNS (Domain Name System) server addresses
 
 # Topologies  
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0004.png)  
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0004.png)  
 
-![image-2.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0002.png)  
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0002.png)  
 
 
-![image-3.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0003.png)
+![image-3.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0008.png)
 
 Queue op/vs/op processing
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0011.png)  
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0011.png)  
 
-![image-2.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0010.png)
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0010.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0012.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0013.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0014.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0014.png)
 
 # three way handshake  
 
@@ -130,5 +130,5 @@ This packet acknowledges the server's SYN-ACK packet by sending an acknowledgmen
 Purpose: To confirm the connection is established.
 Client → Server: ACK
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_2Terminologies__att_0015.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_2Terminologies__att_0015.png)
 {% endraw %}

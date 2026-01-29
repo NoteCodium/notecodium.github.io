@@ -11,13 +11,13 @@ Durability
 
 Transaction is
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_5Theorem__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_5Theorem__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_5Theorem__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_5Theorem__att_0002.png)
 
 # States of a transction
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_5Theorem__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_5Theorem__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_5Theorem__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_5Theorem__att_0004.png)
 {% endraw %}

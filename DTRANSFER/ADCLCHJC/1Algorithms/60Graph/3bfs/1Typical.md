@@ -23,10 +23,10 @@ void bfs(int src){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0001.png)    
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0001.png)    
 https://www.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0002.png)
 
 ```python
 
@@ -46,7 +46,7 @@ vector<string> generate(int n){
 ```
 
 https://leetcode.com/problems/shortest-path-in-binary-matrix/description/   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0003.png)
 
 In dp we used to find no. of ways, here we have to find the smalleest path
 
@@ -92,12 +92,12 @@ int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0004.png)    
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0004.png)    
 https://leetcode.com/problems/01-matrix/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0006.png)
 
 for each 1, find the nearest 0
 
@@ -153,9 +153,9 @@ class Solution {
 //the above problem was for each 1, find the nearest 0
 //the below problem is for overall each 0, find the farthest 1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0008.png)
 
 ```python
 class Solution {
@@ -219,11 +219,11 @@ class Solution {
 # Snake and ladder   
 https://www.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0010.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0011.png)
 
 ```python
     int minThrow(int n, int v[]){
@@ -267,7 +267,7 @@ https://www.geeksforgeeks.org/problems/snake-and-ladder-problem4816/1
 
 https://leetcode.com/problems/rotting-oranges/description/  
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_1Typical__att_0012.png)
 
 Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.   
 Maintain cnt of fresh oranges and finally the became 0 or not

@@ -40,11 +40,11 @@ class BSTIterator {
      */
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_designproblems_1Iterator__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_designproblems_1Iterator__att_0001.png)
 
 Our bst will pass the root, it will use the class written by you
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_designproblems_1Iterator__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_designproblems_1Iterator__att_0002.png)
 
 # MAANG constant space
 

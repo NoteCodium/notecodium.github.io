@@ -15,25 +15,25 @@ they are multipliable only because q is common among them
 There will be p*q*r operations
 
 for ex.  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0004.png)
 
 doubt
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0006.png)
 
 https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1
 
 input in gfg  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0008.png)  
-![image-2.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0008.png)  
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0007.png)
 
 ```python
 class Solution{
@@ -84,7 +84,7 @@ class Solution{
 q.        
 https://leetcode.com/problems/stone-game-v/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0009.png)
 
 ```python
 class Solution {
@@ -114,7 +114,7 @@ class Solution {
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0010.png)
 
 Its bottom up solution gives rise to the third type
 
@@ -185,7 +185,7 @@ class Solution {
   };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0011.png)
 
 ```python
 //archieved
@@ -215,9 +215,9 @@ class Solution{
 
 https://leetcode.com/problems/minimum-cost-to-cut-a-stick
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0012.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0013.png)
 
 ```python
 class Solution {
@@ -268,7 +268,7 @@ return dp[0][n+1];
 
 
 striver universal method?  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0014.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_34MCM__att_0014.png)
 
 this is important point by striver, bottom up is filled opposite of top- bottom
 

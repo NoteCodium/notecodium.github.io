@@ -5,7 +5,7 @@ title: 6binarysearch
 {% raw %}
 https://codeforces.com/contest/1486/problem/C2
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0001.png)
 
 ```python
 ll ask(ll l, ll r){
@@ -84,17 +84,17 @@ void solve(){
 
 https://codeforces.com/problemset/problem/1698/D
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0005.png)
 
 BS
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0006.png)
 
 ```python
 vl ask(ll l, ll r){
@@ -135,5 +135,5 @@ void solve(){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_6binarysearch__att_0007.png)
 {% endraw %}

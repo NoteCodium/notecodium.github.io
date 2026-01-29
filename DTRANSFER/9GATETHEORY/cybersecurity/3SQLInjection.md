@@ -3,12 +3,12 @@ title: 3SQLInjection
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_cybersecurity_3SQLInjection__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_cybersecurity_3SQLInjection__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_cybersecurity_3SQLInjection__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_cybersecurity_3SQLInjection__att_0002.png)
 
 jugaad sol  
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_cybersecurity_3SQLInjection__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_cybersecurity_3SQLInjection__att_0003.png)
 
 USE ORM and not raw SQL
 

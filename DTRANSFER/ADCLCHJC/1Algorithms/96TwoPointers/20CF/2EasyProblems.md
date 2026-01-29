@@ -82,7 +82,7 @@ int characterReplacement(string s, int k) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_20CF_2EasyProblems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_20CF_2EasyProblems__att_0001.png)
 
 ```python
 int numberOfSubstrings(string s) {

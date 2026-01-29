@@ -3,7 +3,7 @@ title: 3Intersection
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0001.png)
 
 https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1
 
@@ -21,7 +21,7 @@ int findPlatform(int arr[], int dep[], int n){
 
 this concept got missing from my array concepts
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0002.png)
 
 https://www.interviewbit.com/problems/meeting-rooms/
 
@@ -73,7 +73,7 @@ Also possible with sweep lines az
 # MAANG
 I think I have not done Grokking
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0003.png)
 
 https://leetcode.com/problems/my-calendar-iii/description/
 
@@ -104,7 +104,7 @@ public:
 
 calendar 2 is easy if done like above
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0004.png)
 
 https://leetcode.com/problems/my-calendar-i/description/
 
@@ -125,7 +125,7 @@ class MyCalendar {
             }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0005.png)
 
 ```python
 auto it = se.upper_bound({s,INT_MIN});
@@ -140,7 +140,7 @@ return 1;
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0006.png)
 
 ```python
 class MyCalendar {
@@ -238,7 +238,7 @@ leetcode premium
 https://leetcode.com/problems/employee-free-time/description/?envType=list&envId=ppzcw7vd
 https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/63936f6bb15a00b56fb3cf01
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0007.png)
 
 find the free time
 
@@ -246,7 +246,7 @@ find the free time
 
 # Intersection with capcity
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_3Intersection__att_0008.png)
 
 https://leetcode.com/problems/car-pooling/
 

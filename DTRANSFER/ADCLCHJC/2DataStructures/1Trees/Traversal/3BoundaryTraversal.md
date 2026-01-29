@@ -9,9 +9,9 @@ tough
 
 https://www.naukri.com/code360/problems/boundary-traversal-of-binary-tree_790725
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_3BoundaryTraversal__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_3BoundaryTraversal__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_3BoundaryTraversal__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_3BoundaryTraversal__att_0002.png)
 
 left boundary
 

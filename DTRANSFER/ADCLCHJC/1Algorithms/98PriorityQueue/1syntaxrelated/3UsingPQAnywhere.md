@@ -6,7 +6,7 @@ title: 3UsingPQAnywhere
 https://leetcode.com/problems/find-k-closest-elements/description/   
 Find K Closest Elements
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_1syntaxrelated_3UsingPQAnywhere__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_1syntaxrelated_3UsingPQAnywhere__att_0001.png)
 
 ```python
 vector<int> findClosestElements(vector<int>& v, int noOfClosestElem, int k) {

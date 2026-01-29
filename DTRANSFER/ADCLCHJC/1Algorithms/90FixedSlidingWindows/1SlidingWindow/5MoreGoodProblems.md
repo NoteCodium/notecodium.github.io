@@ -5,7 +5,7 @@ title: 5MoreGoodProblems
 {% raw %}
 https://leetcode.com/problems/k-radius-subarray-averages/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_5MoreGoodProblems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_5MoreGoodProblems__att_0001.png)
 
 ```python
 class Solution {
@@ -39,7 +39,7 @@ class Solution {
 
 https://codeforces.com/contest/1341/problem/B
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_5MoreGoodProblems__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_5MoreGoodProblems__att_0002.png)
 
 ```python
 void solve(){

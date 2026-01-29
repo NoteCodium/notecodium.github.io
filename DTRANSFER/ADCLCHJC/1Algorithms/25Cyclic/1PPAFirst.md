@@ -25,7 +25,7 @@ for(int i=0;i<n;i++){
 
 Placing such a number which represents both the old values and the new value
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_1PPAFirst__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_1PPAFirst__att_0001.png)
 
 ```python
 vector<ll> v(n);
@@ -44,11 +44,11 @@ cout<<'\n';
 
 # The start of cycle concept
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_1PPAFirst__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_1PPAFirst__att_0002.png)
 
 pehala element 1 hain, element at 1 index should me made 0 (us elemenet ka idx)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_1PPAFirst__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_1PPAFirst__att_0003.png)
 
 ```python
 for(int i=0;i<n;i++){

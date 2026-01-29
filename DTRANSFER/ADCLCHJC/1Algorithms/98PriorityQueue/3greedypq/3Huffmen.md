@@ -3,16 +3,16 @@ title: 3Huffmen
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0002.png)
 
 # Process    
 Always pick the two smallest
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0004.png)
 
 # ENCODING :
 
@@ -112,7 +112,7 @@ class Solution {
   };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_3Huffmen__att_0005.png)
 
 ```python
 string decodeHuffmanData(struct MinHeapNode* root, string e){

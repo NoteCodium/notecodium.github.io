@@ -27,7 +27,7 @@ public:
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_4TwoPointersIntervals__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_4TwoPointersIntervals__att_0001.png)
 
 https://leetcode.com/problems/interval-list-intersections/description/
 
@@ -52,7 +52,7 @@ vector<vector<int>> intervalIntersection(vector<vector<int>>& v1, vector<vector<
 
 https://leetcode.com/problems/remove-covered-intervals/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_4TwoPointersIntervals__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_4TwoPointersIntervals__att_0002.png)
 
 https://youtu.be/nhAsMabiVkM?si=Bw7cxv7xj5PsDiLr     
 https://youtu.be/FUvMJ71eIWc?si=ExaXl9T-L_zjQiP_

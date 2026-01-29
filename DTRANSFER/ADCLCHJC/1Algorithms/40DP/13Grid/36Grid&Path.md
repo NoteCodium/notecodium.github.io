@@ -5,33 +5,33 @@ title: 36Grid&Path
 {% raw %}
 do the maths version
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0002.png)
 
 Solve the below problem using maths
 
 https://leetcode.com/problems/unique-paths/description/
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0004.png)
 
 kisi cell par do jagha se pahuch sakte hon
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0008.png)
 
 q.2         
 https://leetcode.com/problems/unique-paths-ii/description/      
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0009.png)
 
 base condition will change  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0010.png)
 
 ```python
   vector<vector<int>> dp(rr,vector<int> (cc,0)); 
@@ -53,7 +53,7 @@ q. Given a m x n grid filled with non-negative numbers, find a path from top lef
 
 Note: You can only move either down or right at any point in time.   
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_13Grid_36Grid_Path__att_0011.png)
 
 https://leetcode.com/problems/minimum-path-sum/description/
 

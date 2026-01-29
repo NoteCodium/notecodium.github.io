@@ -4,7 +4,7 @@ title: 2EasyProblems
 
 {% raw %}
 https://leetcode.com/problems/course-schedule-ii/description/    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_2EasyProblems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_2EasyProblems__att_0001.png)
 
 ```python
 class Solution {

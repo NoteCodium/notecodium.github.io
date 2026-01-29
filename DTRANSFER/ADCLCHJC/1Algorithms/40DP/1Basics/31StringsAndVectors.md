@@ -68,7 +68,7 @@ class Solution {
 dp[i][j]= numbers of moves to conver it to a palindrome
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0001.png)
 
 ```python
 class Solution {
@@ -109,7 +109,7 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0002.png)
 
 ```python
 //dp[i][j]= s1[i-1]==s2[j-1]?dp[i-1][j-1]: 1+ min(dp[i-1][j],dp[i][j-1])
@@ -139,7 +139,7 @@ class Solution {
 q  Minimum ASCII Delete Sum for Two Strings  
 (https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/?envType=study-plan-v2&envId=dynamic-programming)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0003.png)
 
   //dp[0][any]= sum of ascii of s2 
   //dp[any][0]=sum of ascii of s1
@@ -213,9 +213,9 @@ class Solution {
 
 # Seems a new method
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0005.png)
 
 //this seems incorrect
 //dp[0][j]=0
@@ -357,7 +357,7 @@ dp[i][0]=0
 dp[0][j]=0
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0006.png)
 
 ```python
 string ans;
@@ -458,7 +458,7 @@ for(int d=1;d<n;d++){
 q. Given two strings s and t, return the number of distinct subsequence of s which equals t.  
 (https://leetcode.com/problems/distinct-subsequences/description/)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0007.png)
 
 ```python
 int f(int i, int j, string &s, string &t){
@@ -617,7 +617,7 @@ class Solution {
 Pattern matching having wildcard inside it   
 https://leetcode.com/problems/wildcard-matching/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0008.png)
 
 This one is tricky as it require one more preprocessing also
 
@@ -685,9 +685,9 @@ class Solution {
 10. Regular Expression Matching     
 https://leetcode.com/problems/regular-expression-matching/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0009.png)
 
-![image-2.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0010.png)
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_31StringsAndVectors__att_0010.png)
 
 ```python
 class Solution {

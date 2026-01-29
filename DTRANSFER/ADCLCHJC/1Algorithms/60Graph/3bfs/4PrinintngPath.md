@@ -3,7 +3,7 @@ title: 4PrinintngPath
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_4PrinintngPath__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_4PrinintngPath__att_0001.png)
 
 https://cses.fi/problemset/task/1193
 

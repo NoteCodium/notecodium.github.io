@@ -6,9 +6,9 @@ title: 2LittleTrick
 https://leetcode.com/problems/pacific-atlantic-water-flow/description/   
 
 # Rainwater trapping 2d   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_2LittleTrick__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_2LittleTrick__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_2LittleTrick__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_2LittleTrick__att_0002.png)
 
 sol. think reverse, do dfs from the borders, water will flow if the height increases from going one block to another
 

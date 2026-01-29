@@ -6,7 +6,7 @@ title: 3MediumRecursion
 # Merge Two Binary Trees to create a new Binary Tree    
 https://leetcode.com/problems/merge-two-binary-trees/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0001.png)
 
 ```python
 class Solution {
@@ -55,7 +55,7 @@ class Solution {
 
 https://leetcode.com/problems/delete-nodes-and-return-forest/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0002.png)
 
 ```python
 class Solution {
@@ -101,7 +101,7 @@ class Solution {
 
 https://leetcode.com/problems/find-leaves-of-binary-tree/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0003.png)
 
 this is wrong
 
@@ -145,7 +145,7 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_3MediumRecursion__att_0004.png)
 
 ```python
 /**

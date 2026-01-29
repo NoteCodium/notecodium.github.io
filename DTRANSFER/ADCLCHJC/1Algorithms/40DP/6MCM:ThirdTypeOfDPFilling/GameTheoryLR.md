@@ -6,7 +6,7 @@ title: GameTheoryLR
 q. 5
 https://leetcode.com/problems/stone-game-v/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_GameTheoryLR__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_GameTheoryLR__att_0001.png)
 
 ```python
 class Solution {

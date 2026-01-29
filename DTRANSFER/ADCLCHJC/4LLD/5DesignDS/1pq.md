@@ -6,7 +6,7 @@ title: 1pq
 Max frequency stack    
 https://leetcode.com/problems/maximum-frequency-stack/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_4LLD_5DesignDS_1pq__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_4LLD_5DesignDS_1pq__att_0001.png)
 
 ```python
 class FreqStack {

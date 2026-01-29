@@ -15,11 +15,11 @@ https://www.youtube.com/watch?v=Z4tH40wH6JA
 a counter example of why it cant be done by the old two pointers approach
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0003.png)
 
 ```python
 class Solution {
@@ -58,8 +58,8 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0004.png)
 
 explanation of removal    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_2MontonicQueue_3yasheshdoubt__att_0005.png)
 {% endraw %}

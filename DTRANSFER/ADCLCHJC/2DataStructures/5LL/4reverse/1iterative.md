@@ -3,7 +3,7 @@ title: 1iterative
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_5LL_4reverse_1iterative__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_5LL_4reverse_1iterative__att_0001.png)
 
 at some time, let this be the configuration
 

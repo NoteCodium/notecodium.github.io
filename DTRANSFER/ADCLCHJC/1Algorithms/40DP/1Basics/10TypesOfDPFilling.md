@@ -7,7 +7,7 @@ title: 10TypesOfDPFilling
 //second type   
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_10TypesOfDPFilling__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_10TypesOfDPFilling__att_0001.png)
 
 ```python
 class Solution {

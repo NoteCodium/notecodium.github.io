@@ -7,7 +7,7 @@ https://leetcode.com/problems/alien-dictionary/description/
 premium   
 https://www.geeksforgeeks.org/problems/alien-dictionary/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_4AlienDictionary__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_4AlienDictionary__att_0001.png)
 
 ```python
 string topo(unordered_map<char, vector<char>> al){   
@@ -83,7 +83,7 @@ string alienOrder(vector<string>& words) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_4AlienDictionary__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_4AlienDictionary__att_0002.png)
 
 the reverse in this question, string is given, verify the order of words is  correct or not        
 https://leetcode.com/problems/verifying-an-alien-dictionary/description/

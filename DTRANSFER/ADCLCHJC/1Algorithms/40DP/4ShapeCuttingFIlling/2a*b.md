@@ -5,11 +5,11 @@ title: 2a*b
 {% raw %}
 https://cses.fi/problemset/task/1744/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0001.png)
 
 minimise moves, the result is all squares
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0002.png)
 
 you can always do it in m-1+ n-1 steps
 
@@ -17,28 +17,28 @@ greedy wont work
 
 observe how the length and bredth are a and b and how subtracting 1 from it changes it
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0008.png)
 
 n and m are dimensions of the rectangle
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0010.png)
 
 base case     
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0011.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0012.png)
 
 ```python
 void solve()
@@ -102,15 +102,15 @@ Your algorithm correctly finds the best way to tile a rectangle if you are only 
 
 However, the optimal solution for tiling a rectangle with squares does not always involve a guillotine cut. The arrangement of squares can be more complex.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0013.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0014.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0014.png)
 
 # Actual solution
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0015.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0015.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0016.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_4ShapeCuttingFIlling_2a_b__att_0016.png)
 
 for each gap (starts with the minn height), try all possible squares 1*1 to 3* 3
 

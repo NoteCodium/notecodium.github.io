@@ -5,9 +5,9 @@ title: 1pq
 {% raw %}
 Twitter Algorithm
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_4LLD_4DesigAlgorithm_1pq__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_4LLD_4DesigAlgorithm_1pq__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_4LLD_4DesigAlgorithm_1pq__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_4LLD_4DesigAlgorithm_1pq__att_0002.png)
 
 ```python
 class Twitter {

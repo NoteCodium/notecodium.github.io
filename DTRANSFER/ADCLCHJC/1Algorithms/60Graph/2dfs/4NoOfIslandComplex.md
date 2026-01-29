@@ -49,7 +49,7 @@ int countDistinctIslands(vector<vector<int>>& ma) {
 
 why it works    
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_4NoOfIslandComplex__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_4NoOfIslandComplex__att_0001.png)
 
 # FAANG
 
@@ -58,5 +58,5 @@ Premium problem
 
 An island is considered to be the same as another if they have the same shape, or have the same shape after rotation (90, 180, or 270 degrees only) or reflection (left/right direction or up/down direction).
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_4NoOfIslandComplex__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_4NoOfIslandComplex__att_0002.png)
 {% endraw %}

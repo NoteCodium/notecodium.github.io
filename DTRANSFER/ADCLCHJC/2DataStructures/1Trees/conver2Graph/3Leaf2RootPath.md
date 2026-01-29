@@ -5,7 +5,7 @@ title: 3Leaf2RootPath
 {% raw %}
 https://leetcode.com/problems/smallest-string-starting-from-leaf/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_3Leaf2RootPath__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_3Leaf2RootPath__att_0001.png)
 
 ```python
 class Solution {

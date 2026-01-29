@@ -116,7 +116,7 @@ vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
 
 # Left View
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0001.png)
 
 ```python
 void f(vector<int> &ans,Node* node, int l, int &maxl){
@@ -147,7 +147,7 @@ f(ans,node->left,l+1,maxl);
 
 https://leetcode.com/problems/maximum-width-of-binary-tree/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0002.png)
 
 the level should have atleast 2 nodes
 
@@ -172,13 +172,13 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0003.png)
 
 a different kind of numbering
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0005.png)
 
 we will use this formulae
 
@@ -216,9 +216,9 @@ public:
 
 https://leetcode.com/problems/find-bottom-left-tree-value/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0007.png)
 
 ```python
 class Solution {
@@ -352,7 +352,7 @@ class Solution {
 
 https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0008.png)
 
 ```python
 class Solution {
@@ -436,9 +436,9 @@ class Solution {
 
 proper recursion
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_2Hoirzontal__att_0010.png)
 
 ```python
 class Solution {

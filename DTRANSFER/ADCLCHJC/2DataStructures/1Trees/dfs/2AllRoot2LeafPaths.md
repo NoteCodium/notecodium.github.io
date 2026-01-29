@@ -59,11 +59,11 @@ Edit
 t(node->right, 0, 1, ans);
 which says "path length is 0", when in fact it should be 1 because you’ve taken one step in the zigzag.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0001.png)
 
 # Optimal
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0002.png)
 
 ```python
 class Solution {
@@ -90,13 +90,13 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0004.png)
 
 some doubt when it is not correct
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_2AllRoot2LeafPaths__att_0006.png)
 {% endraw %}

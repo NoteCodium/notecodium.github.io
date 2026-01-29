@@ -3,7 +3,7 @@ title: 3Matrix01
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0001.png)
 
 https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/
 
@@ -11,7 +11,7 @@ for every connected component, we can remove all the stones except one.
 Now, after removing all the stones, we will be left with only one stone per connected component, 
 this will not form another component for sure
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0002.png)
 
 where function f calculates, the number of components in a matrix, but this component is not same as island wala component, for a component the definition is the 1s lying in same row or column
 
@@ -114,9 +114,9 @@ class dsu{
     }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0004.png)
 
 https://www.geeksforgeeks.org/problems/number-of-islands/1
 
@@ -194,9 +194,9 @@ public:
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_3Matrix01__att_0006.png)
 
 https://leetcode.com/problems/making-a-large-island/description/    
 https://www.youtube.com/watch?v=lgiz0Oup6gM

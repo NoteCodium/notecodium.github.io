@@ -7,7 +7,7 @@ Sort an array of 1 to n
 
 https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/6393a98bd8a93f4bff961b4d
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_2CyclicContinued__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_2CyclicContinued__att_0001.png)
 
 ```python
 //The process described above can be written as

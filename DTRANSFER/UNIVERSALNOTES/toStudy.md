@@ -9,7 +9,7 @@ build your own custom BlockingQueue
 
 revise java collection
 
-![image.png](/transfernew/notebook_images/transfernew_UNIVERSALNOTES_toStudy__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_UNIVERSALNOTES_toStudy__att_0001.png)
 
 make iske notes
 

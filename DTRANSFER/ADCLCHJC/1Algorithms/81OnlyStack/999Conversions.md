@@ -371,7 +371,7 @@ int calculate(string s) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0001.png)
 
 ```python
     void insertZero(string &s){
@@ -391,9 +391,9 @@ int calculate(string s) {
 
 prefix -> postfix
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0003.png)
 
 infix <-> prefix
 
@@ -428,7 +428,7 @@ infix -> prefix
 
 too tough
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0004.png)
 
 1. while reversing, also reverse the brackets
 
@@ -444,7 +444,7 @@ prec(st.top())>prec(c)
 
 and
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_81OnlyStack_999Conversions__att_0006.png)
 {% endraw %}

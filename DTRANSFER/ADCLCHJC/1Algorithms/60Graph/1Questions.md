@@ -38,7 +38,7 @@ For simplicity, each node’s value is the same as the node’s index (1-indexed
 
 The given node will always be the first node with val = 1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_1Questions__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_1Questions__att_0001.png)
 
 ```python
 class Solution {

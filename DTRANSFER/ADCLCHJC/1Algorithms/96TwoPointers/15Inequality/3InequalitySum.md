@@ -3,7 +3,7 @@ title: 3InequalitySum
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_15Inequality_3InequalitySum__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_15Inequality_3InequalitySum__att_0001.png)
 
 ```python
 int l=0, h=n-1;
@@ -22,7 +22,7 @@ while(l<r){
 
 You are given an array of integers nums and an integer target. Return the number of non-empty subsequences of nums such that the sum of the minimum and maximum element on it is less or equal to target. Since the answer may be too large, return it modulo 109 + 7.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_15Inequality_3InequalitySum__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_15Inequality_3InequalitySum__att_0002.png)
 
 ```python
 int l=0,h=n-1;
@@ -37,5 +37,5 @@ while(l<=h){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_15Inequality_3InequalitySum__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_15Inequality_3InequalitySum__att_0003.png)
 {% endraw %}

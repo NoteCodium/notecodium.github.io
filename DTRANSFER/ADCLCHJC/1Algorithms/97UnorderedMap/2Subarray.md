@@ -28,7 +28,7 @@ for(int x: v){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_97UnorderedMap_2Subarray__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_97UnorderedMap_2Subarray__att_0001.png)
 
 ```python
 m[0]=-1;// will help in calculation of len, you will see it later

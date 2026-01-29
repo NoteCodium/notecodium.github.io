@@ -6,7 +6,7 @@ title: 35GameTheory
 q2.  
  https://leetcode.com/problems/stone-game-ii/description/  
 no above conditiions  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0001.png)
 
 ```python
 //Every times stones are taken from front
@@ -85,7 +85,7 @@ class Solution {
 
 q3.   
 https://leetcode.com/problems/stone-game-iii/description/
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0002.png)
 
 ```python
 int f(vector<int> &v, int idxm, int n){
@@ -106,7 +106,7 @@ string stoneGameIII(vector<int>& v) {
 ```
 
 we find overlap  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0003.png)
 
 ```python
 class Solution {
@@ -132,7 +132,7 @@ class Solution {
 
 q4.  
 https://leetcode.com/problems/stone-game-iv/description/  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_12GameTheory_35GameTheory__att_0004.png)
 
 ```python
 class Solution {

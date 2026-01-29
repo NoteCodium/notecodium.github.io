@@ -292,7 +292,7 @@ for(int i=1;i<=n;i++){
 return dp[n][k];
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_30Cakewalks__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_30Cakewalks__att_0001.png)
 
 # Space optimized
 dp[i][j]=dp[i-1][j-v[i-1]]+dp[i-1][j]   

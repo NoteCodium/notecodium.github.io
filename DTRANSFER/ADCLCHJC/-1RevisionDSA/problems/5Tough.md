@@ -3,34 +3,34 @@ title: 5Tough
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0001.png)   
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0001.png)   
 https://leetcode.com/problems/palindrome-pairs/description/
 
 You are given a 0-indexed array of unique strings words.
 
   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0004.png)   
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0004.png)   
 If reverse of a prefix is preset as a word, you will get excited
 
 # suffixes and doubt part
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0005.png)
 
 # Edge cases
 
 1. A palindrome is there, when you take the whole word as the prefix, its suffix will be the same word which is already present in m
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0006.png)
 
 store indices also
 
 # duplication
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0007.png)    
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_-1RevisionDSA_problems_5Tough__att_0007.png)    
 When words are opposite of each other
 
 # Coding

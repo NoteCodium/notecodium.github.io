@@ -3,19 +3,19 @@ title: 1ContinuedFromTP
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0001.png)
 
 pairwise distinct make it further tough
 
 let the difference bw 3
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0002.png)
 
 ans1     
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0003.png)
 
 similarly    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_ToughTLE_1ContinuedFromTP__att_0004.png)
 
 continued n sliding window
 

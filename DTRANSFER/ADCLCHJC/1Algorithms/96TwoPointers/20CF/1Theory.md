@@ -26,9 +26,9 @@ while(h<n){
 
 associated problem
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_20CF_1Theory__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_20CF_1Theory__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_20CF_1Theory__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_20CF_1Theory__att_0002.png)
 
 no. of subarray whose sum is<=k  
 If a larger subarray has it, the smaller one including it will definitely have it

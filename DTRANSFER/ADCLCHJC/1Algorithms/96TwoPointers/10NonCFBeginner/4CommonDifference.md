@@ -61,5 +61,5 @@ while(h<n){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_10NonCFBeginner_4CommonDifference__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_10NonCFBeginner_4CommonDifference__att_0001.png)
 {% endraw %}

@@ -3,17 +3,17 @@ title: 3ThreadPoolExecutor
 ---
 
 {% raw %}
-![image-2.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0001.png)
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0004.png)
 
 ```python
 ExecutorService executorService= Executors.newFixedThreadPool(5);
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0005.png)
 
 ```python
 ThreadPoolExecutor threadPoolExecutor=
@@ -28,13 +28,13 @@ ThreadPoolExecutor threadPoolExecutor=
 
 if there are more then 16 tasks in quick time, it will face difficulty
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0006.png)
 
 # threadFactory
 
 Mainly concerned with naming of threads
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_3threadpool_3ThreadPoolExecutor__att_0008.png)
 {% endraw %}

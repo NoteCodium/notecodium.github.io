@@ -39,7 +39,7 @@ int kthSmallest(TreeNode* root, int k) {
 ```
 
 https://leetcode.com/problems/range-sum-of-bst/description/?envType=daily-question&envId=2024-01-08    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_1EasyProblems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_1EasyProblems__att_0001.png)
 
 ```python
 int rangeSumBST(TreeNode* root, int l, int h) {
@@ -53,5 +53,5 @@ int rangeSumBST(TreeNode* root, int l, int h) {
 
 https://www.geeksforgeeks.org/problems/count-bst-nodes-that-lie-in-a-given-range/1?category%5B%5D=Binary%2520Search%2520Tree&page=1&query=category%5B%5DBinary%2520Search%2520Treepage1category%5B%5DBinary%2520Search%2520Tree
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_2BST_1EasyProblems__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_2BST_1EasyProblems__att_0002.png)
 {% endraw %}

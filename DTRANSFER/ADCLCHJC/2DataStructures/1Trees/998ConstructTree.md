@@ -4,7 +4,7 @@ title: 998ConstructTree
 
 {% raw %}
 Only when there are no duplicates in the tree   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0001.png)
 
 preorder and postorder ?
 
@@ -29,7 +29,7 @@ TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0002.png)
 
 Finding the root effectively in the inorder traversal, so we dont have to traverse the whole inorder array every time.
 
@@ -68,15 +68,15 @@ fit coder
 
 https://www.geeksforgeeks.org/problems/construct-tree-from-inorder-and-levelorder/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0004.png)
 
 root of the tree will be the first node of the level order traversal
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0006.png)
 
 first value at level order is always root value
 
@@ -127,9 +127,9 @@ Node* buildTree(int inorder[], int levelOrder[], int io1, int io2, int n) {
 
 preorder and postorder ?
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0008.png)
 
 counter example, I am getting same example from GPTs also
 
@@ -141,17 +141,17 @@ If the tree is known to be full, then preorder and postorder together are suffic
 
 https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0009.png)
 
 https://youtu.be/6JDV3kIFyjU?si=bFvhL-mUSlZykFes
 
 it is wiser to return the full tree, but i dont know how to do that
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0010.png)
 
 he also not done any thing different
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0011.png)
 
 ```python
 class Solution {
@@ -187,7 +187,7 @@ public:
 
 https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0012.png)
 
 https://youtu.be/WN0quIK89F0?si=AhQ6kwxoegJ969ZF
 
@@ -271,7 +271,7 @@ TreeNode* recoverFromPreorder(string s) {
 
 # Expression tree
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0013.png)
 
 impimppimpimpimp
 
@@ -328,9 +328,9 @@ from infix? Jenny recommned convert infix to postfix first, then construct the t
 # from postfix: the easiest  
 https://youtu.be/WHs-wSo33MM?si=1U_1DA9kf2yA10ep
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0014.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0014.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0015.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0015.png)
 
 ```python
 class Node {
@@ -403,7 +403,7 @@ class Node {
 
 https://www.naukri.com/code360/problems/evaluate-expression-tree_975484?isSignin=true
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0016.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0016.png)
 
 evaluate the lst and rst then involving the node
 
@@ -436,7 +436,7 @@ https://www.naukri.com/code360/problems/ternarytotree_1102306
 
 # MAANG++ VERY TOUGH
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0017.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0017.png)
 
 https://www.geeksforgeeks.org/problems/redundant-parenthesis--170647/1
 
@@ -444,19 +444,19 @@ https://www.spoj.com/problems/CMEXPR/
 
 remove as many brackets as possible such that the expression is still valid
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0018.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0018.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0019.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0019.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0020.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0020.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0021.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0021.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0022.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0022.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0023.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0023.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0024.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0024.png)
 
 whenever we go from lower precedence to higher precedence, we need to add brackets
 
@@ -466,7 +466,7 @@ Brackets should also be added when we have expressions like a-(b-c). Simply foll
 
  think building Expression Tree from postfix expression would be more efficient,
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0025.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_998ConstructTree__att_0025.png)
 
 I guess we can convert the given expression into post-fix expression (where we can eliminate all the parenthesis) and then we can evaluate the post-fix expression to generate the required in-fix expression(as you said when we move from lower precedence operator to higher precedence operator, we insert parenthesis)
 

@@ -30,7 +30,7 @@ public class Worker implements Runnable{
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_2synchronizersPPA_0EH__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_2synchronizersPPA_0EH__att_0001.png)
 
 Successfully caught never printed
 {% endraw %}

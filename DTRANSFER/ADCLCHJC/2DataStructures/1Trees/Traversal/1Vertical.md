@@ -3,7 +3,7 @@ title: 1Vertical
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_Traversal_1Vertical__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_Traversal_1Vertical__att_0001.png)
 
 ```python
 #define Node TreeNode

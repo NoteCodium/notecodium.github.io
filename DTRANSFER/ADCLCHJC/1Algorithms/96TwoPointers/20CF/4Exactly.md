@@ -6,7 +6,7 @@ title: 4Exactly
 No. of subarrays with sum exactly k odds,    
 Exactly k different elements,
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_20CF_4Exactly__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_20CF_4Exactly__att_0001.png)
 
 # way 2 of solving
 
@@ -71,7 +71,7 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_20CF_4Exactly__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_20CF_4Exactly__att_0002.png)
 
 https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/
 

@@ -14,7 +14,7 @@ title: fdsArchieved
             cuisine types
             set of cuisine (italian + german)
 
-![{FE39D228-B39D-4BD6-B3EF-DCD074EDFB71}.png](/transfernew/notebook_images/transfernew_ADCLCHJC_4LLD_code_src_main_java_lld_examples_ekart_foodDeliverySystem_notes_fdsArchieved__att_0001.png)
+![{FE39D228-B39D-4BD6-B3EF-DCD074EDFB71}.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_4LLD_code_src_main_java_lld_examples_ekart_foodDeliverySystem_notes_fdsArchieved__att_0001.png)
 
 
 There will be both restaurant and dishes in result

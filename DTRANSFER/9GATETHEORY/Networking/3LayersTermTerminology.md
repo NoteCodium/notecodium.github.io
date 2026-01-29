@@ -3,7 +3,7 @@ title: 3LayersTermTerminology
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0001.png)
 
 
 
@@ -19,10 +19,10 @@ parity checks,
   cyclic redundancy checks (CRC). (%)
 
 # Error  
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0002.png)
 
 for single bit error  
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0003.png)
 
 Hence no of 1 bits always become even
 
@@ -37,11 +37,11 @@ Hamming Code
 Forward error correction:
 
 # Hamming
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0006.png)  
-![image-2.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0004.png)  
-![image-3.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0006.png)  
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0004.png)  
+![image-3.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0007.png)
 
 transmission:
 
@@ -89,9 +89,9 @@ Firewalls
 
 we are sharing thwe same link to transfer the data
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0008.png)
 
 # PURE ALOHA
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Networking_3LayersTermTerminology__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Networking_3LayersTermTerminology__att_0009.png)
 {% endraw %}

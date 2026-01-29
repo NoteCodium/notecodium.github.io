@@ -7,7 +7,7 @@ Any path having maximum sum of values
 
 https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_paths_2Path__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_paths_2Path__att_0001.png)
 
 ```python
 //ans, max_con_sum

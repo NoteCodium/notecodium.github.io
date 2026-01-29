@@ -6,9 +6,9 @@ title: 2LongMEETINGS
 2402. Meeting Rooms III    
 https://leetcode.com/problems/meeting-rooms-iii/description/    
 https://www.youtube.com/watch?v=8JTr7Hk0p2o    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_2LongMEETINGS__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_2LongMEETINGS__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_2LongMEETINGS__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_2LongMEETINGS__att_0002.png)
 
 ```python
 #define V vector<long long>

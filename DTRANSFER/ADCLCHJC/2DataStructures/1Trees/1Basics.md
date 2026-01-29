@@ -12,7 +12,7 @@ int maxDepth(TreeNode* node) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0001.png)
 
 https://www.geeksforgeeks.org/problems/height-of-spiral-tree/1
 
@@ -29,11 +29,11 @@ struct Node {
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0004.png)
 
 min. height of a tree
 
@@ -166,7 +166,7 @@ class Solution {
 
 # isMirrorImage
 https://leetcode.com/problems/symmetric-tree/description/   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0005.png)
 
 ```python
 class Solution {
@@ -200,7 +200,7 @@ void mirror(Node* node) {
 
 https://leetcode.com/problems/flip-equivalent-binary-trees/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_1Basics__att_0006.png)
 
 ```python
 class Solution {

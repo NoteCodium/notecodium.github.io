@@ -96,13 +96,13 @@ class Solution {
 # Priyansh technique of directly writing bottom-up dp
 ppa also branched out to bottom up here
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0002.png)
 
 this definition is not helping us
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0003.png)
 
 ```python
 int ans=1;
@@ -117,7 +117,7 @@ for(int i=1;i<n;i++){
 
 # With BS
 nlogn
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0004.png)
 
 ```python
 //strictly increasing?
@@ -174,7 +174,7 @@ int LDS(vector<int> v){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0005.png)
 
 # Filling the dp vector in nlogn
 
@@ -243,14 +243,14 @@ https://www.geeksforgeeks.org/problems/printing-longest-increasing-subsequence/0
 
 https://youtu.be/cKVl1TFdNXg?si=qQuQVSl7b-NFI8Xf
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0006.png)
 this hash array will save the previous idx
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0008.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0009.png)
 
 ```python
 #define it(v) v.begin(), v.end() 
@@ -294,7 +294,7 @@ class Solution {
 q. Longest bitonic subsequence
 
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0010.png)
 
 you can use bs method also to make the dp array
 
@@ -328,9 +328,9 @@ class Solution{
 q. B. Orac and Models       
 https://codeforces.com/problemset/problem/1350/B
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0011.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0012.png)
 
 Orac wants to know the maximum number of models that he can buy
 
@@ -429,27 +429,27 @@ int maxEnvelopes(vector<vector<int>>& ma) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0013.png)
 
 ### can rotate     
 # FIND OA problem
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0014.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0014.png)
 
 Sort based on area this time  
 if a letter can fit inside a leeter its area has to be less then the later, the vice veraa it not true==> see this and understand 33 and 110
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0015.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0015.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0016.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0016.png)
 
 # FAANG
 
 https://www.geeksforgeeks.org/problems/box-stacking/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0017.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0017.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0018.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_9Lis_32LIS__att_0018.png)
 
 sort them in decreasing order of base area
 

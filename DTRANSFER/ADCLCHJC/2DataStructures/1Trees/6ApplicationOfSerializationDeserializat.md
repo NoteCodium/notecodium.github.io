@@ -49,14 +49,14 @@ vector<TreeNode*> findDuplicateSubtrees(TreeNode* root) {
 
 Subtree of another tree
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_6ApplicationOfSerializationDeserializat__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_6ApplicationOfSerializationDeserializat__att_0001.png)
 
 # Brute force     
 1. Checking for equal trees at each node O(n^2)
 
 by serialzation, but there is one problem
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_6ApplicationOfSerializationDeserializat__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_6ApplicationOfSerializationDeserializat__att_0002.png)
 
 special serialization
 

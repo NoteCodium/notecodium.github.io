@@ -34,7 +34,7 @@ public:
 
 https://leetcode.com/problems/substring-with-concatenation-of-all-words/description/    
 Find a starting indices of all substrings of s which contain all the words   in the vector of words (all the words are of equal length) ka concatinatin   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_3PPA__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_3PPA__att_0001.png)
 
 ```python
 class Solution {
@@ -61,6 +61,6 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_3PPA__att_0002.png)   
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_90FixedSlidingWindows_1SlidingWindow_3PPA__att_0002.png)   
 https://leetcode.com/problems/substring-with-concatenation-of-all-words/solutions/4221794/easy-fast-accurate-c-master/
 {% endraw %}

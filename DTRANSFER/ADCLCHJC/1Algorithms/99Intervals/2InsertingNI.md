@@ -3,7 +3,7 @@ title: 2InsertingNI
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0001.png)
 
 https://leetcode.com/problems/merge-intervals/description/
 
@@ -26,7 +26,7 @@ public:
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0002.png)
 
 https://leetcode.com/problems/insert-interval/description/
 
@@ -126,7 +126,7 @@ vector<vector<int>> insert(vector<vector<int>>& ma, vector<int>& newInterval) {
 
 https://leetcode.com/problems/count-integers-in-intervals/?envType=list&envId=ppzcw7vd
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0003.png)
 
 ```python
 class CountIntervals {
@@ -218,7 +218,7 @@ public:
 };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_99Intervals_2InsertingNI__att_0004.png)
 
 https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/
 

@@ -24,14 +24,14 @@ Cqrs
 
 doubt
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_scalingDB_2WaysToScale__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_scalingDB_2WaysToScale__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_scalingDB_2WaysToScale__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_scalingDB_2WaysToScale__att_0002.png)
 
 
 gaurav sen gyaan
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_scalingDB_2WaysToScale__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_scalingDB_2WaysToScale__att_0003.png)
 
 Partitioning    
     availability  

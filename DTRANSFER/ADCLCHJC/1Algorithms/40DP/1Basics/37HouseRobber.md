@@ -88,7 +88,7 @@ int rob(vector<int>& v){
 
 https://leetcode.com/problems/pizza-with-3n-slices/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_37HouseRobber__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_37HouseRobber__att_0001.png)
 
 kind of house robber but the only constrained is that you can pick exactly n/3 elemenets
 
@@ -96,7 +96,7 @@ kind of house robber but the only constrained is that you can pick exactly n/3 e
 
 https://codeforces.com/problemset/problem/455/A
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_1Basics_37HouseRobber__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_1Basics_37HouseRobber__att_0002.png)
 
 ```python
 void solve() {  

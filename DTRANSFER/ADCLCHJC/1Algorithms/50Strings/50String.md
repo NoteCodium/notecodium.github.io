@@ -3,15 +3,15 @@ title: 50String
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_50Strings_50String__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_50Strings_50String__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_50Strings_50String__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_50Strings_50String__att_0002.png)
 
     // Erase a single character sterting
     // from index 5
     str.erase(5, 1);
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_50Strings_50String__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_50Strings_50String__att_0003.png)
 
 # String algorithms
 

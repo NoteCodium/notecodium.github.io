@@ -4,7 +4,7 @@ title: 1sheduletask1
 
 {% raw %}
 https://leetcode.com/problems/task-scheduler/description/    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0001.png)
 
 Shedule tasks, such that similar task have an interval of n between them=>    
  => every window of size n+1 should have unique char including the idle char
@@ -13,9 +13,9 @@ Shedule tasks, such that similar task have an interval of n between them=>
 Return the minimum number of CPU intervals required to complete all tasks
 
 explanation:   
-    ![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0002.png)
+    ![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0003.png)
 
 ```python
     int leastInterval(vector<char>& v, int n) {
@@ -64,7 +64,7 @@ explanation:
 ```
 
 yashesh solution   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0004.png)    
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0004.png)    
 https://www.naukri.com/code360/problems/ninja-and-rearrange-string_1461424
 
 ```python
@@ -121,15 +121,15 @@ bool rearrangeString(string &s, int d) {
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0005.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0007.png)
 
 https://leetcode.com/problems/rearrange-string-k-distance-apart/description/    
 premuium   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0008.png)    
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0008.png)    
 In this problem, we have to return that string
 
 ```python
@@ -180,7 +180,7 @@ class Solution {
 ```
 
 https://leetcode.com/problems/reorganize-string/description/   
- ![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0009.png)
+ ![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0009.png)
 
 ```python
 class Solution {
@@ -229,13 +229,13 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0010.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0011.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0012.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0013.png)
 
 ```python
 class Solution {
@@ -287,7 +287,7 @@ cwm
 
 leetcode official
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0014.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_3greedypq_1sheduletask1__att_0014.png)
 
 grokking
 

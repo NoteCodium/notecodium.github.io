@@ -5,7 +5,7 @@ title: one
 {% raw %}
 A better approach
 
-![{9A28E7E1-9E33-4215-880F-C29866BA8030}.png](/transfernew/notebook_images/transfernew_ADCLCHJC_4LLD_code_target_classes_lld_designpatterns_builder_one__att_0001.png)
+![{9A28E7E1-9E33-4215-880F-C29866BA8030}.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_4LLD_code_target_classes_lld_designpatterns_builder_one__att_0001.png)
 
 but we cant make them final
 {% endraw %}

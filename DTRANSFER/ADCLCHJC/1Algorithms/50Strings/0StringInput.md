@@ -36,7 +36,7 @@ while(ss>>tok){
 
 # Usage
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_50Strings_0StringInput__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_50Strings_0StringInput__att_0001.png)
 
 after reversing the string, we have to reverse each word separately
 
@@ -52,7 +52,7 @@ while(ss>>tok){
 ```
 
 Suppose you have to just do  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_50Strings_0StringInput__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_50Strings_0StringInput__att_0002.png)
 
 reverse each word, and you are getting the sentence as an input
 

@@ -9,7 +9,7 @@ title: 4NormalTraversal
 3. Post order: l r root
 
 https://leetcode.com/problems/binary-tree-preorder-traversal/description/  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0001.png)
 
 ```python
 class Solution {
@@ -48,11 +48,11 @@ void f(Node* n){
 ## Preorder
 https://leetcode.com/problems/binary-tree-preorder-traversal/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0002.png)
 
 suppose you printed root and done node=node->left, how will you comeback to node->right
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0003.png)  
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0003.png)  
 in recursion f(7) was made to wait while we do f(3)
 
 ```python
@@ -76,9 +76,9 @@ vector<int> preorderTraversal(TreeNode* root) {
 ## Inorder
 https://leetcode.com/problems/binary-tree-inorder-traversal/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0005.png)
 
 ```python
 vector<int> inorderTraversal(TreeNode* root) {
@@ -107,7 +107,7 @@ without flag
 ## Postorder
 https://leetcode.com/problems/binary-tree-postorder-traversal/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0006.png)
 
 ```python
 // vector<int> inorderTraversal(TreeNode* root) {
@@ -154,5 +154,5 @@ https://www.naukri.com/code360/problems/tree-traversal_981269
 
 https://www.youtube.com/watch?v=80Zug6D1_r4&list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk&index=39
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_4NormalTraversal__att_0007.png)
 {% endraw %}

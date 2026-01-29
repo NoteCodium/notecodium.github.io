@@ -17,9 +17,9 @@ mock all our dependencies
 
 integration testing  
 full flow  
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Testing_2Types__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Testing_2Types__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_Testing_2Types__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_Testing_2Types__att_0002.png)
 
 End to end 
 	1. Sigup to full

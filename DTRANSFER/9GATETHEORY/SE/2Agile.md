@@ -27,7 +27,7 @@ XP (Extreme Programming):
  pair programming and   
  test-driven development.
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_SE_2Agile__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_SE_2Agile__att_0001.png)
 
 
 What is a Sprint?

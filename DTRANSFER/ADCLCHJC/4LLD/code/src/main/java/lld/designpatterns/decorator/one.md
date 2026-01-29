@@ -3,7 +3,7 @@ title: one
 ---
 
 {% raw %}
-![{7AD72206-6A2E-48E2-B655-FFD268AE47B6}.png](/transfernew/notebook_images/transfernew_ADCLCHJC_4LLD_code_src_main_java_lld_designpatterns_decorator_one__att_0001.png)
+![{7AD72206-6A2E-48E2-B655-FFD268AE47B6}.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_4LLD_code_src_main_java_lld_designpatterns_decorator_one__att_0001.png)
 
 
 File reader read it  

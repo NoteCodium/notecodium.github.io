@@ -9,7 +9,7 @@ Till now we have implemented trees using pointers
 Each root to leaf path will be sorted
 We will implement the array as a tree usig the below formulae
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_4HeapPriorityQueue_0facts__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_4HeapPriorityQueue_0facts__att_0001.png)
 
 0 based indexing, the numbers are just the elements
 
@@ -24,5 +24,5 @@ There will be n//2 nodes (which have 2 or 1 children) and n//2 leave nodes
 BST -> HEAP    
  https://www.geeksforgeeks.org/problems/bst-to-max-heap/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_4HeapPriorityQueue_0facts__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_4HeapPriorityQueue_0facts__att_0002.png)
 {% endraw %}

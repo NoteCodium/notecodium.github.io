@@ -124,7 +124,7 @@ Node* f(int idx){
 
 # Hawa heen na lage
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_5LikeSerialization__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_5LikeSerialization__att_0001.png)
 
 we can write level order traversal but how?
 {% endraw %}

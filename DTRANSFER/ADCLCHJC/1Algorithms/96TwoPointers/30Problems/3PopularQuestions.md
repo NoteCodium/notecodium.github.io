@@ -5,9 +5,9 @@ title: 3PopularQuestions
 {% raw %}
 search suggestion system
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0002.png)
 
 next_permutation   
 https://leetcode.com/problems/next-permutation/
@@ -18,12 +18,12 @@ As long as it is increasing from right, that is the biggest permutation which ca
 n-1 will always be increasing   
 starting jorney from n-2
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0003.png)    
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0003.png)    
  while(i>=0 and v[i]>=v[i+1]) i--;
     //i will be the first eleemnt which will be less then its right    
     //if the entire series is in decreasing order i will become -1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0004.png)
 
 ```python
     if(i>=0){ 
@@ -87,7 +87,7 @@ while(i>=0 and v[i]<=v[i+1]) i--;
 //element on the right which is smallet them it ?
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0005.png)
 
 ```python
 int i=n-2;
@@ -107,7 +107,7 @@ if(i>=0){
 
 q. Sort an array of 0,1 and 2
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0006.png)
 
 0,l,m,h,n-1 now these are broken a little illogically    
 0 to l-1   
@@ -121,16 +121,16 @@ h== n-1
 
 l===0
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0007.png)
 
 intuition
 
 Doing with some space   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0008.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_3PopularQuestions__att_0010.png)
 
 end will point to first non 2 position from right
 

@@ -26,7 +26,7 @@ public:
 };
 ```
 
-![image-2.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_5stream-twoheaps-multiset-pbds_1Median__att_0001.png)
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_5stream-twoheaps-multiset-pbds_1Median__att_0001.png)
 
 This gives us the nice property that when the heaps are perfectly balanced, the median can be derived from the tops of both heaps. Otherwise, the top of the max-heap lo holds the legitimate median
 

@@ -11,11 +11,11 @@ Do dp problems of atcoder done by Utkarsh
 Do dp problems done by Kartik arora
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_-0Initials_0Resources__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_-0Initials_0Resources__att_0001.png)
 
 Do dp problems of atcoder done by William fiset
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_-0Initials_0Resources__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_-0Initials_0Resources__att_0002.png)
 
 leetcode study plan
 

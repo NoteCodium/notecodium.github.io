@@ -4,7 +4,7 @@ title: 1Problems
 
 {% raw %}
 https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/description/    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0001.png)
 
 ```python
 #define Node TreeNode
@@ -31,7 +31,7 @@ public:
 ```
 
 https://leetcode.com/problems/linked-list-in-binary-tree/description/   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0002.png)
 
 ```python
 class Solution {
@@ -105,7 +105,7 @@ int maxPathSum(Node* root) {
 
 Count Good Nodes in Binary Tree
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0003.png)
 
 https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/
 
@@ -133,7 +133,7 @@ int goodNodes(TreeNode* root) {
 
 https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0004.png)
 
 ```python
 class Solution {
@@ -165,7 +165,7 @@ public:
 
 https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_dfs_1Problems__att_0005.png)
 
 ```python
 class Solution {

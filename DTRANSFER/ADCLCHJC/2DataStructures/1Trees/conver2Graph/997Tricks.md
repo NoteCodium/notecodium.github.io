@@ -7,7 +7,7 @@ title: 997Tricks
 
 # NRI
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0001.png)
 
 node 5 se 2 distance away
 
@@ -15,7 +15,7 @@ https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
 
 https://youtu.be/1PMjfQl_UVQ?si=1ZswvIcySN3iu0jx
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0002.png)
 
 ```python
 class Solution {
@@ -91,9 +91,9 @@ class Solution {
 
 pura heen mc, pura heen undirected graph
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0004.png)
 
 ```python
 class Solution {
@@ -154,13 +154,13 @@ unintuitive
 
 https://www.geeksforgeeks.org/problems/node-at-distance/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0005.png)
 
 value of nodes can repeat
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0007.png)
 
 ```python
 class Solution {
@@ -215,7 +215,7 @@ if(!node->left and !node->right){
 
 https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0008.png)
 
 ```python
 /**
@@ -273,13 +273,13 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0010.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0011.png)
 
 what if the startNode and endNode is present at the same path of lca
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_2DataStructures_1Trees_conver2Graph_997Tricks__att_0012.png)
 {% endraw %}

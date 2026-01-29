@@ -5,7 +5,7 @@ title: 3Playlist
 {% raw %}
 https://codeforces.com/edu/course/2/lesson/9/3/practice/contest/307094/problem/A
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_50TLE_3Playlist.IPYNB__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_50TLE_3Playlist.IPYNB__att_0001.png)
 
 ```python
 #include<bits/stdc++.h>

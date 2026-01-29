@@ -7,7 +7,7 @@ endl ka concept
 
 wrong answer when you exceed the attempts
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_1Template__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_1Template__att_0001.png)
 
 https://codeforces.com/gym/101021
 

@@ -5,11 +5,11 @@ title: 3FractionalMultiplication
 {% raw %}
 https://leetcode.com/problems/evaluate-division/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_3FractionalMultiplication__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_3FractionalMultiplication__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_3FractionalMultiplication__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_3FractionalMultiplication__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_3FractionalMultiplication__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_3FractionalMultiplication__att_0003.png)
 
 ```python
     vector<double> ansv;

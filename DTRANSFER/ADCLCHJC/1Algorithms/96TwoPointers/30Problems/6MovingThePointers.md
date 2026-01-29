@@ -5,10 +5,10 @@ title: 6MovingThePointers
 {% raw %}
 minimize max(ai,aj,ak) - min(ai,aj,ak)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_6MovingThePointers__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_6MovingThePointers__att_0001.png)
 
 sol.   
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_6MovingThePointers__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_30Problems_6MovingThePointers__att_0002.png)
 
 ```python
 int ans=INT_MAX;

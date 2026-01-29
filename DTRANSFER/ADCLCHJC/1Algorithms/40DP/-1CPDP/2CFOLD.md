@@ -6,7 +6,7 @@ title: 2CFOLD
 # Lift     
 https://codeforces.com/problemset/problem/1249/E
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_-1CPDP_2CFOLD__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_-1CPDP_2CFOLD__att_0001.png)
 
 ```python
 void solve() {
@@ -33,7 +33,7 @@ void solve() {
 
 https://codeforces.com/problemset/problem/166/E
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_-1CPDP_2CFOLD__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_-1CPDP_2CFOLD__att_0002.png)
 
 ```python
 void solve() {  

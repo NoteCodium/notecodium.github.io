@@ -4,7 +4,7 @@ title: problems
 
 {% raw %}
 q. https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0001.png)
 
 6 pieces and indices from 0 to 6
 
@@ -15,11 +15,11 @@ You should perform the cuts in order, you can change the order of the cuts as yo
 The cost of one cut is the length of the stick to be cut  
 Return the minimum total cost of the cuts.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0004.png)
 
 My intuitive method which I derived on my own and the same was used by leetcode editorial
 
@@ -53,26 +53,26 @@ class Solution {
 
 Archieved
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0005.png)
 
 when not sorted  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0007.png)
 
 adding elements so that it helps us in finding the length  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0008.png)
 
 this indices were already present but not the elements
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0009.png)  
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0009.png)  
 Only cuts in the middle, for calculation only the extreme elements are present
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0010.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0011.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0012.png)
 
 ```python
 class Solution {
@@ -161,9 +161,9 @@ class Solution {
 no. of ways a sequence can be evaluated to true  
 https://leetcode.com/problems/parsing-a-boolean-expression/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0013.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0013.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0014.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_40DP_6MCM_ThirdTypeOfDPFilling_problems__att_0014.png)
 
 solution with stack possible
 {% endraw %}

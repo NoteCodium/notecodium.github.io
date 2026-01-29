@@ -7,9 +7,9 @@ https://www.geeksforgeeks.org/problems/minimum-swaps/1
 
 distinct elements
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_21Problems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_21Problems__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_21Problems__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_21Problems__att_0002.png)
 
 no. of swaps is cycle len -1
 

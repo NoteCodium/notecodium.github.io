@@ -63,7 +63,7 @@ void dfs(int node, vector<int> al[], vector<int> &visited){
 
 # No of components with isConnected    
 https://leetcode.com/problems/number-of-provinces/    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_1Typical__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_1Typical__att_0001.png)
 
 ```python
 void dfs(int node, vector<int> al[], vector<int> &visited){
@@ -176,7 +176,7 @@ int islandPerimeter(vector<vector<int>>& ma) {
 Flood Fill    
 https://leetcode.com/problems/flood-fill/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_2dfs_1Typical__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_2dfs_1Typical__att_0002.png)
 
 ```python
 bool isValid(ll r, ll c , ll rr, ll cc){

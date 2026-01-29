@@ -11,7 +11,7 @@ kind of bs skeleton is used
 
 we start with this coordinate
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60BinarySearch_3Matrix__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60BinarySearch_3Matrix__att_0001.png)
 
 ```python
 int i=0,j=n-1;
@@ -47,5 +47,5 @@ class Solution {
     };
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60BinarySearch_3Matrix__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60BinarySearch_3Matrix__att_0002.png)
 {% endraw %}

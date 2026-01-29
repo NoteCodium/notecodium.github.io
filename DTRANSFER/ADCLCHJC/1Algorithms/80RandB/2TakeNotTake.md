@@ -8,7 +8,7 @@ You can take an element any number of times
 
 https://leetcode.com/problems/combination-sum/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_80RandB_2TakeNotTake__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_80RandB_2TakeNotTake__att_0001.png)
 
 ```python
 void f(vector<int> &tmp, vector<vector<int>> &ans, vector<int>& v, int k, int i){

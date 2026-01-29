@@ -37,7 +37,7 @@ in these 2 we are not considering time
 
 # considering time
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_OS_4similar_PageReplacemntPolicy__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_OS_4similar_PageReplacemntPolicy__att_0001.png)
 
 Implementing it 
 Queue  

@@ -6,9 +6,9 @@ title: 5StronglyConnectedComponents
 https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1?track=placement
 
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0002.png)    
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0002.png)    
 when you reverse it
 
 we have to somehow do dfs from side of s1
@@ -20,10 +20,10 @@ In simpler terms, a strongly connected component is a set of vertices within a d
 
 sol.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0003.png)
 
 finishing time    
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0004.png)
 
 ```python
 void dfs(int node, vector<int> &vis, vector<vector<int>>& al, stack<int> &st){
@@ -77,5 +77,5 @@ int kosaraju(int n, vector<vector<int>>& al){
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_4TopilogicalSort_5StronglyConnectedComponents__att_0005.png)
 {% endraw %}

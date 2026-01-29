@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Convert all .ipynb files under transfernew/ into Jekyll-friendly .md files.
+Convert all .ipynb files under DTRANSFER/ into Jekyll-friendly .md files.
 
 - Writes one .md next to each .ipynb (same stem).
 - Extracts ALL embedded images (cell outputs + markdown attachments) into a SINGLE folder:
-  transfernew/notebook_images/
+  DTRANSFER/notebook_images/
 - Renames images deterministically (includes notebook relative path to avoid collisions).
 - Rewrites markdown to reference images via root-relative paths:
-  /transfernew/notebook_images/<image>.png
+  /DTRANSFER/notebook_images/<image>.png
 - Wraps content in {% raw %} ... {% endraw %} to avoid Liquid parsing issues.
 
 No third-party dependencies required (parses .ipynb as JSON).
@@ -23,7 +23,7 @@ from typing import Any, Dict, Iterable, Tuple
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-TRANSFERNEW = REPO_ROOT / "transfernew"
+TRANSFERNEW = REPO_ROOT / "DTRANSFER"
 IMAGES_DIR = TRANSFERNEW / "notebook_images"
 
 
@@ -124,7 +124,7 @@ def _extract_attachments(
 
         filename = f"{nb_rel_slug}__att_{idx:04d}.{ext}"
         _write_image_bytes(filename, _decode_b64(b64))
-        mapping[att_name] = f"/transfernew/notebook_images/{filename}"
+        mapping[att_name] = f"/DTRANSFER/notebook_images/{filename}"
         idx += 1
 
     return mapping, idx
@@ -199,7 +199,7 @@ def _extract_output_images(
             if isinstance(b64, str) and b64.strip():
                 filename = f"{nb_rel_slug}__out_{idx:04d}.{ext}"
                 _write_image_bytes(filename, _decode_b64(b64))
-                md_lines.append(f"![](/transfernew/notebook_images/{filename})")
+                md_lines.append(f"![](/DTRANSFER/notebook_images/{filename})")
                 md_lines.append("")
                 idx += 1
                 continue
@@ -229,7 +229,7 @@ def convert_notebook(ipynb_path: Path) -> None:
         content = _front_matter(title=title) + _wrap_raw(f"*(Failed to parse notebook: {e})*")
         md_out_path.write_text(content, encoding="utf-8")
         return
-    rel = ipynb_path.relative_to(REPO_ROOT).as_posix()  # transfernew/...
+    rel = ipynb_path.relative_to(REPO_ROOT).as_posix()  # DTRANSFER/...
     nb_rel_slug = _safe_slug(rel.removesuffix(".ipynb"))
 
     md_out_path = ipynb_path.with_suffix(".md")

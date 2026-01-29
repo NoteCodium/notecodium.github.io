@@ -21,7 +21,7 @@ Availabale
 Or 
 Consistent
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_3Theorems__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_3Theorems__att_0001.png)
 
 CA database after partition happened  
     Only possible for single node
@@ -37,7 +37,7 @@ MongoDB
 Banking
 
 Doubt  
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_3Theorems__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_3Theorems__att_0002.png)
 
 AP
 Don’t turn off the nodes which are disconnected due to partition  
@@ -45,7 +45,7 @@ Don’t turn off the nodes which are disconnected due to partition
 Apache cassandra, Amazon DynamoDB  
 Facebook, higly available: need not be consistent
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_3Theorems__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_3Theorems__att_0003.png)
 
 ?????????????????????????????????
 Synchronous update make availability go down
@@ -64,5 +64,5 @@ Strong consistency
     Synchrounous updates
 
 doubt  
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_DB_Theorem_3Theorems__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_DB_Theorem_3Theorems__att_0004.png)
 {% endraw %}

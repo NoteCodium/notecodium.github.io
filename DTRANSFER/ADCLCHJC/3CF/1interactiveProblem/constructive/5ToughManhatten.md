@@ -5,35 +5,35 @@ title: 5ToughManhatten
 {% raw %}
 https://codeforces.com/contest/1934/problem/C
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0001.png)
 
 # Manhatten distance
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0003.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0005.png)
 
 from the property if triangle
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0006.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0008.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0009.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0010.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0011.png)
 
 # Implementation
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0012.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_3CF_1interactiveProblem_constructive_5ToughManhatten__att_0012.png)
 
 ```python
 #include <bits/stdc++.h>

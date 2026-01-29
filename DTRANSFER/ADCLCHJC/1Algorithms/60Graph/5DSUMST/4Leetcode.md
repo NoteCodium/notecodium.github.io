@@ -5,11 +5,11 @@ title: 4Leetcode
 {% raw %}
 https://leetcode.com/problems/accounts-merge/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_4Leetcode__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_4Leetcode__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_4Leetcode__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_4Leetcode__att_0002.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_5DSUMST_4Leetcode__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_5DSUMST_4Leetcode__att_0003.png)
 
 ```python
 class Solution {

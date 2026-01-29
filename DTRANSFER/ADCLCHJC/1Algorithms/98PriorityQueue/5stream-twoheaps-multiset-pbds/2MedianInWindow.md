@@ -61,7 +61,7 @@ class Solution {
 
 # MAANG
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_5stream-twoheaps-multiset-pbds_2MedianInWindow__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_5stream-twoheaps-multiset-pbds_2MedianInWindow__att_0001.png)
 
 https://cses.fi/problemset/task/1077/
 

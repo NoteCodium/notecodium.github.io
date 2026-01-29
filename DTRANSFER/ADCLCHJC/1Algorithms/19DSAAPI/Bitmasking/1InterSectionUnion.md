@@ -3,15 +3,15 @@ title: 1InterSectionUnion
 ---
 
 {% raw %}
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_19DSAAPI_Bitmasking_1InterSectionUnion__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_19DSAAPI_Bitmasking_1InterSectionUnion__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_19DSAAPI_Bitmasking_1InterSectionUnion__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_19DSAAPI_Bitmasking_1InterSectionUnion__att_0002.png)
 
 do logo ke beech common fruits nikalne hain
 
 representation of food by a number
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_19DSAAPI_Bitmasking_1InterSectionUnion__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_19DSAAPI_Bitmasking_1InterSectionUnion__att_0003.png)
 
 if the number of things exceed 64 we have to use bitset    
     discusses smewhere

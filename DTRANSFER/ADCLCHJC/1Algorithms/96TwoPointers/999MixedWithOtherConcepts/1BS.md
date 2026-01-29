@@ -6,7 +6,7 @@ title: 1BS
 Find kth smallest distance among all the pairs   
 https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_96TwoPointers_999MixedWithOtherConcepts_1BS__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_96TwoPointers_999MixedWithOtherConcepts_1BS__att_0001.png)
 
 ```python
 class Solution {

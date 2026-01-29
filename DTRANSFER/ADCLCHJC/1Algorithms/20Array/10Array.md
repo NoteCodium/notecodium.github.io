@@ -6,13 +6,13 @@ title: 10Array
 # Theory
 
 Rotate k units in cw direction:  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0001.png)
 
 the starting index of the parts will be  
 1. 0   (the length of this portion is n-k, with last number having idx of n-k-1)
 2. n-k (this part have lenght of k as asked in question)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0002.png)
 
 # Problems
 
@@ -134,7 +134,7 @@ return 1;
 ```
 
 optimized solution with a observation  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0003.png)
 
 whenever idx==pre_max    
     chunks++
@@ -154,7 +154,7 @@ https://leetcode.com/problems/trapping-rain-water/description/
 
 How much water a solid histogram can trap
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0004.png)
 
 ```python
 vi preMax=preMaxCalc(v),postMax=postMaxCalc(v);
@@ -170,7 +170,7 @@ for(int i=1;i<=n-2;i++){
 
 Q Sum of all subsequences in an array
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0005.png)
 
 ```python
 int sumArray=sumArrayCalc(v);
@@ -180,7 +180,7 @@ return modm(mpow(2,n-1),sumArray);
 
 sum of all the subarrays of the array
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0006.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0006.png)
 
 ```python
 for(int i=0;i<n;i++){
@@ -191,9 +191,9 @@ for(int i=0;i<n;i++){
 
 # Missing problem on AZ
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0007.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0007.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0008.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0008.png)
 
 Find link of above problem
 
@@ -205,10 +205,10 @@ Find sum of all the score of substrings in a string
 
 There can be this many subarrays each can have a maximum score of 26
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0009.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0009.png)
 
 Solution  
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0010.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0010.png)
 
 ```python
 void solve(){
@@ -239,7 +239,7 @@ void solve(){
 
 find its link by ppa
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_20Array_10Array__att_0011.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_20Array_10Array__att_0011.png)
 
 # MAANG
 

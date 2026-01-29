@@ -7,7 +7,7 @@ https://leetcode.com/problems/word-ladder/description/
 
 End word need not to be in word list
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_3WordLadderAndLockFamily__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_3WordLadderAndLockFamily__att_0001.png)
 
 ```python
 class Solution {
@@ -128,7 +128,7 @@ vector<vector<string>> findLadders(string beginWord, string endWord, vector<stri
 shortest prime path   
 https://www.geeksforgeeks.org/problems/shortest-prime-path--141631/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_3WordLadderAndLockFamily__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_3WordLadderAndLockFamily__att_0002.png)
 
 ```python
 unordered_map<string,bool> primes_generate(ll n){
@@ -184,7 +184,7 @@ return -1;
 
 https://leetcode.com/problems/open-the-lock/description/
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60Graph_3bfs_3WordLadderAndLockFamily__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60Graph_3bfs_3WordLadderAndLockFamily__att_0003.png)
 
 ```python
 class Solution {

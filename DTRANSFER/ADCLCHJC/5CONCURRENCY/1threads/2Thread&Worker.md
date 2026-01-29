@@ -28,5 +28,5 @@ public class Main{
 }
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_5CONCURRENCY_1threads_2Thread_Worker__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_5CONCURRENCY_1threads_2Thread_Worker__att_0001.png)
 {% endraw %}

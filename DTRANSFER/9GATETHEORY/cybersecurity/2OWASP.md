@@ -17,7 +17,7 @@ project
 bypass authorization safeguards  
 become privileged user
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_cybersecurity_2OWASP__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_cybersecurity_2OWASP__att_0001.png)
 
 principle of least privilage
 
@@ -46,7 +46,7 @@ for new application
 bad configuration present in 90%  
 lack of security controls
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_cybersecurity_2OWASP__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_cybersecurity_2OWASP__att_0002.png)
 
 # 6 Vulnerable and outdated components   
 os  
@@ -61,7 +61,7 @@ It has come down (standarise frameworks are helping)
 doubt () (oauth wagera ?? ) 
 user MFA
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_cybersecurity_2OWASP__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_cybersecurity_2OWASP__att_0003.png)
 
 # 7 Software and Date integrity failure
 
@@ -79,7 +79,7 @@ Promoting Best Practices
 
 Standardization
 
-![image.png](/transfernew/notebook_images/transfernew_9GATETHEORY_cybersecurity_2OWASP__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_9GATETHEORY_cybersecurity_2OWASP__att_0004.png)
 
 Compliance with Industry Standards
 

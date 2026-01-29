@@ -5,7 +5,7 @@ title: 30MissingNumberDOIT
 {% raw %}
 https://www.geeksforgeeks.org/problems/find-missing-and-repeating2512/1
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0001.png)
 
 popular questions of bits
 
@@ -42,7 +42,7 @@ Given an unsorted integer array nums.
 Return the smallest      
 positive integer that is not present in nums.
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0002.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0002.png)
 
 # maang
 
@@ -69,7 +69,7 @@ int firstMissingPositive(vector<int>& v) {
 
 if a number is greater then n (n+1), then offcourse an element from 1 to n is missing
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0003.png)
 
 1 se n tak ke heen elements se matlab hain,
 
@@ -77,7 +77,7 @@ done in array
 
 https://www.designgurus.io/course-play/grokking-the-coding-interview/doc/63dd9609488110f74a922636
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_25Cyclic_30MissingNumberDOIT__att_0004.png)
 
 ```python
 //arcgieved

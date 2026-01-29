@@ -23,5 +23,5 @@ cout<<fixed<<setprecision(6)<<ans<<nl;
 while(h-l>1e-6)
 ```
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_60BinarySearch_4Decimal__att_0001.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_60BinarySearch_4Decimal__att_0001.png)
 {% endraw %}

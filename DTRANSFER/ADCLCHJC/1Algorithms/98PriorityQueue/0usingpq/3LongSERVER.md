@@ -7,15 +7,15 @@ title: 3LongSERVER
 https://leetcode.com/problems/process-tasks-using-servers/description/   
 https://www.youtube.com/watch?v=XKA22PecuMQ
 
-![image-2.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0001.png)
+![image-2.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0001.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0003.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0003.png)
 
 two heaps,after design guru
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0004.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0004.png)
 
-![image.png](/transfernew/notebook_images/transfernew_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0005.png)
+![image.png](/DTRANSFER/notebook_images/DTRANSFER_ADCLCHJC_1Algorithms_98PriorityQueue_0usingpq_3LongSERVER__att_0005.png)
 
 ```python
 vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {
