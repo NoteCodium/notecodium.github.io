@@ -45,8 +45,13 @@
     "dir": "CONTENT/DS/5HEAP"
   },
   {
-    "name": "3Interconversion.md",
-    "path": "/CONTENT/DS/5HEAP/3Interconversion.html",
+    "name": "3DesignHeap.md",
+    "path": "/CONTENT/DS/5HEAP/3DesignHeap.html",
+    "dir": "CONTENT/DS/5HEAP"
+  },
+  {
+    "name": "4Interconversion.md",
+    "path": "/CONTENT/DS/5HEAP/4Interconversion.html",
     "dir": "CONTENT/DS/5HEAP"
   },
   {
