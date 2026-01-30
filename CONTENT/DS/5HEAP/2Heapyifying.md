@@ -33,11 +33,7 @@ void buildHeap(int v[], int n)  {
 
 ![image.png](/images/image-369.png)
 
-
-
 # Building a heap in linear time
-
-
 
 lst and rst are heaps and we introduced root as a new element   
 
@@ -49,8 +45,6 @@ lst and rst are heaps and we introduced root as a new element
 
 1. we are going bottom from top this time
 2. we have to run our heapify algorithms only on the non leaf nodes  
-
-
 
 ```cpp
 //Top to bottom
@@ -120,6 +114,3 @@ https://www.geeksforgeeks.org/problems/heap-sort/1
     }
 ```
 
-    
-
-https://neetcode.io/problems/heap
