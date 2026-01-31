@@ -16,17 +16,11 @@ Mock test
 
 ![image.png](/images/image-380.png)
 
-
-
 ![image.png](/images/image-375.png)
 
 ![image.png](/images/image-378.png)
 
 ![image.png](/images/image-381.png)
-
-
-
-
 
 ![image.png](/images/image-376.png)
 
@@ -34,9 +28,12 @@ Mock test
 
 ![image.png](/images/image-382.png)
 
-
-
 ---
 
 50-55
 
+30 essay
+
+30 Precis
+
+40 RC
