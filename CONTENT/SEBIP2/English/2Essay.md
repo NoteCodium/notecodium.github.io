@@ -1,4 +1,10 @@
-# Essay
+# Essay 250-270 words
+
+Using Topic cleaverly to increase/decrease the word count
+
+subheading also
+
+
 
 1. cause
 2. impact
@@ -7,7 +13,16 @@
 
 ![image.png](/images/image-383.png)
 
-# Content (impimp)
+# Content (impimpimpimpimpimpimpimpimp)
 
 1. Definition
-2. 
+2. Why now?
+
+#### Main arguments
+
+1. Advantages/ Disadvantages
+
+---
+
+1. Risks
+2. Way forward
