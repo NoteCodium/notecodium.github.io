@@ -1,5 +1,9 @@
 # PYQ
 
+chatgpt grapmmer
+
+![image.png](/images/image-389.png)
+
 title
 
 word limit
@@ -37,7 +41,5 @@ Mock test
 30 Precis
 
 40 RC
-
-
 
 Atleast write title for marks
