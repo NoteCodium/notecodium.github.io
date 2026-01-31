@@ -15,8 +15,6 @@ subheading also
 
 1. Introduction
 
-
-
 The shape of the things to come
 
 ---
@@ -28,9 +26,26 @@ The shape of the things to come
 
 #### Main arguments
 
+
+
+SW
+
+strenghth weakness
+
 1. Advantages/ Disadvantages
 
+OT
 
+opportunities threats to the policy
+
+# PESTEL
+
+1. political
+2. economical
+3. social
+4. techonological
+5. Environmental
+6. Legal
 
 
 
@@ -47,5 +62,7 @@ The shape of the things to come
 
 
 
-![image.png](/images/image-390.png)
+---
+
+
 
