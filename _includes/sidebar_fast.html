@@ -169,14 +169,7 @@
             const tree = buildFileTree(files);
             container.innerHTML = renderTree(tree);
 
-            // Restore scroll position after Async Render
-            const sidebarContent = document.querySelector('.sidebar-content');
-            if (sidebarContent) {
-                const savedScroll = localStorage.getItem("sidebar_scroll_position");
-                if (savedScroll) {
-                    sidebarContent.scrollTop = parseInt(savedScroll, 10);
-                }
-            }
+            // Scroll restoration moved to end of function
 
             // Cache links after render (used by search + active highlighting)
             const links = Array.from(document.querySelectorAll('.file-link'));
@@ -253,6 +246,18 @@
                     }
                 }
             });
+
+            // Restore scroll position after Async Render AND Expansion
+            const sidebarContent = document.querySelector('.sidebar-content');
+            if (sidebarContent) {
+                const savedScroll = localStorage.getItem("sidebar_scroll_position");
+                if (savedScroll) {
+                    // Use a small timeout to ensure DOM layout has updated after expansion
+                    setTimeout(() => {
+                        sidebarContent.scrollTop = parseInt(savedScroll, 10);
+                    }, 0);
+                }
+            }
         })
         .catch(err => {
             console.error('Failed to load files:', err);

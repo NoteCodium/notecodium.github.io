@@ -125,9 +125,224 @@
     "dir": "CONTENT/DSA/1RECURSION"
   },
   {
+    "name": "0Resources.md",
+    "path": "/CONTENT/DSA/2DP/-0Initials/0Resources.html",
+    "dir": "CONTENT/DSA/2DP/-0Initials"
+  },
+  {
     "name": "1.md",
-    "path": "/CONTENT/DSA/2DP/1.html",
-    "dir": "CONTENT/DSA/2DP"
+    "path": "/CONTENT/DSA/2DP/-0Initials/1.html",
+    "dir": "CONTENT/DSA/2DP/-0Initials"
+  },
+  {
+    "name": "2FamousSequences.md",
+    "path": "/CONTENT/DSA/2DP/-0Initials/2FamousSequences.html",
+    "dir": "CONTENT/DSA/2DP/-0Initials"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/-1CPDP/1.html",
+    "dir": "CONTENT/DSA/2DP/-1CPDP"
+  },
+  {
+    "name": "2CFOLD.md",
+    "path": "/CONTENT/DSA/2DP/-1CPDP/2CFOLD.html",
+    "dir": "CONTENT/DSA/2DP/-1CPDP"
+  },
+  {
+    "name": "3.md",
+    "path": "/CONTENT/DSA/2DP/-1CPDP/3.html",
+    "dir": "CONTENT/DSA/2DP/-1CPDP"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/-2CF/1.html",
+    "dir": "CONTENT/DSA/2DP/-2CF"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/DSA/2DP/-2CF/2.html",
+    "dir": "CONTENT/DSA/2DP/-2CF"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/-3HawaHeenNaLage/1.html",
+    "dir": "CONTENT/DSA/2DP/-3HawaHeenNaLage"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/10/1.html",
+    "dir": "CONTENT/DSA/2DP/10"
+  },
+  {
+    "name": "39LR.md",
+    "path": "/CONTENT/DSA/2DP/11LR/39LR.html",
+    "dir": "CONTENT/DSA/2DP/11LR"
+  },
+  {
+    "name": "35GameTheory.md",
+    "path": "/CONTENT/DSA/2DP/12GameTheory/35GameTheory.html",
+    "dir": "CONTENT/DSA/2DP/12GameTheory"
+  },
+  {
+    "name": "36Grid&Path.md",
+    "path": "/CONTENT/DSA/2DP/13Grid/36Grid&Path.html",
+    "dir": "CONTENT/DSA/2DP/13Grid"
+  },
+  {
+    "name": "38Intervals.md",
+    "path": "/CONTENT/DSA/2DP/14Intervals/38Intervals.html",
+    "dir": "CONTENT/DSA/2DP/14Intervals"
+  },
+  {
+    "name": "391PathSums.md",
+    "path": "/CONTENT/DSA/2DP/15PathSum/391PathSums.html",
+    "dir": "CONTENT/DSA/2DP/15PathSum"
+  },
+  {
+    "name": "392Stocks.md",
+    "path": "/CONTENT/DSA/2DP/16Stocks/392Stocks.html",
+    "dir": "CONTENT/DSA/2DP/16Stocks"
+  },
+  {
+    "name": "0Observations.md",
+    "path": "/CONTENT/DSA/2DP/17Optimizations/0Observations.html",
+    "dir": "CONTENT/DSA/2DP/17Optimizations"
+  },
+  {
+    "name": "1MontonicQueue.md",
+    "path": "/CONTENT/DSA/2DP/17Optimizations/1MontonicQueue.html",
+    "dir": "CONTENT/DSA/2DP/17Optimizations"
+  },
+  {
+    "name": "3PrefixSum.md",
+    "path": "/CONTENT/DSA/2DP/17Optimizations/3PrefixSum.html",
+    "dir": "CONTENT/DSA/2DP/17Optimizations"
+  },
+  {
+    "name": "1MakeFenceGreatAgain.md",
+    "path": "/CONTENT/DSA/2DP/18FamousProblems/1MakeFenceGreatAgain.html",
+    "dir": "CONTENT/DSA/2DP/18FamousProblems"
+  },
+  {
+    "name": "2PaintJob.md",
+    "path": "/CONTENT/DSA/2DP/18FamousProblems/2PaintJob.html",
+    "dir": "CONTENT/DSA/2DP/18FamousProblems"
+  },
+  {
+    "name": "0.md",
+    "path": "/CONTENT/DSA/2DP/19Cyclic/0.html",
+    "dir": "CONTENT/DSA/2DP/19Cyclic"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/19Cyclic/1.html",
+    "dir": "CONTENT/DSA/2DP/19Cyclic"
+  },
+  {
+    "name": "2Sushi.md",
+    "path": "/CONTENT/DSA/2DP/19Cyclic/2Sushi.html",
+    "dir": "CONTENT/DSA/2DP/19Cyclic"
+  },
+  {
+    "name": "10TypesOfDPFilling.md",
+    "path": "/CONTENT/DSA/2DP/1Basics/10TypesOfDPFilling.html",
+    "dir": "CONTENT/DSA/2DP/1Basics"
+  },
+  {
+    "name": "20RealLife.md",
+    "path": "/CONTENT/DSA/2DP/1Basics/20RealLife.html",
+    "dir": "CONTENT/DSA/2DP/1Basics"
+  },
+  {
+    "name": "30Cakewalks.md",
+    "path": "/CONTENT/DSA/2DP/1Basics/30Cakewalks.html",
+    "dir": "CONTENT/DSA/2DP/1Basics"
+  },
+  {
+    "name": "31StringsAndVectors.md",
+    "path": "/CONTENT/DSA/2DP/1Basics/31StringsAndVectors.html",
+    "dir": "CONTENT/DSA/2DP/1Basics"
+  },
+  {
+    "name": "37HouseRobber.md",
+    "path": "/CONTENT/DSA/2DP/1Basics/37HouseRobber.html",
+    "dir": "CONTENT/DSA/2DP/1Basics"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/2/1.html",
+    "dir": "CONTENT/DSA/2DP/2"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/3/1.html",
+    "dir": "CONTENT/DSA/2DP/3"
+  },
+  {
+    "name": "0.md",
+    "path": "/CONTENT/DSA/2DP/4ShapeCuttingFIlling/0.html",
+    "dir": "CONTENT/DSA/2DP/4ShapeCuttingFIlling"
+  },
+  {
+    "name": "1n*2.md",
+    "path": "/CONTENT/DSA/2DP/4ShapeCuttingFIlling/1n*2.html",
+    "dir": "CONTENT/DSA/2DP/4ShapeCuttingFIlling"
+  },
+  {
+    "name": "2a*b.md",
+    "path": "/CONTENT/DSA/2DP/4ShapeCuttingFIlling/2a*b.html",
+    "dir": "CONTENT/DSA/2DP/4ShapeCuttingFIlling"
+  },
+  {
+    "name": "3n*3.md",
+    "path": "/CONTENT/DSA/2DP/4ShapeCuttingFIlling/3n*3.html",
+    "dir": "CONTENT/DSA/2DP/4ShapeCuttingFIlling"
+  },
+  {
+    "name": "4TetrisProblem.md",
+    "path": "/CONTENT/DSA/2DP/4ShapeCuttingFIlling/4TetrisProblem.html",
+    "dir": "CONTENT/DSA/2DP/4ShapeCuttingFIlling"
+  },
+  {
+    "name": "1frontPartition.md",
+    "path": "/CONTENT/DSA/2DP/5FrontPartition/1frontPartition.html",
+    "dir": "CONTENT/DSA/2DP/5FrontPartition"
+  },
+  {
+    "name": "34MCM.md",
+    "path": "/CONTENT/DSA/2DP/6MCM:ThirdTypeOfDPFilling/34MCM.html",
+    "dir": "CONTENT/DSA/2DP/6MCM:ThirdTypeOfDPFilling"
+  },
+  {
+    "name": "GameTheoryLR.md",
+    "path": "/CONTENT/DSA/2DP/6MCM:ThirdTypeOfDPFilling/GameTheoryLR.html",
+    "dir": "CONTENT/DSA/2DP/6MCM:ThirdTypeOfDPFilling"
+  },
+  {
+    "name": "problems.md",
+    "path": "/CONTENT/DSA/2DP/6MCM:ThirdTypeOfDPFilling/problems.html",
+    "dir": "CONTENT/DSA/2DP/6MCM:ThirdTypeOfDPFilling"
+  },
+  {
+    "name": "1Tight.md",
+    "path": "/CONTENT/DSA/2DP/7tough/1Tight.html",
+    "dir": "CONTENT/DSA/2DP/7tough"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/DSA/2DP/8Probability/1.html",
+    "dir": "CONTENT/DSA/2DP/8Probability"
+  },
+  {
+    "name": "2.md",
+    "path": "/CONTENT/DSA/2DP/8Probability/2.html",
+    "dir": "CONTENT/DSA/2DP/8Probability"
+  },
+  {
+    "name": "32LIS.md",
+    "path": "/CONTENT/DSA/2DP/9Lis/32LIS.html",
+    "dir": "CONTENT/DSA/2DP/9Lis"
   },
   {
     "name": "1Theorratical_Sort.md",
@@ -438,6 +653,36 @@
     "name": "0.md",
     "path": "/CONTENT/SEBIP2/0.html",
     "dir": "CONTENT/SEBIP2"
+  },
+  {
+    "name": "1Mix.md",
+    "path": "/CONTENT/SEBIP2/English/1Mix.html",
+    "dir": "CONTENT/SEBIP2/English"
+  },
+  {
+    "name": "2Essay.md",
+    "path": "/CONTENT/SEBIP2/English/2Essay.html",
+    "dir": "CONTENT/SEBIP2/English"
+  },
+  {
+    "name": "3Precis.md",
+    "path": "/CONTENT/SEBIP2/English/3Precis.html",
+    "dir": "CONTENT/SEBIP2/English"
+  },
+  {
+    "name": "4Questions.md",
+    "path": "/CONTENT/SEBIP2/English/4Questions.html",
+    "dir": "CONTENT/SEBIP2/English"
+  },
+  {
+    "name": "5Vocubulary.md",
+    "path": "/CONTENT/SEBIP2/English/5Vocubulary.html",
+    "dir": "CONTENT/SEBIP2/English"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SEBIP2/English/TOPICS/1.html",
+    "dir": "CONTENT/SEBIP2/English/TOPICS"
   },
   {
     "name": "1.md",
@@ -2718,36 +2963,6 @@
     "name": "1.md",
     "path": "/DTRANSFER/ADCLCHJC/4LLD/code/src/main/java/lld/reuse/paymentmode/1.html",
     "dir": "DTRANSFER/ADCLCHJC/4LLD/code/src/main/java/lld/reuse/paymentmode"
-  },
-  {
-    "name": "1.md",
-    "path": "/DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/1.html",
-    "dir": "DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new"
-  },
-  {
-    "name": "2.md",
-    "path": "/DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/2.html",
-    "dir": "DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new"
-  },
-  {
-    "name": "1.md",
-    "path": "/DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/BatchProcess/1.html",
-    "dir": "DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/BatchProcess"
-  },
-  {
-    "name": "1.md",
-    "path": "/DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/BatchProcess/withinbuiltes/1.html",
-    "dir": "DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/BatchProcess/withinbuiltes"
-  },
-  {
-    "name": "1.md",
-    "path": "/DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/ThreadPool/1.html",
-    "dir": "DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/ThreadPool"
-  },
-  {
-    "name": "1.md",
-    "path": "/DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/ThreadPool/inbuilt/1.html",
-    "dir": "DTRANSFER/ADCLCHJC/4LLD/code/target/classes/concurrency/new/ThreadPool/inbuilt"
   },
   {
     "name": "1.md",
