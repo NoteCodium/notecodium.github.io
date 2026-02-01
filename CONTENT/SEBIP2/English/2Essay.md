@@ -13,9 +13,8 @@ subheading also
 
 ---
 
+# Introduction
 
-
-1. Introduction
 1. Definition
 1. Why now?
 
@@ -39,10 +38,7 @@ opportunities threats
 4. techonological
 5. Environmental
 6. Legal
-7. # Way forward
 
----
+# Way forward
 
-1. # Conclusion 
-
----
+# Conclusion 
