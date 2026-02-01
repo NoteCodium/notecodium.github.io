@@ -11,34 +11,27 @@ subheading also
 
 ![image.png](/images/image-383.png)
 
-# Content (impimpimpimpimpimpimpimpimp)
-
-1. Introduction
-
-The shape of the things to come
-
 ---
 
 
 
+1. Introduction
 1. Definition
-2. Why now?
+1. Why now?
 
-#### Main arguments
+# Body
 
-
-
-SW
+## SW
 
 strenghth weakness
 
 1. Advantages/ Disadvantages
 
-OT
+## OT
 
-opportunities threats to the policy
+opportunities threats 
 
-# PESTEL
+## PESTEL
 
 1. political
 2. economical
@@ -46,23 +39,10 @@ opportunities threats to the policy
 4. techonological
 5. Environmental
 6. Legal
-
-
-
----
-
-1. Risks
-2. Way forward
-
-
+7. # Way forward
 
 ---
 
-1. Conclusion 
-
-
+1. # Conclusion 
 
 ---
-
-
-
