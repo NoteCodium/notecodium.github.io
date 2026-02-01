@@ -104,13 +104,7 @@ Time complexity?
 
 ![image.png](/images/image-392.png)
 
-
-
-
-
-
-
-
+![image.png](/images/image-393.png)
 
 ```python
 //inf;
@@ -145,10 +139,12 @@ int driver(){
 // vector<int> mem(k+1,-1);
 //convert this code to array
 int mem[k+1];
-//using fill_n functtion or loop, thatswhy using vector is so much better
+//using fill_n functtion 
 ```
 
 Time complexity?
+
+nk
 
 ```python
 //vector<int> mem(k+1,-1)
@@ -194,7 +190,7 @@ nk
 
 No. of ways you can make sum=k from v, such that 1 2 is different from 2 1 (dice)   
 
-(https://cses.fi/problemset/task/1635)
+https://cses.fi/problemset/task/1635
 
 1. V store available values
 2. Careully see V can have which types of numbers
@@ -215,7 +211,6 @@ ll f(ll k, vl v){
     }
     return mem[k]=ans;
 }
-
 
 void solve(){
     iinp(k);
