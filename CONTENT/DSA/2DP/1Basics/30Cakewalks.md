@@ -102,6 +102,12 @@ int minNoOfCoinsToMakeSumK(int k){
 
 Time complexity?
 
+![image.png](/images/image-392.png)
+
+
+
+
+
 
 
 
