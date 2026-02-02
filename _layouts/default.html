@@ -7,8 +7,7 @@
   <!-- Highlight.js for syntax highlighting -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
-  <link rel="stylesheet" href="https://unpkg.com/easymde/dist/easymde.min.css">
-  <script src="https://unpkg.com/easymde/dist/easymde.min.js"></script>
+
   <style>
     /* 1. Global Resets */
     :root {
@@ -246,25 +245,6 @@
 
     .collapse-btn:hover {
       background-color: #f0f0f0;
-    }
-
-    /* EasyMDE Fixes */
-    .EasyMDEContainer {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      min-height: 0;
-      /* Critical for flex scrolling */
-    }
-
-    .CodeMirror {
-      flex: 1;
-      height: auto !important;
-      /* Let flex handle height */
-    }
-
-    .CodeMirror-scroll {
-      min-height: 0 !important;
     }
   </style>
 </head>
@@ -556,109 +536,24 @@
     });
   </script>
   <!-- Editor Overlay -->
-  <div id="editorOverlay"
-    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:2000; flex-direction:column;">
-    <div
-      style="padding:10px; background:#f0f0f0; border-bottom:1px solid #ccc; display:flex; gap:10px; align-items:center;">
-      <span style="font-weight:bold;">Editing: <span id="editorFileName"></span></span>
-      <button id="saveEditBtn" class="reset-btn" style="background:#4caf50; color:white; border:none;">Save</button>
-      <button id="cancelEditBtn" class="reset-btn" style="background:#f44336; color:white; border:none;">Cancel</button>
-    </div>
-    <textarea id="editorTextarea"
-      style="flex:1; width:100%; padding:20px; font-family:monospace; font-size:14px; border:none; resize:none; outline:none; white-space: pre;"
-      spellcheck="false"></textarea>
-  </div>
+
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const editBtn = document.getElementById('editPageBtn');
-      const editorOverlay = document.getElementById('editorOverlay');
-      const editorTextarea = document.getElementById('editorTextarea');
-      const editorFileName = document.getElementById('editorFileName');
-      const saveBtn = document.getElementById('saveEditBtn');
-      const cancelBtn = document.getElementById('cancelEditBtn');
-
-      let easyMDE = null;
-
       // Liquid variable for current path
       const currentPath = "{{ page.path }}";
+      // GitHub Repo Details
+      const githubUsername = "notecodium";
+      const githubRepo = "notecodium.github.io";
+      const branch = "main"; // Defaulting to main
 
       if (editBtn) {
-        editBtn.addEventListener('click', async () => {
-          try {
-            // Check if running on localhost/port where server is expected
-            // or just try fetching
-            const response = await fetch(`http://localhost:8000/api/read?path=${encodeURIComponent(currentPath)}`);
-            if (!response.ok) {
-              if (response.status === 404) throw new Error('File not found.');
-              throw new Error('Failed to fetch. Is python scripts/edit_server.py running?');
-            }
-            const text = await response.text();
-            editorTextarea.value = text;
-            editorFileName.textContent = currentPath;
-            editorOverlay.style.display = 'flex';
-
-            // Initialize EasyMDE if not already active
-            if (!easyMDE) {
-              easyMDE = new EasyMDE({
-                element: editorTextarea,
-                spellChecker: false,
-                autosave: { enabled: false },
-                status: false,
-                toolbar: ["bold", "italic", "heading", "|", "quote", "unordered-list", "ordered-list", "|", "link", "image", "|", "preview", "side-by-side", "fullscreen"]
-              });
-            } else {
-              easyMDE.value(text);
-            }
-
-          } catch (e) {
-            alert("Error: " + e.message + "\n\nPlease run: python3 scripts/edit_server.py");
-          }
-        });
-      }
-
-      function closeEditor() {
-        editorOverlay.style.display = 'none';
-        if (easyMDE) {
-          easyMDE.toTextArea();
-          easyMDE = null;
-        }
-      }
-
-      if (cancelBtn) {
-        cancelBtn.addEventListener('click', () => {
-          closeEditor();
-        });
-      }
-
-      if (saveBtn) {
-        saveBtn.addEventListener('click', async () => {
-          try {
-            const originalText = saveBtn.textContent;
-            saveBtn.textContent = "Saving...";
-
-            // Get value from EasyMDE if active, else textarea
-            const content = easyMDE ? easyMDE.value() : editorTextarea.value;
-
-            const response = await fetch('http://localhost:8000/api/save', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ path: currentPath, content: content })
-            });
-            if (!response.ok) throw new Error('Failed to save');
-
-            saveBtn.textContent = "Saved!";
-
-            // Cleanup
-            closeEditor();
-
-            // Reload to see changes (Jekyll takes a moment to rebuild)
-            // We'll reload after a short delay
-            setTimeout(() => location.reload(), 1500);
-          } catch (e) {
-            alert('Error saving: ' + e.message);
-            saveBtn.textContent = "Save";
-          }
+        editBtn.addEventListener('click', function () {
+          // Open GitHub Editor in new tab
+          // Format: https://github.com/[user]/[repo]/edit/[branch]/[path]
+          const githubUrl = `https://github.com/${githubUsername}/${githubRepo}/edit/${branch}/${currentPath}`;
+          window.open(githubUrl, '_blank');
         });
       }
     });
