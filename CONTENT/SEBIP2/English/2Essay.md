@@ -20,15 +20,13 @@ subheading also
 
 # Body
 
-## SW
+## SO
 
-strenghth weakness
+strenghth,Advantages,opportunities
 
-1. Advantages/ Disadvantages
+## WT
 
-## OT
-
-opportunities threats 
+1. weakness, Disadvantages, threats 
 
 ## PESTEL
 
@@ -42,3 +40,14 @@ opportunities threats
 # Way forward
 
 # Conclusion 
+
+
+
+
+
+These cognitive risks are amplified by broader systemic threats. Misinformation, echo chambers, and algorithmic bias increasingly narrow perspectives and weaken independent judgment. Politically, digital platforms shape public opinion and influence democratic processes. Economically, while cognitive efficiency boosts productivity, it also heightens anxiety due to automation-led job displacement. Socially, online interactions are redefining relationships and communication norms. Technologically, rapid advances in AI and automation continuously alter cognitive engagement. Environmentally, although digital minimalism can reduce resource use, energy-intensive data centres raise sustainability concerns. Legally, unresolved issues around data privacy and digital rights threaten individual cognitive autonomy.
+
+
+
+
+
