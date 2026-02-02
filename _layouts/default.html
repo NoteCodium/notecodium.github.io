@@ -7,7 +7,8 @@
   <!-- Highlight.js for syntax highlighting -->
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
-
+  <link rel="stylesheet" href="https://unpkg.com/easymde/dist/easymde.min.css">
+  <script src="https://unpkg.com/easymde/dist/easymde.min.js"></script>
   <style>
     /* 1. Global Resets */
     :root {
@@ -245,6 +246,25 @@
 
     .collapse-btn:hover {
       background-color: #f0f0f0;
+    }
+
+    /* EasyMDE Fixes */
+    .EasyMDEContainer {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+      /* Critical for flex scrolling */
+    }
+
+    .CodeMirror {
+      flex: 1;
+      height: auto !important;
+      /* Let flex handle height */
+    }
+
+    .CodeMirror-scroll {
+      min-height: 0 !important;
     }
   </style>
 </head>
@@ -558,6 +578,8 @@
       const saveBtn = document.getElementById('saveEditBtn');
       const cancelBtn = document.getElementById('cancelEditBtn');
 
+      let easyMDE = null;
+
       // Liquid variable for current path
       const currentPath = "{{ page.path }}";
 
@@ -575,22 +597,49 @@
             editorTextarea.value = text;
             editorFileName.textContent = currentPath;
             editorOverlay.style.display = 'flex';
+
+            // Initialize EasyMDE if not already active
+            if (!easyMDE) {
+              easyMDE = new EasyMDE({
+                element: editorTextarea,
+                spellChecker: false,
+                autosave: { enabled: false },
+                status: false,
+                toolbar: ["bold", "italic", "heading", "|", "quote", "unordered-list", "ordered-list", "|", "link", "image", "|", "preview", "side-by-side", "fullscreen"]
+              });
+            } else {
+              easyMDE.value(text);
+            }
+
           } catch (e) {
             alert("Error: " + e.message + "\n\nPlease run: python3 scripts/edit_server.py");
           }
         });
       }
 
+      function closeEditor() {
+        editorOverlay.style.display = 'none';
+        if (easyMDE) {
+          easyMDE.toTextArea();
+          easyMDE = null;
+        }
+      }
+
       if (cancelBtn) {
         cancelBtn.addEventListener('click', () => {
-          editorOverlay.style.display = 'none';
+          closeEditor();
         });
       }
 
       if (saveBtn) {
         saveBtn.addEventListener('click', async () => {
           try {
-            const content = editorTextarea.value;
+            const originalText = saveBtn.textContent;
+            saveBtn.textContent = "Saving...";
+
+            // Get value from EasyMDE if active, else textarea
+            const content = easyMDE ? easyMDE.value() : editorTextarea.value;
+
             const response = await fetch('http://localhost:8000/api/save', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
@@ -598,13 +647,17 @@
             });
             if (!response.ok) throw new Error('Failed to save');
 
-            // alert('Saved!');
-            editorOverlay.style.display = 'none';
+            saveBtn.textContent = "Saved!";
+
+            // Cleanup
+            closeEditor();
+
             // Reload to see changes (Jekyll takes a moment to rebuild)
             // We'll reload after a short delay
             setTimeout(() => location.reload(), 1500);
           } catch (e) {
             alert('Error saving: ' + e.message);
+            saveBtn.textContent = "Save";
           }
         });
       }
