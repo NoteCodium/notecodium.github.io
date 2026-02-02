@@ -1,8 +1,8 @@
 /   start and end of the regex expression  /
 
-\d : digits
+\d  digits
 
-\w: alpha-numeric
+\w alpha-numeric
 
 ![image.png](/images/image-13.png)
 
@@ -13,3 +13,4 @@ if we remove the g, it will match with the only the first at
 1. /e+/
 
 One e or more e
+
