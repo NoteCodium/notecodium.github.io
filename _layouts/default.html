@@ -394,17 +394,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
+    // Define helper functions globally
+    window.highlightCode = function () {
       document.querySelectorAll('pre code').forEach((el) => {
-        // Force C++ class for all code blocks
         el.className = 'language-cpp';
         hljs.highlightElement(el);
       });
-    });
-  </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      // Auto-convert text URLs to links in .content
+    };
+
+    window.autoLinkContent = function () {
       const content = document.querySelector('.content');
       if (!content) return;
 
@@ -436,18 +434,14 @@
         let lastIndex = 0;
         let match;
 
-        // Reset regex
         urlRegex.lastIndex = 0;
 
         while ((match = urlRegex.exec(text)) !== null) {
           const url = match[0];
-          // Strip trailing punctuation: . , ) ]
           const cleanUrl = url.replace(/[.,)\]]+$/, '');
 
-          // Add text before
           fragment.appendChild(document.createTextNode(text.substring(lastIndex, match.index)));
 
-          // Add link
           const a = document.createElement('a');
           a.href = cleanUrl;
           a.target = "_blank";
@@ -455,7 +449,6 @@
           a.textContent = cleanUrl;
           fragment.appendChild(a);
 
-          // Add stripped punctuation
           const stripped = url.substring(cleanUrl.length);
           if (stripped) {
             fragment.appendChild(document.createTextNode(stripped));
@@ -471,6 +464,12 @@
           node.parentNode.replaceChild(fragment, node);
         }
       });
+    };
+
+    // Initialize on load
+    document.addEventListener('DOMContentLoaded', () => {
+      window.highlightCode();
+      window.autoLinkContent();
     });
   </script>
   <div class="text-size-footer">
@@ -485,6 +484,8 @@
     <input type="range" id="textSizeSlider" min="12" max="28" value="16" step="1">
     <span style="font-size: 24px; font-weight: bold;">A</span>
     <button id="resetTextSize" class="reset-btn">Default</button>
+    <button id="editPageBtn" class="reset-btn"
+      style="margin-left: 20px; background-color: #e3f2fd; color: #0d47a1; border-color: #2196f3;">Edit Page</button>
   </div>
 
   <script>
@@ -530,6 +531,81 @@
               if (detail.id) localStorage.removeItem(detail.id);
             }
           });
+        });
+      }
+    });
+  </script>
+  <!-- Editor Overlay -->
+  <div id="editorOverlay"
+    style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:white; z-index:2000; flex-direction:column;">
+    <div
+      style="padding:10px; background:#f0f0f0; border-bottom:1px solid #ccc; display:flex; gap:10px; align-items:center;">
+      <span style="font-weight:bold;">Editing: <span id="editorFileName"></span></span>
+      <button id="saveEditBtn" class="reset-btn" style="background:#4caf50; color:white; border:none;">Save</button>
+      <button id="cancelEditBtn" class="reset-btn" style="background:#f44336; color:white; border:none;">Cancel</button>
+    </div>
+    <textarea id="editorTextarea"
+      style="flex:1; width:100%; padding:20px; font-family:monospace; font-size:14px; border:none; resize:none; outline:none; white-space: pre;"
+      spellcheck="false"></textarea>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const editBtn = document.getElementById('editPageBtn');
+      const editorOverlay = document.getElementById('editorOverlay');
+      const editorTextarea = document.getElementById('editorTextarea');
+      const editorFileName = document.getElementById('editorFileName');
+      const saveBtn = document.getElementById('saveEditBtn');
+      const cancelBtn = document.getElementById('cancelEditBtn');
+
+      // Liquid variable for current path
+      const currentPath = "{{ page.path }}";
+
+      if (editBtn) {
+        editBtn.addEventListener('click', async () => {
+          try {
+            // Check if running on localhost/port where server is expected
+            // or just try fetching
+            const response = await fetch(`http://localhost:8000/api/read?path=${encodeURIComponent(currentPath)}`);
+            if (!response.ok) {
+              if (response.status === 404) throw new Error('File not found.');
+              throw new Error('Failed to fetch. Is python scripts/edit_server.py running?');
+            }
+            const text = await response.text();
+            editorTextarea.value = text;
+            editorFileName.textContent = currentPath;
+            editorOverlay.style.display = 'flex';
+          } catch (e) {
+            alert("Error: " + e.message + "\n\nPlease run: python3 scripts/edit_server.py");
+          }
+        });
+      }
+
+      if (cancelBtn) {
+        cancelBtn.addEventListener('click', () => {
+          editorOverlay.style.display = 'none';
+        });
+      }
+
+      if (saveBtn) {
+        saveBtn.addEventListener('click', async () => {
+          try {
+            const content = editorTextarea.value;
+            const response = await fetch('http://localhost:8000/api/save', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ path: currentPath, content: content })
+            });
+            if (!response.ok) throw new Error('Failed to save');
+
+            // alert('Saved!');
+            editorOverlay.style.display = 'none';
+            // Reload to see changes (Jekyll takes a moment to rebuild)
+            // We'll reload after a short delay
+            setTimeout(() => location.reload(), 1500);
+          } catch (e) {
+            alert('Error saving: ' + e.message);
+          }
         });
       }
     });

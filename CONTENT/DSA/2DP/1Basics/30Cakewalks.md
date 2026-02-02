@@ -4,7 +4,7 @@ title: 30Cakewalks
 
 {% raw %}
 
-That DP Quora answer     
+That DP hell answer     
 
 https://www.quora.com/Are-there-any-good-resources-or-tutorials-for-dynamic-programming-DP-besides-the-TopCoder-tutorial/answer/Michal-Danil%C3%A1k?ch=15&oid=1329095&share=c42c0702&srid=hzuEBg&target_type=answer
 
