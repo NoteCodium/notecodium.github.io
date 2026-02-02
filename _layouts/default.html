@@ -112,7 +112,8 @@
       box-sizing: border-box;
       overflow-y: auto;
       overflow-x: hidden;
-      padding: 0 10px 150px 10px;
+      padding: 20px;
+      padding-bottom: 150px;
     }
 
     .sidebar-resizer {
@@ -190,7 +191,7 @@
     .sidebar-toggle {
       position: fixed;
       left: 20px;
-      top: 2px;
+      top: 15px;
       z-index: 1000;
       background: none;
       border: none;
@@ -215,7 +216,7 @@
       position: fixed;
       left: 240px;
       /* Will be updated by JS */
-      top: 2px;
+      top: 15px;
     }
 
     /* Collapse button - sticky */
@@ -250,7 +251,7 @@
 
 <body>
 
-  <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle Sidebar">◀</button>
+  <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle Sidebar">☰</button>
 
   <div class="page-container">
 
@@ -296,10 +297,6 @@
         updateTogglePosition(width);
       }
 
-      function updateToggleIcon(isCollapsed) {
-        toggleBtn.textContent = isCollapsed ? "▶" : "◀";
-      }
-
       // --- 1. Restore State ---
       // Width
       let savedWidth = parseInt(localStorage.getItem(WIDTH_KEY));
@@ -310,10 +307,8 @@
       if (localStorage.getItem(STORAGE_KEY) === "true") {
         body.classList.add("sidebar-collapsed");
         updateTogglePosition(savedWidth); // Resets to 20px
-        updateToggleIcon(true);
       } else {
         updateTogglePosition(savedWidth);
-        updateToggleIcon(false);
       }
 
       // Scroll Position (Applied to sidebar-content now)
@@ -329,7 +324,6 @@
         body.classList.toggle("sidebar-collapsed");
         const isCollapsed = body.classList.contains("sidebar-collapsed");
         localStorage.setItem(STORAGE_KEY, isCollapsed);
-        updateToggleIcon(isCollapsed);
 
         // Update position immediately
         const currentWidth = parseInt(sidebar.style.width, 10) || DEFAULT_WIDTH;
@@ -538,23 +532,6 @@
           });
         });
       }
-
-      // 5. PDF Link Interception (Embed in body)
-      document.addEventListener('click', function (e) {
-        const link = e.target.closest('a.file-link');
-        if (link) {
-          const href = link.getAttribute('href');
-          if (href && href.toLowerCase().endsWith('.pdf')) {
-            e.preventDefault();
-            const contentMain = document.querySelector('main.content');
-            if (contentMain) {
-              contentMain.style.padding = '0';
-              contentMain.style.maxWidth = 'none';
-              contentMain.innerHTML = `<iframe src="${href}" style="width: 100%; height: calc(100vh - 50px); border: none;"></iframe>`;
-            }
-          }
-        }
-      });
     });
   </script>
 </body>
