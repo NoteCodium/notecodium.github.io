@@ -4,7 +4,7 @@ title: 37HouseRobber
 
 {% raw %}
 https://leetcode.com/problems/house-robber/description/  
-adjacent homes have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+adjacent house have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
 
 ```python
 class Solution {
