@@ -60,23 +60,40 @@ def main() -> int:
     excludes = load_excludes_from_config(CONFIG_YML)
 
     items: list[dict] = []
-    for md in REPO_ROOT.rglob("*.md"):
-        rel = md.relative_to(REPO_ROOT)
+    # Collect .md and .pdf files
+    files_found = list(REPO_ROOT.rglob("*.md")) + list(REPO_ROOT.rglob("*.pdf"))
+
+    for f_path in files_found:
+        rel = f_path.relative_to(REPO_ROOT)
 
         # Skip excluded dirs (e.g., _site, ADCLCHJC, supernotes)
         if is_excluded(rel, excludes):
             continue
 
-        name = md.name
+        name = f_path.name
         if "index" in name or "404" in name:
             continue
 
         dir_rel = rel.parent.as_posix()
-        stem = md.stem
+        # Clean up root dir notation
+        if dir_rel == ".":
+            dir_rel = ""
+        
+        stem = f_path.stem
+        suffix = f_path.suffix.lower()
 
-        # Jekyll default for pages: same path with .html extension.
-        # Store WITHOUT baseurl; JS will prefix baseurl at runtime.
-        url_path = f"/{dir_rel}/{stem}.html" if dir_rel else f"/{stem}.html"
+        # Generate URL path
+        # Markdown -> HTML
+        if suffix == ".md":
+            url_path = f"/{dir_rel}/{stem}.html" if dir_rel else f"/{stem}.html"
+        # PDF -> PDF (keep as is)
+        elif suffix == ".pdf":
+            url_path = f"/{dir_rel}/{name}" if dir_rel else f"/{name}"
+        else:
+            continue
+
+        # Clean double slashes if any
+        url_path = url_path.replace("//", "/")
 
         items.append({"name": name, "path": url_path, "dir": dir_rel})
 

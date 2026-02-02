@@ -89,6 +89,12 @@
     "path": "/CONTENT/DSA/11TREE/1.html",
     "dir": "CONTENT/DSA/11TREE"
   },
+
+  {
+    "name": "strong processing .pdf",
+    "path": "/CONTENT/DSA/12STRINGPROCESSING/strong processing .pdf",
+    "dir": "CONTENT/DSA/12STRINGPROCESSING"
+  },
   {
     "name": "1.md",
     "path": "/CONTENT/DSA/1RECURSION/1.html",
@@ -685,6 +691,11 @@
     "dir": "CONTENT/SEBIP2/English/TOPICS"
   },
   {
+    "name": "2.md",
+    "path": "/CONTENT/SEBIP2/English/TOPICS/2.html",
+    "dir": "CONTENT/SEBIP2/English/TOPICS"
+  },
+  {
     "name": "1.md",
     "path": "/CONTENT/SPRINGBOOT/1.html",
     "dir": "CONTENT/SPRINGBOOT"
@@ -975,8 +986,18 @@
     "dir": "CONTENT/SPRINGBOOT/9TASKSCHEDULING"
   },
   {
+    "name": "notebook.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/notebook.pdf",
+    "dir": "DTRANSFER/9GATETHEORY"
+  },
+  {
     "name": "1Interview.md",
     "path": "/DTRANSFER/9GATETHEORY/Cloud/1Interview.html",
+    "dir": "DTRANSFER/9GATETHEORY/Cloud"
+  },
+  {
+    "name": "1Interview.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Cloud/1Interview.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Cloud"
   },
   {
@@ -985,8 +1006,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Cloud"
   },
   {
+    "name": "2.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Cloud/2.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Cloud"
+  },
+  {
     "name": "3Infrastructure.md",
     "path": "/DTRANSFER/9GATETHEORY/Cloud/3Infrastructure.html",
+    "dir": "DTRANSFER/9GATETHEORY/Cloud"
+  },
+  {
+    "name": "3Infrastructure.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Cloud/3Infrastructure.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Cloud"
   },
   {
@@ -995,8 +1026,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Cloud"
   },
   {
+    "name": "4Platform.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Cloud/4Platform.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Cloud"
+  },
+  {
     "name": "5Software.md",
     "path": "/DTRANSFER/9GATETHEORY/Cloud/5Software.html",
+    "dir": "DTRANSFER/9GATETHEORY/Cloud"
+  },
+  {
+    "name": "5Software.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Cloud/5Software.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Cloud"
   },
   {
@@ -1005,8 +1046,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Cloud"
   },
   {
+    "name": "6.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Cloud/6.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Cloud"
+  },
+  {
     "name": "1.md",
     "path": "/DTRANSFER/9GATETHEORY/Cryptography/1.html",
+    "dir": "DTRANSFER/9GATETHEORY/Cryptography"
+  },
+  {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Cryptography/1.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Cryptography"
   },
   {
@@ -1015,8 +1066,18 @@
     "dir": "DTRANSFER/9GATETHEORY/DB"
   },
   {
+    "name": "0Interview.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/0Interview.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB"
+  },
+  {
     "name": "raid.md",
     "path": "/DTRANSFER/9GATETHEORY/DB/Mis/raid.html",
+    "dir": "DTRANSFER/9GATETHEORY/DB/Mis"
+  },
+  {
+    "name": "raid.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/Mis/raid.pdf",
     "dir": "DTRANSFER/9GATETHEORY/DB/Mis"
   },
   {
@@ -1025,13 +1086,28 @@
     "dir": "DTRANSFER/9GATETHEORY/DB/Theorem"
   },
   {
+    "name": "3Theorems.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/Theorem/3Theorems.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB/Theorem"
+  },
+  {
     "name": "5Theorem.md",
     "path": "/DTRANSFER/9GATETHEORY/DB/Theorem/5Theorem.html",
     "dir": "DTRANSFER/9GATETHEORY/DB/Theorem"
   },
   {
+    "name": "5Theorem.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/Theorem/5Theorem.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB/Theorem"
+  },
+  {
     "name": "1.md",
     "path": "/DTRANSFER/9GATETHEORY/DB/concurrencyDB/1.html",
+    "dir": "DTRANSFER/9GATETHEORY/DB/concurrencyDB"
+  },
+  {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/concurrencyDB/1.pdf",
     "dir": "DTRANSFER/9GATETHEORY/DB/concurrencyDB"
   },
   {
@@ -1045,6 +1121,11 @@
     "dir": "DTRANSFER/9GATETHEORY/DB/dbms2/partitioning"
   },
   {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/dbms2/partitioning/1.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB/dbms2/partitioning"
+  },
+  {
     "name": "1Tree.md",
     "path": "/DTRANSFER/9GATETHEORY/DB/dbms2/underTheHoodIndexingDB/1Tree.html",
     "dir": "DTRANSFER/9GATETHEORY/DB/dbms2/underTheHoodIndexingDB"
@@ -1055,13 +1136,28 @@
     "dir": "DTRANSFER/9GATETHEORY/DB/sbi"
   },
   {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/sbi/1.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB/sbi"
+  },
+  {
     "name": "1.md",
     "path": "/DTRANSFER/9GATETHEORY/DB/scalingDB/1.html",
     "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
   },
   {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/scalingDB/1.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
+  },
+  {
     "name": "2WaysToScale.md",
     "path": "/DTRANSFER/9GATETHEORY/DB/scalingDB/2WaysToScale.html",
+    "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
+  },
+  {
+    "name": "2WaysToScale.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/scalingDB/2WaysToScale.pdf",
     "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
   },
   {
@@ -1075,8 +1171,18 @@
     "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
   },
   {
+    "name": "4Theorems.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/scalingDB/4Theorems.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
+  },
+  {
     "name": "6Denormalising.md",
     "path": "/DTRANSFER/9GATETHEORY/DB/scalingDB/6Denormalising.html",
+    "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
+  },
+  {
+    "name": "6Denormalising.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/scalingDB/6Denormalising.pdf",
     "dir": "DTRANSFER/9GATETHEORY/DB/scalingDB"
   },
   {
@@ -1085,8 +1191,18 @@
     "dir": "DTRANSFER/9GATETHEORY/DB/typeOfDB"
   },
   {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/DB/typeOfDB/1.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/DB/typeOfDB"
+  },
+  {
     "name": "DBAdmin.md",
     "path": "/DTRANSFER/9GATETHEORY/IT/DBAdmin.html",
+    "dir": "DTRANSFER/9GATETHEORY/IT"
+  },
+  {
+    "name": "DBAdmin.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/IT/DBAdmin.pdf",
     "dir": "DTRANSFER/9GATETHEORY/IT"
   },
   {
@@ -1095,8 +1211,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
+    "name": "0Interview.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/0Interview.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
     "name": "1OSI.md",
     "path": "/DTRANSFER/9GATETHEORY/Networking/1OSI.html",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
+    "name": "1OSI.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/1OSI.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
@@ -1105,8 +1231,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
+    "name": "2Terminologies.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/2Terminologies.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
     "name": "3LayersTermTerminology.md",
     "path": "/DTRANSFER/9GATETHEORY/Networking/3LayersTermTerminology.html",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
+    "name": "3LayersTermTerminology.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/3LayersTermTerminology.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
@@ -1115,8 +1251,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
+    "name": "4TCPIP.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/4TCPIP.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
     "name": "5TCPvsUDP.md",
     "path": "/DTRANSFER/9GATETHEORY/Networking/5TCPvsUDP.html",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
+    "name": "5TCPvsUDP.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/5TCPvsUDP.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
@@ -1125,8 +1271,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
+    "name": "6IP.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/6IP.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
     "name": "7extra.md",
     "path": "/DTRANSFER/9GATETHEORY/Networking/7extra.html",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
+    "name": "7extra.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/7extra.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
@@ -1135,8 +1291,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Networking"
   },
   {
+    "name": "8Addressing.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Networking/8Addressing.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Networking"
+  },
+  {
     "name": "-1TypesOfOs.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/1initials/-1TypesOfOs.html",
+    "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
+  },
+  {
+    "name": "-1TypesOfOs.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/1initials/-1TypesOfOs.pdf",
     "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
   },
   {
@@ -1145,8 +1311,18 @@
     "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
   },
   {
+    "name": "0Interview.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/1initials/0Interview.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
+  },
+  {
     "name": "1.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/1initials/1.html",
+    "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
+  },
+  {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/1initials/1.pdf",
     "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
   },
   {
@@ -1155,8 +1331,18 @@
     "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
   },
   {
+    "name": "2Threads.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/1initials/2Threads.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
+  },
+  {
     "name": "3PCBvsTCB.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/1initials/3PCBvsTCB.html",
+    "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
+  },
+  {
+    "name": "3PCBvsTCB.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/1initials/3PCBvsTCB.pdf",
     "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
   },
   {
@@ -1170,8 +1356,18 @@
     "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
   },
   {
+    "name": "5Continuing.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/1initials/5Continuing.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
+  },
+  {
     "name": "6Terminologies.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/1initials/6Terminologies.html",
+    "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
+  },
+  {
+    "name": "6Terminologies.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/1initials/6Terminologies.pdf",
     "dir": "DTRANSFER/9GATETHEORY/OS/1initials"
   },
   {
@@ -1180,13 +1376,28 @@
     "dir": "DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation"
   },
   {
+    "name": "1CPUVirtualising.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation/1CPUVirtualising.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation"
+  },
+  {
     "name": "2ProcessScheduling.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation/2ProcessScheduling.html",
     "dir": "DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation"
   },
   {
+    "name": "2ProcessScheduling.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation/2ProcessScheduling.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation"
+  },
+  {
     "name": "3RealPSAlgorithms.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation/3RealPSAlgorithms.html",
+    "dir": "DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation"
+  },
+  {
+    "name": "3RealPSAlgorithms.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation/3RealPSAlgorithms.pdf",
     "dir": "DTRANSFER/9GATETHEORY/OS/2CPUVirtualisation"
   },
   {
@@ -1215,8 +1426,23 @@
     "dir": "DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation"
   },
   {
+    "name": "3Algorithms.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation/3Algorithms.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation"
+  },
+  {
     "name": "4HandlingFragmentation.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation/4HandlingFragmentation.html",
+    "dir": "DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation"
+  },
+  {
+    "name": "5Paging.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation/5Paging.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation"
+  },
+  {
+    "name": "6TLB.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation/6TLB.pdf",
     "dir": "DTRANSFER/9GATETHEORY/OS/3VolatileMemoryVirtualisation"
   },
   {
@@ -1240,6 +1466,16 @@
     "dir": "DTRANSFER/9GATETHEORY/OS/4similar"
   },
   {
+    "name": "CacheReplacemnt.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/4similar/CacheReplacemnt.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/4similar"
+  },
+  {
+    "name": "DonePageReplacemntPolicy.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/OS/4similar/DonePageReplacemntPolicy.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/OS/4similar"
+  },
+  {
     "name": "PageReplacemntPolicy.md",
     "path": "/DTRANSFER/9GATETHEORY/OS/4similar/PageReplacemntPolicy.html",
     "dir": "DTRANSFER/9GATETHEORY/OS/4similar"
@@ -1250,8 +1486,18 @@
     "dir": "DTRANSFER/9GATETHEORY/SE"
   },
   {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/SE/1.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/SE"
+  },
+  {
     "name": "2Agile.md",
     "path": "/DTRANSFER/9GATETHEORY/SE/2Agile.html",
+    "dir": "DTRANSFER/9GATETHEORY/SE"
+  },
+  {
+    "name": "2Agile.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/SE/2Agile.pdf",
     "dir": "DTRANSFER/9GATETHEORY/SE"
   },
   {
@@ -1260,8 +1506,18 @@
     "dir": "DTRANSFER/9GATETHEORY/SE"
   },
   {
+    "name": "3Waterfall.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/SE/3Waterfall.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/SE"
+  },
+  {
     "name": "4vs.md",
     "path": "/DTRANSFER/9GATETHEORY/SE/4vs.html",
+    "dir": "DTRANSFER/9GATETHEORY/SE"
+  },
+  {
+    "name": "4vs.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/SE/4vs.pdf",
     "dir": "DTRANSFER/9GATETHEORY/SE"
   },
   {
@@ -1270,8 +1526,18 @@
     "dir": "DTRANSFER/9GATETHEORY/SE"
   },
   {
+    "name": "5requirements.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/SE/5requirements.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/SE"
+  },
+  {
     "name": "6VCS.md",
     "path": "/DTRANSFER/9GATETHEORY/SE/6VCS.html",
+    "dir": "DTRANSFER/9GATETHEORY/SE"
+  },
+  {
+    "name": "6VCS.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/SE/6VCS.pdf",
     "dir": "DTRANSFER/9GATETHEORY/SE"
   },
   {
@@ -1280,8 +1546,18 @@
     "dir": "DTRANSFER/9GATETHEORY/SE"
   },
   {
+    "name": "7SDE.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/SE/7SDE.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/SE"
+  },
+  {
     "name": "1.md",
     "path": "/DTRANSFER/9GATETHEORY/Testing/1.html",
+    "dir": "DTRANSFER/9GATETHEORY/Testing"
+  },
+  {
+    "name": "1.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Testing/1.pdf",
     "dir": "DTRANSFER/9GATETHEORY/Testing"
   },
   {
@@ -1290,8 +1566,18 @@
     "dir": "DTRANSFER/9GATETHEORY/Testing"
   },
   {
+    "name": "2Types.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/Testing/2Types.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/Testing"
+  },
+  {
     "name": "1TypesOfHacker.md",
     "path": "/DTRANSFER/9GATETHEORY/cybersecurity/1TypesOfHacker.html",
+    "dir": "DTRANSFER/9GATETHEORY/cybersecurity"
+  },
+  {
+    "name": "1TypesOfHacker.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/cybersecurity/1TypesOfHacker.pdf",
     "dir": "DTRANSFER/9GATETHEORY/cybersecurity"
   },
   {
@@ -1300,8 +1586,18 @@
     "dir": "DTRANSFER/9GATETHEORY/cybersecurity"
   },
   {
+    "name": "2OWASP.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/cybersecurity/2OWASP.pdf",
+    "dir": "DTRANSFER/9GATETHEORY/cybersecurity"
+  },
+  {
     "name": "3SQLInjection.md",
     "path": "/DTRANSFER/9GATETHEORY/cybersecurity/3SQLInjection.html",
+    "dir": "DTRANSFER/9GATETHEORY/cybersecurity"
+  },
+  {
+    "name": "3SQLInjection.pdf",
+    "path": "/DTRANSFER/9GATETHEORY/cybersecurity/3SQLInjection.pdf",
     "dir": "DTRANSFER/9GATETHEORY/cybersecurity"
   },
   {
