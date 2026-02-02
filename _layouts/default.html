@@ -258,9 +258,6 @@
     <nav class="sidebar" id="sidebar">
       <div class="sidebar-content">
         <div style="margin-bottom: 20px; font-weight: bold; margin-right: 30px;">Documentation</div>
-        <div class="sidebar-actions">
-          <button class="collapse-btn" id="collapseAllBtn">Collapse All Folders</button>
-        </div>
         {% include sidebar_fast.html %}
       </div>
       <div class="sidebar-resizer" id="sidebarResizer"></div>
@@ -333,17 +330,7 @@
         updateTogglePosition(currentWidth);
       });
 
-      // Collapse All Folders (except root level)
-      collapseAllBtn.addEventListener("click", function () {
-        const allDetails = sidebarContent.querySelectorAll('details');
-        allDetails.forEach(detail => {
-          // Skip root-level folders (direct children of .file-tree)
-          const isRoot = detail.parentElement.parentElement.classList.contains('file-tree');
-          if (!isRoot) {
-            detail.removeAttribute('open');
-          }
-        });
-      });
+
 
       // --- Debounce Helper ---
       function debounce(func, wait) {
@@ -487,6 +474,8 @@
     });
   </script>
   <div class="text-size-footer">
+    <button id="footerCollapseBtn" class="reset-btn" title="Collapse All Folders"
+      style="font-size: 16px; position: absolute; left: 20px; margin-left: 0;">📂</button>
     <span style="font-size: 12px; font-weight: bold;">A</span>
     <input type="range" id="textSizeSlider" min="12" max="28" value="16" step="1">
     <span style="font-size: 24px; font-weight: bold;">A</span>
@@ -519,6 +508,25 @@
         textSizeSlider.value = defaultSize;
         localStorage.setItem(SIZE_KEY, defaultSize);
       });
+
+      // 4. Collapse All Button
+      const collapseBtn = document.getElementById('footerCollapseBtn');
+      if (collapseBtn) {
+        collapseBtn.addEventListener('click', function () {
+          // Select all details in the sidebar
+          const allDetails = document.querySelectorAll('.sidebar-content details');
+          allDetails.forEach(detail => {
+            // Check if it is a root folder (direct child of .file-tree)
+            const isRoot = detail.parentElement.parentElement.classList.contains('file-tree');
+
+            // Option: Collapse everything that isn't the main list wrapper
+            if (detail.hasAttribute('open') && !isRoot) {
+              detail.removeAttribute('open');
+              if (detail.id) localStorage.removeItem(detail.id);
+            }
+          });
+        });
+      }
     });
   </script>
 </body>
