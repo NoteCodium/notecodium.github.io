@@ -714,6 +714,8 @@
           const prevFile = sortedFiles[currentIndex - 1];
           backBtn.disabled = false;
           backBtn.addEventListener('click', () => {
+            // Scroll to previous file in sidebar before navigation
+            scrollToFileInSidebar(prevFile.path);
             window.location.href = prevFile.path;
           });
         } else {
@@ -725,6 +727,8 @@
           const nextFile = sortedFiles[currentIndex + 1];
           nextBtn.disabled = false;
           nextBtn.addEventListener('click', () => {
+            // Scroll to next file in sidebar before navigation
+            scrollToFileInSidebar(nextFile.path);
             window.location.href = nextFile.path;
           });
         } else {
@@ -735,6 +739,40 @@
         console.error('Error loading navigation:', error);
         backBtn.disabled = true;
         nextBtn.disabled = true;
+      }
+    }
+
+    // Function to scroll to a specific file in the sidebar
+    function scrollToFileInSidebar(targetPath) {
+      const sidebarContent = document.querySelector('.sidebar-content');
+      if (!sidebarContent) return;
+
+      // Find the link for the target file
+      const normalize = (p) => decodeURIComponent(p).replace(/\/$/, "").replace(/\.(html|md)$/, "");
+      const normalizedTargetPath = normalize(targetPath);
+      
+      const links = Array.from(document.querySelectorAll('.file-link'));
+      const targetLink = links.find(link => {
+        const linkPath = normalize(new URL(link.href).pathname);
+        return linkPath === normalizedTargetPath;
+      });
+
+      if (targetLink) {
+        // Expand parent folders to ensure the link is visible
+        let parent = targetLink.closest('details');
+        while (parent) {
+          parent.open = true;
+          parent = parent.parentElement.closest('details');
+        }
+
+        // Smooth scroll to the target link
+        setTimeout(() => {
+          targetLink.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center',
+            inline: 'nearest'
+          });
+        }, 100); // Small delay to allow folders to expand
       }
     }
 
