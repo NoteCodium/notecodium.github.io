@@ -512,8 +512,8 @@
       style="margin-left: 20px; background-color: #e3f2fd; color: #0d47a1; border-color: #2196f3;">Edit in
       GitHub</button>
     <button id="editCodespaceBtn" class="reset-btn"
-      style="margin-left: 10px; background-color: #e8f5e9; color: #1b5e20; border-color: #4caf50;">Edit in
-      Codespace</button>
+      style="margin-left: 10px; background-color: #e8f5e9; color: #1b5e20; border-color: #4caf50;" 
+      title="Automatically open workspace and file in VS Code Insiders via bridge extension - Shortcut: Ctrl/Cmd+E">Edit in VS Code</button>
     <div class="footer-right" style="position: absolute; right: 20px; display: flex; align-items: center; gap: 10px;">
       <button id="backBtn" class="nav-btn" title="Previous Page">← Back</button>
       <button id="nextBtn" class="nav-btn" title="Next Page">Next →</button>
@@ -571,15 +571,25 @@
 
 
   <script>
+    // Codespace Configuration - Loaded from _data/codespace.yml
+    window.CODESPACE_CONFIG = {
+      defaultCodespaceName: "{{ site.data.codespace.codespace_name | default: 'ominous-train-97w54wjg45wghp975' }}",
+      repoName: "{{ site.data.codespace.repo_name | default: 'notecodium.github.io' }}", 
+      githubUsername: "{{ site.data.codespace.github_username | default: 'notecodium' }}",
+      branch: "{{ site.data.codespace.branch | default: 'main' }}",
+      autoDetect: {{ site.data.codespace.auto_detect | default: true }},
+      localWorkspacePath: "{{ site.data.codespace.local_workspace_path | default: '/Users/tarunmac/Developer' }}"
+    };
+    
     document.addEventListener("DOMContentLoaded", function () {
       const editGithubBtn = document.getElementById('editGithubBtn');
       const editCodespaceBtn = document.getElementById('editCodespaceBtn');
       // Liquid variable for current path
       const currentPath = "{{ page.path }}";
-      // GitHub Repo Details
-      const githubUsername = "notecodium";
-      const githubRepo = "notecodium.github.io";
-      const branch = "main"; // Defaulting to main
+      // GitHub Repo Details (using data file values)
+      const githubUsername = "{{ site.data.codespace.github_username | default: 'notecodium' }}";
+      const githubRepo = "{{ site.data.codespace.repo_name | default: 'notecodium.github.io' }}";
+      const branch = "{{ site.data.codespace.branch | default: 'main' }}";
 
       if (editGithubBtn) {
         editGithubBtn.addEventListener('click', function () {
@@ -592,33 +602,154 @@
 
       if (editCodespaceBtn) {
         editCodespaceBtn.addEventListener('click', function () {
-          // Open in VS Code Desktop
-          // Protocol: vscode://github.codespaces/connect?name=[CODESPACE_NAME]
-          const codespaceName = "ominous-train-97w54wjg45wghp975";
-          const vscodeUrl = `vscode://github.codespaces/connect?name=${codespaceName}`;
-          window.location.href = vscodeUrl;
+          // Use global configuration
+          const config = window.CODESPACE_CONFIG;
+          let codespaceName = config.defaultCodespaceName;
+          
+          // Try to detect codespace name from various sources (if auto-detect is enabled)
+          if (config.autoDetect) {
+            if (window.location.hostname.includes('github.dev')) {
+              // Extract from github.dev URL if available
+              const match = window.location.hostname.match(/([^-]+-[^-]+-[^.]+)\.github\.dev/);
+              if (match) {
+                codespaceName = match[1];
+                console.log("Auto-detected codespace name from URL:", codespaceName);
+              }
+            } else if (window.location.hostname.includes('app.github.dev')) {
+              // Handle app.github.dev URLs
+              const match = window.location.hostname.match(/([^.]+)\.app\.github\.dev/);
+              if (match) {
+                codespaceName = match[1];
+                console.log("Auto-detected codespace name from app URL:", codespaceName);
+              }
+            }
+          }
+          
+          console.log("Attempting to connect to VS Code Insiders via bridge extension:");
+          console.log("- Codespace name:", codespaceName);
+          console.log("- File to open:", currentPath);
+          console.log("- Auto-detect enabled:", config.autoDetect);
+          
+          // Provide user feedback
+          const originalText = editCodespaceBtn.textContent;
+          editCodespaceBtn.textContent = "Connecting...";
+          editCodespaceBtn.disabled = true;
+          
+          // Try to communicate with VS Code extension via HTTP
+          openFileInVSCodeInsiders(currentPath, config)
+            .then(() => {
+              console.log("✅ Successfully sent request to VS Code Insiders");
+              editCodespaceBtn.textContent = "Opened!";
+              setTimeout(() => {
+                editCodespaceBtn.textContent = originalText;
+                editCodespaceBtn.disabled = false;
+              }, 2000);
+            })
+            .catch((error) => {
+              console.error("❌ Failed to connect to VS Code Insiders:", error);
+              
+              // Fallback to URI scheme method
+              console.log("🔄 Falling back to URI scheme method...");
+              const workspaceUrl = `vscode-insiders://vscode-remote/codespaces%2B${codespaceName}/workspaces/${config.repoName}`;
+              window.open(workspaceUrl, '_blank');
+              
+              editCodespaceBtn.textContent = "Opened (Fallback)";
+              setTimeout(() => {
+                editCodespaceBtn.textContent = originalText;
+                editCodespaceBtn.disabled = false;
+              }, 3000);
+            });
         });
       }
+      
+      // Function to communicate with VS Code extension
+      async function openFileInVSCodeInsiders(filePath, config) {
+        const bridgeUrl = 'http://localhost:3847/open-file';
+        
+        // Detect if we're in a codespace or local environment
+        const isCodespace = window.location.hostname.includes('github.dev') || 
+                           window.location.hostname.includes('app.github.dev');
+        
+        let workspacePath, fullFilePath;
+        
+        if (isCodespace) {
+          // Codespace paths
+          workspacePath = `/workspaces/${config.repoName}`;
+          fullFilePath = `/workspaces/${config.repoName}/${filePath}`;
+        } else {
+          // Local development paths - use configured local workspace path
+          workspacePath = `${config.localWorkspacePath}/${config.repoName}`;
+          fullFilePath = `${config.localWorkspacePath}/${config.repoName}/${filePath}`;
+        }
+        
+        const requestData = {
+          filePath: fullFilePath,
+          workspacePath: workspacePath,
+          repoName: config.repoName,
+          originalPath: filePath,
+          isCodespace: isCodespace,
+          environment: isCodespace ? 'codespace' : 'local'
+        };
+        
+        console.log("Sending request to VS Code bridge:", requestData);
+        console.log("Environment detected:", isCodespace ? 'GitHub Codespace' : 'Local Development');
+        console.log("Workspace path:", workspacePath);
+        console.log("File path:", fullFilePath);
+        
+        const response = await fetch(bridgeUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(requestData)
+        });
+        
+        if (!response.ok) {
+          throw new Error(`Bridge request failed: ${response.status} ${response.statusText}`);
+        }
+        
+        const result = await response.json();
+        console.log("Bridge response:", result);
+        
+        if (!result.success) {
+          throw new Error(result.error || 'Unknown error from bridge');
+        }
+        
+        return result;
+      }
+      
+      // Add keyboard shortcut for codespace editing (Ctrl/Cmd + E)
+      document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'e' && !e.shiftKey && !e.altKey) {
+          // Prevent default browser behavior
+          e.preventDefault();
+          
+          // Trigger the codespace button if it exists and is enabled
+          if (editCodespaceBtn && !editCodespaceBtn.disabled) {
+            editCodespaceBtn.click();
+          }
+        }
+      });
     });
 
     // Navigation functionality
     async function initializeNavigation() {
       const backBtn = document.getElementById('backBtn');
       const nextBtn = document.getElementById('nextBtn');
-      
+
       if (!backBtn || !nextBtn) return;
 
       try {
         // Load files.json
         const response = await fetch('/assets/files.json');
         const files = await response.json();
-        
+
         // Get current page path
         const currentPath = window.location.pathname;
-        
+
         // Sort files exactly like the sidebar does
         const naturalSort = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' }).compare;
-        
+
         // Build file tree structure like sidebar
         function buildFileTree(files) {
           const tree = {};
@@ -692,7 +823,7 @@
         // Build tree and get flat list in sidebar order
         const tree = buildFileTree(files);
         const sortedFiles = renderTreeToFlatList(tree);
-        
+
         // Find current page index in sorted files array
         let currentIndex = -1;
         for (let i = 0; i < sortedFiles.length; i++) {
@@ -701,14 +832,14 @@
             break;
           }
         }
-        
+
         // If current page not found, disable navigation
         if (currentIndex === -1) {
           backBtn.disabled = true;
           nextBtn.disabled = true;
           return;
         }
-        
+
         // Set up back button
         if (currentIndex > 0) {
           const prevFile = sortedFiles[currentIndex - 1];
@@ -721,7 +852,7 @@
         } else {
           backBtn.disabled = true;
         }
-        
+
         // Set up next button
         if (currentIndex < sortedFiles.length - 1) {
           const nextFile = sortedFiles[currentIndex + 1];
@@ -734,7 +865,7 @@
         } else {
           nextBtn.disabled = true;
         }
-        
+
       } catch (error) {
         console.error('Error loading navigation:', error);
         backBtn.disabled = true;
@@ -750,7 +881,7 @@
       // Find the link for the target file
       const normalize = (p) => decodeURIComponent(p).replace(/\/$/, "").replace(/\.(html|md)$/, "");
       const normalizedTargetPath = normalize(targetPath);
-      
+
       const links = Array.from(document.querySelectorAll('.file-link'));
       const targetLink = links.find(link => {
         const linkPath = normalize(new URL(link.href).pathname);

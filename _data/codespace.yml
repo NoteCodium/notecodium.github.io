@@ -1,0 +1,21 @@
+# Codespace Configuration
+# Update these values to match your GitHub Codespace setup
+
+# Your current codespace name (you can find this in the URL when using GitHub Codespaces)
+# Format: usually something like "ominous-train-97w54wjg45wghp975"
+codespace_name: "ominous-train-97w54wjg45wghp975"
+
+# Your GitHub repository name
+repo_name: "notecodium.github.io"
+
+# Your GitHub username
+github_username: "notecodium"
+
+# Default branch name
+branch: "main"
+
+# Enable automatic codespace name detection (tries to detect from URL)
+auto_detect: true
+
+# Local development path (for when running locally, not in codespace)
+local_workspace_path: "/Users/tarunmac/Developer"
