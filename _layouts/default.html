@@ -71,6 +71,30 @@
       background-color: #eef1f4;
     }
 
+    .nav-btn {
+      padding: 5px 12px;
+      font-size: 12px;
+      background-color: #f6f8fa;
+      border: 1px solid #d0d7de;
+      border-radius: 4px;
+      cursor: pointer;
+      color: var(--text-color);
+      transition: background-color 0.2s;
+    }
+
+    .nav-btn:hover {
+      background-color: #eef1f4;
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .nav-btn:disabled:hover {
+      background-color: #f6f8fa;
+    }
+
     /* Adjust sidebar height to not overlap footer */
     .sidebar {
       height: calc(100vh - 50px);
@@ -490,6 +514,10 @@
     <button id="editCodespaceBtn" class="reset-btn"
       style="margin-left: 10px; background-color: #e8f5e9; color: #1b5e20; border-color: #4caf50;">Edit in
       Codespace</button>
+    <div class="footer-right" style="position: absolute; right: 20px; display: flex; align-items: center; gap: 10px;">
+      <button id="backBtn" class="nav-btn" title="Previous Page">← Back</button>
+      <button id="nextBtn" class="nav-btn" title="Next Page">Next →</button>
+    </div>
   </div>
 
   <script>
@@ -572,6 +600,146 @@
         });
       }
     });
+
+    // Navigation functionality
+    async function initializeNavigation() {
+      const backBtn = document.getElementById('backBtn');
+      const nextBtn = document.getElementById('nextBtn');
+      
+      if (!backBtn || !nextBtn) return;
+
+      try {
+        // Load files.json
+        const response = await fetch('/assets/files.json');
+        const files = await response.json();
+        
+        // Get current page path
+        const currentPath = window.location.pathname;
+        
+        // Sort files exactly like the sidebar does
+        const naturalSort = new Intl.Collator(undefined, { numeric: true, sensitivity: 'base' }).compare;
+        
+        // Build file tree structure like sidebar
+        function buildFileTree(files) {
+          const tree = {};
+          const flatList = [];
+
+          files.forEach(file => {
+            const parts = file.dir.split('/').filter(p => p);
+            let current = tree;
+
+            parts.forEach(part => {
+              if (!current[part]) {
+                current[part] = { _files: [], _folders: {} };
+              }
+              current = current[part]._folders;
+            });
+
+            // Add file to the current folder
+            const parentParts = parts.length > 0 ? parts : ['root'];
+            let parent = tree;
+            for (let i = 0; i < parts.length - 1; i++) {
+              parent = parent[parts[i]]._folders;
+            }
+            if (parts.length > 0) {
+              const lastPart = parts[parts.length - 1];
+              if (!parent[lastPart]) {
+                parent[lastPart] = { _files: [], _folders: {} };
+              }
+              parent[lastPart]._files.push(file);
+            } else {
+              if (!tree['root']) {
+                tree['root'] = { _files: [], _folders: {} };
+              }
+              tree['root']._files.push(file);
+            }
+          });
+
+          return tree;
+        }
+
+        // Render tree to flat list in sidebar order
+        function renderTreeToFlatList(tree, level = 0) {
+          let flatList = [];
+
+          // Sort folders naturally
+          Object.keys(tree).sort(naturalSort).forEach(key => {
+            if (key === 'root') return;
+
+            const node = tree[key];
+
+            // Add files in this folder, sorted naturally
+            if (node._files && node._files.length > 0) {
+              node._files.sort((a, b) => naturalSort(a.name, b.name));
+              flatList.push(...node._files);
+            }
+
+            // Recursively add files from subfolders
+            if (Object.keys(node._folders).length > 0) {
+              flatList.push(...renderTreeToFlatList(node._folders, level + 1));
+            }
+          });
+
+          // Root level files
+          if (tree['root'] && tree['root']._files) {
+            tree['root']._files.sort((a, b) => naturalSort(a.name, b.name));
+            flatList.push(...tree['root']._files);
+          }
+
+          return flatList;
+        }
+
+        // Build tree and get flat list in sidebar order
+        const tree = buildFileTree(files);
+        const sortedFiles = renderTreeToFlatList(tree);
+        
+        // Find current page index in sorted files array
+        let currentIndex = -1;
+        for (let i = 0; i < sortedFiles.length; i++) {
+          if (sortedFiles[i].path === currentPath) {
+            currentIndex = i;
+            break;
+          }
+        }
+        
+        // If current page not found, disable navigation
+        if (currentIndex === -1) {
+          backBtn.disabled = true;
+          nextBtn.disabled = true;
+          return;
+        }
+        
+        // Set up back button
+        if (currentIndex > 0) {
+          const prevFile = sortedFiles[currentIndex - 1];
+          backBtn.disabled = false;
+          backBtn.addEventListener('click', () => {
+            window.location.href = prevFile.path;
+          });
+        } else {
+          backBtn.disabled = true;
+        }
+        
+        // Set up next button
+        if (currentIndex < sortedFiles.length - 1) {
+          const nextFile = sortedFiles[currentIndex + 1];
+          nextBtn.disabled = false;
+          nextBtn.addEventListener('click', () => {
+            window.location.href = nextFile.path;
+          });
+        } else {
+          nextBtn.disabled = true;
+        }
+        
+      } catch (error) {
+        console.error('Error loading navigation:', error);
+        backBtn.disabled = true;
+        nextBtn.disabled = true;
+      }
+    }
+
+    // Initialize navigation when DOM is loaded
+    document.addEventListener('DOMContentLoaded', initializeNavigation);
   </script>
 </body>
 

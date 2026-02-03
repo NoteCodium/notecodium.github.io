@@ -89,7 +89,6 @@
     "path": "/CONTENT/DSA/11TREE/1.html",
     "dir": "CONTENT/DSA/11TREE"
   },
-
   {
     "name": "strong processing .pdf",
     "path": "/CONTENT/DSA/12STRINGPROCESSING/strong processing .pdf",
@@ -586,11 +585,6 @@
     "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
   },
   {
-    "name": "2Regex.md",
-    "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/2Regex.html",
-    "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
-  },
-  {
     "name": "3.Data_Reshaping.md",
     "path": "/CONTENT/SEBIP1/DATA_ANALYTICS/3.Data_Reshaping.html",
     "dir": "CONTENT/SEBIP1/DATA_ANALYTICS"
@@ -694,6 +688,16 @@
     "name": "2.md",
     "path": "/CONTENT/SEBIP2/English/TOPICS/2.html",
     "dir": "CONTENT/SEBIP2/English/TOPICS"
+  },
+  {
+    "name": "1.md",
+    "path": "/CONTENT/SEBIP2/REGEX/1.html",
+    "dir": "CONTENT/SEBIP2/REGEX"
+  },
+  {
+    "name": "1Regex.md",
+    "path": "/CONTENT/SEBIP2/REGEX/1Regex.html",
+    "dir": "CONTENT/SEBIP2/REGEX"
   },
   {
     "name": "1.md",
