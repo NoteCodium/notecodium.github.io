@@ -1,4 +1,4 @@
-# interconversion stack and Queue
+# interconversion stack and Queue Q
 
 ## Stack → Queue (by two stacks) 
 
