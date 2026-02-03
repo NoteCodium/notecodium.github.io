@@ -484,8 +484,12 @@
     <input type="range" id="textSizeSlider" min="12" max="28" value="16" step="1">
     <span style="font-size: 24px; font-weight: bold;">A</span>
     <button id="resetTextSize" class="reset-btn">Default</button>
-    <button id="editPageBtn" class="reset-btn"
-      style="margin-left: 20px; background-color: #e3f2fd; color: #0d47a1; border-color: #2196f3;">Edit Page</button>
+    <button id="editGithubBtn" class="reset-btn"
+      style="margin-left: 20px; background-color: #e3f2fd; color: #0d47a1; border-color: #2196f3;">Edit in
+      GitHub</button>
+    <button id="editCodespaceBtn" class="reset-btn"
+      style="margin-left: 10px; background-color: #e8f5e9; color: #1b5e20; border-color: #4caf50;">Edit in
+      Codespace</button>
   </div>
 
   <script>
@@ -540,7 +544,8 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      const editBtn = document.getElementById('editPageBtn');
+      const editGithubBtn = document.getElementById('editGithubBtn');
+      const editCodespaceBtn = document.getElementById('editCodespaceBtn');
       // Liquid variable for current path
       const currentPath = "{{ page.path }}";
       // GitHub Repo Details
@@ -548,12 +553,22 @@
       const githubRepo = "notecodium.github.io";
       const branch = "main"; // Defaulting to main
 
-      if (editBtn) {
-        editBtn.addEventListener('click', function () {
+      if (editGithubBtn) {
+        editGithubBtn.addEventListener('click', function () {
           // Open GitHub Editor in new tab
           // Format: https://github.com/[user]/[repo]/edit/[branch]/[path]
           const githubUrl = `https://github.com/${githubUsername}/${githubRepo}/edit/${branch}/${currentPath}`;
           window.open(githubUrl, '_blank');
+        });
+      }
+
+      if (editCodespaceBtn) {
+        editCodespaceBtn.addEventListener('click', function () {
+          // Open in VS Code Desktop
+          // Protocol: vscode://github.codespaces/connect?name=[CODESPACE_NAME]
+          const codespaceName = "ominous-train-97w54wjg45wghp975";
+          const vscodeUrl = `vscode://github.codespaces/connect?name=${codespaceName}`;
+          window.location.href = vscodeUrl;
         });
       }
     });
