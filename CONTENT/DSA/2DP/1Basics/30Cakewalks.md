@@ -449,6 +449,37 @@ Q2: Rod cutting
 1. knapsack with wei; 1,2,3, …..n
 2. Any weight can be picked any number of times
 
+
+
+```cpp
+int knapRepeat(vector<int> &pri, vector<int> &wei, int k){
+	//simple kanpsack  
+	int n=pri.size(); 
+	vector<vector<int>> dp(n+1,vector<int> (k+1,0)); 
+	for(int r=1;r<=n;r++){ 
+	    for(int c=1;c<=k;c++){ 
+	        dp[r][c]=dp[r-1][c]; 
+	        if(c-wei[r-1]>=0) dp[r][c]=max(dp[r][c],pri[r-1]+dp[r][c-wei[r-1]]); 
+	    } 
+	} 
+	return dp[n][k];          
+}
+
+
+
+int cutRod(int price[], int k) {
+    vector<int> wei,pri(price,price+k);
+    for(int i=1;i<=k;i++) wei.push_back(i);
+    return knapRepeat(pri,wei,k);    
+}
+```
+
+
+
+go to notion
+
+
+
 ```python
 int f(int idx, int k,int val[]){
     if(k==0) return 0;
@@ -466,7 +497,7 @@ int cutRod(int price[], int n) {
 Q 1. Array contains positive elements
 
 1. There are 2 types of op
-1. choose two elements with equal values and delete them from array
+1. choose two elements with equal values and delete them from array 
 1. choose three elements with equal values and delete them from array
 
 Minimum no. of operations required to make array empty or -1 if it is not possible
@@ -585,6 +616,10 @@ class Solution {
 # Money Sums
 
 https://cses.fi/problemset/task/1745/
+
+![image.png](/images/image-394.png)
+
+
 
 ```python
 void solve() {  
