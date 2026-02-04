@@ -9,6 +9,34 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-light.min.css">
 
   <style>
+    /* Prevent FOUC during auth check */
+    body {
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+  </style>
+  <script>
+    // --- Client-Side Auth Gate ---
+    (function () {
+      const isAuth = localStorage.getItem('notecodium_auth');
+      const isLoginPage = window.location.pathname.endsWith('/login.html');
+
+      // If not authenticated and not on login page, redirect
+      if (!isAuth && !isLoginPage) {
+        window.location.href = '/login.html';
+      } else {
+        // Authenticated or on login page - show content
+        // We use a small timeout or DOMContentLoaded to show body
+        document.addEventListener("DOMContentLoaded", () => {
+          document.body.style.visibility = 'visible';
+          document.body.style.opacity = '1';
+        });
+      }
+    })();
+  </script>
+
+  <style>
     /* 1. Global Resets */
     :root {
       --sidebar-bg: #e0e0e0;
@@ -512,8 +540,9 @@
       style="margin-left: 20px; background-color: #e3f2fd; color: #0d47a1; border-color: #2196f3;">Edit in
       GitHub</button>
     <button id="editCodespaceBtn" class="reset-btn"
-      style="margin-left: 10px; background-color: #e8f5e9; color: #1b5e20; border-color: #4caf50;" 
-      title="Automatically open workspace and file in VS Code Insiders via bridge extension - Shortcut: Ctrl/Cmd+E">Edit in VS Code</button>
+      style="margin-left: 10px; background-color: #e8f5e9; color: #1b5e20; border-color: #4caf50;"
+      title="Automatically open workspace and file in VS Code Insiders via bridge extension - Shortcut: Ctrl/Cmd+E">Edit
+      in VS Code</button>
     <div class="footer-right" style="position: absolute; right: 20px; display: flex; align-items: center; gap: 10px;">
       <button id="backBtn" class="nav-btn" title="Previous Page">← Back</button>
       <button id="nextBtn" class="nav-btn" title="Next Page">Next →</button>
@@ -574,13 +603,13 @@
     // Codespace Configuration - Loaded from _data/codespace.yml
     window.CODESPACE_CONFIG = {
       defaultCodespaceName: "{{ site.data.codespace.codespace_name | default: 'ominous-train-97w54wjg45wghp975' }}",
-      repoName: "{{ site.data.codespace.repo_name | default: 'notecodium.github.io' }}", 
+      repoName: "{{ site.data.codespace.repo_name | default: 'notecodium.github.io' }}",
       githubUsername: "{{ site.data.codespace.github_username | default: 'notecodium' }}",
       branch: "{{ site.data.codespace.branch | default: 'main' }}",
       autoDetect: {{ site.data.codespace.auto_detect | default: true }},
-      localWorkspacePath: "{{ site.data.codespace.local_workspace_path | default: '/Users/tarunmac/Developer' }}"
+    localWorkspacePath: "{{ site.data.codespace.local_workspace_path | default: '/Users/tarunmac/Developer' }}"
     };
-    
+
     document.addEventListener("DOMContentLoaded", function () {
       const editGithubBtn = document.getElementById('editGithubBtn');
       const editCodespaceBtn = document.getElementById('editCodespaceBtn');
@@ -605,7 +634,7 @@
           // Use global configuration
           const config = window.CODESPACE_CONFIG;
           let codespaceName = config.defaultCodespaceName;
-          
+
           // Try to detect codespace name from various sources (if auto-detect is enabled)
           if (config.autoDetect) {
             if (window.location.hostname.includes('github.dev')) {
@@ -624,17 +653,17 @@
               }
             }
           }
-          
+
           console.log("Attempting to connect to VS Code Insiders via bridge extension:");
           console.log("- Codespace name:", codespaceName);
           console.log("- File to open:", currentPath);
           console.log("- Auto-detect enabled:", config.autoDetect);
-          
+
           // Provide user feedback
           const originalText = editCodespaceBtn.textContent;
           editCodespaceBtn.textContent = "Connecting...";
           editCodespaceBtn.disabled = true;
-          
+
           // Try to communicate with VS Code extension via HTTP
           openFileInVSCodeInsiders(currentPath, config)
             .then(() => {
@@ -647,12 +676,12 @@
             })
             .catch((error) => {
               console.error("❌ Failed to connect to VS Code Insiders:", error);
-              
+
               // Fallback to URI scheme method
               console.log("🔄 Falling back to URI scheme method...");
               const workspaceUrl = `vscode-insiders://vscode-remote/codespaces%2B${codespaceName}/workspaces/${config.repoName}`;
               window.open(workspaceUrl, '_blank');
-              
+
               editCodespaceBtn.textContent = "Opened (Fallback)";
               setTimeout(() => {
                 editCodespaceBtn.textContent = originalText;
@@ -661,17 +690,17 @@
             });
         });
       }
-      
+
       // Function to communicate with VS Code extension
       async function openFileInVSCodeInsiders(filePath, config) {
         const bridgeUrl = 'http://localhost:3847/open-file';
-        
+
         // Detect if we're in a codespace or local environment
-        const isCodespace = window.location.hostname.includes('github.dev') || 
-                           window.location.hostname.includes('app.github.dev');
-        
+        const isCodespace = window.location.hostname.includes('github.dev') ||
+          window.location.hostname.includes('app.github.dev');
+
         let workspacePath, fullFilePath;
-        
+
         if (isCodespace) {
           // Codespace paths
           workspacePath = `/workspaces/${config.repoName}`;
@@ -681,7 +710,7 @@
           workspacePath = `${config.localWorkspacePath}/${config.repoName}`;
           fullFilePath = `${config.localWorkspacePath}/${config.repoName}/${filePath}`;
         }
-        
+
         const requestData = {
           filePath: fullFilePath,
           workspacePath: workspacePath,
@@ -690,12 +719,12 @@
           isCodespace: isCodespace,
           environment: isCodespace ? 'codespace' : 'local'
         };
-        
+
         console.log("Sending request to VS Code bridge:", requestData);
         console.log("Environment detected:", isCodespace ? 'GitHub Codespace' : 'Local Development');
         console.log("Workspace path:", workspacePath);
         console.log("File path:", fullFilePath);
-        
+
         const response = await fetch(bridgeUrl, {
           method: 'POST',
           headers: {
@@ -703,27 +732,27 @@
           },
           body: JSON.stringify(requestData)
         });
-        
+
         if (!response.ok) {
           throw new Error(`Bridge request failed: ${response.status} ${response.statusText}`);
         }
-        
+
         const result = await response.json();
         console.log("Bridge response:", result);
-        
+
         if (!result.success) {
           throw new Error(result.error || 'Unknown error from bridge');
         }
-        
+
         return result;
       }
-      
+
       // Add keyboard shortcut for codespace editing (Ctrl/Cmd + E)
-      document.addEventListener('keydown', function(e) {
+      document.addEventListener('keydown', function (e) {
         if ((e.ctrlKey || e.metaKey) && e.key === 'e' && !e.shiftKey && !e.altKey) {
           // Prevent default browser behavior
           e.preventDefault();
-          
+
           // Trigger the codespace button if it exists and is enabled
           if (editCodespaceBtn && !editCodespaceBtn.disabled) {
             editCodespaceBtn.click();
