@@ -1,19 +1,24 @@
+these are the year wise essay topics of SEBI assistant manager exam topics, predict which topics can come in 2026 
+
+1. mental health
+1. sustainable dev
+1. mitigating risk with insurance
+1. new education policy
+
 # 2024
 
 1. The Role of Environmental, Social, and Governance (ESG) Norms in Shaping
 
    Global Business Opportunities
-2. How Organizations and Their Management Can Foster a Strong Organizational
+1. How Organizations and Their Management Can Foster a Strong Organizational
 
    Culture
-3. The Contribution of Banks in Supporting and Expanding Social Healthcare
+1. The Contribution of Banks in Supporting and Expanding Social Healthcare
 
    Expenditures
-4. A single machine can replace five average individuals, but five machines cannot
+1. A single machine can replace five average individuals, but five machines cannot
 
    replace one intelligent human." Discuss in detail.
-
-
 
 # 2023
 
@@ -27,8 +32,6 @@
 2. Highlight the role of Banks in financial literacy
 3. The impact of technology stress on students and teachers working in education
 4. Asset reconstruction in companies
-
-
 
 # 2020
 
