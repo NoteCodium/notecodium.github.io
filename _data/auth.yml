@@ -1,0 +1,4 @@
+# Authentication Configuration
+# Set to 'true' to enable the Login Screen (Gatekeeper).
+# Set to 'false' to disable it (Open Access).
+enabled: false

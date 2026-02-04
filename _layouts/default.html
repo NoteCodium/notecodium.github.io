@@ -18,22 +18,35 @@
   </style>
   <script>
     // --- Client-Side Auth Gate ---
+    // --- Client-Side Auth Gate ---
     (function () {
-      const isAuth = localStorage.getItem('notecodium_auth');
-      const isLoginPage = window.location.pathname.endsWith('/login.html');
+      // Configuration from _data/auth.yml
+      const authEnabled = {{ site.data.auth.enabled | default: false
+    }};
 
-      // If not authenticated and not on login page, redirect
-      if (!isAuth && !isLoginPage) {
-        window.location.href = '/login.html';
-      } else {
-        // Authenticated or on login page - show content
-        // We use a small timeout or DOMContentLoaded to show body
-        document.addEventListener("DOMContentLoaded", () => {
-          document.body.style.visibility = 'visible';
-          document.body.style.opacity = '1';
-        });
-      }
-    })();
+    if (!authEnabled) {
+      // Auth is disabled - Show content immediately
+      document.addEventListener("DOMContentLoaded", () => {
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = '1';
+      });
+      return;
+    }
+
+    const isAuth = localStorage.getItem('notecodium_auth');
+    const isLoginPage = window.location.pathname.endsWith('/login.html');
+
+    // If not authenticated and not on login page, redirect
+    if (!isAuth && !isLoginPage) {
+      window.location.href = '/login.html';
+    } else {
+      // Authenticated or on login page - show content
+      document.addEventListener("DOMContentLoaded", () => {
+        document.body.style.visibility = 'visible';
+        document.body.style.opacity = '1';
+      });
+    }
+    }) ();
   </script>
 
   <style>
