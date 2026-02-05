@@ -4,6 +4,7 @@ these are the year wise essay topics of SEBI assistant manager exam topics, pred
 1. sustainable dev
 1. mitigating risk with insurance
 1. new education policy
+1. AML
 
 # 2024
 
