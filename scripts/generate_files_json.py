@@ -95,7 +95,15 @@ def main() -> int:
         # Clean double slashes if any
         url_path = url_path.replace("//", "/")
 
-        items.append({"name": name, "path": url_path, "dir": dir_rel})
+        # Get modification time for Sync logic
+        mtime = int(f_path.stat().st_mtime)
+
+        items.append({
+            "name": name, 
+            "path": url_path, 
+            "dir": dir_rel,
+            "mtime": mtime
+        })
 
     items.sort(key=lambda x: (x["dir"], x["name"]))
 

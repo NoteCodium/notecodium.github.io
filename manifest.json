@@ -1,0 +1,22 @@
+{
+    "name": "NoteCodium",
+    "short_name": "NoteCodium",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#24292e",
+    "description": "Your Private Knowledge Base, Offline.",
+    "icons": [
+        {
+            "src": "assets/icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
