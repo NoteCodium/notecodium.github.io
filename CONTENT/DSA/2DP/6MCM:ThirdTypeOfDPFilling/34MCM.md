@@ -4,6 +4,10 @@ title: 34MCM
 
 {% raw %}
 
+$O(n^3)$
+
+
+
 ![image.png](/images/image-396.png)
 
 
@@ -340,5 +344,25 @@ strasen multiplication
 matrix expoenentiation in mathematics     
 
 something related to it in fibonacci series
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {% endraw %}
