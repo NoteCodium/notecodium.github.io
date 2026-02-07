@@ -563,6 +563,47 @@
       title="Manage Offline Content">
       📥 Offline
     </button>
+
+    <!-- Image Source Toggle -->
+    <div
+      style="display: flex; align-items: center; margin-left: 15px; border-left: 1px solid #ddd; padding-left: 15px;">
+      <span style="font-size: 11px; color: #666; margin-right: 8px;">Images:</span>
+      <label class="switch" style="position: relative; display: inline-block; width: 34px; height: 18px;">
+        <input type="checkbox" id="imgSourceToggle">
+        <span class="slider round"
+          style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #2196F3; transition: .4s; border-radius: 34px;"></span>
+      </label>
+      <span id="imgSourceLabel" style="font-size: 11px; color: #666; margin-left: 8px; width: 45px;">Local</span>
+    </div>
+
+    <style>
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        transition: .4s;
+        border-radius: 50%;
+      }
+
+      input:checked+.slider {
+        background-color: #4CAF50;
+      }
+
+      input:checked+.slider:before {
+        transform: translateX(16px);
+      }
+    </style>
+
     <div class="footer-right" style="position: absolute; right: 20px; display: flex; align-items: center; gap: 10px;">
       <button id="backBtn" class="nav-btn" title="Previous Page">← Back</button>
       <button id="nextBtn" class="nav-btn" title="Next Page">Next →</button>
@@ -571,6 +612,36 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function () {
+      // --- Image Source Toggle Logic ---
+      const imgToggle = document.getElementById('imgSourceToggle');
+      const imgLabel = document.getElementById('imgSourceLabel');
+      const IMG_KEY = 'use_hosted_images';
+
+      // 1. Restore State
+      const isHosted = localStorage.getItem(IMG_KEY) === 'true';
+      imgToggle.checked = isHosted;
+      updateLabel(isHosted);
+
+      // 2. Listener
+      imgToggle.addEventListener('change', function () {
+        const checked = this.checked;
+        localStorage.setItem(IMG_KEY, checked);
+        updateLabel(checked);
+
+        // Placeholder for future logic
+        updateImageSource(checked);
+      });
+
+      function updateLabel(isHosted) {
+        imgLabel.textContent = isHosted ? "Hosted" : "Local";
+      }
+
+      function updateImageSource(isHosted) {
+        console.log("Image Source Changed:", isHosted ? "Hosted" : "Local");
+        // TODO: Implement actual image swapping logic here
+      }
+
+
       const textSizeSlider = document.getElementById('textSizeSlider');
       const SIZE_KEY = "user_font_size";
 
