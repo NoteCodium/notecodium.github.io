@@ -24,9 +24,32 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # Gemfile.lock currently requires Ruby >= 3.2 (e.g. connection_pool 3.x)
-          ruby-version: "3.2"
+          ruby-version: '3.1'
           bundler-cache: true
+          cache-version: 0
+
+      - name: Setup Python for Image Uploads
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install Python Dependencies
+        run: pip install cloudinary requests
+
+      - name: Upload Images to Cloudinary (Optional)
+        env:
+          CLOUDINARY_URL: ${{ secrets.CLOUDINARY_URL }}
+          IMAGE_PROVIDER: "cloudinary"
+        run: |
+          if [ -n "$CLOUDINARY_URL" ]; then
+            python3 scripts/image_uploader.py
+          else
+            echo "CLOUDINARY_URL not set. Skipping image upload."
+          fi
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Install Bundler (matches Gemfile.lock)
         run: gem install bundler -v 2.5.23

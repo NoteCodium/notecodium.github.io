@@ -36,6 +36,18 @@
     "mtime": 1770131503
   },
   {
+    "name": "LICENSE.md",
+    "path": "/.venv/lib/python3.9/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.html",
+    "dir": ".venv/lib/python3.9/site-packages/pip-26.0.1.dist-info/licenses/src/pip/_vendor/idna",
+    "mtime": 1770432508
+  },
+  {
+    "name": "LICENSE.md",
+    "path": "/.venv/lib/python3.9/site-packages/pip/_vendor/idna/LICENSE.html",
+    "dir": ".venv/lib/python3.9/site-packages/pip/_vendor/idna",
+    "mtime": 1770432508
+  },
+  {
     "name": "1.md",
     "path": "/CONTENT/CONCURRENCY/1.html",
     "dir": "CONTENT/CONCURRENCY",
@@ -153,13 +165,13 @@
     "name": "1DP.md",
     "path": "/CONTENT/DSA/13GRAPH/1DP.html",
     "dir": "CONTENT/DSA/13GRAPH",
-    "mtime": 1770345351
+    "mtime": 1770429528
   },
   {
     "name": "2BASICS.md",
     "path": "/CONTENT/DSA/13GRAPH/2BASICS.html",
     "dir": "CONTENT/DSA/13GRAPH",
-    "mtime": 1770427110
+    "mtime": 1770428164
   },
   {
     "name": "1.md",

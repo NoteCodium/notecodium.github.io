@@ -621,6 +621,7 @@
       const isHosted = localStorage.getItem(IMG_KEY) === 'true';
       imgToggle.checked = isHosted;
       updateLabel(isHosted);
+      updateImageSource(isHosted);
 
       // 2. Listener
       imgToggle.addEventListener('change', function () {
@@ -632,13 +633,103 @@
         updateImageSource(checked);
       });
 
+      const MAP_URL = '/assets/image_map.json';
+      let imageMap = null;
+
+      async function getImageMap() {
+        if (imageMap) return imageMap;
+        try {
+          // Add timestamp to bypass Service Worker cache for this specific data file
+          const res = await fetch(MAP_URL + '?t=' + Date.now());
+          if (!res.ok) throw new Error("Map not found");
+          imageMap = await res.json();
+          return imageMap;
+        } catch (e) {
+          console.warn("Could not load image map:", e);
+          return {};
+        }
+      }
+
       function updateLabel(isHosted) {
         imgLabel.textContent = isHosted ? "Hosted" : "Local";
       }
 
-      function updateImageSource(isHosted) {
+      function normalizePath(path) {
+        // Remove runs of slashes
+        path = path.replace(/\/+/g, '/');
+
+        // Handle '..' segments (basic implementation)
+        const parts = path.split('/');
+        const stack = [];
+        for (const part of parts) {
+          if (part === '..') stack.pop();
+          else if (part !== '.') stack.push(part);
+        }
+        let normalized = stack.join('/');
+
+        // Ensure leading slash
+        if (!normalized.startsWith('/')) normalized = '/' + normalized;
+        return normalized;
+      }
+
+      async function updateImageSource(isHosted) {
         console.log("Image Source Changed:", isHosted ? "Hosted" : "Local");
-        // TODO: Implement actual image swapping logic here
+
+        if (isHosted) {
+          const map = await getImageMap();
+          const images = document.querySelectorAll('img');
+
+          images.forEach(img => {
+            let src = img.getAttribute('src');
+            if (!src) return;
+
+            // Normalize the path to match the map keys (which are always /images/...)
+            // If src is "../images/foo.png", we want "/images/foo.png"
+            // If src is "/images/foo.png", we want "/images/foo.png"
+
+            let lookupKey = src;
+            if (!lookupKey.startsWith('http')) {
+              // If it contains '..', try to resolve it relative to the root, assuming /images/ is the base
+              if (lookupKey.includes('..')) {
+                // A more robust solution would involve knowing the current page's path
+                // For now, we'll assume image paths are relative to the site root or /images/
+                const currentPath = window.location.pathname;
+                const baseUrl = currentPath.substring(0, currentPath.lastIndexOf('/'));
+
+                // Create a dummy URL to resolve relative paths
+                const absoluteUrl = new URL(src, window.location.origin + baseUrl + '/').pathname;
+                lookupKey = normalizePath(absoluteUrl);
+              } else if (!lookupKey.startsWith('/')) {
+                // If it doesn't start with '/' and isn't 'http', prepend '/'
+                lookupKey = '/' + lookupKey;
+              }
+            }
+
+            // Ensure lookupKey is normalized (e.g., no double slashes)
+            lookupKey = normalizePath(lookupKey);
+
+            if (map[lookupKey]) {
+              // The map entry is now an object: { url: "...", provider: "...", ... }
+              // Backwards compatibility check (if it's a string vs object)
+              const cloudUrl = typeof map[lookupKey] === 'string' ? map[lookupKey] : map[lookupKey].url;
+
+              // Save original if not already saved
+              if (!img.dataset.originalSrc) {
+                img.dataset.originalSrc = src;
+              }
+
+              if (cloudUrl) {
+                img.src = cloudUrl;
+              }
+            }
+          });
+        } else {
+          // Revert to local
+          const images = document.querySelectorAll('img[data-original-src]');
+          images.forEach(img => {
+            img.src = img.dataset.originalSrc;
+          });
+        }
       }
 
 
