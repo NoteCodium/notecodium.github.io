@@ -8,11 +8,11 @@ In simpler terms, a strongly connected component is a set of vertices within a d
 
 # Topological sort
 # Strongly connected components
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b79d6bcc-ed77-47d9-a015-595ab1f67705--image.png)
+![image.png](../images/b79d6bcc-ed77-47d9-a015-595ab1f67705--image.png)
 [Strongly Connected Components (Kosaraju's Algo) | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1?track=placement)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bdabde44-6594-43a8-8ea2-7a69d5430cdf--image.png)
+![image.png](../images/bdabde44-6594-43a8-8ea2-7a69d5430cdf--image.png)
 1. reverse the edges
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/0e4a4b1e-3ee9-4ebb-88f2-94a8de028ee7--image.png)
+![image.png](../images/0e4a4b1e-3ee9-4ebb-88f2-94a8de028ee7--image.png)
 
 Now if we start the dfs at scc1, it will not go to other components
 

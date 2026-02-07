@@ -8,5 +8,5 @@
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f4ac31c8-2658-47bd-a3a6-dda19a32f9dc--image.png)
+![image.png](../images/f4ac31c8-2658-47bd-a3a6-dda19a32f9dc--image.png)
 

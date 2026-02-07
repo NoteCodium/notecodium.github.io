@@ -2,8 +2,8 @@
 
 Remember the question have nothing to do with the length of the subsequence, it has only to do with the length of the largest sequence present
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f8868881-162d-4c1f-95b1-d965e1d4856c--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3b677cb8-27d9-444d-8608-4224df997173--image.png)
+![image.png](../images/f8868881-162d-4c1f-95b1-d965e1d4856c--image.png)
+![image.png](../images/3b677cb8-27d9-444d-8608-4224df997173--image.png)
 
 # Duplicates will not alter the result
 
@@ -165,18 +165,18 @@ int longestConsecutive(vector<int>& v) {
 
 # Optimal O(n) TC O(1) space
 # Ppa evernote
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/76b157da-a3b3-46a6-a3a8-9344523eea7c--image.png)
+![image.png](../images/76b157da-a3b3-46a6-a3a8-9344523eea7c--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/0bebe461-6861-45d2-b7b1-a394a7b646d5--image.png)
+![image.png](../images/0bebe461-6861-45d2-b7b1-a394a7b646d5--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/df17ffc6-f9c6-4970-8e10-96c0ea202b0e--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/224c0727-7549-41a0-8231-17617fa85341--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/940eb77d-0711-4213-afe9-621904a3d377--image.png)
+![image.png](../images/df17ffc6-f9c6-4970-8e10-96c0ea202b0e--image.png)
+![image.png](../images/224c0727-7549-41a0-8231-17617fa85341--image.png)
+![image.png](../images/940eb77d-0711-4213-afe9-621904a3d377--image.png)
 
 ### Borders
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9438ba94-9965-4a40-9e41-dd1e93eba87a--image.png)
+![image.png](../images/9438ba94-9965-4a40-9e41-dd1e93eba87a--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/63fbabf5-c464-4d72-8510-4abcbf2cc3fb--image.png)
+![image.png](../images/63fbabf5-c464-4d72-8510-4abcbf2cc3fb--image.png)
 
 Updating the internal elements are not important
 

@@ -2,7 +2,7 @@
 [Shortest Prime Path | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/shortest-prime-path--141631/1)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2792b4ff-f19d-4618-a040-f0578df00a3e--image.png)
+![image.png](../images/2792b4ff-f19d-4618-a040-f0578df00a3e--image.png)
 
 
 ```cpp

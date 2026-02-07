@@ -1,7 +1,7 @@
 [leetcode.com](https://leetcode.com/problems/non-overlapping-intervals/description/)
 
 ------------------------------------------------------------------
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/45074971-33fe-45fa-ac88-d4d6abb343e6--image.png)
+![image.png](../images/45074971-33fe-45fa-ac88-d4d6abb343e6--image.png)
 
 ```cpp
 int eraseOverlapIntervals(vector<vector<int>>& ma) {

@@ -1,6 +1,6 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/98b8240b-7479-4464-83f9-bdaaa7c3e076--image.png)
+![image.png](../images/98b8240b-7479-4464-83f9-bdaaa7c3e076--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/775d0a1b-af90-41b8-a4a1-1c3033cd9427--image.png)
+![image.png](../images/775d0a1b-af90-41b8-a4a1-1c3033cd9427--image.png)
 
 
 [leetcode.com](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)

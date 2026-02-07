@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/dd81233d-68d3-4f73-9f78-8dbe12d2d2ee--image.png)
+![image.png](../images/dd81233d-68d3-4f73-9f78-8dbe12d2d2ee--image.png)
 
 Provide it to the person which is finishing the job late
 

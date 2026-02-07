@@ -1,7 +1,7 @@
 paint house 2 is a premium problem
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/cc0ac952-249a-496e-93e4-3a7a4300eb7c--image.png)
+![image.png](../images/cc0ac952-249a-496e-93e4-3a7a4300eb7c--image.png)
 
 [Paint House - LeetCode](https://leetcode.com/problems/paint-house/)
 

@@ -1,14 +1,14 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/dda34418-e068-441d-8d64-2ae90a896c85--image.png)
+![image.png](../images/dda34418-e068-441d-8d64-2ae90a896c85--image.png)
 
 # Brute force n^3
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d9dba7b4-9c8c-483b-88d9-4a2ead5bd68d--image.png)
+![image.png](../images/d9dba7b4-9c8c-483b-88d9-4a2ead5bd68d--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/dc0a07e5-c625-472b-9e5e-a33291d92730--image.png)
+![image.png](../images/dc0a07e5-c625-472b-9e5e-a33291d92730--image.png)
 
 
-![WhatsApp%20Image%202023-10-12%20at%2017.03.22_1f19156b.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/c85da15a-4c8f-479c-ab10-f5f6bb9a00a8--WhatsApp%2520Image%25202023-10-12%2520at%252017.03.22_1f19156b.jpg)
+![WhatsApp%20Image%202023-10-12%20at%2017.03.22_1f19156b.jpg](../images/c85da15a-4c8f-479c-ab10-f5f6bb9a00a8--WhatsApp%20Image%202023-10-12%20at%2017.03.22_1f19156b.jpg)
 
 # If equality does not exist in i,j ,k
 ```cpp

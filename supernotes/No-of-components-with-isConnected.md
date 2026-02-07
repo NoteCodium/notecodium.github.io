@@ -1,7 +1,7 @@
 
 [Number of Provinces - LeetCode](https://leetcode.com/problems/number-of-provinces/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/43f561d8-cd8b-4f9c-96b6-3a75617f0daa--image.png)
+![image.png](../images/43f561d8-cd8b-4f9c-96b6-3a75617f0daa--image.png)
 
 ```cpp
 void dfs(int node, vector<int> al[], vector<int> &visited){

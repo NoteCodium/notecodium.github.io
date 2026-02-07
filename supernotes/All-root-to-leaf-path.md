@@ -22,7 +22,7 @@ vector<vector<int>> Paths(Node* root){
 }
 ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f6751844-e685-4e00-beae-e66bc2427b6b--image.png)
+![image.png](../images/f6751844-e685-4e00-beae-e66bc2427b6b--image.png)
 
 LCA of 3 and 7 will be 3 and 3 will be returned before 7 is touched, same would have happened if 3 and 70 when 70 is not present
 

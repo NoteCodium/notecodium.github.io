@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/6eca147f-0969-4d02-aa59-20306f52beee--image.png)
+![image.png](../images/6eca147f-0969-4d02-aa59-20306f52beee--image.png)
 
 1. if the neighboring cell's height is less than or equal to the current cell's height.
 2. Return *a **2D list** of grid coordinates* `result` *where* `result[i] = [ri, ci]` *denotes that rain water can flow from cell* `(ri, ci)` *to **both** the Pacific and Atlantic oceans*.

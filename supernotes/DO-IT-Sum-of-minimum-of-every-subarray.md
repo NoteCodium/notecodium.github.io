@@ -2,9 +2,9 @@ https://leetcode.com/problems/sum-of-subarray-minimums/
 in ppa, understand only when watch the video
  
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/aad1f49c-f467-458b-8c94-3a327e9d71a9--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/91d9d504-99c6-4c1d-a292-ace48f66f631--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/6a83d769-8a66-42af-a0e9-b30dfe6e38dd--image.png)
+![image.png](../images/aad1f49c-f467-458b-8c94-3a327e9d71a9--image.png)
+![image.png](../images/91d9d504-99c6-4c1d-a292-ace48f66f631--image.png)
+![image.png](../images/6a83d769-8a66-42af-a0e9-b30dfe6e38dd--image.png)
 
 ```cpp
 #define mod 1000000007

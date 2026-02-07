@@ -31,7 +31,7 @@ public:
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ae60cb9a-cc0b-49a9-8549-3d989132397e--image.png)
+![image.png](../images/ae60cb9a-cc0b-49a9-8549-3d989132397e--image.png)
 
 
 # Two heaps

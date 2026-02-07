@@ -4,7 +4,7 @@
 
 
 [leetcode.com](https://leetcode.com/problems/search-suggestions-system/description/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2fb4e390-611c-432b-b45f-5db47f2fcd39--image.png)
+![image.png](../images/2fb4e390-611c-432b-b45f-5db47f2fcd39--image.png)
 
 [Search Suggestions System | Leetcode 1268 | Trie | Binary Seach - YouTube](https://youtu.be/lbfi2OZL0Ls?si=vB6T5fykD9R_ouqX)
 

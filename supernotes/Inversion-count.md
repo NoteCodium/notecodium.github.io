@@ -85,17 +85,17 @@ public:
 this will not work on
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8d2ddd03-5b15-4be6-8118-16114a099498--image.png)
+![image.png](../images/8d2ddd03-5b15-4be6-8118-16114a099498--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/86ed0036-50ce-4d79-a8ab-5fd46632740e--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c8d634f4-620d-492c-bb95-b84bdcddf091--image.png)
+![image.png](../images/86ed0036-50ce-4d79-a8ab-5fd46632740e--image.png)
+![image.png](../images/c8d634f4-620d-492c-bb95-b84bdcddf091--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ebf7c074-c965-4a35-9235-03bdb6dd2ac3--image.png)
+![image.png](../images/ebf7c074-c965-4a35-9235-03bdb6dd2ac3--image.png)
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/026d1750-0849-4fc8-9217-28877576e15f--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/51351349-5341-4415-acfa-118c46924dcf--image.png)
+![image.png](../images/026d1750-0849-4fc8-9217-28877576e15f--image.png)
+![image.png](../images/51351349-5341-4415-acfa-118c46924dcf--image.png)
 

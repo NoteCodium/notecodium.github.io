@@ -1,7 +1,7 @@
 1. two sets v1 and v2
 2. odd length cycle graph never bipartite
 3. Linear graph is always bipartite
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/164bc6ea-2200-4f11-b8b4-237983da5b9b--image.png)
+![image.png](../images/164bc6ea-2200-4f11-b8b4-237983da5b9b--image.png)
 
 [Is Graph Bipartite? - LeetCode](https://leetcode.com/problems/is-graph-bipartite/description/)
 

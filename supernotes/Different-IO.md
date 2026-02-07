@@ -3,10 +3,10 @@ yashesh pigeonhole principal
 
 # Separate defnition
 for n=2 leetcode mean
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/56bbd8e7-7a1f-4f96-82b2-3b34bc081dd3--image.png)
+![image.png](../images/56bbd8e7-7a1f-4f96-82b2-3b34bc081dd3--image.png)
 
 Coding ninja mean
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5388525a-41e9-49fe-982c-e1b7927d3778--image.png)
+![image.png](../images/5388525a-41e9-49fe-982c-e1b7927d3778--image.png)
 see last 2 a
 
 

@@ -1,6 +1,6 @@
 [Just a moment...](https://leetcode.com/problems/interval-list-intersections/editorial/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/521b7c40-f02c-4974-9358-e8c17ce1195e--image.png)
+![image.png](../images/521b7c40-f02c-4974-9358-e8c17ce1195e--image.png)
 
 
 [youtu.be](https://youtu.be/Qh8ZjL1RpLI?si=hmOi1E8tnE1USw_J)

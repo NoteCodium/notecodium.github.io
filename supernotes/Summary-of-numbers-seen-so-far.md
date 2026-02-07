@@ -1,7 +1,7 @@
 [Data Stream as Disjoint Intervals - LeetCode](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/)
 
 ---------
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4d59acb5-3946-40a9-9e02-1c8719cd118f--image.png)
+![image.png](../images/4d59acb5-3946-40a9-9e02-1c8719cd118f--image.png)
 
 
 -----

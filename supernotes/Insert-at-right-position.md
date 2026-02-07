@@ -4,7 +4,7 @@
 2. that there may exist multiple valid ways for the insertion
 
 # Search for 49
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c36161e2-0414-487d-a897-071ba50600ea--image.png)
+![image.png](../images/c36161e2-0414-487d-a897-071ba50600ea--image.png)
 
 ```cpp
 TreeNode* insertIntoBST(TreeNode* root, int k) {

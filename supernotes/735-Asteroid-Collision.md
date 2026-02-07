@@ -7,7 +7,7 @@
 ```
 
 only case of collide
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8f8cefba-c696-4549-b9bd-f83a3d49582a--image.png)
+![image.png](../images/8f8cefba-c696-4549-b9bd-f83a3d49582a--image.png)
 
 ```cpp
 vector<int> asteroidCollision(vector<int>& v) {

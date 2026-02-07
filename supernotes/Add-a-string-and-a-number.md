@@ -25,7 +25,7 @@ class Solution {
 }
 ```
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3f457b1f-155c-448b-a285-ef7a30cb00a0--image.png)
+![image.png](../images/3f457b1f-155c-448b-a285-ef7a30cb00a0--image.png)
 
 
 

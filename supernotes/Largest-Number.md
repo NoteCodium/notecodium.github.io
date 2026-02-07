@@ -1,6 +1,6 @@
 [Largest Number - LeetCode](https://leetcode.com/problems/largest-number/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/aba89f38-54cc-4bca-a7b5-ef6a05807a16--image.png)
+![image.png](../images/aba89f38-54cc-4bca-a7b5-ef6a05807a16--image.png)
 
 # Edge case when all 0
 

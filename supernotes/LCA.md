@@ -33,26 +33,26 @@ TreeNode* lowestCommonAncestor(TreeNode* r, TreeNode* r1, TreeNode* r2) {
 # Optimized space
 1. If you are standing at a node, and n1 and n2 are present in separate subtrees about that node, then that node is the lca
 2. if both are in left you will go left r=r->left, keep doing till you get a lca, tc n^2
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/22de9eee-1f37-4f06-bb3a-e4c933dc1a8a--image.png)
+![image.png](../images/22de9eee-1f37-4f06-bb3a-e4c933dc1a8a--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2c92ed5d-ab3a-4004-915f-95401bd2ed21--image.png)
+![image.png](../images/2c92ed5d-ab3a-4004-915f-95401bd2ed21--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/57b64faa-349e-4aa7-be2e-5cc735430da4--image.png)
+![image.png](../images/57b64faa-349e-4aa7-be2e-5cc735430da4--image.png)
 
 
 ----------------------------------------------------------------------------------------------------------
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/0e2218b0-7320-4771-aee6-70a34cc0cc34--image.png)
+![image.png](../images/0e2218b0-7320-4771-aee6-70a34cc0cc34--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bc06e8f5-5329-443a-94b9-87ac00ab1fa8--image.png)
+![image.png](../images/bc06e8f5-5329-443a-94b9-87ac00ab1fa8--image.png)
 
 
 
 If we aready found the lca in a subtree
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/73cd3a48-b363-4775-8b7b-0b1a026e9fa1--image.png)
+![image.png](../images/73cd3a48-b363-4775-8b7b-0b1a026e9fa1--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ccb0d6b6-d99e-48c1-ba79-b778de802664--image.png)
+![image.png](../images/ccb0d6b6-d99e-48c1-ba79-b778de802664--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d7735761-e98f-4505-a60e-26c0cf162e94--image.png)
+![image.png](../images/d7735761-e98f-4505-a60e-26c0cf162e94--image.png)
 
 ```cpp
 TreeNode* lowestCommonAncestor(TreeNode* n, TreeNode* r1, TreeNode* r2) {

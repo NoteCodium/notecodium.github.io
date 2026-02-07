@@ -5,10 +5,10 @@
 [Divide an array into 4 equal parts](https://my.supernotes.app/?preview=265317ac-a824-4495-a747-5c7368232fe0)
 
 # Proving the bad time complexity
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/42b746b2-d5a7-40ae-80e6-91cc47860a1a--image.png)
+![image.png](../images/42b746b2-d5a7-40ae-80e6-91cc47860a1a--image.png)
 
 # Better solution
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d9d5de31-6763-4825-9a23-e84aec3fafda--image.png)
+![image.png](../images/d9d5de31-6763-4825-9a23-e84aec3fafda--image.png)
 
 ```cpp
 bool f(int n,int idx, int sum, int targetSum, int k, vector<int>& v, vector<bool> alreadyPicked){
@@ -87,7 +87,7 @@ bool canPartitionKSubsets(vector<int>& v, int k) {
 
 }
 ```
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bf1c4912-4d9d-4a01-8a24-49ab3f475abc--image.png)
+![image.png](../images/bf1c4912-4d9d-4a01-8a24-49ab3f475abc--image.png)
 
 # With bit masking
 still mle, storing numbers instead of strings
@@ -135,7 +135,7 @@ bool canPartitionKSubsets(vector<int>& v, int k) {
 }
 ```
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/862051ec-1cc6-40e3-9c60-85d10d2c2332--image.png)
+![image.png](../images/862051ec-1cc6-40e3-9c60-85d10d2c2332--image.png)
 
 # Dp with bitmasking
 # Elegant solution by yashesh

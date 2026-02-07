@@ -1,5 +1,5 @@
 [Minimum Falling Path Sum - LeetCode](https://leetcode.com/problems/minimum-falling-path-sum/description/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f895c940-a2dd-42a2-80f9-b371f9c0859c--image.png)
+![image.png](../images/f895c940-a2dd-42a2-80f9-b371f9c0859c--image.png)
 
 
 ```cpp

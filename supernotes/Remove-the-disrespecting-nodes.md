@@ -2,12 +2,12 @@
 
 [youtu.be](https://youtu.be/rE6w_PoGK4I?si=s8BM3sevBrthzE_4)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bd65965e-37ed-4552-894c-485c09153d9c--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f7637402-6707-422b-9716-a937b84a8253--image.png)
+![image.png](../images/bd65965e-37ed-4552-894c-485c09153d9c--image.png)
+![image.png](../images/f7637402-6707-422b-9716-a937b84a8253--image.png)
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/40a1797f-173d-4f76-9533-fb4d4f50b31c--image.png)
+![image.png](../images/40a1797f-173d-4f76-9533-fb4d4f50b31c--image.png)
 
 ```cpp
 void dfs(ll node, vvl &al, vl &final, ll par, vector<bool> &res){

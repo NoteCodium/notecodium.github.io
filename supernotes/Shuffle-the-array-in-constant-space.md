@@ -1,9 +1,9 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/1c0b3c56-2961-4ad0-855c-b020d3bb7edb--image.png)
+![image.png](../images/1c0b3c56-2961-4ad0-855c-b020d3bb7edb--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c94cd667-5be0-43d5-bcd0-4986640892fa--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/33d40fc4-a043-4f95-bc07-cbd41df0451c--image.png)
+![image.png](../images/c94cd667-5be0-43d5-bcd0-4986640892fa--image.png)
+![image.png](../images/33d40fc4-a043-4f95-bc07-cbd41df0451c--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/30d3cfbc-69a2-4cae-8bf7-957555775d0c--image.png)
+![image.png](../images/30d3cfbc-69a2-4cae-8bf7-957555775d0c--image.png)
 
 ```cpp
 vector<int> shuffle(vector<int>& v, int n) {

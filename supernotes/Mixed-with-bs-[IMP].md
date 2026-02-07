@@ -1,7 +1,7 @@
 [719. Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/25a2f48f-68f3-4b5f-8487-c858a22df1ac--image.png)
+![image.png](../images/25a2f48f-68f3-4b5f-8487-c858a22df1ac--image.png)
 
 
 ```cpp

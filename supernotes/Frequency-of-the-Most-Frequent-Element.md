@@ -1,11 +1,11 @@
 [Just a moment...](https://leetcode.com/problems/frequency-of-the-most-frequent-element/)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/82830e20-55b8-4c5e-91af-20bafeb08438--image.png)
+![image.png](../images/82830e20-55b8-4c5e-91af-20bafeb08438--image.png)
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/31227545-9cef-4c37-b385-618a4eb6df6f--image.png)
+![image.png](../images/31227545-9cef-4c37-b385-618a4eb6df6f--image.png)
 
 
 

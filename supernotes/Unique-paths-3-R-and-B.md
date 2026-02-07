@@ -1,6 +1,6 @@
 [Unique Paths III - LeetCode](https://leetcode.com/problems/unique-paths-iii/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/69643564-812c-48fa-9408-25c1ad638ccb--image.png)
+![image.png](../images/69643564-812c-48fa-9408-25c1ad638ccb--image.png)
 
 
 

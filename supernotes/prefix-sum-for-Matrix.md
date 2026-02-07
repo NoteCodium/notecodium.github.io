@@ -1,5 +1,5 @@
 # Preprocessing
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d51f8531-f12e-43ca-b117-1dd9ea4af275--image.png)
+![image.png](../images/d51f8531-f12e-43ca-b117-1dd9ea4af275--image.png)
 
 
 ```

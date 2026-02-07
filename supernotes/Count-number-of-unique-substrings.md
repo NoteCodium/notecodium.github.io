@@ -7,10 +7,10 @@ log n^3
 SC is n^3
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/6fb12a0f-8dd1-43c9-add2-42c0ef8d54d8--image.png)
+![image.png](../images/6fb12a0f-8dd1-43c9-add2-42c0ef8d54d8--image.png)
  
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/801c2e0c-d0f8-416d-b2f4-89d317e2c13b--image.png)
+![image.png](../images/801c2e0c-d0f8-416d-b2f4-89d317e2c13b--image.png)
 
 
 if n^2 unique substrings 
@@ -315,9 +315,9 @@ int countDistinctSubstrings(string &s){
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8d163a10-d41d-4507-97b0-31f93d1a08da--image.png)
+![image.png](../images/8d163a10-d41d-4507-97b0-31f93d1a08da--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2b10a4f6-afa7-49b4-b3d9-ba1684fd28bc--image.png)
+![image.png](../images/2b10a4f6-afa7-49b4-b3d9-ba1684fd28bc--image.png)
 
 *****************************
 # Complex approach

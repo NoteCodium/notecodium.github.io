@@ -1,7 +1,7 @@
 [My Calendar I - LeetCode](https://leetcode.com/problems/my-calendar-i/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8a87e9b2-2c83-4ab7-aa3a-aa7a225baba4--image.png)
+![image.png](../images/8a87e9b2-2c83-4ab7-aa3a-aa7a225baba4--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/52645149-04cf-444e-b566-3ee88c3bdb06--image.png)
+![image.png](../images/52645149-04cf-444e-b566-3ee88c3bdb06--image.png)
 
 ```CPP
 class MyCalendar {

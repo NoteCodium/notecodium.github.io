@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/minimize-deviation-in-array/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/991e5940-3270-42a1-b719-ea270dd1c002--image.png)
+![image.png](../images/991e5940-3270-42a1-b719-ea270dd1c002--image.png)
 
 The deviation of the array is the maximum difference between any two elements in the array.
 

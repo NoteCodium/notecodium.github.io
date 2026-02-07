@@ -2,25 +2,25 @@
 
 ------------
 # AZ
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3889406c-9aba-4aca-84ea-427d84fd9162--image.png)
+![image.png](../images/3889406c-9aba-4aca-84ea-427d84fd9162--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f3f1946a-ea7c-45cb-a0a6-0d88cac8d4ba--image.png)
+![image.png](../images/f3f1946a-ea7c-45cb-a0a6-0d88cac8d4ba--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5914aaab-2162-4733-a70e-34ca81051fd2--image.png)
+![image.png](../images/5914aaab-2162-4733-a70e-34ca81051fd2--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/69095809-9e5f-4b81-a7a5-ddcb4f979005--image.png)
+![image.png](../images/69095809-9e5f-4b81-a7a5-ddcb4f979005--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/92df3b0e-396c-4dab-b3b3-1e8c9eeeb3e3--image.png)
+![image.png](../images/92df3b0e-396c-4dab-b3b3-1e8c9eeeb3e3--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/135127ba-06ed-460b-a444-b26842d44654--image.png)
+![image.png](../images/135127ba-06ed-460b-a444-b26842d44654--image.png)
 ----------------------------------------------------------------------------------
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/132ae716-b99e-4283-a654-e747e0bd3a5d--image.png)
+![image.png](../images/132ae716-b99e-4283-a654-e747e0bd3a5d--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d13a3206-83d4-48ee-8b5e-a55ff5135b5e--image.png)
+![image.png](../images/d13a3206-83d4-48ee-8b5e-a55ff5135b5e--image.png)
 
-  ![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c805d27f-27f9-423d-b2d5-29054ebacb7e--image.png)
+  ![image.png](../images/c805d27f-27f9-423d-b2d5-29054ebacb7e--image.png)
 
 
 ------------------

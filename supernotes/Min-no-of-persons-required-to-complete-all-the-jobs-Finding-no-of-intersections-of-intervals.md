@@ -1,5 +1,5 @@
 [Minimum Platforms | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1)
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/b0c6c51d-72cd-4f8b-ae4c-fcc724e46c10--image.png)
+![image.png](../images/b0c6c51d-72cd-4f8b-ae4c-fcc724e46c10--image.png)
 0000 to 2359
 
 
@@ -49,13 +49,13 @@ int minMeetingRooms(vector<vector<int>>& ma) {
 
 [youtu.be](https://youtu.be/FdzJmTCVyJU?si=jyvhDBzsmdp4JTJi)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e0f0d322-455f-4e3e-b89e-784daa9ff899--image.png)
+![image.png](../images/e0f0d322-455f-4e3e-b89e-784daa9ff899--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7f55b217-cfea-41bc-8be3-cd35a1717f90--image.png)
+![image.png](../images/7f55b217-cfea-41bc-8be3-cd35a1717f90--image.png)
 
 Another meeting started before the ending of the first meeting
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/dc607891-ff91-448e-96eb-1c3d29a124b1--image.png)
+![image.png](../images/dc607891-ff91-448e-96eb-1c3d29a124b1--image.png)
 
 
 

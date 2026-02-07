@@ -1,6 +1,6 @@
 [Triangle - LeetCode](https://leetcode.com/problems/triangle/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/1594be69-fffc-4cd0-9de3-08f81e27b8a3--image.png)
+![image.png](../images/1594be69-fffc-4cd0-9de3-08f81e27b8a3--image.png)
 
 ```cpp
 int f(vector<vector<int>>& ma, int r, int c, int rr){

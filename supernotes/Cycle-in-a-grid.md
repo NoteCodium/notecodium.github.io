@@ -1,6 +1,6 @@
 [Detect Cycles in 2D Grid - LeetCode](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/aa7b160a-3412-49ea-a529-568c4edc2008--image.png)
+![image.png](../images/aa7b160a-3412-49ea-a529-568c4edc2008--image.png)
 
 1. the minimum length of cycle will be always 4
 {% raw %}

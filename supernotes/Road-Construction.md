@@ -1,5 +1,5 @@
 [CSES - Road Construction](https://cses.fi/problemset/task/1676/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/e7642426-4b03-4fc4-a46a-f26388b925c4--image.png)
+![image.png](../images/e7642426-4b03-4fc4-a46a-f26388b925c4--image.png)
 
 ```cpp
 void solve() {

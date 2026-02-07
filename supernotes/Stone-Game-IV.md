@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/stone-game-iv/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/80ec2e74-ad78-4249-995d-67c064403c30--image.png)
+![image.png](../images/80ec2e74-ad78-4249-995d-67c064403c30--image.png)
 
 ```cpp
 bool f(int x){

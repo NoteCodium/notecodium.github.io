@@ -17,4 +17,4 @@ vector<string> generate(int n){
 }
 ```
 
-![WhatsApp%20Image%202023-11-21%20at%2009.35.53_e956d583.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/fe750c80-8969-409e-b783-448b8657f5e2--WhatsApp%2520Image%25202023-11-21%2520at%252009.35.53_e956d583.jpg)
+![WhatsApp%20Image%202023-11-21%20at%2009.35.53_e956d583.jpg](../images/fe750c80-8969-409e-b783-448b8657f5e2--WhatsApp%20Image%202023-11-21%20at%2009.35.53_e956d583.jpg)

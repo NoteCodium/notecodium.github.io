@@ -4,7 +4,7 @@
 
 1. Generating the above said very efficiently
 
-![WhatsApp%20Image%202023-09-30%20at%2017.00.34.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/b32a29ae-a81a-44e6-99a4-259605bedd7d--WhatsApp%2520Image%25202023-09-30%2520at%252017.00.34.jpg)
+![WhatsApp%20Image%202023-09-30%20at%2017.00.34.jpg](../images/b32a29ae-a81a-44e6-99a4-259605bedd7d--WhatsApp%20Image%202023-09-30%20at%2017.00.34.jpg)
 
 1. Traverse from top to bottom and keep adding till you get zero, when get zero, make the sum as 0
 

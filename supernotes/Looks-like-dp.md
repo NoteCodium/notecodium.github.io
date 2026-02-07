@@ -2,11 +2,11 @@
 
 1. choose k elements from v1
 2. corresponding k elemnts from v2
-3. ![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/354e01aa-0b89-44c5-a80a-298529d86a80--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b083d06e-6b48-45e7-b8f7-1a6e0f82ec5c--image.png)
+3. ![image.png](../images/354e01aa-0b89-44c5-a80a-298529d86a80--image.png)
+![image.png](../images/b083d06e-6b48-45e7-b8f7-1a6e0f82ec5c--image.png)
 
 1. All elements are positive
-2. ![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/36e4b7af-0e76-4da9-b6c8-0fde4470bc16--image.png)
+2. ![image.png](../images/36e4b7af-0e76-4da9-b6c8-0fde4470bc16--image.png)
 
 ```cpp
 long long maxScore(vector<int>& v1, vector<int>& v2, int k) {

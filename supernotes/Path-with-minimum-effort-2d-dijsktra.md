@@ -5,10 +5,10 @@
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/eb76be69-0895-4c12-9c28-5d72e6d060c0--image.png)
+![image.png](../images/eb76be69-0895-4c12-9c28-5d72e6d060c0--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/396bad27-5849-4060-84ac-01859f4153f3--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7aefb95b-ef85-4053-b21d-6c7ac32052a2--image.png)
+![image.png](../images/396bad27-5849-4060-84ac-01859f4153f3--image.png)
+![image.png](../images/7aefb95b-ef85-4053-b21d-6c7ac32052a2--image.png)
 
 
 {% raw %}

@@ -2,7 +2,7 @@
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2719de20-14e5-4e53-a4a9-4c022568e59f--image.png)
+![image.png](../images/2719de20-14e5-4e53-a4a9-4c022568e59f--image.png)
 
 
 # Algorithm

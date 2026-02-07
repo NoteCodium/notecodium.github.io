@@ -42,4 +42,4 @@ https://codeforces.com/contest/659/problem/B)
 
 [https://codeforces.com/contest/296/problem/C](https://codeforces.com/contest/296/problem/C)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d6840215-5c52-4081-aaf6-273eacb424df--image.png)
+![image.png](../images/d6840215-5c52-4081-aaf6-273eacb424df--image.png)

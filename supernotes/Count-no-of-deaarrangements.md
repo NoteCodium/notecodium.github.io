@@ -2,15 +2,15 @@
 
 [Lecture 108: Count derangements  || DP Series - YouTube](https://youtu.be/NW-BLDQHFXk?si=ELZLowt0JVSwsDe7)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/921e9463-2237-4746-a2e5-3e3aac2907d3--image.png)
+![image.png](../images/921e9463-2237-4746-a2e5-3e3aac2907d3--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/cf272e1c-8093-44c8-9732-55b9fa300375--image.png)
+![image.png](../images/cf272e1c-8093-44c8-9732-55b9fa300375--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/15033382-2593-4011-86f5-a6187bd3f8a2--image.png)
+![image.png](../images/15033382-2593-4011-86f5-a6187bd3f8a2--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/fefb98ba-b5f2-42f5-ba8a-b4f178245386--image.png)
+![image.png](../images/fefb98ba-b5f2-42f5-ba8a-b4f178245386--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/29e42c48-c2e9-4b33-b5bb-c19f294490ff--image.png)
+![image.png](../images/29e42c48-c2e9-4b33-b5bb-c19f294490ff--image.png)
 
 ```cpp
 long long int countDerangements(int n) {

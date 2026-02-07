@@ -1,7 +1,7 @@
 1. take a random node x
 2. Do a dfs from x and find which is at max distance from x, call it y.
 3. Do a dfs from y and fid a node maxium distance from y, z
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2a9c3cb6-17d2-464b-988d-6bf00fdb344d--image.png)
+![image.png](../images/2a9c3cb6-17d2-464b-988d-6bf00fdb344d--image.png)
 
 
 
@@ -45,15 +45,15 @@ void dfs(ll node, ll par, vvl &al, vl &dist){
 # Queries in diameter
 
 [Problem - B - Codeforces](https://codeforces.com/gym/102694/problem/B)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e9f2146d-dfdd-4e04-99c3-ddec7a8d1afd--image.png)
+![image.png](../images/e9f2146d-dfdd-4e04-99c3-ddec7a8d1afd--image.png)
 
 # Spreading tree about its diameter
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c97f7fc7-13b7-49ac-8fc8-5a14031370c3--image.png)
+![image.png](../images/c97f7fc7-13b7-49ac-8fc8-5a14031370c3--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7fca7ee8-4b77-4d44-9a91-8661368240f5--image.png)
+![image.png](../images/7fca7ee8-4b77-4d44-9a91-8661368240f5--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f9c98ce4-53ce-4e43-a281-569f7406bbe4--image.png)
+![image.png](../images/f9c98ce4-53ce-4e43-a281-569f7406bbe4--image.png)
 
 
 ```cpp

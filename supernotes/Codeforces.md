@@ -1,5 +1,5 @@
 [codeforces.com](https://codeforces.com/contest/1879/problem/C)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4e2bffdb-b211-40b7-b4e9-66827b5a42ca--image.png)
+![image.png](../images/4e2bffdb-b211-40b7-b4e9-66827b5a42ca--image.png)
 
 [Codeforces Educational Round 155 | Video Solutions - A to D | by Ankit | TLE Eliminators - YouTube](https://youtu.be/_S3NpzQyqDE?si=h1HbAt2uQ6PU4W-B
 

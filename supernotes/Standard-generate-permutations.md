@@ -1,8 +1,8 @@
 # all permuations
 
-![2%40paste_220714_171715_136.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/a46b1150-7766-4b22-a9a5-8384c1e4b669--2%2540paste_220714_171715_136.jpg)
+![2%40paste_220714_171715_136.jpg](../images/a46b1150-7766-4b22-a9a5-8384c1e4b669--2%40paste_220714_171715_136.jpg)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b1ddc45f-9d3c-4b97-817f-7e95dea4a04b--image.png)
+![image.png](../images/b1ddc45f-9d3c-4b97-817f-7e95dea4a04b--image.png)
 
 
 n!
@@ -22,9 +22,9 @@ void f(idx){
 ```
 
 # in lexigraphic order
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/6da727c7-de63-4852-8220-8cdd98af2ebc--image.png)
+![image.png](../images/6da727c7-de63-4852-8220-8cdd98af2ebc--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/517dc2f4-9ac5-47d7-9fa8-ca2a29b98b34--image.png)
+![image.png](../images/517dc2f4-9ac5-47d7-9fa8-ca2a29b98b34--image.png)
 
 
 n! *n

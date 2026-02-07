@@ -3,7 +3,7 @@
 1. sort all the edges by their weights
 2. keep unionining
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/7d02518f-343a-4a91-ad8f-bf9f4165d5b7--image.png)
+![image.png](../images/7d02518f-343a-4a91-ad8f-bf9f4165d5b7--image.png)
 [Minimum Spanning Tree | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1)
 
 #IO GFG

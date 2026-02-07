@@ -1,6 +1,6 @@
 [Design File System - LeetCode](https://leetcode.com/problems/design-file-system/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2380198d-4d88-4adf-b553-3741ab0eb12c--image.png)
+![image.png](../images/2380198d-4d88-4adf-b553-3741ab0eb12c--image.png)
 
 do its trie solution
 

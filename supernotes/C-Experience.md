@@ -1,6 +1,6 @@
 [codeforces.com](https://codeforces.com/edu/course/2/lesson/7/1/practice/contest/289390/problem/C)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/a04bfae2-13cd-40d8-92ed-e15007af6692--image.png)
+![image.png](../images/a04bfae2-13cd-40d8-92ed-e15007af6692--image.png)
 
 ```cpp
 void solve() {

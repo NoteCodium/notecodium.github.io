@@ -1,6 +1,6 @@
 [Array With Elements Not Equal to Average of Neighbors - LeetCode](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9d13b0cf-bbe9-4ac5-a74b-6dab4e43a506--image.png)
+![image.png](../images/9d13b0cf-bbe9-4ac5-a74b-6dab4e43a506--image.png)
 
 
 ```cpp

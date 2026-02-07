@@ -1,6 +1,6 @@
 [ - LeetCode](https://leetcode.com/problems/design-in-memory-file-system/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9b39df1c-0531-4a63-8a84-d6353248c2a7--image.png)
+![image.png](../images/9b39df1c-0531-4a63-8a84-d6353248c2a7--image.png)
 
 ```cpp
 class FileSystem {

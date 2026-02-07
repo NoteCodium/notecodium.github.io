@@ -3,7 +3,7 @@
 [Single-Threaded CPU - Priority Queue - Leetcode 1834 - Python - YouTube](https://youtu.be/RR1n-d4oYqE?si=3RntHaw0CzNxH_Nx)
 
 [Single-Threaded CPU | Detailed Explanation | Google | Live Coding - YouTube](https://youtu.be/9zRXNLbl0FI?si=duSDp9_1dvxYXgok)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8c12aece-142e-4fcf-b5bc-ea3d645e5586--image.png)
+![image.png](../images/8c12aece-142e-4fcf-b5bc-ea3d645e5586--image.png)
 
 ```cpp
 vector<int> getOrder(vector<vector<int>>& origMat) {

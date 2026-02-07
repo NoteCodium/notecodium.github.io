@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a4645bd6-88e7-4d78-9077-61b978b3ef2e--image.png)
+![image.png](../images/a4645bd6-88e7-4d78-9077-61b978b3ef2e--image.png)
 
 [leetcode.com](https://leetcode.com/problems/design-tic-tac-toe/description/)
 

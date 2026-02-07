@@ -1,9 +1,9 @@
 [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e784b1b4-9953-48b4-8a4f-8ff0fe35a87a--image.png)
+![image.png](../images/e784b1b4-9953-48b4-8a4f-8ff0fe35a87a--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c3215b41-41f6-4f5a-8775-f4b30d0ab745--image.png)
+![image.png](../images/c3215b41-41f6-4f5a-8775-f4b30d0ab745--image.png)
 
 
 ```cpp

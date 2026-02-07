@@ -1,6 +1,6 @@
 [Just a moment...](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4fae7648-58f5-4da0-9b0c-335766ea7fba--image.png)
+![image.png](../images/4fae7648-58f5-4da0-9b0c-335766ea7fba--image.png)
 
 ```cpp
 int numberOfSubstrings(string s) {

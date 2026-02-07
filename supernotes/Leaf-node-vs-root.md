@@ -28,7 +28,7 @@ vvl al(n,vl());
 
 # No. of subordinates
 [CSES - Subordinates](https://cses.fi/problemset/task/1674/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3f8de7c3-ff45-496d-a18c-a5dc8c01dc8c--image.png)
+![image.png](../images/3f8de7c3-ff45-496d-a18c-a5dc8c01dc8c--image.png)
 
 
 ```cpp

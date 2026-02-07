@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f02fde4a-3381-4b03-90df-327fc10d841a--image.png)
+![image.png](../images/f02fde4a-3381-4b03-90df-327fc10d841a--image.png)
 
 
 ```cpp

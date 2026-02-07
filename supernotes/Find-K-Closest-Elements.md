@@ -1,6 +1,6 @@
 [Just a moment...](https://leetcode.com/problems/find-k-closest-elements/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/165dfb69-82a1-46e7-8d42-ac5043a38c7c--image.png)
+![image.png](../images/165dfb69-82a1-46e7-8d42-ac5043a38c7c--image.png)
 
 
 

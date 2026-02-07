@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/word-search/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/074f297e-8eae-440a-abaa-ddf9394da1c7--image.png)
+![image.png](../images/074f297e-8eae-440a-abaa-ddf9394da1c7--image.png)
 
 
 ```cpp

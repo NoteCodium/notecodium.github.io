@@ -1,9 +1,9 @@
 https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/22e39960-ed88-4124-93a6-0a96371f82e3--image.png)
+![image.png](../images/22e39960-ed88-4124-93a6-0a96371f82e3--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/af950b4b-13c6-4922-bda2-78052bc644ab--image.png)
+![image.png](../images/af950b4b-13c6-4922-bda2-78052bc644ab--image.png)
 
 
 

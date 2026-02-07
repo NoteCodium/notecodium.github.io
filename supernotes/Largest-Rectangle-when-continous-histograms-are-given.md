@@ -1,6 +1,6 @@
 [](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)
 
-![WhatsApp%20Image%202023-09-30%20at%2016.54.08.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/eba0c0ab-6949-45dd-a2d7-48c162d0e770--WhatsApp%2520Image%25202023-09-30%2520at%252016.54.08.jpg)
+![WhatsApp%20Image%202023-09-30%20at%2016.54.08.jpg](../images/eba0c0ab-6949-45dd-a2d7-48c162d0e770--WhatsApp%20Image%202023-09-30%20at%2016.54.08.jpg)
 
 
 # Brute force

@@ -3,7 +3,7 @@
 
 1. Doing the merge of the insetion sort effectively
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5e3e03c3-43e0-40e8-b2a6-ec72ad2c4f55--image.png)
+![image.png](../images/5e3e03c3-43e0-40e8-b2a6-ec72ad2c4f55--image.png)
 
 
 [Merge Sort | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/merge-sort/1)

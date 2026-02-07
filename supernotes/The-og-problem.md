@@ -1,6 +1,6 @@
 [Minimum Path Sum - LeetCode](https://leetcode.com/problems/minimum-path-sum/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/eae2794a-d471-4709-be38-ddc62dd20276--image.png)
+![image.png](../images/eae2794a-d471-4709-be38-ddc62dd20276--image.png)
 
 ```cpp
 int f(int r,int c,vector<vector<int>> &ma){

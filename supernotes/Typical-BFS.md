@@ -1,5 +1,5 @@
 [leetcode.com](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/b5c36484-4d78-4fb4-bbf9-7577c3cde8de--image.png)
+![image.png](../images/b5c36484-4d78-4fb4-bbf9-7577c3cde8de--image.png)
 
 
 

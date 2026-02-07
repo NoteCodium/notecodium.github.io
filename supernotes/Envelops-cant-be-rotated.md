@@ -20,7 +20,7 @@ int maxEnvelopes(vector<vector<int>>& ma) {
 }
 ```
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b608d689-8f15-4e92-a94a-241fbf22a2aa--image.png)
+![image.png](../images/b608d689-8f15-4e92-a94a-241fbf22a2aa--image.png)
 
 If a tie happens on the level of length, we have to make sure there are not counted in answer, for that we will make the breadth sorted in reverse order, so that the letter can not fit inside each other, if the widths are equal, it will not simply added in the answer 
 

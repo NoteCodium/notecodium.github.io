@@ -6,16 +6,16 @@ if all positive elements, ans is product of all the elements
 even negatives still
 
 odd negatives
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/31cbf9aa-6fde-4d10-9115-4ce298824eba--image.png)
+![image.png](../images/31cbf9aa-6fde-4d10-9115-4ce298824eba--image.png)
 
 removing the elements, will break the subaray
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7df03ccf-911d-4499-a7b5-bf4ac1d945f9--image.png)
+![image.png](../images/7df03ccf-911d-4499-a7b5-bf4ac1d945f9--image.png)
 
 The remaining thjing will be either a prefix or a suffix 
 
 
 if it has any zero
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/721ce0f3-1002-4004-b92d-b00dafcf715e--image.png) 
+![image.png](../images/721ce0f3-1002-4004-b92d-b00dafcf715e--image.png) 
 
 
 # Optimal

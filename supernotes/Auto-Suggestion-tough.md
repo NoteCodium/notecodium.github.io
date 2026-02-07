@@ -1,17 +1,17 @@
 [maang.in](https://maang.in/problems/Auto-Suggestion-426?resourceUrl=cs84-cp498-pl3346-rs426)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ffce6497-3dd7-48be-8c3d-f1aead1a59a0--image.png)
+![image.png](../images/ffce6497-3dd7-48be-8c3d-f1aead1a59a0--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/330aff70-ae13-4d52-8005-91af7ce322cc--image.png)
+![image.png](../images/330aff70-ae13-4d52-8005-91af7ce322cc--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/75caa4d7-ac51-4a20-98c8-f61948a8eca2--image.png)
+![image.png](../images/75caa4d7-ac51-4a20-98c8-f61948a8eca2--image.png)
 
 Suppose common prefix till this node as in the query
 
 after that lexigraphically we will do dfs
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4772b7e3-9bfe-4d88-9119-79cdae5a776e--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4cb761c5-8068-4cc4-8413-ea1e086c5c79--image.png)
+![image.png](../images/4772b7e3-9bfe-4d88-9119-79cdae5a776e--image.png)
+![image.png](../images/4cb761c5-8068-4cc4-8413-ea1e086c5c79--image.png)
 
 ```cpp
 class Trie{

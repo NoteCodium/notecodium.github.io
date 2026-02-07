@@ -1,6 +1,6 @@
 [Minimum Number of Operations to Make Array Empty - LeetCode](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-empty/description/?envType=daily-question&envId=2024-01-04)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/87f572e4-e125-4ecc-b263-76882f6ff6b5--image.png)
+![image.png](../images/87f572e4-e125-4ecc-b263-76882f6ff6b5--image.png)
 
 ```cpp
 int f(int n){

@@ -1,5 +1,5 @@
 [Find Nth root of M | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d3ebceb7-7d69-4412-b06f-7cf6e1d4c2dc--image.png)
+![image.png](../images/d3ebceb7-7d69-4412-b06f-7cf6e1d4c2dc--image.png)
 
 ```cpp
 #define ll long long

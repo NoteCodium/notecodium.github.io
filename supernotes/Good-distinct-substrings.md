@@ -2,7 +2,7 @@
 
 [maang.in](https://maang.in/problems/Good-Substrings-421?resourceUrl=cs84-cp498-pl3346-rs421)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/77b398c9-b9bb-4e1d-b5bb-33a0cea2ce5d--image.png)
+![image.png](../images/77b398c9-b9bb-4e1d-b5bb-33a0cea2ce5d--image.png)
 # MLE
 
 # trie

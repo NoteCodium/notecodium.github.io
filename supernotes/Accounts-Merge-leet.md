@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/accounts-merge/description/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/29d7f0f7-7d9c-4e51-abbe-d7fe04712310--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/864a36a9-d94a-4bcf-ace8-16cf2996b08a--image.png)
+![image.png](../images/29d7f0f7-7d9c-4e51-abbe-d7fe04712310--image.png)
+![image.png](../images/864a36a9-d94a-4bcf-ace8-16cf2996b08a--image.png)
 ```cpp
 class Solution {
 public:

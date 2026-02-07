@@ -11,5 +11,5 @@
 vector<int> sortItems(int noOfItems, int noOfGroups, vector<int>& group, vector<vector<int>>& beforeItems)
 ```
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e3a53d48-393f-4901-abd4-2a18d9666703--image.png)
+![image.png](../images/e3a53d48-393f-4901-abd4-2a18d9666703--image.png)
 

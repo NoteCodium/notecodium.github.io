@@ -1,5 +1,5 @@
 [Code 360 by Coding Ninjas](https://www.naukri.com/code360/problems/complete-string_2687860?utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_tries_videos)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/633e9911-51b1-49e5-919a-81807b974aec--image.png)
+![image.png](../images/633e9911-51b1-49e5-919a-81807b974aec--image.png)
 
 ```cpp
 bool dfs(string s){

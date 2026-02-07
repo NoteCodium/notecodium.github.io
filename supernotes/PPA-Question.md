@@ -3,7 +3,7 @@
 [Master Data Structures, Algorithms & System Design: Become 100% Coding Interview Ready](https://dashboard.programmingpathshala.com/renaissance/practice/question?questionId=136&sectionId=1&moduleId=2&topicId=7&subtopicId=90&assignmentId=20)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b0167436-3a75-4fdb-a727-0e9f5b5b3387--image.png)
+![image.png](../images/b0167436-3a75-4fdb-a727-0e9f5b5b3387--image.png)
 
 
 ```cpp

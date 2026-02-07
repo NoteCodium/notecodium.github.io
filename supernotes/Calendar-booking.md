@@ -3,7 +3,7 @@ Do related grokking conceots
 
 # Easy O(n) solution of finding the number of intersections
 # 3
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8c7b11df-1af4-4c83-bbb8-acbdaafd7741--image.png)
+![image.png](../images/8c7b11df-1af4-4c83-bbb8-acbdaafd7741--image.png)
 ```cpp
 class MyCalendarThree {
     map<int,int> m;
@@ -28,7 +28,7 @@ public:
 ```
 
 # 2
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c2607b17-db2f-4c64-8e6b-5b1187081eac--image.png)
+![image.png](../images/c2607b17-db2f-4c64-8e6b-5b1187081eac--image.png)
 ```cpp
 class MyCalendarTwo {
         map<int,int> m;
@@ -58,7 +58,7 @@ public:
 
 ```
 # 1
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2c14bd79-c9d6-4cd6-af97-5850e994854c--image.png)
+![image.png](../images/2c14bd79-c9d6-4cd6-af97-5850e994854c--image.png)
 
 
 ```cpp

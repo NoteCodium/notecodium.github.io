@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/description/?envType=study-plan-v2&envId=dynamic-programming)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/1a34e808-d0cb-476b-9553-4b00ce610a29--image.png)
+![image.png](../images/1a34e808-d0cb-476b-9553-4b00ce610a29--image.png)
 
 
 ```

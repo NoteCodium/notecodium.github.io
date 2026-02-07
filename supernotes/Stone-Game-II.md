@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/stone-game-ii/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/57d11ecf-3b51-4897-9007-1a0d7a38f1fd--image.png)
+![image.png](../images/57d11ecf-3b51-4897-9007-1a0d7a38f1fd--image.png)
 
 
 

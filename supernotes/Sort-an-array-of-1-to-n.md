@@ -2,7 +2,7 @@
 
 
 # Easier Method?
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c5f508e1-cd17-4e2f-809c-557e3959f92a--image.png)
+![image.png](../images/c5f508e1-cd17-4e2f-809c-557e3959f92a--image.png)
 
 ```cpp
 vector<int> sort(vector<int> &v) {

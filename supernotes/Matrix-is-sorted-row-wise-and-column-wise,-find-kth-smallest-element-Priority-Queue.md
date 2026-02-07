@@ -1,6 +1,6 @@
 [Kth Smallest Element in a Sorted Matrix - LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/805ef23c-948c-494a-9e9a-ae552c7a9232--image.png)
+![image.png](../images/805ef23c-948c-494a-9e9a-ae552c7a9232--image.png)
 
 ```cpp
 int kthSmallest(vector<vector<int>>& ma, int k) {

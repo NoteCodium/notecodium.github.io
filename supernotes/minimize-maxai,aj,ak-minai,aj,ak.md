@@ -1,9 +1,9 @@
 [Minimize the absolute difference | InterviewBit](https://www.interviewbit.com/problems/minimize-the-absolute-difference/)
 
-![Sketch%2024-11-2022%201039.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/0765e73c-14cf-45fe-b216-68dc5bbe2916--Sketch%252024-11-2022%25201039.png)
+![Sketch%2024-11-2022%201039.png](../images/0765e73c-14cf-45fe-b216-68dc5bbe2916--Sketch%2024-11-2022%201039.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2be3f922-66c0-48e0-982a-f1109e0d8be1--image.png)
+![image.png](../images/2be3f922-66c0-48e0-982a-f1109e0d8be1--image.png)
 since we cant decrese the maximum
 
 ```cpp

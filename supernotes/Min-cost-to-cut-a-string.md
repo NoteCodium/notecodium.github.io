@@ -1,15 +1,15 @@
 [leetcode.com](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)
 1. The cost of one cut is the length of the stick to be cut
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ecce4e6e-ee3f-4356-a7dc-d735585ff803--image.png)
+![image.png](../images/ecce4e6e-ee3f-4356-a7dc-d735585ff803--image.png)
 
 ```cpp
 sort(v.begin(),v.end());
 v.insert(v.begin(),0);
 v.push_back(len);
 ```
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/0471063a-5dfb-4ea4-a84a-288cfc1431a6--image.png)
+![image.png](../images/0471063a-5dfb-4ea4-a84a-288cfc1431a6--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/88a90f61-7a24-48ee-b575-66587eaea6e1--image.png)
+![image.png](../images/88a90f61-7a24-48ee-b575-66587eaea6e1--image.png)
 
 ```cpp
 int f(int i, int j, vector<int> &v){

@@ -3,7 +3,7 @@
 # By two pointers
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2162f74f-fa48-4822-b729-086a8be2a833--image.png)
+![image.png](../images/2162f74f-fa48-4822-b729-086a8be2a833--image.png)
 
 
 
@@ -56,14 +56,14 @@ int nthUglyNumber(int n) {
 ---------------------------------------------------------------------------------------------------------------------
 
 # Doing like two pointers with the help of heap , the above was entirely a new strategy
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8efbbe3b-728f-4671-a2e8-2cadbe8f1cb9--image.png)
+![image.png](../images/8efbbe3b-728f-4671-a2e8-2cadbe8f1cb9--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/96e6d512-4a37-4395-a8b1-9575b64a104f--image.png)
+![image.png](../images/96e6d512-4a37-4395-a8b1-9575b64a104f--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3ef3bb63-bc47-4e8f-8510-4cd75b2ce5ce--image.png)
+![image.png](../images/3ef3bb63-bc47-4e8f-8510-4cd75b2ce5ce--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4cc490f8-b04e-47ec-bff7-b28ea3570f28--image.png)
+![image.png](../images/4cc490f8-b04e-47ec-bff7-b28ea3570f28--image.png)
 
 
 
@@ -124,4 +124,4 @@ public:
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7b75ad49-2209-47a8-bf9e-3cd3bc099a82--image.png)
+![image.png](../images/7b75ad49-2209-47a8-bf9e-3cd3bc099a82--image.png)

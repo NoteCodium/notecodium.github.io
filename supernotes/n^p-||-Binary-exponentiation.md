@@ -10,5 +10,5 @@ int f(n,k){
 }
 ```
 
-![WhatsApp%20Image%202023-11-19%20at%2012.16.16_942b94c9.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/a5e5cceb-7f54-4020-9ee0-2a142232e5c5--WhatsApp%2520Image%25202023-11-19%2520at%252012.16.16_942b94c9.jpg)
+![WhatsApp%20Image%202023-11-19%20at%2012.16.16_942b94c9.jpg](../images/a5e5cceb-7f54-4020-9ee0-2a142232e5c5--WhatsApp%20Image%202023-11-19%20at%2012.16.16_942b94c9.jpg)
 

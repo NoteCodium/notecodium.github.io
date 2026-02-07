@@ -1,6 +1,6 @@
 All merge sort questions
 1. priyansh
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/461d8c27-9652-4dad-861e-a7fb72578b49--image.png)
+![image.png](../images/461d8c27-9652-4dad-861e-a7fb72578b49--image.png)
 
 0 is striclty not allowed, if 0 anywhere do coordinate compression
 

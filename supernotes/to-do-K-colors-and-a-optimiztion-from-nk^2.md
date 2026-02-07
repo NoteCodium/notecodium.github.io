@@ -16,9 +16,9 @@ int minCostII(vector<vector<int>>& ma) {
 }
 ```
 Maintaing two minimum of the last column
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/1f770ca2-2a98-4047-96cd-2e089692145f--image.png)
+![image.png](../images/1f770ca2-2a98-4047-96cd-2e089692145f--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ad9b0b5d-bea9-44cc-ad6f-0a3c44fee599--image.png)
+![image.png](../images/ad9b0b5d-bea9-44cc-ad6f-0a3c44fee599--image.png)
 
 # nk
 

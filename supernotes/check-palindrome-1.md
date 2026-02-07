@@ -1,6 +1,6 @@
 [Palindrome Number - LeetCode](https://leetcode.com/problems/palindrome-number/description/?source=submission-ac)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/917f2af4-5890-4b1f-ad25-9ecb5bed21a4--image.png)
+![image.png](../images/917f2af4-5890-4b1f-ad25-9ecb5bed21a4--image.png)
 
 not very elegant
 

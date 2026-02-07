@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f9215db6-7846-4b27-acdc-2c436d5f953e--image.png)
+![image.png](../images/f9215db6-7846-4b27-acdc-2c436d5f953e--image.png)
 
 ```cpp
 Node* deleteDoubleChild(Node*node, Node*par){

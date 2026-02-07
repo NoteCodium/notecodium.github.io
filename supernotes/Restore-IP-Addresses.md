@@ -2,9 +2,9 @@
 
 [leetcode.com](https://leetcode.com/problems/restore-ip-addresses/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bfb27679-17b8-4441-979a-160e09cb3d3a--image.png)
+![image.png](../images/bfb27679-17b8-4441-979a-160e09cb3d3a--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/20371ea9-fb0a-4082-a258-5f359d5a8fbd--image.png)
+![image.png](../images/20371ea9-fb0a-4082-a258-5f359d5a8fbd--image.png)
 
 # R & B
 ```cpp

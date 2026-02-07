@@ -1,6 +1,6 @@
 # Trie except
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3d8c6868-36c0-4585-a9b8-9d22498d0340--image.png)
+![image.png](../images/3d8c6868-36c0-4585-a9b8-9d22498d0340--image.png)
 
 [Design Add and Search Words Data Structure - LeetCode](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)
 

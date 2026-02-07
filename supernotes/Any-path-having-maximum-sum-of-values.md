@@ -1,11 +1,11 @@
 [leetcode.com](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)
 
 1. non empty
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a7ab7f8e-5f75-468e-8d98-515afa2fcbd2--image.png)
+![image.png](../images/a7ab7f8e-5f75-468e-8d98-515afa2fcbd2--image.png)
 
 1. A tree can not have a left subtreee or right subtree about a turn point
 2. Maximum sum path can lie in
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a0735b45-9e54-4fc4-8c4f-179a36572077--image.png)
+![image.png](../images/a0735b45-9e54-4fc4-8c4f-179a36572077--image.png)
 3. for each left and right subtree, we need its ans, and maximum sum which originate with the root of the subtree
 
 

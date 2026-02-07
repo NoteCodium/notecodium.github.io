@@ -1,8 +1,8 @@
 [Shortest Unique prefix for every word | Practice | GeeksforGeeks ](https://www.geeksforgeeks.org/problems/shortest-unique-prefix-for-every-word/1?problemType=functional&page=1&sortBy=submissions&category%5B%5D=Trie&query=problemTypefunctionalpage1sortBysubmissionscategory%5B%5DTrie)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7d93372b-e7c8-4eca-8846-0b4a443fac17--image.png)
+![image.png](../images/7d93372b-e7c8-4eca-8846-0b4a443fac17--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5d55df30-1623-4fba-9f0b-0842f05a9b7a--image.png)
+![image.png](../images/5d55df30-1623-4fba-9f0b-0842f05a9b7a--image.png)
 
 
 ```cpp

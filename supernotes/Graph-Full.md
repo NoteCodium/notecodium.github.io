@@ -1,6 +1,6 @@
 [Just a moment...](https://leetcode.com/problems/find-the-celebrity/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/91245dda-8350-4efa-ace4-c5cf9f5f9ce4--image.png)
+![image.png](../images/91245dda-8350-4efa-ace4-c5cf9f5f9ce4--image.png)
 
 
 do many questions of MST
@@ -40,7 +40,7 @@ vector<vector<ll,ll>> king={{1,0},{-1,0},{0,1},{0,-1},{1,-1},{1,1},{-1,1},{-1,-1
 {% endraw %}
 # (R,C)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9ce0dfa6-2eac-4c2c-b0fc-43b76ab190da--image.png)
+![image.png](../images/9ce0dfa6-2eac-4c2c-b0fc-43b76ab190da--image.png)
 
 {% raw %}
 ```cpp

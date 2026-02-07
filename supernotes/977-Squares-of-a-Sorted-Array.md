@@ -1,6 +1,6 @@
 [Squares of a Sorted Array - LeetCode](https://leetcode.com/problems/squares-of-a-sorted-array/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f27faf58-0756-4084-9528-6c8a8ab1d009--image.png)
+![image.png](../images/f27faf58-0756-4084-9528-6c8a8ab1d009--image.png)
 
 
 ```cpp

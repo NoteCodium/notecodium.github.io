@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/37aeb679-94ee-4dcc-9f35-03d18df95bd7--image.png)
+![image.png](../images/37aeb679-94ee-4dcc-9f35-03d18df95bd7--image.png)
 
 [Minimum swaps and K together | Practice | GeeksforGeeks ](https://www.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)
 

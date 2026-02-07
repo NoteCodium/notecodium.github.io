@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b85d34f0-78e5-4f8d-bb31-6713e79cff9a--image.png)
+![image.png](../images/b85d34f0-78e5-4f8d-bb31-6713e79cff9a--image.png)
 
 
 Aa there is only 1000 stops

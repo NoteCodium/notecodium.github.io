@@ -1,6 +1,6 @@
 [Kth Largest Element in a Stream - LeetCode](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2c372a8c-554d-46b2-b137-08e0f891cd10--image.png)
+![image.png](../images/2c372a8c-554d-46b2-b137-08e0f891cd10--image.png)
 
 ```cpp
 class KthLargest {

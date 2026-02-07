@@ -1,8 +1,8 @@
 Increase the difference if there are two person who are taking elements from a deque
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5dc52972-1b5f-4dba-b547-7fc8aae51f6b--image.png)
+![image.png](../images/5dc52972-1b5f-4dba-b547-7fc8aae51f6b--image.png)
 
 as for the next dp this will be calculated
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/382c0fa2-89fd-4c06-8b39-486f25ae2621--image.png)
+![image.png](../images/382c0fa2-89fd-4c06-8b39-486f25ae2621--image.png)
 
 but we keep wanted p1-p2, so we subtract the next quantity so the signs got reversed
 

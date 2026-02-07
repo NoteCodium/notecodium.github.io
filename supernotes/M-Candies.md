@@ -1,7 +1,7 @@
 [M - Candies](https://atcoder.jp/contests/dp/tasks/dp_m)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/1c710391-41b0-4180-a860-e7a0a0369596--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9b001360-32cc-4dc7-b210-dc009f014ea3--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b82d6837-2aba-4d58-b4eb-f43b8c26114c--image.png)
+![image.png](../images/1c710391-41b0-4180-a860-e7a0a0369596--image.png)
+![image.png](../images/9b001360-32cc-4dc7-b210-dc009f014ea3--image.png)
+![image.png](../images/b82d6837-2aba-4d58-b4eb-f43b8c26114c--image.png)
 
 ```cpp
 void solve() {  

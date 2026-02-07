@@ -1,11 +1,11 @@
 [leetcode.com](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/0296671c-b185-4451-bbe8-999617a7460d--image.png)
+![image.png](../images/0296671c-b185-4451-bbe8-999617a7460d--image.png)
 
 [youtu.be](https://youtu.be/OwMNX8SPavM)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/a39359e4-5e10-4b3f-94b4-437a91b3e8d2--image.png)
+![image.png](../images/a39359e4-5e10-4b3f-94b4-437a91b3e8d2--image.png)
 
 n- no of components
 

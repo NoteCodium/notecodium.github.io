@@ -3,19 +3,19 @@
 
 [leetcode.com](https://leetcode.com/problems/remove-duplicate-letters/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b99e721c-90a0-4a8d-9035-fe9c1160d877--image.png)
+![image.png](../images/b99e721c-90a0-4a8d-9035-fe9c1160d877--image.png)
 
 
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bbd874f6-2bbe-4463-afa8-0faa24685fc4--image.png)
+![image.png](../images/bbd874f6-2bbe-4463-afa8-0faa24685fc4--image.png)
 
 imp edge case
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/09763ab1-cdc3-4a38-9933-7887baced6ae--image.png)
+![image.png](../images/09763ab1-cdc3-4a38-9933-7887baced6ae--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/69ae571c-7c45-4cdc-8469-3f0eec53c59a--image.png)
+![image.png](../images/69ae571c-7c45-4cdc-8469-3f0eec53c59a--image.png)
 
 watch video
 

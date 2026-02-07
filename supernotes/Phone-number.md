@@ -1,6 +1,6 @@
 [Letter Combinations of a Phone Number - LeetCode](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c528ebea-3411-405c-8a98-1344799ffb2c--image.png)
+![image.png](../images/c528ebea-3411-405c-8a98-1344799ffb2c--image.png)
 
 
 ```cpp

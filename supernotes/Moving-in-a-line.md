@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/check-if-move-is-legal/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/profile-photos/78762315-8d04-428d-8564-d6679779c250--image.png)
+![image.png](../images/78762315-8d04-428d-8564-d6679779c250--image.png)
 
 {% raw %}
 ```cpp

@@ -1,9 +1,9 @@
 [leetcode.com](https://leetcode.com/problems/evaluate-division/description/)
 
 # Weighted graph
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7c6d84bb-3eb7-447f-8fce-a68cec48c36c--image.png)
+![image.png](../images/7c6d84bb-3eb7-447f-8fce-a68cec48c36c--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8ad91df9-b2ba-4987-968a-b68c5fb1ff7b--image.png)
+![image.png](../images/8ad91df9-b2ba-4987-968a-b68c5fb1ff7b--image.png)
 
 
 ```cpp

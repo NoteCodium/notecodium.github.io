@@ -1,7 +1,7 @@
 [Gas Station - LeetCode](https://leetcode.com/problems/gas-station/description/)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e5c98d10-2a27-4e7c-a166-5a167f2195c0--image.png)
+![image.png](../images/e5c98d10-2a27-4e7c-a166-5a167f2195c0--image.png)
 
 
 

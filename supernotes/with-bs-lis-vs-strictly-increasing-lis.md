@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/longest-increasing-subsequence/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/0f90983d-a04c-4e0f-82a0-15718f2f3bca--image.png)
+![image.png](../images/0f90983d-a04c-4e0f-82a0-15718f2f3bca--image.png)
 
 # strictly
 
@@ -71,8 +71,8 @@ vector<int> longestObstacleCourseAtEachPosition(vector<int>& v) {
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/cfab9fbb-5e5b-4708-b759-b3db62ae93fb--image.png)
+![image.png](../images/cfab9fbb-5e5b-4708-b759-b3db62ae93fb--image.png)
 1. still the lis is 5 8
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b22b223d-08f3-4af0-9f6d-3e198d5508c4--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/95041cca-4c86-4ffa-84ad-85bbb2ef14d7--image.png)
+![image.png](../images/b22b223d-08f3-4af0-9f6d-3e198d5508c4--image.png)
+![image.png](../images/95041cca-4c86-4ffa-84ad-85bbb2ef14d7--image.png)
 

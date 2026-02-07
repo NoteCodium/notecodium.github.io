@@ -1,6 +1,6 @@
 [Rat in a Maze Problem - I | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/82e80555-6bbb-4dcb-914f-1351e9e88529--image.png)
+![image.png](../images/82e80555-6bbb-4dcb-914f-1351e9e88529--image.png)
 
 
 {% raw %}

@@ -15,7 +15,7 @@ Return *the largest number of chunks you can divide the arrays into*
 2. In the best case you can divide the array into n chunks when the array is sorted
 
 
-![WhatsApp%20Image%202023-10-12%20at%2019.23.41_abc676ed.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/f02ad713-1ab8-462e-a0ba-79026ac87154--WhatsApp%2520Image%25202023-10-12%2520at%252019.23.41_abc676ed.jpg)
+![WhatsApp%20Image%202023-10-12%20at%2019.23.41_abc676ed.jpg](../images/f02ad713-1ab8-462e-a0ba-79026ac87154--WhatsApp%20Image%202023-10-12%20at%2019.23.41_abc676ed.jpg)
 
 # O(n^2)
 
@@ -45,8 +45,8 @@ bool canBeChunked(int i,int j,vector<int>& v){
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/742a0971-6806-48a5-93eb-85c191b0d06a--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/97ab7ad6-cc57-4d06-9cfd-8c52b3f63f72--image.png)
+![image.png](../images/742a0971-6806-48a5-93eb-85c191b0d06a--image.png)
+![image.png](../images/97ab7ad6-cc57-4d06-9cfd-8c52b3f63f72--image.png)
 
 ```cpp
 int ans=0,cmax=INT_MIN,n=v.size();

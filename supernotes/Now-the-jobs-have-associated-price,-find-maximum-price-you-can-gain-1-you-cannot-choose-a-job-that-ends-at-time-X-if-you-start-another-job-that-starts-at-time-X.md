@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/?envType=study-plan-v2&envId=dynamic-programming-grandmaster)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/78a948cb-11d0-4d1a-8b3a-3dcee0259187--image.png)
+![image.png](../images/78a948cb-11d0-4d1a-8b3a-3dcee0259187--image.png)
 
 ```cpp
 class Solution {

@@ -1,5 +1,5 @@
 Why recursion and not something else
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/439a36d2-1608-4fa6-b7d5-f245583d0a13--image.png)
+![image.png](../images/439a36d2-1608-4fa6-b7d5-f245583d0a13--image.png)
 
 
 

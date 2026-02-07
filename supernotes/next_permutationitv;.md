@@ -1,9 +1,9 @@
 [leetcode.com](https://leetcode.com/problems/next-permutation/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/14ad1e96-4bfa-4091-b823-010bed7e9b30--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a13e05f3-2aa1-4053-8d75-7e4b07dded5a--image.png)
+![image.png](../images/14ad1e96-4bfa-4091-b823-010bed7e9b30--image.png)
+![image.png](../images/a13e05f3-2aa1-4053-8d75-7e4b07dded5a--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ef43986a-3172-4701-bd2a-fbec0bd2e010--image.png)
+![image.png](../images/ef43986a-3172-4701-bd2a-fbec0bd2e010--image.png)
 
 ```cpp
 void nextPermutation(vector<int>& v) { 

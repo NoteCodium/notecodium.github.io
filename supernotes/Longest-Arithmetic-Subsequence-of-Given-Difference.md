@@ -1,7 +1,7 @@
 
 [leetcode.com](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/?envType=study-plan-v2&envId=dynamic-programming)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/739ee29d-9723-4ee8-851e-9e475bb6df50--image.png)
+![image.png](../images/739ee29d-9723-4ee8-851e-9e475bb6df50--image.png)
 
 
 

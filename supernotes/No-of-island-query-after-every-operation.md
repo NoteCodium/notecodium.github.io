@@ -2,7 +2,7 @@
 
 [G-51. Number of Islands - II - Online Queries - DSU - YouTube](https://youtu.be/Rn6B-Q4SNyA?si=u-RLs3BncibV72uD)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/442ae63c-0b39-40d8-9344-79a8b6da0387--image.png)
+![image.png](../images/442ae63c-0b39-40d8-9344-79a8b6da0387--image.png)
 
 {% raw %}
 ```cpp

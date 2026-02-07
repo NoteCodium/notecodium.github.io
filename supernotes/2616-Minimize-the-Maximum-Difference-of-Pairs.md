@@ -1,8 +1,8 @@
 [Just a moment...](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bdd2e570-c483-4f12-8cbf-4a026a36f3db--image.png)
+![image.png](../images/bdd2e570-c483-4f12-8cbf-4a026a36f3db--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d4d71bd0-904e-4e17-9052-982653a57cf6--image.png)
+![image.png](../images/d4d71bd0-904e-4e17-9052-982653a57cf6--image.png)
 
 
 [Just a moment...](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/description/)

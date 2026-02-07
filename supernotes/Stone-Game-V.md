@@ -10,10 +10,10 @@
 //end when noOfStones==1
 //maximum score gain by Alice
 ```
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4922300c-f2e2-4f88-87ee-e13038ccc609--image.png)
+![image.png](../images/4922300c-f2e2-4f88-87ee-e13038ccc609--image.png)
 
 # Rzepeated sub problems
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/aaf43016-4b76-4297-8ea2-d871fa0c2d5b--image.png)
+![image.png](../images/aaf43016-4b76-4297-8ea2-d871fa0c2d5b--image.png)
 
 ```cpp
 int f(int s, int e, vector<int> &v){

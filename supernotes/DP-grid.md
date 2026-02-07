@@ -6,5 +6,5 @@ Titan
 4. now mix 2 and 3 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ee88cbc2-7c01-461f-b6e9-a2427dacac48--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/df5de3c2-4d9f-454e-8b6c-dfb44d9e001c--image.png)
+![image.png](../images/ee88cbc2-7c01-461f-b6e9-a2427dacac48--image.png)
+![image.png](../images/df5de3c2-4d9f-454e-8b6c-dfb44d9e001c--image.png)

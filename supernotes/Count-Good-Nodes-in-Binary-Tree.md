@@ -1,6 +1,6 @@
 [Count Good Nodes in Binary Tree - LeetCode](https://leetcode.com/problems/count-good-nodes-in-binary-tree/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/19c8c5a8-5132-4bb5-8c8d-6ee29b628c3c--image.png)
+![image.png](../images/19c8c5a8-5132-4bb5-8c8d-6ee29b628c3c--image.png)
 
 
 ```cpp

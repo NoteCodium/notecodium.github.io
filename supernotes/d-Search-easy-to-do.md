@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c80f0296-d02a-46a2-81aa-17b9eaf06234--image.png)
+![image.png](../images/c80f0296-d02a-46a2-81aa-17b9eaf06234--image.png)
 
 ```cpp
 TreeNode* searchBST(TreeNode* root, int k) {

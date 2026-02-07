@@ -4,9 +4,9 @@ The park is a rooted tree consisting of *n* vertices with the root at vertex 
 The leaf vertices of the park contain restaurants. Kefa wants to choose a restaurant where he will go, but unfortunately he is very afraid of cats, so there is no way he will go to the restaurant if the path from the restaurant to his house contains more than *m* consecutive vertices with cats.
 
 Your task is to help Kefa count the number of restaurants where he can go.
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2cf34def-9fba-46df-86c3-92b0467956f0--image.png)
+![image.png](../images/2cf34def-9fba-46df-86c3-92b0467956f0--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/147e52a0-5964-4b5f-96ac-def75840644a--image.png)
+![image.png](../images/147e52a0-5964-4b5f-96ac-def75840644a--image.png)
 
 
 

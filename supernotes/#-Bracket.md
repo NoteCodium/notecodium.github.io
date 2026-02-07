@@ -10,7 +10,7 @@
 https://leetcode.com/problems/valid-parentheses/
 1. many patterns of questions
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/fbec99a0-dd91-4044-ad26-d49d2048a429--image.png)
+![image.png](../images/fbec99a0-dd91-4044-ad26-d49d2048a429--image.png)
 
 ```cpp
 bool isValid(string s) {

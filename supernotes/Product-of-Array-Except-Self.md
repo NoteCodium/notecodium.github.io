@@ -1,6 +1,6 @@
 [Product of Array Except Self - LeetCode](https://leetcode.com/problems/product-of-array-except-self/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/01d14e8d-7c6c-4428-86aa-fd191c241335--image.png)
+![image.png](../images/01d14e8d-7c6c-4428-86aa-fd191c241335--image.png)
 
 
 
@@ -29,7 +29,7 @@ vector<int> productExceptSelf(vector<int>& v) {
 
 # Without using the division operator as mentioned in the question
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a68e1eac-c4ac-4a25-a2f1-8414be49b03c--image.png)
+![image.png](../images/a68e1eac-c4ac-4a25-a2f1-8414be49b03c--image.png)
 
 ```cpp
 vector<int> productExceptSelf(vector<int>& v) {
@@ -55,9 +55,9 @@ vector<int> productExceptSelf(vector<int>& v) {
 
 # Doing the above in constant space
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d2a0be71-5bac-44c8-86ca-60539584555a--image.png)
+![image.png](../images/d2a0be71-5bac-44c8-86ca-60539584555a--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3430c106-3b16-4f36-812e-2eb5c4837e28--image.png)
+![image.png](../images/3430c106-3b16-4f36-812e-2eb5c4837e28--image.png)
 
 ```cpp
 vector<int> productExceptSelf(vector<int>& v) {

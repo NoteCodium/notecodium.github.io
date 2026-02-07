@@ -1,7 +1,7 @@
 [Hand of Straights - LeetCode](https://leetcode.com/problems/hand-of-straights/description/)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/fb29cb86-3e7c-4098-bcf5-2daaa4433da5--image.png)
+![image.png](../images/fb29cb86-3e7c-4098-bcf5-2daaa4433da5--image.png)
 
 same io 
 [Divide Array in Sets of K Consecutive Numbers - LeetCode](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/description/)

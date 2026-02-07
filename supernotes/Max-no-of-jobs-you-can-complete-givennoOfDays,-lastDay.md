@@ -1,7 +1,7 @@
 [Course Schedule III - LeetCode](https://leetcode.com/problems/course-schedule-iii/description/)
 
 # do with recursion according to editorial
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d3241e17-bedf-4d98-8f15-86982dfbcbaf--image.png)
+![image.png](../images/d3241e17-bedf-4d98-8f15-86982dfbcbaf--image.png)
 
 Tough greedy approach
 

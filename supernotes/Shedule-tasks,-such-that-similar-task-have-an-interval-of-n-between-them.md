@@ -1,5 +1,5 @@
 [Task Scheduler - LeetCode](https://leetcode.com/problems/task-scheduler/description/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f84931c6-b84e-49ef-9657-4cc4539de7c5--image.png)
+![image.png](../images/f84931c6-b84e-49ef-9657-4cc4539de7c5--image.png)
  => every window of size n+1 should have unique char
  => the greed is first doing the activities with the highest frequency
 

@@ -2,7 +2,7 @@
 
 
 # Evaluate postfix
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/aff20fb5-be12-4c34-8ccf-50ab48885344--image.png)
+![image.png](../images/aff20fb5-be12-4c34-8ccf-50ab48885344--image.png)
 
 [Evaluate Reverse Polish Notation - LeetCode](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)
 

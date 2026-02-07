@@ -1,9 +1,9 @@
 [leetcode.com](https://leetcode.com/problems/validate-binary-search-tree/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a6c2d8c6-36a8-44c2-ac42-f1ef79f5ee77--image.png)
+![image.png](../images/a6c2d8c6-36a8-44c2-ac42-f1ef79f5ee77--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8d3096e3-b925-4ace-8e5a-d6772eff3b02--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/cfe1aecd-00a8-4615-ba8f-8041ee62f291--image.png)
+![image.png](../images/8d3096e3-b925-4ace-8e5a-d6772eff3b02--image.png)
+![image.png](../images/cfe1aecd-00a8-4615-ba8f-8041ee62f291--image.png)
 
 ```cpp
 vector<long> t(TreeNode* node){

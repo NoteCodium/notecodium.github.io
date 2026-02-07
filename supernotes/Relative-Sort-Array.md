@@ -1,6 +1,6 @@
 https://leetcode.com/problems/relative-sort-array/
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/45189f7c-aa8a-4d36-8664-8bfb633c4f33--image.png)
+![image.png](../images/45189f7c-aa8a-4d36-8664-8bfb633c4f33--image.png)
 
 # Brute force n1*n2
 

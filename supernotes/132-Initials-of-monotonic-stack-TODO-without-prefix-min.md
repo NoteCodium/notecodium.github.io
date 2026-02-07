@@ -55,7 +55,7 @@ bool find132pattern(vector<int>& v) {
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9d8cbf56-73fe-45ca-871b-1155072de5ce--image.png)
+![image.png](../images/9d8cbf56-73fe-45ca-871b-1155072de5ce--image.png)
 # n^3
 ```cpp
 if(n<3) return 0;
@@ -72,7 +72,7 @@ return 0;
 
 v[j]>v[k]>v[i] is sufficient
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/10937fd4-d3c8-4a09-aa63-38d755aa0fe7--image.png)
+![image.png](../images/10937fd4-d3c8-4a09-aa63-38d755aa0fe7--image.png)
 
 # n^2
 
@@ -91,20 +91,20 @@ return 0;
 
 # Optimal linear
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8bb721e2-1540-4d72-aa21-f01b89e99f2c--image.png)
+![image.png](../images/8bb721e2-1540-4d72-aa21-f01b89e99f2c--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5cec68df-1691-4a59-9c2c-d037f752e9a1--image.png)
+![image.png](../images/5cec68df-1691-4a59-9c2c-d037f752e9a1--image.png)
 
 [LeetCode 456. 132 Pattern | 132 pattern LeetCode | Software Engineering Interview Questions | Stacks - YouTube](https://youtu.be/S483HJ4pIg0?si=LHMohgM_Fcr9Ynl8)
 
-![WhatsApp%20Image%202023-12-16%20at%2020.18.25_9e9c691b.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/f43f3a0f-994f-4173-bca9-fdc20f12f88f--WhatsApp%2520Image%25202023-12-16%2520at%252020.18.25_9e9c691b.jpg)
+![WhatsApp%20Image%202023-12-16%20at%2020.18.25_9e9c691b.jpg](../images/f43f3a0f-994f-4173-bca9-fdc20f12f88f--WhatsApp%20Image%202023-12-16%20at%2020.18.25_9e9c691b.jpg)
 
 
 
 # Unable to understand
 ---------------------------------------------------------------------------------------------------------------------
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2aa41644-9514-4d75-b961-06bb192078c0--image.png)
+![image.png](../images/2aa41644-9514-4d75-b961-06bb192078c0--image.png)
 
 
 ```cpp

@@ -3,7 +3,7 @@
 [leetcode.com](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/bd9081ac-c5c4-4324-83f7-77d2b4d0f4be--image.png)
+![image.png](../images/bd9081ac-c5c4-4324-83f7-77d2b4d0f4be--image.png)
 
 [G-38. Cheapest Flights Within K Stops - YouTube](https://youtu.be/9XybHVqTHcQ)
 

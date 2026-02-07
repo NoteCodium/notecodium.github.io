@@ -1,8 +1,8 @@
 [leetcode.com](https://leetcode.com/problems/design-twitter/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c97d9b0b-f65e-4a87-ae9e-1963c064988b--image.png)
+![image.png](../images/c97d9b0b-f65e-4a87-ae9e-1963c064988b--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c8c8bbb5-e7dc-4927-a574-9e4f61e82a56--image.png)
+![image.png](../images/c8c8bbb5-e7dc-4927-a574-9e4f61e82a56--image.png)
 
 ```cpp
 class Twitter {

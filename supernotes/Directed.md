@@ -7,11 +7,11 @@ bool isCyclic(int n, vector<int> al[])
 Why it does not work?
 
 The above algorithm will conclude this as cycle when it is not
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/aefb4ac0-560f-4d87-9028-7959ed7f8c04--image.png)
+![image.png](../images/aefb4ac0-560f-4d87-9028-7959ed7f8c04--image.png)
 
 
 On the continous path you have to visit the node again
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d03eb6d4-327d-414f-a4fe-4fe80100fa8b--image.png)
+![image.png](../images/d03eb6d4-327d-414f-a4fe-4fe80100fa8b--image.png)
 
 # concept of visited and path visited array
 

@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/sliding-window-maximum/)
 1. General knowledge
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/19d2769b-ad63-49eb-ba55-d2d2a18d79c8--image.png)
+![image.png](../images/19d2769b-ad63-49eb-ba55-d2d2a18d79c8--image.png)
 
 # Sliding window with the help of decreasing multiset
 ```cpp
@@ -20,13 +20,13 @@
 
 # Monotonic Queue
 # The above was monotonic deceasing Queue, which give maxima, montonic increasing queue will give minima at front
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d6e2e5fd-0e87-41f4-9e6a-3935b68578ab--image.png)
+![image.png](../images/d6e2e5fd-0e87-41f4-9e6a-3935b68578ab--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/ff39447c-2f9e-4c88-99fa-79ddf6cb4c89--image.png)
+![image.png](../images/ff39447c-2f9e-4c88-99fa-79ddf6cb4c89--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/6bb4c32c-03bb-418c-ab82-fa6fa8f09cec--image.png)
+![image.png](../images/6bb4c32c-03bb-418c-ab82-fa6fa8f09cec--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7bd1c4e6-8067-4ab9-8e09-b9581e396994--image.png)
+![image.png](../images/7bd1c4e6-8067-4ab9-8e09-b9581e396994--image.png)
 
 
 

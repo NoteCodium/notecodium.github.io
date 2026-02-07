@@ -11,9 +11,9 @@ l=0
 m=0
 h=n-1
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9d237472-49e6-478f-94db-d4c08774c78b--image.png)
+![image.png](../images/9d237472-49e6-478f-94db-d4c08774c78b--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d77d1dbf-9a18-4ed2-a570-957cabf88627--image.png)
+![image.png](../images/d77d1dbf-9a18-4ed2-a570-957cabf88627--image.png)
 
 
 ```cpp

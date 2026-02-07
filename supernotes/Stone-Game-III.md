@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/stone-game-iii/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/22b2e2d0-9ecc-493e-9b58-8c6277785ce7--image.png)
+![image.png](../images/22b2e2d0-9ecc-493e-9b58-8c6277785ce7--image.png)
 
 ```cpp
 int f(vector<int> &v, int idx){

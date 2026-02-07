@@ -4,7 +4,7 @@
 //dp[i][0]=0
 //dp[0][j]=0
 ```
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a6cb312a-9c63-4c58-a150-fec2d79b393d--image.png)
+![image.png](../images/a6cb312a-9c63-4c58-a150-fec2d79b393d--image.png)
 
 ```cpp
 string ans;

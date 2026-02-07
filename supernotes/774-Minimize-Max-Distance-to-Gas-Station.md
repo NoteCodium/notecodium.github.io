@@ -1,18 +1,18 @@
 [Just a moment...](https://leetcode.com/problems/minimize-max-distance-to-gas-station/description/)
 
 it doesnt make sense to place the gas station outside the range
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9f4f8f36-4bf3-4fe6-be47-c38dcc2f061a--image.png)
+![image.png](../images/9f4f8f36-4bf3-4fe6-be47-c38dcc2f061a--image.png)
 
 You are doiing no good to the internal distances
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/89762aaf-8d95-492f-8d1f-aad7d5cfb97e--image.png)
+![image.png](../images/89762aaf-8d95-492f-8d1f-aad7d5cfb97e--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/335cb2ed-1e38-4658-9db3-b5d4272b583f--image.png)
+![image.png](../images/335cb2ed-1e38-4658-9db3-b5d4272b583f--image.png)
 
 # In the end
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4101295e-8e37-4b30-9516-2482e9390d69--image.png)
+![image.png](../images/4101295e-8e37-4b30-9516-2482e9390d69--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5d70406b-2fcb-4e97-b219-699f520f621a--image.png)
+![image.png](../images/5d70406b-2fcb-4e97-b219-699f520f621a--image.png)
 
 [BS-20. Minimise Maximum Distance between Gas Stations | 3 Approaches | Heap | Binary Search - YouTube](https://youtu.be/kMSBvlZ-_HA?si=5Wum-bST-q5BcfvW)
 
@@ -44,14 +44,14 @@ double minmaxGasDist(vector<int>& v, int k) {
     return ans;
 }
 ```
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/65445dba-96ab-4501-9900-8e2da84eb72c--image.png)
+![image.png](../images/65445dba-96ab-4501-9900-8e2da84eb72c--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/38504b45-39d7-481a-8056-876a4ae648fa--image.png)
+![image.png](../images/38504b45-39d7-481a-8056-876a4ae648fa--image.png)
 
 wrong
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/430a3014-9884-4c41-b5bd-1d41e1f8f670--image.png)
+![image.png](../images/430a3014-9884-4c41-b5bd-1d41e1f8f670--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d7902172-1195-42de-b0f8-f6b82791af09--image.png)
+![image.png](../images/d7902172-1195-42de-b0f8-f6b82791af09--image.png)
 
 
 

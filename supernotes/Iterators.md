@@ -1,6 +1,6 @@
 [Peeking Iterator - LeetCode](https://leetcode.com/problems/peeking-iterator/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b140a288-434b-4bcf-8af9-0db4166c9025--image.png)
+![image.png](../images/b140a288-434b-4bcf-8af9-0db4166c9025--image.png)
 
 
 intially peek will give you 1

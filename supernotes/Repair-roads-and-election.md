@@ -2,39 +2,39 @@
 
 [Valera and Elections | Viraj - YouTube](https://www.youtube.com/watch?v=HLLaON3mx6M)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4d7ce4b3-5e4b-46f0-90c7-e83eae419590--image.png)
+![image.png](../images/4d7ce4b3-5e4b-46f0-90c7-e83eae419590--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/32ec2f1a-138a-44fa-bf57-a4063732becf--image.png)
-
-
-
+![image.png](../images/32ec2f1a-138a-44fa-bf57-a4063732becf--image.png)
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/60d47fe0-783c-4037-927b-b020ecb96fcc--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/78cb94e3-677f-4080-801c-ee2f3e639c82--image.png)
-
-
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/181b24c0-0d5a-4057-9b0e-136fc70860aa--image.png)
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f0f2e1a2-a036-4338-8363-793c88f87502--image.png)
+![image.png](../images/60d47fe0-783c-4037-927b-b020ecb96fcc--image.png)
+![image.png](../images/78cb94e3-677f-4080-801c-ee2f3e639c82--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/efcb6a86-5855-42bc-a196-73416f9870f8--image.png)
+
+![image.png](../images/181b24c0-0d5a-4057-9b0e-136fc70860aa--image.png)
+
+
+
+![image.png](../images/f0f2e1a2-a036-4338-8363-793c88f87502--image.png)
+
+![image.png](../images/efcb6a86-5855-42bc-a196-73416f9870f8--image.png)
 
 # Final solution
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7058ba4e-1277-4d12-bd6a-5219dfb5b81c--image.png)
+![image.png](../images/7058ba4e-1277-4d12-bd6a-5219dfb5b81c--image.png)
 
 
 # Solution
 the subtree rooted at that idx contains how many damaged node
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d84978c4-6a59-438c-b747-135a7df99934--image.png)
+![image.png](../images/d84978c4-6a59-438c-b747-135a7df99934--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a4526512-c1ff-4d56-a888-1c14781daf9e--image.png)
+![image.png](../images/a4526512-c1ff-4d56-a888-1c14781daf9e--image.png)
 
 ```cpp
 ll dfs(ll node, ll par, vvl &al, vl &repair, vl&subtree){

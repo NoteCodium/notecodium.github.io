@@ -1,7 +1,7 @@
 r+c is even then move upwards north east
 r+c is odd south west
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7e879589-55b1-49e3-a364-ee65cd334c88--image.png)
+![image.png](../images/7e879589-55b1-49e3-a364-ee65cd334c88--image.png)
 
 
 ```cpp

@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/open-the-lock/description/)
 1. Find min no of moves
-![WhatsApp%20Image%202023-12-07%20at%2016.51.05_10183aa7.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/1ed3b922-5e33-4f9c-9c5d-2f6950313d4f--WhatsApp%2520Image%25202023-12-07%2520at%252016.51.05_10183aa7.jpg)
+![WhatsApp%20Image%202023-12-07%20at%2016.51.05_10183aa7.jpg](../images/1ed3b922-5e33-4f9c-9c5d-2f6950313d4f--WhatsApp%20Image%202023-12-07%20at%2016.51.05_10183aa7.jpg)
 
 
 

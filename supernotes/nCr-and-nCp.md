@@ -1,5 +1,5 @@
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/db3bb441-401b-4035-9269-080ce5d6803d--image.png)
+![image.png](../images/db3bb441-401b-4035-9269-080ce5d6803d--image.png)
 
 
 # Pascal triangle
@@ -7,15 +7,15 @@
 1. do questions from ppa
 2. do questions from tle 
 \
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e64be96e-4cd2-4c66-8bd6-537ac2cae7a1--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3f1fe240-f86e-4e22-8ab2-727ef7482cf4--image.png)
+![image.png](../images/e64be96e-4cd2-4c66-8bd6-537ac2cae7a1--image.png)
+![image.png](../images/3f1fe240-f86e-4e22-8ab2-727ef7482cf4--image.png)
 
 The row has same number of colums as number of rows
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2776f763-b95f-41d1-808b-baa252cfc778--image.png)
+![image.png](../images/2776f763-b95f-41d1-808b-baa252cfc778--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/5cf576d1-e1cd-49dd-a367-b1ed52c2b77b--image.png)
+![image.png](../images/5cf576d1-e1cd-49dd-a367-b1ed52c2b77b--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/132b80f9-41c0-4c93-8df3-2a9f1afa5749--image.png)
+![image.png](../images/132b80f9-41c0-4c93-8df3-2a9f1afa5749--image.png)
 
 
 
@@ -57,8 +57,8 @@ vector<vector<int>> generate(int rr) {
 ```
 
 # Optimal IS for generting a row
- ![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a1c44d79-2d52-44bb-9028-5a3735af0a7f--image.png)
- ![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/221fdbf6-6d26-4889-acc6-10f9b300a0dd--image.png)
+ ![image.png](../images/a1c44d79-2d52-44bb-9028-5a3735af0a7f--image.png)
+ ![image.png](../images/221fdbf6-6d26-4889-acc6-10f9b300a0dd--image.png)
  
 
 # Getting rows efficiently

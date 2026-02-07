@@ -5,11 +5,11 @@ Priyansh
 50 problems on leetcode
 
 --------------------------------
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/80edb338-9d7b-4bcc-bb16-baf47e2079d6--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/36c2cb36-c2df-47ec-a440-fcd5281798c9--image.png)
+![image.png](../images/80edb338-9d7b-4bcc-bb16-baf47e2079d6--image.png)
+![image.png](../images/36c2cb36-c2df-47ec-a440-fcd5281798c9--image.png)
 *************************
 Problem solving
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/efc5f0b4-b1b7-4542-92a2-9e3bf89d97ad--image.png)
+![image.png](../images/efc5f0b4-b1b7-4542-92a2-9e3bf89d97ad--image.png)
 
 
 ---------------------------------
@@ -20,7 +20,7 @@ A [**trie**](https://en.wikipedia.org/wiki/Trie) (pronounced as "try") or **p
 3. Search ahead PPA
 
 The root node have no data
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/a3d256f1-fbf7-4674-afc6-54179e61d56f--image.png)
+![image.png](../images/a3d256f1-fbf7-4674-afc6-54179e61d56f--image.png)
 
 the edge represents the char, the root have no char and have a index of 0
 

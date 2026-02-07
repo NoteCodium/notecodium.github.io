@@ -26,13 +26,13 @@ As the numbers are between 0 and n-1, we can do the following mapping
 
 1. Placing such a number which represents both the old values and the new value
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/41d22923-cfed-4740-8135-84d3820f535a--image.png)
+![image.png](../images/41d22923-cfed-4740-8135-84d3820f535a--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/96813594-36af-4e86-9960-df5e47886947--image.png)
+![image.png](../images/96813594-36af-4e86-9960-df5e47886947--image.png)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/2c08892b-d8c2-4827-8cb3-db5dc9d6f233--image.png)
+![image.png](../images/2c08892b-d8c2-4827-8cb3-db5dc9d6f233--image.png)
 
 1. This beatufully works because whether a number is modified or not does not matter, % will always give the old value
 2. If you had multiplued, then changed value will give you nice results, but unchanged value will give you zero
@@ -61,11 +61,11 @@ cout<<'\n';
 
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/3a59b021-79d2-440c-8832-c49fee5a1324--image.png)
+![image.png](../images/3a59b021-79d2-440c-8832-c49fee5a1324--image.png)
 
 more then one cycle can also be present
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/8e903fd0-d210-4b83-82ae-81748959c796--image.png)
+![image.png](../images/8e903fd0-d210-4b83-82ae-81748959c796--image.png)
 
 We dont want to touch a already touched cycle again
 
@@ -76,7 +76,7 @@ Cant maintain a bool array because it will again shoot the sc
 4.  -(x+1) karo place
 5. While extracting
 6. -(x-1)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/c717ffcb-f639-460d-a45a-30b6e1a16a4c--image.png)
+![image.png](../images/c717ffcb-f639-460d-a45a-30b6e1a16a4c--image.png)
 ```cpp
 for(int i=0;i<n;i++){
     if(v[i]>=0){

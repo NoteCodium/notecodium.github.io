@@ -1,6 +1,6 @@
 
 [Longest Common Prefix - LeetCode](https://leetcode.com/problems/longest-common-prefix/description/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/46611a8f-3379-44b0-9110-916528801cdb--image.png)
+![image.png](../images/46611a8f-3379-44b0-9110-916528801cdb--image.png)
 ```cpp
 bool f(char c, vector<string>& vos, string &ans, int idx){
     for(string s:vos){

@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/alien-dictionary/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/69da800e-6eff-4f84-a587-cf1f9eab1dc8--image.png)
+![image.png](../images/69da800e-6eff-4f84-a587-cf1f9eab1dc8--image.png)
 
 
 ```cpp

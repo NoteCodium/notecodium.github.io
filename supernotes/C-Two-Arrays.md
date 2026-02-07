@@ -1,6 +1,6 @@
 [Problem - 1288C - Codeforces](https://codeforces.com/problemset/problem/1288/C)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e5b686f8-6005-4e63-b194-1ac162333d31--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/f9031049-fae9-402e-9d40-299fd84d9ead--image.png)
+![image.png](../images/e5b686f8-6005-4e63-b194-1ac162333d31--image.png)
+![image.png](../images/f9031049-fae9-402e-9d40-299fd84d9ead--image.png)
 
 ```cpp
 void solve() {  

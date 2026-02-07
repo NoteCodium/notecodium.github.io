@@ -82,5 +82,5 @@ string minRemoveToMakeValid(string s) {
 
 
  ## Better clean
- ![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b005abbe-4645-4b12-a452-c777e4d3b039--image.png)
+ ![image.png](../images/b005abbe-4645-4b12-a452-c777e4d3b039--image.png)
  

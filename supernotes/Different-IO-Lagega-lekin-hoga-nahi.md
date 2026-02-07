@@ -24,7 +24,7 @@ string rearrangeString(const string &s) {
 ```
 
 Will give you wrong answer at
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/331b2c23-34e3-4f79-84ce-e3e398832fa7--image.png)
+![image.png](../images/331b2c23-34e3-4f79-84ce-e3e398832fa7--image.png)
 
 
 ```cpp

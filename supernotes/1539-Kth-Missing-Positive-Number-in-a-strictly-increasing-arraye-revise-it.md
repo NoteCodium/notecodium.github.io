@@ -18,11 +18,11 @@ int findKthPositive(vector<int>& v, int k) {
     return ans;
 }
 ```
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/70067dbb-144c-4299-9d91-be2ea4c6addf--image.png)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/312009de-1e8c-4f7c-92cc-6dfcf128aa97--image.png)
+![image.png](../images/70067dbb-144c-4299-9d91-be2ea4c6addf--image.png)
+![image.png](../images/312009de-1e8c-4f7c-92cc-6dfcf128aa97--image.png)
 
 1. we know for each index how many elements till that idx is missing
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/121b5e4e-4291-4519-82ac-8099516150db--image.png)
+![image.png](../images/121b5e4e-4291-4519-82ac-8099516150db--image.png)
 
 ```cpp
 int findKthPositive(vector<int>& v, int k) {
@@ -50,4 +50,4 @@ int findKthPositive(vector<int>& v, int k) {
 }
 ```
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/e84f08b5-7aa0-49d8-99ca-b9e23f43e054--image.png)
+![image.png](../images/e84f08b5-7aa0-49d8-99ca-b9e23f43e054--image.png)

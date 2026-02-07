@@ -1,6 +1,6 @@
 [Just a moment...](https://leetcode.com/problems/find-longest-awesome-substring/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/6a24e107-0d1a-4377-9fa7-d908af39e391--image.png)
+![image.png](../images/6a24e107-0d1a-4377-9fa7-d908af39e391--image.png)
 
 ```cpp
 int longestAwesome(string s) {
@@ -24,9 +24,9 @@ int longestAwesome(string s) {
 ```
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/342fe92a-2a59-4740-b8f0-17445d851acb--image.png)
+![image.png](../images/342fe92a-2a59-4740-b8f0-17445d851acb--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/d68ea5ce-3c7d-40b5-9502-937d4f9c7264--image.png)
+![image.png](../images/d68ea5ce-3c7d-40b5-9502-937d4f9c7264--image.png)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/7c17b35d-d09b-429b-be77-ef943f5f7910--image.png)
+![image.png](../images/7c17b35d-d09b-429b-be77-ef943f5f7910--image.png)
 

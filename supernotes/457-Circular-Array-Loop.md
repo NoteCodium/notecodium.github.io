@@ -1,4 +1,4 @@
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/407f4c51-0db9-4aa6-92b3-16ddce0a2cb1--image.png)
+![image.png](../images/407f4c51-0db9-4aa6-92b3-16ddce0a2cb1--image.png)
 
 
 

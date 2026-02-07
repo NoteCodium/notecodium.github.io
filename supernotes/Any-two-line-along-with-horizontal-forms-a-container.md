@@ -3,7 +3,7 @@
 
 1. Find that container having the most water
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/b99b9357-c313-4235-a9b9-e1c1f808b124--image.png)
+![image.png](../images/b99b9357-c313-4235-a9b9-e1c1f808b124--image.png)
 
 # Two pointers
 ```

@@ -1,6 +1,6 @@
 [Time Based Key-Value Store - LeetCode](https://leetcode.com/problems/time-based-key-value-store/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/87e48d92-339e-4e5d-9069-30b097b474e2--image.png)
+![image.png](../images/87e48d92-339e-4e5d-9069-30b097b474e2--image.png)
 
 
 ```cpp
@@ -20,7 +20,7 @@ public:
 };
 ```
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/6285615c-3445-4bfc-aa50-305560fd0a38--image.png)
+![image.png](../images/6285615c-3445-4bfc-aa50-305560fd0a38--image.png)
 
 
 

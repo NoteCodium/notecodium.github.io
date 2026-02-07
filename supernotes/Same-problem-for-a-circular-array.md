@@ -1,6 +1,6 @@
 [Maximum Sum Circular Subarray - LeetCode](https://leetcode.com/problems/maximum-sum-circular-subarray/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/719a4f57-8deb-4e03-8429-28fe6d806e62--image.png)
+![image.png](../images/719a4f57-8deb-4e03-8429-28fe6d806e62--image.png)
 
 1. find miniumum subarray sum
 2. subtract it from the array sum

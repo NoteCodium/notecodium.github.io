@@ -1,6 +1,6 @@
 [leetcode.com](https://leetcode.com/problems/word-ladder/)
 1. End word need not to be in word list
-![WhatsApp%20Image%202023-12-07%20at%2016.46.55_b789aaf4.jpg](https://supernotes-resources.s3.amazonaws.com/image-uploads/d7edbb3f-38a4-4827-b9e8-3a106cade129--WhatsApp%2520Image%25202023-12-07%2520at%252016.46.55_b789aaf4.jpg)
+![WhatsApp%20Image%202023-12-07%20at%2016.46.55_b789aaf4.jpg](../images/d7edbb3f-38a4-4827-b9e8-3a106cade129--WhatsApp%20Image%202023-12-07%20at%2016.46.55_b789aaf4.jpg)
 
 
 ```cpp

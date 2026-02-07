@@ -1,5 +1,5 @@
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/32465f37-2b2e-44cb-9129-a197c6c53460--image.png)
+![image.png](../images/32465f37-2b2e-44cb-9129-a197c6c53460--image.png)
 
 
 [Valid Pair Sum | Practice | GeeksforGeeks ](https://practice.geeksforgeeks.org/problems/valid-pair-sum--141631/1)
@@ -25,7 +25,7 @@ long long ValidPair(int v[], int n) {
 [Pairs with Difference less than K | Practice | GeeksforGeeks ](https://www.geeksforgeeks.org/problems/pairs-with-difference-less-than-k1348/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)
 
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/57948bc5-4614-4e72-bafe-dd3e144fc8a8--image.png)
+![image.png](../images/57948bc5-4614-4e72-bafe-dd3e144fc8a8--image.png)
 
 ```cpp
 int countPairs(int v[], int n, int k){

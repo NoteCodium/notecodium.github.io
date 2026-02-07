@@ -1,5 +1,5 @@
 [leetcode.com](https://leetcode.com/problems/ipo/description/)
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/9751abb3-4331-468f-a8b1-af2cae5df803--image.png)
+![image.png](../images/9751abb3-4331-468f-a8b1-af2cae5df803--image.png)
 # Two heap sol available in design gurus, search on youtube
 
 # Black Magic

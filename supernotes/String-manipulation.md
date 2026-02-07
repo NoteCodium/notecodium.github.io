@@ -1,6 +1,6 @@
 [Problem - A - Codeforces](https://codeforces.com/contest/81/problem/A)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/405a3d2e-cdea-49c9-bcca-20e4fe345d50--image.png)
+![image.png](../images/405a3d2e-cdea-49c9-bcca-20e4fe345d50--image.png)
 
 # this will pass
 ```cpp

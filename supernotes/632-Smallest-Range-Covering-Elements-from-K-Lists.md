@@ -1,6 +1,6 @@
 [Smallest Range Covering Elements from K Lists - LeetCode](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/description/)
 
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/4c111139-835f-4fc2-bb3f-9ee7a118dd77--image.png)
+![image.png](../images/4c111139-835f-4fc2-bb3f-9ee7a118dd77--image.png)
 
 The above is basically this question with k vectors instead of 3 and priority queue will be used to maintain
 

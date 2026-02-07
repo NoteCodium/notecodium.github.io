@@ -4,6 +4,6 @@
 
 
 ^
-![image.png](https://supernotes-resources.s3.amazonaws.com/image-uploads/20ad395d-f1a3-48e9-85f5-b844023ac59d--image.png)
+![image.png](../images/20ad395d-f1a3-48e9-85f5-b844023ac59d--image.png)
 
 
