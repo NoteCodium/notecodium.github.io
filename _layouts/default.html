@@ -556,6 +556,13 @@
       style="margin-left: 10px; background-color: #e8f5e9; color: #1b5e20; border-color: #4caf50;"
       title="Automatically open workspace and file in VS Code Insiders via bridge extension - Shortcut: Ctrl/Cmd+E">Edit
       in VS Code</button>
+
+    <!-- Offline Manager Button -->
+    <button id="offlineBtn" class="reset-btn"
+      style="margin-left: 10px; background-color: #f3e5f5; color: #4a148c; border-color: #ce93d8;"
+      title="Manage Offline Content">
+      📥 Offline
+    </button>
     <div class="footer-right" style="position: absolute; right: 20px; display: flex; align-items: center; gap: 10px;">
       <button id="backBtn" class="nav-btn" title="Previous Page">← Back</button>
       <button id="nextBtn" class="nav-btn" title="Next Page">Next →</button>
@@ -951,6 +958,144 @@
 
     // Initialize navigation when DOM is loaded
     document.addEventListener('DOMContentLoaded', initializeNavigation);
+  </script>
+  <!-- Offline Manager Modal -->
+  <dialog id="offlineModal"
+    style="border: none; border-radius: 12px; padding: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); max-width: 400px; width: 90%;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+      <h3 style="margin: 0;">Offline Content</h3>
+      <button id="closeOfflineModal"
+        style="background: none; border: none; font-size: 1.5rem; cursor: pointer;">&times;</button>
+    </div>
+
+    <p style="color: #666; font-size: 0.9rem; margin-bottom: 20px;">
+      Download the entire site to read without internet.
+    </p>
+
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <button id="syncAllBtn" class="nav-btn"
+        style="padding: 10px; background-color: #e8f5e9; color: #1b5e20; border: 1px solid #4caf50;">
+        📥 Make Available Offline
+      </button>
+
+      <button id="updateBtn" class="nav-btn"
+        style="padding: 10px; background-color: #e3f2fd; color: #0d47a1; border: 1px solid #2196f3;">
+        🔄 Check for Updates
+      </button>
+
+      <button id="clearCacheBtn" class="nav-btn"
+        style="padding: 10px; background-color: #ffebee; color: #c62828; border: 1px solid #ef5350;">
+        🗑️ Clear Offline Data
+      </button>
+    </div>
+
+    <div id="syncStatus" style="margin-top: 15px; font-size: 0.85rem; color: #555; min-height: 20px;"></div>
+    <progress id="syncProgress" value="0" max="100" style="width: 100%; display: none; margin-top: 5px;"></progress>
+  </dialog>
+
+  <!-- PWA & Sync Logic -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js')
+        .then(reg => console.log('SW Registered!', reg))
+        .catch(err => console.error('SW Registration failed', err));
+
+      navigator.serviceWorker.addEventListener('message', event => {
+        const statusEl = document.getElementById('syncStatus');
+        const progressEl = document.getElementById('syncProgress');
+
+        if (event.data.type === 'SYNC_START') {
+          statusEl.textContent = `Downloading ${event.data.count} files...`;
+          progressEl.style.display = 'block';
+          progressEl.value = 0;
+        } else if (event.data.type === 'SYNC_PROGRESS') {
+          const pct = Math.round((event.data.current / event.data.total) * 100);
+          statusEl.textContent = `Downloading... ${event.data.current}/${event.data.total} (${pct}%)`;
+          progressEl.value = pct;
+        } else if (event.data.type === 'SYNC_COMPLETE') {
+          statusEl.textContent = '✅ Offline Ready! (Detailed)';
+          progressEl.style.display = 'none';
+          localStorage.setItem('lastSync', Date.now());
+        } else if (event.data.type === 'CACHE_CLEARED') {
+          statusEl.textContent = '🗑️ Offline data cleared.';
+          localStorage.removeItem('lastSync');
+        }
+      });
+    }
+
+    // Modal Logic
+    const offlineBtn = document.getElementById('offlineBtn');
+    const offlineModal = document.getElementById('offlineModal');
+    const closeOfflineModal = document.getElementById('closeOfflineModal');
+
+    if (offlineBtn && offlineModal) {
+      offlineBtn.addEventListener('click', () => offlineModal.showModal());
+      closeOfflineModal.addEventListener('click', () => offlineModal.close());
+
+      // Close on click outside
+      offlineModal.addEventListener('click', (e) => {
+        if (e.target === offlineModal) offlineModal.close();
+      });
+    }
+
+    // Button Actions
+    const syncAllBtn = document.getElementById('syncAllBtn');
+    if (syncAllBtn) syncAllBtn.addEventListener('click', async () => {
+      startSync(false);
+    });
+
+    const updateBtn = document.getElementById('updateBtn');
+    if (updateBtn) updateBtn.addEventListener('click', async () => {
+      startSync(true); // True = incremental update
+    });
+
+    const clearCacheBtn = document.getElementById('clearCacheBtn');
+    if (clearCacheBtn) clearCacheBtn.addEventListener('click', () => {
+      if (navigator.serviceWorker.controller) {
+        navigator.serviceWorker.controller.postMessage({ type: 'CLEAR_CACHE' });
+      }
+    });
+
+    async function startSync(isUpdate) {
+      const statusEl = document.getElementById('syncStatus');
+      statusEl.textContent = "Fetching file list...";
+
+      try {
+        const response = await fetch('/assets/files.json?t=' + Date.now());
+        const files = await response.json();
+
+        let urlsToCache = files.map(f => f.path);
+
+        // Add infrastructure files manually (optional, but good for app shell)
+        // Ideally the SW caches these on visit, but pre-caching is safer.
+        urlsToCache.push('/', '/assets/files.json', '/login.html');
+
+        if (isUpdate) {
+          const lastSync = localStorage.getItem('lastSync') || 0;
+          // Filter by mtime if available, else assume new
+          const updateCandidates = files.filter(f => !f.mtime || (f.mtime * 1000) > lastSync);
+
+          if (updateCandidates.length === 0) {
+            statusEl.textContent = "✅ Up to date.";
+            return;
+          }
+          urlsToCache = updateCandidates.map(f => f.path);
+          statusEl.textContent = `Found ${urlsToCache.length} new files...`;
+        }
+
+        if (navigator.serviceWorker.controller) {
+          navigator.serviceWorker.controller.postMessage({
+            type: 'PRECACHE_ALL',
+            urls: urlsToCache
+          });
+        } else {
+          statusEl.textContent = "⚠️ Service Worker not ready. Reload page.";
+        }
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = "❌ Error fetching file list.";
+      }
+    }
   </script>
 </body>
 
