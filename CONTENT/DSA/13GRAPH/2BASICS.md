@@ -9,12 +9,22 @@
 
 ![image.png](/images/image-403.png)
 
+![image.png](/images/image-408.png)
+
+
+
+![image.png](/images/image-409.png)
+
+sc
+
 ![image.png](/images/image-404.png)
 
 1. Bellmen Ford
     1. DP
     2. elaxes all edges v-1 times
     3. $O(V \times E)$
+
+sc
 
    ![image.png](/images/image-405.png)
 
@@ -26,13 +36,13 @@
     1. between all pairs
     2. $O(V^3)$,
 
+sc
+
 ![image.png](/images/image-406.png)
 
 Detect negative cycles
 
 DP based
-
-
 
 # Johnnson
 
@@ -41,4 +51,3 @@ Shortest paths bw all pair of vertices in a sparse graph
 # Multi- stage graph algorithm
 
 one src to one des
-
