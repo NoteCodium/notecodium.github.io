@@ -8,3 +8,9 @@
 
 # Travelling Salesmen
 
+1. no polynomial time function
+2. Exponential time function
+3. NP hard
+
+
+
